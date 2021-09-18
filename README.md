@@ -12,25 +12,38 @@
 
 # Software (without configuration)
 
-1. Install [WhatsApp Desktop](https://www.microsoft.com/de-de/p/whatsapp-desktop/9nksqgp7f2nh?activetab=pivot:overviewtab) <br>
-Swtich to `Dark` Theme
-1. Install [Gitkraken](https://www.gitkraken.com/download/windows64) <br>
-Sign in using Github
-1. Install [Recuva](https://www.ccleaner.com/recuva/download)
-1. Install [7-Zip](https://www.7-zip.org/)
+## Kommunikation
+1. Install [WhatsApp Desktop](https://www.microsoft.com/de-de/p/whatsapp-desktop/9nksqgp7f2nh?activetab=pivot:overviewtab)
+    - Swtich to `Dark` Theme
+1. Install [Telegram Desktop](https://www.microsoft.com/de-de/p/telegram-desktop/9nztwsqntd0s?activetab=pivot:overviewtab)
+    - Follow [instructions](#install-telegram-desktop)
+1. Install [Discord](https://discord.com/download)
+    - Don't run at [startup](how-to-dos.md#edit-startup-apps)
+1. Install [Teams](https://www.microsoft.com/de-de/microsoft-teams/download-app#desktopAppDownloadregion)
+1. Install [Zoom](https://zoom.us/download)
+## Office
+1. Install [AusweisApp](https://www.ausweisapp.bund.de/download/windows-und-mac/)
+    - Link smartphone as card reader
 1. Install [Adobe Reader](https://get.adobe.com/reader/)
-1. Install [Adobe Photoshop Express](https://www.microsoft.com/de-de/p/adobe-photoshop-express-image-editor-adjustments-filters-effects-borders/9wzdncrfj27n?activetab=pivot:overviewtab) <br>
-Set as default app for .jpg files
+    - Open `Menu > Edit > Preferences > Page Layout > Default Layout and Zoom`
+    - `Two-Up Continuous` =: Page Layout
+1. Install [Adobe Photoshop Express](https://www.microsoft.com/de-de/p/adobe-photoshop-express-image-editor-adjustments-filters-effects-borders/9wzdncrfj27n?activetab=pivot:overviewtab)
+    - Set as default app for .jpg files
+## Dev
+1. Install [KeePass](https://keepass.info/download.html)
+    - Follow [instructions](#install-keepass)
+1. Install [Ubuntu](https://www.microsoft.com/de-de/p/ubuntu/9nblggh4msv6?activetab=pivot:overviewtab)
+1. Install [7-Zip](https://www.7-zip.org/)
+1. Install [Gitkraken](https://www.gitkraken.com/download/windows64)
+    - Sign in using Github
+1. Install [Recuva](https://www.ccleaner.com/recuva/download)
 1. Install [TreeSize](https://www.microsoft.com/de-de/p/treesize-free/9nblggh40881?activetab=pivot:overviewtab)
 1. Install [Resource Hacker](http://www.angusj.com/resourcehacker/#download)
-1. Install [Discord](https://discord.com/new) <br>
-Don't run at [startup](how-to-dos.md#edit-startup-apps)
 1. Install [Windscribe](https://windscribe.com/download)
-1. Install [Samsung Flow](https://www.microsoft.com/de-de/p/samsung-flow/9nblggh5gb0m?rtc=1&wa=wsignin1.0&activetab=pivot:overviewtab)
+## Gaming
 1. Install [Minecraft Java Edition](https://www.minecraft.net/en-us/download/)
 1. Install [Minecraft Bedrock Edition](https://www.microsoft.com/de-de/p/minecraft-for-windows-10/9nblggh2jhxj)
 1. Install [Factorio](https://factorio.com/download)
-1. Install [AusweisApp](https://www.ausweisapp.bund.de/download/windows-und-mac/)
 
 
 
@@ -56,7 +69,7 @@ Open `Tools>Options>Interface`
 - [x] Focus quick search box when restoring from taskbar
 - [x] Focus quick search box when restoring from tray
 ___
-### Install [Lenovo Vantage](https://www.microsoft.com/de-de/p/lenovo-vantage/9wzdncrfj4mv?activetab=pivot:overviewtab) <br>
+### Install [Lenovo Vantage](https://www.microsoft.com/de-de/p/lenovo-vantage/9wzdncrfj4mv?activetab=pivot:overviewtab)
 Open `Device>My device settings>Input & Accessories>User defined key`
 - `Control Panel` Open application or files
 - Test it: `Fn + F12`
