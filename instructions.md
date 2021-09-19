@@ -152,14 +152,6 @@ SetNumLockState, AlwaysOn
 ```
 
 
-## Install [AutoHotkey](https://www.autohotkey.com/download/ahk-install.exe)
-- Set default editor to Visual Studio Code:
-    ```powershell
-    Set-ItemProperty -Path 'Registry::HKCR\AutoHotkeyScript\Shell\Edit' -Name "Command" -Value 'code.exe %1'
-    ```
-- `C:\Program Files\Microsoft VS Code` add to PATH [(?)](how-to-dos.md#edit-path-enviroment-variable)
-
-
 ## Install [QuickLook](https://www.microsoft.com/en-us/p/quicklook/9nv4bs3l1h4s)
 - [x] `Taskbar Corner > QuickLook >` Run at Startup
 > Install plugins
