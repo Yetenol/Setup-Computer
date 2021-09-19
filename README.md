@@ -77,10 +77,10 @@ Remove any pre-installed software.
 1. Install [Git](https://git-scm.com/download/win)
     \- [➔ Instructions](instructions.md#install-git)
 1. Install [Windows Terminal](https://www.microsoft.com/en-us/p/windows-terminal/9n0dx20hk701)
-1. Install [Ubuntu](https://www.microsoft.com/en-us/p/ubuntu/9nblggh4msv6)
-    \- [➔ Instructions](instructions.md#install-ubuntu)
 1. Install [TreeSize](https://www.microsoft.com/en-us/p/treesize-free/9nblggh40881)
 1. Install [Windscribe](https://windscribe.com/download)
+1. Install [Ubuntu](https://www.microsoft.com/en-us/p/ubuntu/9nblggh4msv6)
+    \- [➔ Instructions](instructions.md#install-ubuntu)
 1. *Install [Recuva](https://www.ccleaner.com/recuva/download)*
 1. *Install [Resource Hacker](http://www.angusj.com/resourceh*acker/#download)*
 1. *Install [Samsung Dex](https://www.samsung.com/global/download/SamsungDeXWin)*
