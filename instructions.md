@@ -134,8 +134,8 @@ Pictures¹⁾ | `X:\OneDrive\Pictures-E`
 ## Install [AusweisApp](https://www.ausweisapp.bund.de/download/windows-und-mac/)
 - [ ] Auto start AusweisApp2 after boot
 - Connect smartphone and PC in the same WiFi network
-- ON THE SMARTPHONE: Start pairing
-- Pair the available smartphone
+- ON THE SMARTPHONE: Remote > Start pairing
+- ON THE PC: Pair the available smartphone
 - Test a Personalausweis
 
 
