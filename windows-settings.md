@@ -97,12 +97,6 @@
 > ```
 > - [x] Automatically process video to enhance it
 
-### Accounts > Email & accounts
-> ```
-> ms-settings:emailandaccounts
-> ```
-> - Add Google account
-
 ### Ease of Access > Interaction > Keyboard
 > ```
 > ms-settings:easeofaccess-keyboard
