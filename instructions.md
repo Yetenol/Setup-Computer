@@ -144,6 +144,7 @@ Pictures¹⁾ | `X:\OneDrive\Pictures-E`
 
 
 ## Install [SharpKeys](https://github.com/randyrants/sharpkeys/releases/latest)
+- Durring setup select install for all users
 - Load keys from [keymap file](configs/SharpKeys-keymaps.skl)
 - Enable NumLock by default using AutoHotKey:
 ```ahk
@@ -151,7 +152,7 @@ SetNumLockState, AlwaysOn
 ```
 
 
-## Install [AutoHotkey](https://www.autohotkey.com/)
+## Install [AutoHotkey](https://www.autohotkey.com/download/ahk-install.exe)
 - Set default editor to Visual Studio Code:
     ```powershell
     Set-ItemProperty -Path 'Registry::HKCR\AutoHotkeyScript\Shell\Edit' -Name "Command" -Value 'code.exe %1'

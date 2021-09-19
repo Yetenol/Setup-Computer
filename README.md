@@ -58,7 +58,7 @@ Remove any pre-installed software.
 1. Install [EarTrumpet](https://www.microsoft.com/en-us/p/eartrumpet/9nblggh516xp)
 1. Install [SharpKeys](https://github.com/randyrants/sharpkeys/releases/latest)
     \- [➔ Instructions](instructions.md#install-sharpkeys)
-1. Install [AutoHotkey](https://www.autohotkey.com/)
+1. Install [AutoHotkey](https://www.autohotkey.com/download/ahk-install.exe)
     \- [➔ Instructions](instructions.md#install-autohotkey)
 1. Install [QuickLook](https://www.microsoft.com/en-us/p/quicklook/9nv4bs3l1h4s)
 1. Install [*PowerToys*](https://github.com/microsoft/PowerToys/releases/latest)
