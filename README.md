@@ -114,7 +114,6 @@ Remove any pre-installed software.
 >       - [x] Email
 >       - [x] Calendar
 >       - [ ] Contacts
->   - [ ] Contacts =: `Change mailbox sync settings > Sync options`
 > - Add `puschanton@gmail.com` and configure
 >   - Rename account `MS-Exchange`
 >   - Click `Change mailbox sync settings`
@@ -166,14 +165,12 @@ ___
 ### Install OneDrive
 - Sign in
 
-Open `Taskbar>OneDrive>More>Settings>Settings`
-- [ ] When OneDrive suggests a new collection of my photos and videos
- Open `Backup` tab
-- [ ] Automatically save screenshots I capture to OneDrive
+Open `Taskbar > OneDrive > More > Settings`
+> Open `Settings` tab
+> - [ ] When OneDrive suggests a new collection of my photos and videos
 
-Open `Explorer>Documents>Properties>Location`
-- Change location to OneDrive folder
-- Do the same for Desktop, Downloads, Music and Pictures
+> Open `Backup` tab
+> - [ ] Automatically save screenshots I capture to OneDrive
 ___
 
 ### Install [Boxcryptor](https://www.boxcryptor.com/en/download/)
@@ -186,6 +183,10 @@ ___
 > - [x] Enable recycle bin
 > - [ ] Auto detect removable drives
 > - [ ] Auto detect network drives
+
+Open `Explorer > Documents > Properties > Location`
+- Change location to OneDrive folder
+- Do the same for Desktop, Downloads, Music and Pictures
 ___
 
 ### Install [Adobe Reader](https://get.adobe.com/reader/)
