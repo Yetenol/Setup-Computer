@@ -9,7 +9,11 @@
 1. [Shell Tools](shell-tools/)
 1. [HowToDos](how-to-dos.md)
 
+
 # Software
+Create an up-to-date Windows 10 installation device.
+Format the system partition and do a clean OS install.
+Remove any pre-installed software.
 
 ## Communication
 1. Install [Mail and Calendar](https://www.microsoft.com/en-us/p/mail-and-calendar/9wzdncrfhvqm)
