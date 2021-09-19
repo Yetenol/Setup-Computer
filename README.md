@@ -105,7 +105,7 @@ Remove any pre-installed software.
 
 # Configuration instructions
 
-### Install [Mail and Calendar](https://www.microsoft.com/en-us/p/mail-und-kalender/9wzdncrfhvqm?rtc=1&activetab=pivot:overviewtab)
+### Install [Mail and Calendar](https://www.microsoft.com/en-us/p/mail-und-kalender/9wzdncrfhvqm)
 > Open `Settings > Manage accounts`
 > - Add `anton.pusch@outlook.de` and configure
 >   - Rename account `MS-Exchange`
@@ -274,11 +274,12 @@ ___
 
 # Windows Configurations
 
-### Design Taskbar
+### Setup Taskbar
 - Unpin all apps
 - Edit `Taskbar corner (systray)`
     - Hide `Meet now` icon
     - Hide `Bluetooth` icon
+    - Edit settings: [Always show all icons in the notif‌ication area](windows-settings.md#personalization--taskbar--select-which-icons-appear-on-the-taskbar)
 
 > Right-click taskbar
 > - `Hidden` =: Search
@@ -308,7 +309,7 @@ ___
 >     - [x] Use check boxes to select item
 >     - [x] Always show availability status
 ___
-### Design Start
+### Setup Start
 - Install [TileIconifier](https://github.com/Jonno12345/TileIconifier/releases/latest)
 - Import [scripts](configs/TileIconify-scripts.zip) into `C:\ProgramData`
 - Create custom shortcuts according to PowerPoint Layout
