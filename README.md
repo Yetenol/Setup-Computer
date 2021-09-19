@@ -114,7 +114,7 @@ Remove any pre-installed software.
 >       - [x] Email
 >       - [x] Calendar
 >       - [ ] Contacts
->   - [] Contacts =: `Change mailbox sync settings > Sync options`
+>   - [ ] Contacts =: `Change mailbox sync settings > Sync options`
 > - Add `puschanton@gmail.com` and configure
 >   - Rename account `MS-Exchange`
 >   - Click `Change mailbox sync settings`
