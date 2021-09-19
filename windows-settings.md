@@ -78,8 +78,9 @@
 
 > Open **Personalization > Taskbar > Select which icons appear on the taskbar**
 > ```
-> ms-settings:personalization-start-places
+> ms-settings:taskbar
 > ```
+> - Open `Select which icons appear on the taskbar`
 > - [x] Always show all icons in the notif‌ication area
 > - Hide Cortana search box via taskbar menu
 
