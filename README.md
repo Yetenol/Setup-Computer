@@ -224,13 +224,14 @@ ___
 > Install plugins
 > - to install put files into 
 >   ```
->   %ProgramFiles(x86)%\KeePass Password Safe 2\Plugins
+>   %ProgramFiles%\KeePass Password Safe 2\Plugins
 >   ```
 > - Install [KeeAnywhere](https://github.com/Kyrodan/KeeAnywhere/releases/latest)
 >   - link OneDrive account
->   - open database
 > - Install [WinHelloUnlock](https://github.com/Angelelz/WinHelloUnlock/releases/latest/download/WinHelloUnlock.dll)
 >   - setup Windows Hello fingerprint unlock
+
+- import keyfile and unlock cloud database
 
 > Open `Tools>Options>Security`
 > - `30` Lock Workspace after KeePass iniactivity (seconds):
