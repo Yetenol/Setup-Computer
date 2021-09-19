@@ -41,6 +41,7 @@ Enabled | `about:flags/#enable-desktop-pwas-tab-strip-link-capturing` | Always o
 > - [x] Favorites
 > - [x] Settings
 > - [ ] Personal info
+> - [ ] Passwords
 > - [ ] History
 > - [ ] Open tabs
 > - [x] Extensions
@@ -66,6 +67,7 @@ Enabled | `about:flags/#enable-desktop-pwas-tab-strip-link-capturing` | Always o
 > - Scroll to `Customize toolbar`
 >   - [x] Show tab actions menu
 >   - [x] Hide title bar while in vertical tabs
+>   - `Turn on` Show vertical tabs for all current browser windows
 >   - `Never` Show favorites bar
 > - Select which buttons to show on the toolbar:
 >   - [ ] Show home button `[Alt+Home]`
