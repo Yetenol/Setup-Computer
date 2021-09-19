@@ -6,58 +6,48 @@
 1. [Experimental features](#Experimental%20features)
 1. [Settings](#Settings)
 1. [Extensions](browser-extensions.md)
-
-## Install Chromium browser
-> Using [Edge Chromium](https://www.microsoft.com/de-de/edge)?
-> - Sign in to sync
-
-> Using different browser?
-> - [Brave](https://brave.com/de/)
->### Set `Windows Search` to use default browser
->- Install [EdgeDeflector](https://github.com/da2x/EdgeDeflector/releases)
->- Search anything and select EdgeDeflector as default program
-
 ___
+
+# Install [Firefox](https://www.mozilla.org/en-US/firefox/download/thanks/)
+
+
+# Install Chromium browser
+> Choose one
+> - [Edge Chromium](https://www.microsoft.com/de-de/edge)
+> - [Vivaldi](https://vivaldi.com/de/)
+> - [Brave](https://brave.com/de/)
+
+1. Set as default browser
+    ```
+    ms-settings:defaultapps
+    ```
+    - *Chromium browser* =: Web browser
+1. Set as default browser for Windows Search
+    - Install [EdgeDeflector](https://github.com/da2x/EdgeDeflector/releases)
+    - Search anything and select EdgeDeflector as default program
+
+
 ## Experimental features
 
- Enables Two-page continuous scrolling view for PDF documents
-- Enabled `about:flags/#edge-pdf-two-page-view`
+Status | Flag | Description
+--- | --- | ---
+Enabled | `about:flags/#edge-pdf-two-page-view` | Enables Two-page continuous scrolling view for PDF documents
+Disabled | `about:flags/#edge-experimental-scrolling` | Disable two-finger navigation gestures
+Enabled | `about:flags/#enable-desktop-pwas-app-icon-shortcuts-menu` | Enable Windows app action for PWA's
+Enabled | `about:flags/#enable-desktop-pwas-tab-strip` | Enable tab style for PWA's
+Enabled | `about:flags/#enable-desktop-pwas-tab-strip-link-capturing` | Always open supported links (like youtube links) in PWA's
 
- Disable two-finger navigation gestures
-- Disabled `about:flags/#edge-experimental-scrolling`
-
-Enable Global Media Controls UI
-> Enable Media Control button in the toolbar
->- `about:flags/#global-media-controls`
-
-> Show Cast sessions
->- `about:flags/#global-media-controls-for-cast`
-
-> Show Picture-in-Picture button
->- `about:flags/#global-media-controls-picture-in-picture`
-
-Enable new Prograssive Web App (PWA) features  
-> Enable Windows app action for PWA's
->- Enabled `about:flags/#enable-desktop-pwas-app-icon-shortcuts-menu`
-
->Enable tab style for PWA's
->- Enabled `about:flags/#enable-desktop-pwas-tab-strip`
-
-> Always open supported links (like youtube links) in PWA's
->- Enabled `about:flags/#enable-desktop-pwas-tab-strip-link-capturing`
-
-
-___
 ## Settings
+
 > `edge://settings/profiles/sync`
-- Sign in to turn on sync
-- [x] Favorites
-- [x] Settings
-- [ ] Personal info
-- [ ] History
-- [ ] Open tabs
-- [x] Extensions
-- [x] Collections
+> - Sign in to turn on sync
+> - [x] Favorites
+> - [x] Settings
+> - [ ] Personal info
+> - [ ] History
+> - [ ] Open tabs
+> - [x] Extensions
+> - [x] Collections
 
 > `edge://settings/addresses`
 - [ ] Save and fill addresses
