@@ -59,6 +59,12 @@
 > > - `Next Track` Left
 > > - `Previous track` Right
 
+> Open **Devices > Typing > Hardware keyboard**
+> ```
+> ms-settings:devicestyping-hwkbtextsuggestions
+> ```
+> - [x] Show text suggestions as I type
+
 > Open **Personalization > Colors**
 > ```
 > ms-settings:personalization-colors
@@ -84,11 +90,11 @@
 > - [x] Always show all icons in the notif‌ication area
 > - Hide Cortana search box via taskbar menu
 
-> Open **Devices > Typing > Hardware keyboard**
+> Open **Apps > Video playback**
 > ```
-> ms-settings:devicestyping-hwkbtextsuggestions
+> ms-settings:videoplayback	
 > ```
-> - [x] Show text suggestions as I type
+> [x] Automatically process video to enhance it
 
 > Open **Accounts > Email & accounts**
 > ```
