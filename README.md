@@ -313,7 +313,7 @@ ___
 - Install [TileIconifier](https://github.com/Jonno12345/TileIconifier/releases/latest)
 - Import [scripts](configs/TileIconify-scripts.zip) into `C:\ProgramData`
 - Create custom shortcuts according to PowerPoint Layout
-    - `Other>Shortcut Target` Add desktop apps
+    - `Other > Shortcut Target` Add desktop apps
     - `Windows Store`, `URI`, `Steam`
     - Name shortcuts ~1 ... ~99
 ___

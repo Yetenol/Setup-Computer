@@ -95,7 +95,7 @@
 > ```
 > ms-settings:videoplayback	
 > ```
-> [x] Automatically process video to enhance it
+> - [x] Automatically process video to enhance it
 
 ### Accounts > Email & accounts
 > ```
