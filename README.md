@@ -73,7 +73,7 @@ Remove any pre-installed software.
     \- [➔ Instructions](instructions.md#install-visual-studio-code)
 1. Install [Lenovo Vantage](https://www.microsoft.com/en-us/p/lenovo-vantage/9wzdncrfj4mv)
 1. Install [Git](https://git-scm.com/download/win)
-    \- Disable context menu entries durring setup
+    \- [➔ Instructions](instructions.md#install-git)
 1. Install [Gitkraken](https://www.gitkraken.com/download/windows64)
     \- Sign in using Github
 1. Install [Ubuntu](https://www.microsoft.com/en-us/p/ubuntu/9nblggh4msv6)

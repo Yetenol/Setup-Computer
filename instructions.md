@@ -207,3 +207,12 @@ Open `File > Preferences > Settings > User > Commonly Used`
 Open `File > Preferences > Settings > User > Text Editor > Formatting`
 - [x] Editor: Format On Save
 
+
+## Install [Git](https://git-scm.com/download/win)
+> `Select Components` durring setup
+> - [ ] Windows Explorer integration
+> - [x] (NEW!) Add a GIT Bash Profile to Windows Terminal
+
+> `Default editor` durring setup
+> -  User Visual Studio Code as Git's default editor
+
