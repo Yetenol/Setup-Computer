@@ -26,53 +26,56 @@
 ## Office
 1. Install [Microsoft Office](https://account.microsoft.com/services/office/install)
     \- [➔ Instructions](#install-microsoft-office)
+1. Install OneDrive
+    \- [➔ Instructions](#install-onedrive)
+1. Install [Boxcryptor](https://www.boxcryptor.com/en/download/)
+    \- [➔ Instructions](#install-boxcryptor)
 1. Install [Firefox](https://www.mozilla.org/en-US/firefox/download/thanks/)
-    \- TODO: link to browser
 1. Install [AusweisApp](https://www.ausweisapp.bund.de/download/windows-und-mac/)
     \- Link smartphone as card reader
 1. Install [Adobe Reader](https://get.adobe.com/reader/)
     \- [➔ Instructions](#install-adobe-reader)
 1. Install [Adobe Photoshop Express](https://www.microsoft.com/en-us/p/adobe-photoshop-express-image-editor-adjustments-filters-effects-borders/9wzdncrfj27n)
     \- Set as default app for .jpg files
-1. Install OneDrive
-    \- [➔ Instructions](#install-onedrive)
-1. Install [Boxcryptor](https://www.boxcryptor.com/en/download/)
-    \- [➔ Instructions](#install-boxcryptor)
+1. Install Paint Shop Pro 7
+1. *Install [Citavi](https://www.citavi.com/en/download)*
+1. *Install [GeoGebra](https://download.geogebra.org/package/win)*
 
 ## Entertainment
-1. Install [Amazon Prime Video for Windows](https://www.microsoft.com/en-us/p/amazon-prime-video-for-windows/9p6rc76msmmj)
 1. Install [Netflix](https://www.microsoft.com/en-us/p/netflix/9wzdncrfj3tj)
 1. Install [ReddPlanet](https://www.microsoft.com/en-us/p/reddplanet/9nblggh4s44m)
     \- [➔ Instructions](#install-reddplanet)
+1. Install [Amazon Prime Video for Windows](https://www.microsoft.com/en-us/p/amazon-prime-video-for-windows/9p6rc76msmmj)
 
 ## Personalisation
-1. Install [EarTrumpet](https://www.microsoft.com/en-us/p/eartrumpet/9nblggh516xp)
+1. Install [EdgeDeflector](https://github.com/da2x/EdgeDeflector/releases/latest/download/EdgeDeflector_install.exe)
 1. Install [BatteryBar Pro](https://batterybarpro.com/basic.php)
-1. Install [AutoHotkey](https://www.autohotkey.com/)
-    \- [➔ Instructions](#install-autohotkey)
+1. Install [EarTrumpet](https://www.microsoft.com/en-us/p/eartrumpet/9nblggh516xp)
 1. Install [SharpKeys](https://github.com/randyrants/sharpkeys/releases/latest)
     \- [➔ Instructions](#install-sharpkeys)
-1. Install [PowerToys](https://github.com/microsoft/PowerToys/releases/latest)
-1. Install [EdgeDeflector](https://github.com/da2x/EdgeDeflector/releases/latest/download/EdgeDeflector_install.exe)
+1. Install [AutoHotkey](https://www.autohotkey.com/)
+    \- [➔ Instructions](#install-autohotkey)
 1. Install [QuickLook](https://www.microsoft.com/en-us/p/quicklook/9nv4bs3l1h4s)
+1. Install [*PowerToys*](https://github.com/microsoft/PowerToys/releases/latest)
+    \- [➔ Instructions](#install-quicklook)
 
 ## Dev
-1. Install [Paint Shop Pro 7]()
+1. Install [7-Zip](https://www.7-zip.org/)
 1. Install [KeePass](https://keepass.info/download.html)
     \- [➔ Instructions](#install-keepass)
 1. Install Install Visual Studio Code
     \- [➔ Instructions](#install-visual-studio-code)
 1. Install [Lenovo Vantage](https://www.microsoft.com/en-us/p/lenovo-vantage/9wzdncrfj4mv)
-1. Install [Ubuntu](https://www.microsoft.com/en-us/p/ubuntu/9nblggh4msv6)
-1. Install [7-Zip](https://www.7-zip.org/)
 1. Install [Git](https://git-scm.com/download/win)
     \- Disable context menu entries durring setup
 1. Install [Gitkraken](https://www.gitkraken.com/download/windows64)
     \- Sign in using Github
-1. Install [Recuva](https://www.ccleaner.com/recuva/download)
+1. Install [Ubuntu](https://www.microsoft.com/en-us/p/ubuntu/9nblggh4msv6)
 1. Install [TreeSize](https://www.microsoft.com/en-us/p/treesize-free/9nblggh40881)
-1. Install [Resource Hacker](http://www.angusj.com/resourcehacker/#download)
 1. Install [Windscribe](https://windscribe.com/download)
+1. *Install [Recuva](https://www.ccleaner.com/recuva/download)*
+1. *Install [Resource Hacker](http://www.angusj.com/resourceh*acker/#download)*
+1. *Install [Samsung Dex](https://www.samsung.com/global/download/SamsungDeXWin)*
 ## Gaming
 1. Install [Minecraft Java Edition](https://www.minecraft.net/en-us/download/)
 1. Install [Minecraft Bedrock Edition](https://www.microsoft.com/en-us/p/minecraft-for-windows-10/9nblggh2jhxj)
@@ -93,100 +96,10 @@
 
 
 
+
+
+
 # Configuration instructions
-
-### Install [Adobe Reader](https://get.adobe.com/reader/)
-> Open `Menu > Edit > Preferences > Page Layout > Default Layout and Zoom`
-> - `Two-Up Continuous` =: Page Layout
-___
-
-### Install [ReddPlanet](https://www.microsoft.com/en-us/p/reddplanet/9nblggh4s44m)
-- Sign in
-> `App Settings > Other`
-> - [x] `Update wallpaper (beta)`
-> - `wallpaper` =: Wallpaper subreddit
-
-### Install [KeePass](https://keepass.info/download.html)
-> Install plugins
-> - to install put files into 
->   ```
->   %ProgramFiles(x86)%\KeePass Password Safe 2\Plugins
->   ```
-> - Install [KeeAnywhere](https://github.com/Kyrodan/KeeAnywhere/releases/latest)
->   - link OneDrive account
->   - open database
-> - Install [WinHelloUnlock](https://github.com/Angelelz/WinHelloUnlock/releases/latest/download/WinHelloUnlock.dll)
->   - setup Windows Hello fingerprint unlock
-
-> Open `Tools>Options>Security`
-> - `30` Lock Workspace after KeePass iniactivity (seconds):
-> - [x] Lock workspace when locking the computer or switching the user
-> - [x] Lock workspace when the computer is about to be suspended
-> - [x] Lock workspace when the remote control mode changes
-> - [x] Enter master key on secure desktop
-
-> Open `Tools>Options>Interface`
-> - [x] Drop to background after copying data to the clipboard
-> - [x] Close button [X] minimizes main windows instead of terminating the application
-> - [x] Focus entry list after a successful quick search
-> - [x] Focus quick search box when restoring from taskbar
-> - [x] Focus quick search box when restoring from tray
-___
-### Install Visual Studio Code
-- Install **System Installer** from https://code.visualstudio.com/#alt-downloads
-- During setup progress tick _Open with_ options for context menu
-- Rename scipts in `C:\Program Files\Microsoft VS Code\bin`
-
-Open `File>Preferences>Settings>User>Commonly Used`
-- ``onFocusChange`` Files: Auto Save
-
-Open `File>Preferences>Settings>User>Text Editor>Formatting`
-- [x] Editor: Format On Save
-___
-
-### Install [SharpKeys](https://github.com/randyrants/sharpkeys/releases/latest)
-- Load keys from [keymap file](configs/SharpKeys-keymaps.skl)
-- Enable NumLock by default using AutoHotKey:
-```ahk
-SetNumLockState, AlwaysOn
-```
-___
-
-### Install OneDrive
-- Sign in
-
-Open `Taskbar>OneDrive>More>Settings>Settings`
-- [ ] When OneDrive suggests a new collection of my photos and videos
- Open `Backup` tab
-- [ ] Automatically save screenshots I capture to OneDrive
-
-Open `Explorer>Documents>Properties>Location`
-- Change location to OneDrive folder
-- Do the same for Desktop, Downloads, Music and Pictures
-___
-### Install [Telegram Desktop](https://www.microsoft.com/en-us/p/telegram-desktop/9nztwsqntd0s)
-
-Open `Settings>Chat Settings`
-- [x] Match the system settings
-
-Open `Settings>Notifications`
-- [x] Use Windows notifications
-
-Open `Settings>Advanced`
-- [x] Use system window frame
-- Open `Manage local storage`
-    - `Never` Clear files older than
-___
-
-
-### Install [Microsoft Office](https://account.microsoft.com/services/office/install)
-- Sign in using Microsoft account
-- Download [Language Accessory Pack](https://support.office.com/en-us/article/language-accessory-pack-for-office-82ee1236-0f9a-45ee-9c72-05b026ee809f?ui=en-US&rs=en-US&ad=US)
-
-> Open `File > Options > General > Personalize your copy of Microsoft Office`
-> - `Geometry` Off‌ice Background:
-> - `Black` Office Theme:
-___
 
 ### Install [Mail and Calendar](https://www.microsoft.com/en-us/p/mail-und-kalender/9wzdncrfhvqm?rtc=1&activetab=pivot:overviewtab)
 > Open `Settings > Manage accounts`
@@ -224,6 +137,41 @@ ___
 - Test all synced send-only email accounts
 ___
 
+### Install [Telegram Desktop](https://www.microsoft.com/en-us/p/telegram-desktop/9nztwsqntd0s)
+Open `Settings>Chat Settings`
+- [x] Match the system settings
+
+Open `Settings>Notifications`
+- [x] Use Windows notifications
+
+Open `Settings>Advanced`
+- [x] Use system window frame
+- Open `Manage local storage`
+    - `Never` Clear files older than
+___
+
+### Install [Microsoft Office](https://account.microsoft.com/services/office/install)
+- Sign in using Microsoft account
+- Download [Language Accessory Pack](https://support.office.com/en-us/article/language-accessory-pack-for-office-82ee1236-0f9a-45ee-9c72-05b026ee809f?ui=en-US&rs=en-US&ad=US)
+
+> Open `File > Options > General > Personalize your copy of Microsoft Office`
+> - `Geometry` Off‌ice Background:
+> - `Black` Office Theme:
+___
+
+### Install OneDrive
+- Sign in
+
+Open `Taskbar>OneDrive>More>Settings>Settings`
+- [ ] When OneDrive suggests a new collection of my photos and videos
+ Open `Backup` tab
+- [ ] Automatically save screenshots I capture to OneDrive
+
+Open `Explorer>Documents>Properties>Location`
+- Change location to OneDrive folder
+- Do the same for Desktop, Downloads, Music and Pictures
+___
+
 ### Install [Boxcryptor](https://www.boxcryptor.com/en/download/)
 - Visit https://www.boxcryptor.com/app/
 - Move license to new device
@@ -236,20 +184,25 @@ ___
 > - [ ] Auto detect network drives
 ___
 
-### Install Skype App
-
-Open `Settings>Appearance`
-- Set Color to orange
-- Set Modes to Use system setting
-
-Open `Settings>Calling>Advanced`
-- [x] Answer incoming calls automatically
-
-Open `Settings>Messaging`
-- `Small` Text size
-- [x] Auto-download f‌iles
+### Install [Adobe Reader](https://get.adobe.com/reader/)
+> Open `Menu > Edit > Preferences > Page Layout > Default Layout and Zoom`
+> - `Two-Up Continuous` =: Page Layout
 ___
 
+### Install [ReddPlanet](https://www.microsoft.com/en-us/p/reddplanet/9nblggh4s44m)
+- Sign in
+> `App Settings > Other`
+> - [x] `Update wallpaper (beta)`
+> - `wallpaper` =: Wallpaper subreddit
+___
+
+### Install [SharpKeys](https://github.com/randyrants/sharpkeys/releases/latest)
+- Load keys from [keymap file](configs/SharpKeys-keymaps.skl)
+- Enable NumLock by default using AutoHotKey:
+```ahk
+SetNumLockState, AlwaysOn
+```
+___
 
 ### Install [AutoHotkey](https://www.autohotkey.com/)
 - Set default editor to Visual Studio Code:
@@ -257,7 +210,6 @@ ___
     Set-ItemProperty -Path 'Registry::HKCR\AutoHotkeyScript\Shell\Edit' -Name "Command" -Value 'code.exe %1'
     ```
 - `C:\Program Files\Microsoft VS Code` add to PATH [(?)](how-to-dos.md#edit-path-enviroment-variable)
-
 ___
 
 ### Install [QuickLook](https://www.microsoft.com/en-us/p/quicklook/9nv4bs3l1h4s)
@@ -266,6 +218,50 @@ ___
 > - To install select file in Explorer and press `Space`
 > - [Microsoft Office Viewer - Native](https://github.com/QL-Win/QuickLook.Plugin.OfficeViewer-Native/releases/latest/download/QuickLook.Plugin.OfficeViewer.qlplugin)
 > - [Epub Viewer](https://github.com/QL-Win/QuickLook.Plugin.EpubViewer/releases/latest/download/QuickLook.Plugin.EpubViewer.qlplugin)
+___
+
+### Install [KeePass](https://keepass.info/download.html)
+> Install plugins
+> - to install put files into 
+>   ```
+>   %ProgramFiles(x86)%\KeePass Password Safe 2\Plugins
+>   ```
+> - Install [KeeAnywhere](https://github.com/Kyrodan/KeeAnywhere/releases/latest)
+>   - link OneDrive account
+>   - open database
+> - Install [WinHelloUnlock](https://github.com/Angelelz/WinHelloUnlock/releases/latest/download/WinHelloUnlock.dll)
+>   - setup Windows Hello fingerprint unlock
+
+> Open `Tools>Options>Security`
+> - `30` Lock Workspace after KeePass iniactivity (seconds):
+> - [x] Lock workspace when locking the computer or switching the user
+> - [x] Lock workspace when the computer is about to be suspended
+> - [x] Lock workspace when the remote control mode changes
+> - [x] Enter master key on secure desktop
+
+> Open `Tools>Options>Interface`
+> - [x] Drop to background after copying data to the clipboard
+> - [x] Close button [X] minimizes main windows instead of terminating the application
+> - [x] Focus entry list after a successful quick search
+> - [x] Focus quick search box when restoring from taskbar
+> - [x] Focus quick search box when restoring from tray
+___
+
+### Install Visual Studio Code
+- Install **System Installer** from https://code.visualstudio.com/#alt-downloads
+- During setup progress tick _Open with_ options for context menu
+- Rename scipts in `C:\Program Files\Microsoft VS Code\bin`
+
+Open `File>Preferences>Settings>User>Commonly Used`
+- ``onFocusChange`` Files: Auto Save
+
+Open `File>Preferences>Settings>User>Text Editor>Formatting`
+- [x] Editor: Format On Save
+___
+
+
+
+
 
 
 
@@ -289,13 +285,3 @@ ___
 ### Local Group Policy
 - [GroupPolicy:](how-to-dos.md#edit-local-group-policy) `Computer Configuration>Administrative Templates>System>Filesystem`
     - [x] Enable Win32 long paths 
-
-
-
-
-
-# [Browser](browser.md)  
-# [Windows Settings](windows-settings.md)  
-# [Taskbar Tools](taskbar-tools/taskbar-tools.md)  
-# [Shell Tools](shell-tools/)
-# [HowToDos](how-to-dos.md)
