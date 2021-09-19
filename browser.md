@@ -64,19 +64,22 @@ Enabled | `about:flags/#enable-desktop-pwas-tab-strip-link-capturing` | Always o
 > ```
 > - `System default` =: Overall apperance
 > - Install [Just Black](https://chrome.google.com/webstore/detail/just-black/aghfnjkcakhmadgdomlmlhhaocbkloab) theme
-> - Scroll to `Customize toolbar`
->   - [x] Show tab actions menu
->   - [x] Hide title bar while in vertical tabs
->   - `Turn on` Show vertical tabs for all current browser windows
-> - `Never` Show favorites bar
-> - Select which buttons to show on the toolbar:
->   - [ ] Show home button `[Alt+Home]`
->   - [x] Show favorites buttons `[Ctrl+Shift+O]`
->   - [ ] Show history button `[Ctrl+H]`
->   - [ ] Show Collections button `[Ctrl+Shift+Y]`
->   - [ ] Show web capture button `[Ctrl+Shift+S]`
->   - [ ] Show share button
->   - [ ] Show feedback button
+> > Scroll to `Customize toolbar`
+> > - [x] Show tab actions menu
+> > - [x] Hide title bar while in vertical tabs
+> > - `Turn on` Show vertical tabs for all current browser windows
+> - `Never` =: Show favorites bar
+> > Select which buttons to show on the toolbar:
+> > - [ ] Home button `[Alt+Home]`
+> > - [x] Extensions button 
+> > - [x] Favorites buttons `[Ctrl+Shift+O]`
+> > - [ ] Collections button `[Ctrl+Shift+Y]`
+> > - [ ] History button `[Ctrl+H]`
+> > - [ ] Downloads button
+> > - [ ] Web capture button `[Ctrl+Shift+S]`
+> > - [ ] Share button
+> > - [ ] Feedback button
+> - [Hide all extensions from toolbar](browser-extensions.md#hide-from-toolbar)
 
 > ```
 > about:settings/onStartup
