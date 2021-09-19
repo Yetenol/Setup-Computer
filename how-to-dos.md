@@ -1,5 +1,4 @@
-[Home](README.md)
-# HowToDos
+# [⌂](README.md) › **HowToDos**
 
 ## Edit path enviroment variable
 ```
