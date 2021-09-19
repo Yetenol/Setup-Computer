@@ -131,6 +131,14 @@ Pictures¹⁾ | `X:\OneDrive\Pictures-E`
 > - Restart explorer
 
 
+## Install [AusweisApp](https://www.ausweisapp.bund.de/download/windows-und-mac/)
+- [ ] Auto start AusweisApp2 after boot
+- Connect smartphone and PC in the same WiFi network
+- ON THE SMARTPHONE: Start pairing
+- Pair the available smartphone
+- Test a Personalausweis
+
+
 ## Install [Adobe Reader](https://get.adobe.com/reader/)
 > Open `Menu > Edit > Preferences > Page Layout > Default Layout and Zoom`
 > - `Two-Up Continuous` =: Page Layout
