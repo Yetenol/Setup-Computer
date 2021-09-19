@@ -42,6 +42,13 @@
 >```
 >- Rename your PC to a suitable name
 
+### Device > Mouse > Additional mouse options
+> ```
+> main.cpl
+> ```
+> Open `ThinkPad` tab
+> - `Use as middle click` =: Middle mouse click
+
 ### Devices > Touchpad > Advanced gesture conf‌iguration
 > ```
 > ms-settings:devices-touchpad
