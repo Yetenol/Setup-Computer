@@ -13,62 +13,63 @@
 # Software (without configuration)
 
 ## Kommunikation
-1. Install [Mail and Calendar](https://www.microsoft.com/en-us/p/mail-and-calendar/9wzdncrfhvqm) - 
-    [➔ Instructions](#install-mail-and-calendar)
-1. Install [Telegram Desktop](https://www.microsoft.com/en-us/p/telegram-desktop/9nztwsqntd0s) - 
-    [➔ Instructions](#install-telegram-desktop)
+1. Install [Mail and Calendar](https://www.microsoft.com/en-us/p/mail-and-calendar/9wzdncrfhvqm)
+    \- [➔ Instructions](#install-mail-and-calendar)
+1. Install [Telegram Desktop](https://www.microsoft.com/en-us/p/telegram-desktop/9nztwsqntd0s)
+    \- [➔ Instructions](#install-telegram-desktop)
 1. Install [WhatsApp Desktop](https://www.microsoft.com/en-us/p/whatsapp-desktop/9nksqgp7f2nh) - 
     Swtich to `Dark` Theme
-1. Install [Discord](https://discord.com/download) - 
-    Don't run at [startup](how-to-dos.md#edit-startup-apps)
+1. Install [Discord](https://discord.com/download)
+    \- Don't run at [startup](how-to-dos.md#edit-startup-apps)
 1. Install [Teams](https://www.microsoft.com/en-us/microsoft-teams/download-app#desktopAppDownloadregion)
 1. Install [Zoom](https://zoom.us/download)
 
 ## Office
+1. Install [Microsoft Office](https://account.microsoft.com/services/office/install)
+    \- [➔ Instructions](#install-microsoft-office)
 1. Install [Firefox](https://www.mozilla.org/en-US/firefox/download/thanks/)
-    - TODO: link to browser
-1. Install [AusweisApp](https://www.ausweisapp.bund.de/download/windows-und-mac/) - 
-    Link smartphone as card reader
-1. Install [Adobe Reader](https://get.adobe.com/reader/) - 
-    [➔ Instructions](#install-adobe-reader)
-1. Install [Adobe Photoshop Express](https://www.microsoft.com/en-us/p/adobe-photoshop-express-image-editor-adjustments-filters-effects-borders/9wzdncrfj27n) - 
-    Set as default app for .jpg files
-1. Install OneDrive - 
-    [➔ Instructions](#install-onedrive)
-1. Install [Boxcryptor](https://www.boxcryptor.com/en/download/) - 
-    [➔ Instructions](#install-boxcryptor)
+    \- TODO: link to browser
+1. Install [AusweisApp](https://www.ausweisapp.bund.de/download/windows-und-mac/)
+    \- Link smartphone as card reader
+1. Install [Adobe Reader](https://get.adobe.com/reader/)
+    \- [➔ Instructions](#install-adobe-reader)
+1. Install [Adobe Photoshop Express](https://www.microsoft.com/en-us/p/adobe-photoshop-express-image-editor-adjustments-filters-effects-borders/9wzdncrfj27n)
+    \- Set as default app for .jpg files
+1. Install OneDrive
+    \- [➔ Instructions](#install-onedrive)
+1. Install [Boxcryptor](https://www.boxcryptor.com/en/download/)
+    \- [➔ Instructions](#install-boxcryptor)
 
 ## Entertainment
 1. Install [Amazon Prime Video for Windows](https://www.microsoft.com/en-us/p/amazon-prime-video-for-windows/9p6rc76msmmj)
 1. Install [Netflix](https://www.microsoft.com/en-us/p/netflix/9wzdncrfj3tj)
 1. Install [ReddPlanet](https://www.microsoft.com/en-us/p/reddplanet/9nblggh4s44m)
-    - Sign in
-    - Enable `Update wallpaper (beta)` to r/wallpaper
+    \- [➔ Instructions](#install-reddplanet)
 
 ## Personalisation
 1. Install [EarTrumpet](https://www.microsoft.com/en-us/p/eartrumpet/9nblggh516xp)
 1. Install [BatteryBar Pro](https://batterybarpro.com/basic.php)
-1. Install [AutoHotkey](https://www.autohotkey.com/) - 
-    [➔ Instructions](#install-autohotkey)
-1. Install [SharpKeys](https://github.com/randyrants/sharpkeys/releases/latest) - 
-    [➔ Instructions](#install-sharpkeys)
+1. Install [AutoHotkey](https://www.autohotkey.com/)
+    \- [➔ Instructions](#install-autohotkey)
+1. Install [SharpKeys](https://github.com/randyrants/sharpkeys/releases/latest)
+    \- [➔ Instructions](#install-sharpkeys)
 1. Install [PowerToys](https://github.com/microsoft/PowerToys/releases/latest)
 1. Install [EdgeDeflector](https://github.com/da2x/EdgeDeflector/releases/latest/download/EdgeDeflector_install.exe)
 1. Install [QuickLook](https://www.microsoft.com/en-us/p/quicklook/9nv4bs3l1h4s)
 
 ## Dev
 1. Install [Paint Shop Pro 7]()
-1. Install [KeePass](https://keepass.info/download.html) - 
-    [➔ Instructions](#install-keepass)
-1. Install Install Visual Studio Code - 
-    [➔ Instructions](#install-visual-studio-code)
+1. Install [KeePass](https://keepass.info/download.html)
+    \- [➔ Instructions](#install-keepass)
+1. Install Install Visual Studio Code
+    \- [➔ Instructions](#install-visual-studio-code)
 1. Install [Lenovo Vantage](https://www.microsoft.com/en-us/p/lenovo-vantage/9wzdncrfj4mv)
 1. Install [Ubuntu](https://www.microsoft.com/en-us/p/ubuntu/9nblggh4msv6)
 1. Install [7-Zip](https://www.7-zip.org/)
 1. Install [Git](https://git-scm.com/download/win)
-    - Disable context menu entries
+    \- Disable context menu entries durring setup
 1. Install [Gitkraken](https://www.gitkraken.com/download/windows64)
-    - Sign in using Github
+    \- Sign in using Github
 1. Install [Recuva](https://www.ccleaner.com/recuva/download)
 1. Install [TreeSize](https://www.microsoft.com/en-us/p/treesize-free/9nblggh40881)
 1. Install [Resource Hacker](http://www.angusj.com/resourcehacker/#download)
@@ -98,7 +99,13 @@
 ### Install [Adobe Reader](https://get.adobe.com/reader/)
 > Open `Menu > Edit > Preferences > Page Layout > Default Layout and Zoom`
 > - `Two-Up Continuous` =: Page Layout
+___
 
+### Install [ReddPlanet](https://www.microsoft.com/en-us/p/reddplanet/9nblggh4s44m)
+- Sign in
+> `App Settings > Other`
+> - [x] `Update wallpaper (beta)`
+> - `wallpaper` =: Wallpaper subreddit
 
 ### Install [KeePass](https://keepass.info/download.html)
 > Install plugins
@@ -174,7 +181,6 @@ ___
 
 
 ### Install [Microsoft Office](https://account.microsoft.com/services/office/install)
-
 - Sign in using Microsoft account
 - Download [Language Accessory Pack](https://support.office.com/en-us/article/language-accessory-pack-for-office-82ee1236-0f9a-45ee-9c72-05b026ee809f?ui=en-US&rs=en-US&ad=US)
 
@@ -248,10 +254,10 @@ ___
 
 ### Install [AutoHotkey](https://www.autohotkey.com/)
 - Set default editor to Visual Studio Code:
-```powershell
-Set-ItemProperty -Path 'Registry::HKCR\AutoHotkeyScript\Shell\Edit' -Name "Command" -Value 'code.exe %1'
-```
-- `C:\Program Files\Microsoft VS Code` Add to [path enviroment variable](how-to-dos.md#edit-path-enviroment-variable)
+    ```powershell
+    Set-ItemProperty -Path 'Registry::HKCR\AutoHotkeyScript\Shell\Edit' -Name "Command" -Value 'code.exe %1'
+    ```
+- `C:\Program Files\Microsoft VS Code` add to PATH [(?)](how-to-dos.md#edit-path-enviroment-variable)
 
 ___
 
