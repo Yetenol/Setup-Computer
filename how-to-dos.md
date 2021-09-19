@@ -5,7 +5,7 @@
 ```
 rundll32 shell32.dll,Control_RunDLL sysdm.cpl,null,3
 ```
-- Click `Enviroment Variables>User variables>Path>Edit>New`
+- Click `Enviroment Variables > User variables > Path > Edit > New`
 
 ## Edit registry
 ```
