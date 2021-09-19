@@ -1,6 +1,6 @@
-## [⌂](README.md) › **Windows Configurations**
+# [⌂](README.md) › **Windows Configurations**
 
-### Setup Taskbar
+## Setup Taskbar
 - Unpin all apps
 - Edit `Taskbar corner (systray)`
     - Hide `Meet now` icon
@@ -24,7 +24,7 @@
 > - Lock the taskbar
 ___
 
-### Setup Explorer
+## Setup Explorer
 > Open `File Explorer options`
 > ```
 > shell:::{6DFD7C5C-2451-11d3-A299-00C04F8EF6AF}
@@ -37,7 +37,7 @@ ___
 >     - [x] Always show availability status
 ___
 
-### Setup Start
+## Setup Start
 - Install [TileIconifier](https://github.com/Jonno12345/TileIconifier/releases/latest)
 - Import [scripts](configs/TileIconify-scripts.zip) into `C:\ProgramData`
 - Create custom shortcuts according to PowerPoint Layout
@@ -45,6 +45,6 @@ ___
     - `Windows Store`, `URI`, `Steam`
     - Name shortcuts ~1 ... ~99
 ___
-### Local Group Policy
+## Local Group Policy
 - [GroupPolicy:](how-to-dos.md#edit-local-group-policy) `Computer Configuration>Administrative Templates>System>Filesystem`
     - [x] Enable Win32 long paths 
