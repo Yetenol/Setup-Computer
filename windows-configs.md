@@ -22,7 +22,6 @@
 > - Resize the toolbar until the app icons are in the middle
 > - Right-click the toolbar and hide its title
 > - Lock the taskbar
-___
 
 ## Setup Explorer
 > Open `File Explorer options`
@@ -35,7 +34,6 @@ ___
 >     - [ ] Hide extensions for known file types
 >     - [x] Use check boxes to select item
 >     - [x] Always show availability status
-___
 
 ## Setup Start
 - Install [TileIconifier](https://github.com/Jonno12345/TileIconifier/releases/latest)
@@ -44,7 +42,7 @@ ___
     - `Other > Shortcut Target` Add desktop apps
     - `Windows Store`, `URI`, `Steam`
     - Name shortcuts ~1 ... ~99
-___
+
 ## Local Group Policy
 - [GroupPolicy:](how-to-dos.md#edit-local-group-policy) `Computer Configuration>Administrative Templates>System>Filesystem`
     - [x] Enable Win32 long paths 
