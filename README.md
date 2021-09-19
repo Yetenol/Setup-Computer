@@ -61,6 +61,7 @@ Remove any pre-installed software.
 1. Install [AutoHotkey](https://www.autohotkey.com/download/ahk-install.exe)
     \- Do Express installation
 1. Install [QuickLook](https://www.microsoft.com/en-us/p/quicklook/9nv4bs3l1h4s)
+    \- [➔ Instructions](instructions.md#install-quicklook)
 1. Install [*PowerToys*](https://github.com/microsoft/PowerToys/releases/latest)
     \- [➔ Instructions](instructions.md#install-quicklook)
 
