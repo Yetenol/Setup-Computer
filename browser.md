@@ -39,7 +39,9 @@ Enabled | `about:flags/#enable-desktop-pwas-tab-strip-link-capturing` | Always o
 
 ## Settings
 
-> `edge://settings/profiles/sync`
+> ```
+> edge://settings/profiles/sync
+> ```
 > - Sign in to turn on sync
 > - [x] Favorites
 > - [x] Settings
