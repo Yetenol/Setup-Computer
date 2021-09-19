@@ -78,6 +78,7 @@ Remove any pre-installed software.
     \- [➔ Instructions](instructions.md#install-git)
 1. Install [Windows Terminal](https://www.microsoft.com/en-us/p/windows-terminal/9n0dx20hk701)
 1. Install [Ubuntu](https://www.microsoft.com/en-us/p/ubuntu/9nblggh4msv6)
+    \- [➔ Instructions](instructions.md#install-ubuntu)
 1. Install [TreeSize](https://www.microsoft.com/en-us/p/treesize-free/9nblggh40881)
 1. Install [Windscribe](https://windscribe.com/download)
 1. *Install [Recuva](https://www.ccleaner.com/recuva/download)*
