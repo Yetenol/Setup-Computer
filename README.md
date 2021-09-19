@@ -26,6 +26,7 @@ Remove any pre-installed software.
 1. Install [Teams](https://www.microsoft.com/en-us/microsoft-teams/download-app#desktopAppDownloadregion)
     \- [➔ Instructions](instructions.md#install-teams)
 1. Install [Zoom](https://zoom.us/download)
+    \- [➔ Instructions](instructions.md#install-zoom)
 
 ## Office
 1. Install [Microsoft Office](https://account.microsoft.com/services/office/install)
