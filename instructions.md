@@ -48,6 +48,14 @@ Open `Settings > Advanced`
 - Open `Manage local storage`
     - `Never` Clear files older than
 
+## Install [Zoom](https://zoom.us/download)
+- Sign in using SSO
+> Open `Settings > Video`
+> - [x] `Auto` =: Adjust for low light
+
+> Open `Settings > Backgroud & Filters`
+> -  Install `Blur` Virtual Backgroud
+
 
 ## Install [Teams](https://www.microsoft.com/en-us/microsoft-teams/download-app#desktopAppDownloadregion)
 > Open `Settings > Generell`
