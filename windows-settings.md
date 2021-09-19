@@ -89,7 +89,7 @@
 > ```
 > - Open `Select which icons appear on the taskbar`
 > - [x] Always show all icons in the notif‌ication area
-> - See [Setup Taskbar](readme.md#setup-taskbar)
+> - See [Setup Taskbar](README.md#setup-taskbar)
 
 ### Apps > Video playback
 > ```
