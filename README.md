@@ -24,6 +24,7 @@ Remove any pre-installed software.
 1. Install [Discord](https://discord.com/download)
     \- Don't run at [startup](how-to-dos.md#edit-startup-apps)
 1. Install [Teams](https://www.microsoft.com/en-us/microsoft-teams/download-app#desktopAppDownloadregion)
+    \- [➔ Instructions](instructions.md#install-teams)
 1. Install [Zoom](https://zoom.us/download)
 
 ## Office

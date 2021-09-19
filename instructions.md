@@ -37,16 +37,22 @@
 
 
 ## Install [Telegram Desktop](https://www.microsoft.com/en-us/p/telegram-desktop/9nztwsqntd0s)
-Open `Settings>Chat Settings`
+Open `Settings > Chat Settings`
 - [x] Match the system settings
 
-Open `Settings>Notifications`
+Open `Settings > Notifications`
 - [x] Use Windows notifications
 
-Open `Settings>Advanced`
+Open `Settings > Advanced`
 - [x] Use system window frame
 - Open `Manage local storage`
     - `Never` Clear files older than
+
+
+## Install [Teams](https://www.microsoft.com/en-us/microsoft-teams/download-app#desktopAppDownloadregion)
+> Open `Settings > Generell`
+> - `Dark` =: Theme
+> - [ ] Auto-start application
 
 
 ## Install [Microsoft Office](https://account.microsoft.com/services/office/install)
