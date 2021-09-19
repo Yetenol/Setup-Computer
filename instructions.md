@@ -173,14 +173,14 @@ SetNumLockState, AlwaysOn
 
 - import keyfile and unlock cloud database
 
-> Open `Tools>Options>Security`
+> Open `Tools > Options > Security`
 > - `30` Lock Workspace after KeePass iniactivity (seconds):
 > - [x] Lock workspace when locking the computer or switching the user
 > - [x] Lock workspace when the computer is about to be suspended
 > - [x] Lock workspace when the remote control mode changes
 > - [x] Enter master key on secure desktop
 
-> Open `Tools>Options>Interface`
+> Open `Tools > Options > Interface`
 > - [x] Drop to background after copying data to the clipboard
 > - [x] Close button [X] minimizes main windows instead of terminating the application
 > - [x] Focus entry list after a successful quick search
