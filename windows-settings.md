@@ -13,6 +13,7 @@
 > ```
 > - [ ] Show notif‌ications on the lock screen
 > - [ ] Show me the Windows welcome experience after updates and occasionally
+> - [ ] Get tips, tricks and suggestions as you use Windows
 
 > Open **System > Power & sleep**
 > ```
@@ -88,7 +89,6 @@
 > ```
 > - Open `Select which icons appear on the taskbar`
 > - [x] Always show all icons in the notif‌ication area
-> - Hide Cortana search box via taskbar menu
 
 > Open **Apps > Video playback**
 > ```
