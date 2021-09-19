@@ -37,7 +37,7 @@ Remove any pre-installed software.
     \- [➔ Instructions](instructions.md#install-boxcryptor)
 1. Install [Firefox](https://www.mozilla.org/en-US/firefox/download/thanks/)
 1. Install [AusweisApp](https://www.ausweisapp.bund.de/download/windows-und-mac/)
-    \- Link smartphone as card reader
+    \- [➔ Instructions](instructions.md#install-ausweisapp)
 1. Install [Adobe Reader](https://get.adobe.com/reader/)
     \- [➔ Instructions](instructions.md#install-adobe-reader)
 1. Install [Adobe Photoshop Express](https://www.microsoft.com/en-us/p/adobe-photoshop-express-image-editor-adjustments-filters-effects-borders/9wzdncrfj27n)
