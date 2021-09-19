@@ -187,6 +187,13 @@ SetNumLockState, AlwaysOn
 > - [x] Focus quick search box when restoring from taskbar
 > - [x] Focus quick search box when restoring from tray
 
+> Copy password generation pattern
+> - Open `Tools > Generate Password`
+> - Select Generate using pattern
+> - Paste pattern
+> - Click the save icon in the top right-hand corner
+> - Override the `(Automatically generated passwords for new entries)` profile
+
 
 ## Install Visual Studio Code
 - Install **System Installer** from https://code.visualstudio.com/#alt-downloads
