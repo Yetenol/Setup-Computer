@@ -218,9 +218,9 @@ Open `File > Preferences > Settings > User > Text Editor > Formatting`
 
 
 ## Install [Ubuntu](https://www.microsoft.com/en-us/p/ubuntu/9nblggh4msv6)
-- Enable Windows Optional Feature
-    ```
-    optionalfeatures
-    ```
-- [x] Windows Subsystem for Linux
+> Enable Windows Optional Feature
+> ```
+> optionalfeatures
+> ```
+> - [x] Windows Subsystem for Linux
 - Launch ubuntu
