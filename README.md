@@ -1,18 +1,17 @@
-# How to setup my Windows computers
-## Table of Contents ![Lines of code](https://img.shields.io/tokei/lines/github/yetenol/setup-computer?color=white) ![GitHub last commit](https://img.shields.io/github/last-commit/yetenol/setup-computer?color=white)
-
-1. [Software (without configuration)](#Software-without-configuration)  
-1. [Software (with configuration)](#Software-with-configuration)  
-1. [Windows Configurations](#Windows-Configurations)  
+## [⌂](README.md) **How to setup my PC** - Table of Contents
+![Lines of code](https://img.shields.io/tokei/lines/github/yetenol/setup-computer?color=white)
+![GitHub last commit](https://img.shields.io/github/last-commit/yetenol/setup-computer?color=white)
+1. [Software](#software)  
+1. [Windows Configurations](#windows-configurations)  
 1. [Browser](browser.md)  
 1. [Windows Settings](windows-settings.md)  
 1. [Taskbar Tools](taskbar-tools/taskbar-tools.md)  
 1. [Shell Tools](shell-tools/)
 1. [HowToDos](how-to-dos.md)
 
-# Software (without configuration)
+# Software
 
-## Kommunikation
+## Communication
 1. Install [Mail and Calendar](https://www.microsoft.com/en-us/p/mail-and-calendar/9wzdncrfhvqm)
     \- [➔ Instructions](#install-mail-and-calendar)
 1. Install [Telegram Desktop](https://www.microsoft.com/en-us/p/telegram-desktop/9nztwsqntd0s)
