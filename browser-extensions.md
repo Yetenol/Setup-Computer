@@ -3,7 +3,7 @@
 1. [Media / Youtube](#Media-/-Youtube)
 1. [Shopping](#Shopping)
 1. [Keyboard shortcuts](#Keyboard-shortcuts)
-
+1. [Hide from toolbar](#hide-from-toolbar)
 
 ## Layout / Design
 
@@ -99,3 +99,9 @@
 - `Alt + O` _Office :_ Activate the extension  
 - `Alt + U` _uBlock Origin :_ Activate the extention  
 - `Alt + P` _Picture-in-Picture :_ Activate the extension  
+
+## Hide from toolbar
+- Click on `Extensions button` in the toolbar
+- Disable `Show in toolbar` (eye icon) for all extensions
+- If there is any extension left in the toolbar...
+   - Right-click and click `Hide from toolbar`
