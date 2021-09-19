@@ -1,0 +1,162 @@
+## [⌂](README.md) › **Installation instructions**
+
+### Install [Mail and Calendar](https://www.microsoft.com/en-us/p/mail-und-kalender/9wzdncrfhvqm)
+> Open `Settings > Manage accounts`
+> - Add `anton.pusch@outlook.de` and configure
+>   - Rename account `MS-Exchange`
+>   - Click `Change mailbox sync settings`
+>       - `any time` =: Download email from
+>       - [x] Email
+>       - [x] Calendar
+>       - [ ] Contacts
+> - Add `puschanton@gmail.com` and configure
+>   - Rename account `MS-Exchange`
+>   - Click `Change mailbox sync settings`
+>       - [ ] Email
+>       - [ ] Calendar
+>       - [x] Contacts
+
+> Open `Settings > Focused inbox`
+> - [ ] Sort messages info Focused and Other
+
+> Open `Settings > Message list > Organization`
+> - `Individual messages` =: How do you want your messages tobe organized?
+
+> Open `Settings > Signature`
+> - `Viele Grüße Anton Pusch` =: Signature
+
+> Open `Settings > Notifications`
+> - [x] Show notifications for folders pinned to Start
+
+> Open `Menu > Folders`
+> - Pin to Start: Education, Finance, Health, Covid, Travel
+
+- Create a new email
+- Test all synced send-only email accounts
+___
+
+### Install [Telegram Desktop](https://www.microsoft.com/en-us/p/telegram-desktop/9nztwsqntd0s)
+Open `Settings>Chat Settings`
+- [x] Match the system settings
+
+Open `Settings>Notifications`
+- [x] Use Windows notifications
+
+Open `Settings>Advanced`
+- [x] Use system window frame
+- Open `Manage local storage`
+    - `Never` Clear files older than
+___
+
+### Install [Microsoft Office](https://account.microsoft.com/services/office/install)
+- Sign in using Microsoft account
+- Download [Language Accessory Pack](https://support.office.com/en-us/article/language-accessory-pack-for-office-82ee1236-0f9a-45ee-9c72-05b026ee809f?ui=en-US&rs=en-US&ad=US)
+
+> Open `File > Options > General > Personalize your copy of Microsoft Office`
+> - `Geometry` Off‌ice Background:
+> - `Black` Office Theme:
+___
+
+### Install OneDrive
+- Sign in
+
+Open `Taskbar > OneDrive > More > Settings`
+> Open `Settings` tab
+> - [ ] When OneDrive suggests a new collection of my photos and videos
+
+> Open `Backup` tab
+> - [ ] Automatically save screenshots I capture to OneDrive
+___
+
+### Install [Boxcryptor](https://www.boxcryptor.com/en/download/)
+- Visit https://www.boxcryptor.com/app/
+- Move license to new device
+> Open `Taskbar Corner > Boxcryptor > Settings > Advanced`
+> - [x] Start with Windows
+> - [x] Check for updates
+> - Click `Show more settigns`
+> - [x] Enable recycle bin
+> - [ ] Auto detect removable drives
+> - [ ] Auto detect network drives
+
+Open `Explorer > Documents > Properties > Location`
+- Change location to OneDrive folder
+- Do the same for Desktop, Downloads, Music and Pictures
+___
+
+### Install [Adobe Reader](https://get.adobe.com/reader/)
+> Open `Menu > Edit > Preferences > Page Layout > Default Layout and Zoom`
+> - `Two-Up Continuous` =: Page Layout
+___
+
+### Install [ReddPlanet](https://www.microsoft.com/en-us/p/reddplanet/9nblggh4s44m)
+- Sign in
+> `App Settings > Other`
+> - [x] `Update wallpaper (beta)`
+> - `wallpaper` =: Wallpaper subreddit
+___
+
+### Install [SharpKeys](https://github.com/randyrants/sharpkeys/releases/latest)
+- Load keys from [keymap file](configs/SharpKeys-keymaps.skl)
+- Enable NumLock by default using AutoHotKey:
+```ahk
+SetNumLockState, AlwaysOn
+```
+___
+
+### Install [AutoHotkey](https://www.autohotkey.com/)
+- Set default editor to Visual Studio Code:
+    ```powershell
+    Set-ItemProperty -Path 'Registry::HKCR\AutoHotkeyScript\Shell\Edit' -Name "Command" -Value 'code.exe %1'
+    ```
+- `C:\Program Files\Microsoft VS Code` add to PATH [(?)](how-to-dos.md#edit-path-enviroment-variable)
+___
+
+### Install [QuickLook](https://www.microsoft.com/en-us/p/quicklook/9nv4bs3l1h4s)
+- [x] `Taskbar Corner > QuickLook >` Run at Startup
+> Install plugins
+> - To install select file in Explorer and press `Space`
+> - [Microsoft Office Viewer - Native](https://github.com/QL-Win/QuickLook.Plugin.OfficeViewer-Native/releases/latest/download/QuickLook.Plugin.OfficeViewer.qlplugin)
+> - [Epub Viewer](https://github.com/QL-Win/QuickLook.Plugin.EpubViewer/releases/latest/download/QuickLook.Plugin.EpubViewer.qlplugin)
+___
+
+### Install [KeePass](https://keepass.info/download.html)
+> Install plugins
+> - to install put files into 
+>   ```
+>   %ProgramFiles%\KeePass Password Safe 2\Plugins
+>   ```
+> - Install [KeeAnywhere](https://github.com/Kyrodan/KeeAnywhere/releases/latest)
+>   - link OneDrive account
+> - Install [WinHelloUnlock](https://github.com/Angelelz/WinHelloUnlock/releases/latest/download/WinHelloUnlock.dll)
+>   - setup Windows Hello fingerprint unlock
+
+- import keyfile and unlock cloud database
+
+> Open `Tools>Options>Security`
+> - `30` Lock Workspace after KeePass iniactivity (seconds):
+> - [x] Lock workspace when locking the computer or switching the user
+> - [x] Lock workspace when the computer is about to be suspended
+> - [x] Lock workspace when the remote control mode changes
+> - [x] Enter master key on secure desktop
+
+> Open `Tools>Options>Interface`
+> - [x] Drop to background after copying data to the clipboard
+> - [x] Close button [X] minimizes main windows instead of terminating the application
+> - [x] Focus entry list after a successful quick search
+> - [x] Focus quick search box when restoring from taskbar
+> - [x] Focus quick search box when restoring from tray
+___
+
+### Install Visual Studio Code
+- Install **System Installer** from https://code.visualstudio.com/#alt-downloads
+    - During setup progress tick _Open with_ options for context menu
+- Press `F1` and search for `>settings sync:`
+    - Sign in using Github
+
+Open `File > Preferences > Settings > User > Commonly Used`
+- `onFocusChange` =: Files: Auto Save
+
+Open `File > Preferences > Settings > User > Text Editor > Formatting`
+- [x] Editor: Format On Save
+___
