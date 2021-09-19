@@ -36,6 +36,12 @@
 > ```
 > - [x] Clipboard history
 
+### System > About
+>```
+>ms-settings:about
+>```
+>- Rename your PC to a suitable name
+
 ### Devices > Touchpad > Advanced gesture conf‌iguration
 > ```
 > ms-settings:devices-touchpad
