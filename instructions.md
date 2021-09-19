@@ -216,3 +216,11 @@ Open `File > Preferences > Settings > User > Text Editor > Formatting`
 > `Default editor` durring setup
 > -  User Visual Studio Code as Git's default editor
 
+
+## Install [Ubuntu](https://www.microsoft.com/en-us/p/ubuntu/9nblggh4msv6)
+- Enable Windows Optional Feature
+    ```
+    optionalfeatures
+    ```
+- [x] Windows Subsystem for Linux
+- Launch ubuntu
