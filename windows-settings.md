@@ -1,15 +1,18 @@
 ## [⌂](README.md) › **Windows Settings**
 
-Open **System>Display**
-> `ms-settings:display`
-- [x] Schedule night light _🠘 (Night light settings)_
-- `100%` Change the size of text, apps, and other items
+> Open **System > Display**
+> ```
+> ms-settings:display
+> ```
+> - [x] Schedule night light _🠘 (Night light settings)_
+> - `100%` Change the size of text, apps, and other items
 
-
-Open **System>Notif‌ications & actions**
-> `ms-settings:notifications`
-- [ ] Show notif‌ications on the lock screen
-- [ ] Show me the Windows welcome experience after updates and occasionally
+> Open **System > Notif‌ications & actions**
+> ```
+> ms-settings:notifications
+> ```
+> - [ ] Show notif‌ications on the lock screen
+> - [ ] Show me the Windows welcome experience after updates and occasionally
 
 Open **System>Power & sleep**
 > `ms-settings:powersleep`
