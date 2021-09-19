@@ -59,7 +59,14 @@ Open `Settings>Advanced`
 
 
 ## Install OneDrive
-- Sign in
+- Unlink device
+    - Click `Taskbar > OneDrive > More > Settings > Backup > Unlink`
+
+> Setup up OneDrive
+> - Sign in
+> - **CHANGE LOCATION** to `D:\Onedrive`
+> - Confirm `Use this folder`
+> - DON'T backup Desktop
 
 Open `Taskbar > OneDrive > More > Settings`
 > Open `Settings` tab
@@ -71,7 +78,10 @@ Open `Taskbar > OneDrive > More > Settings`
 
 ## Install [Boxcryptor](https://www.boxcryptor.com/en/download/)
 - Visit https://www.boxcryptor.com/app/
-- Move license to new device
+- Delete license from old device
+- Sign in on new device
+
+### Mount as fixed drive
 > Open `Taskbar Corner > Boxcryptor > Settings > Advanced`
 > - [x] Start with Windows
 > - [x] Check for updates
@@ -80,9 +90,31 @@ Open `Taskbar > OneDrive > More > Settings`
 > - [ ] Auto detect removable drives
 > - [ ] Auto detect network drives
 
-Open `Explorer > Documents > Properties > Location`
-- Change location to OneDrive folder
-- Do the same for Desktop, Downloads, Music and Pictures
+### Redirect This PC folders
+> How to redirect a `Folder` in `This PC`:
+> - Open `Properties > Location > Move`
+> - Enter the new path and click `OK`
+> - If asked wether to move the files click `Yes`
+
+- Redirect the following folders
+
+Folder name | New location
+--- | ---
+Desktop | `D:\Desktop`
+Documents | `D:\OneDrive\Documents`
+Downloads | `D:\Download`
+3D Objects | `X:\OneDrive\3D-Objects-E`
+Music | `X:\OneDrive\Music-E`
+Videos | `X:\OneDrive\Videos-E`
+Pictures¹⁾ | `X:\OneDrive\Pictures-E`
+
+> ¹⁾ if redirecting `Pictures` fails, do the following
+> - Open RegEdit and navigate to
+>   ```
+>   Computer\HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\User Shell Folders
+>   ```
+> - Set entry `{0DDD015D-B06C-45D5-8C4C-F59713854639}` to `X:\OneDrive\Pictures-E`
+> - Restart explorer
 
 
 ## Install [Adobe Reader](https://get.adobe.com/reader/)
