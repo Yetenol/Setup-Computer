@@ -69,13 +69,14 @@ Remove any pre-installed software.
 1. Install [7-Zip](https://www.7-zip.org/)
 1. Install [KeePass](https://keepass.info/download.html)
     \- [➔ Instructions](instructions.md#install-keepass)
+1. Install [Gitkraken](https://www.gitkraken.com/download/windows64)
+    \- Sign in using Github
 1. Install Install Visual Studio Code
     \- [➔ Instructions](instructions.md#install-visual-studio-code)
 1. Install [Lenovo Vantage](https://www.microsoft.com/en-us/p/lenovo-vantage/9wzdncrfj4mv)
 1. Install [Git](https://git-scm.com/download/win)
     \- [➔ Instructions](instructions.md#install-git)
-1. Install [Gitkraken](https://www.gitkraken.com/download/windows64)
-    \- Sign in using Github
+1. Install [Windows Terminal](https://www.microsoft.com/en-us/p/windows-terminal/9n0dx20hk701)
 1. Install [Ubuntu](https://www.microsoft.com/en-us/p/ubuntu/9nblggh4msv6)
 1. Install [TreeSize](https://www.microsoft.com/en-us/p/treesize-free/9nblggh40881)
 1. Install [Windscribe](https://windscribe.com/download)
