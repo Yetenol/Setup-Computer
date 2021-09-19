@@ -276,6 +276,9 @@ ___
 
 ### Design Taskbar
 - Unpin all apps
+- Edit `Taskbar corner (systray)`
+    - Hide `Meet now` icon
+    - Hide `Bluetooth` icon
 
 > Right-click taskbar
 > - `Hidden` =: Search
