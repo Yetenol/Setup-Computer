@@ -3,6 +3,7 @@
 1. [Install Chromium browser](#install-chromium-browser)
 1. [Experimental features](#experimental-features)
 1. [Settings](#settings)
+1. [Progressive Web Apps](#progressive-web-apps)
 1. [Extensions](browser-extensions.md)
 
 # Install Chromium browser
@@ -65,7 +66,7 @@ Enabled | `about:flags/#enable-desktop-pwas-tab-strip-link-capturing` | Always o
 > - Scroll to `Customize toolbar`
 >   - [x] Show tab actions menu
 >   - [x] Hide title bar while in vertical tabs
->   - `Only on new tabs` Show favorites bar
+>   - `Never` Show favorites bar
 > - Select which buttons to show on the toolbar:
 >   - [ ] Show home button `[Alt+Home]`
 >   - [x] Show favorites buttons `[Ctrl+Shift+O]`
@@ -84,5 +85,11 @@ Enabled | `about:flags/#enable-desktop-pwas-tab-strip-link-capturing` | Always o
 > about:settings/content/notifications
 > ```
 - [ ] Ask before sending 
+
+## Progressive Web Apps
+- To add an app: `Menu > Apps > Install this site as an app`
+- Add [Google Maps](https://www.google.com/maps)
+- Add [Google Keep](https://keep.google.com/)
+- Add [Google Contacts](https://contacts.google.com/)
 
 ## [Extensions](browser-extensions.md)
