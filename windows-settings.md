@@ -88,6 +88,13 @@
 > - [ ] Title bars and window borders
 > - `Dark` Choose your default app mode
 
+### Personalization > Themes > Desktop icon settings
+> ```
+> rundll32 shell32.dll,Control_RunDLL desk.cpl,null,0
+> ```
+> - Disable all icons
+> - [ ] Allow themes to change desktop icons
+
 ### Personalization > Start
 > ```
 > ms-settings:personalization-start
