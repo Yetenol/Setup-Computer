@@ -26,11 +26,12 @@
 
 Status | Flag | Description
 --- | --- | ---
-Enabled | `about:flags/#edge-pdf-two-page-view` | Enables Two-page continuous scrolling view for PDF documents
-Disabled | `about:flags/#edge-experimental-scrolling` | Disable two-finger navigation gestures
-Enabled | `about:flags/#enable-desktop-pwas-app-icon-shortcuts-menu` | Enable Windows app action for PWA's
-Enabled | `about:flags/#enable-desktop-pwas-tab-strip` | Enable tab style for PWA's
-Enabled | `about:flags/#enable-desktop-pwas-tab-strip-link-capturing` | Always open supported links (like youtube links) in PWA's
+Disabled | `about:flags/#edge-experimental-scrolling` | Overscroll bounce
+Disabled | `about:flags/#overscroll-history-navigation` | Two-finger overscroll navigation
+Enabled | `about:flags/#enable-desktop-pwas-app-icon-shortcuts-menu` | Taskbar right-click actions for PWA's
+*Deprecated* | `about:flags/#enable-desktop-pwas-tab-strip` | Offer tab style for PWA's
+*Deprecated* | `about:flags/#enable-desktop-pwas-tab-strip-link-capturing` | Always open supported links (like youtube links) in PWA's
+*Deprecated* | `about:flags/#edge-pdf-two-page-view` | Enables Two-page continuous scrolling view for PDF documents
 
 ## Settings
 
