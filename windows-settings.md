@@ -103,13 +103,19 @@
 > - [ ] Show suggestions occasionally in Start
 > - [x] Use Start full screen
 
-### Personalization > Taskbar > Select which icons appear on the taskbar
+### Personalization > Taskbar
 > ```
 > ms-settings:taskbar
 > ```
-> - Open `Select which icons appear on the taskbar`
-> - [x] Always show all icons in the notif‌ication area
-> - See [Setup Taskbar](windows-configs.md#setup-taskbar)
+> > Open `Select which icons appear on the taskbar`
+> > - [x] Always show all icons in the notif‌ication area
+> > - See [Setup Taskbar](windows-configs.md#setup-taskbar)
+>
+> > Open `Turn system icons on or off`
+> > - [ ] Volume *(if [EarTrumpet](https://www.microsoft.com/en-us/p/eartrumpet/9nblggh516xp) is installed)*
+> > - [ ] Power
+> > - [ ] Input Indicator
+> > - [ ] Meet Now
 
 ### Apps > Video playback
 > ```
