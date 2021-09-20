@@ -143,8 +143,13 @@ Pictures¹⁾ | `X:\OneDrive\Pictures-E`
 
 
 ## Install [Adobe Reader](https://get.adobe.com/reader/)
+- Completely hide the Task Pane on the right-hand side
+
 >  Open `Menu > Edit > Preferences`
-> 
+>
+> > Open `Documents` tab 
+> > - [x] Remember current state of Tools Pane < [#Open Settings]
+>
 > > Open `Language` tab
 > > - `Same as operating system` =:  Application Langauge < [#Language]
 > 
