@@ -155,10 +155,9 @@ Pictures¹⁾ | `X:\OneDrive\Pictures-E`
 - Durring setup select install for all users
 - Load keys from [keymap file](configs/SharpKeys-keymaps.skl)
 - Enable NumLock by default using AutoHotKey:
-```ahk
-SetNumLockState, AlwaysOn
-```
-
+    ```ahk
+    SetNumLockState, AlwaysOn
+    ```
 
 ## Install [QuickLook](https://www.microsoft.com/en-us/p/quicklook/9nv4bs3l1h4s)
 - [x] `Taskbar Corner > QuickLook >` Run at Startup
@@ -166,6 +165,17 @@ SetNumLockState, AlwaysOn
 > - To install select file in Explorer and press `Space`
 > - [Microsoft Office Viewer - Native](https://github.com/QL-Win/QuickLook.Plugin.OfficeViewer-Native/releases/latest/download/QuickLook.Plugin.OfficeViewer.qlplugin)
 > - [Epub Viewer](https://github.com/QL-Win/QuickLook.Plugin.EpubViewer/releases/latest/download/QuickLook.Plugin.EpubViewer.qlplugin)
+
+
+## Install [Rainmeter](https://www.rainmeter.net/)
+- Install [Windows 10 Layout](Yetenol-Win10.rmskin)
+    - if aboce fails: [bundled pack](https://github.com/tjmarkham/win10widgets/releases/)
+- Set clock to 24-hour format
+
+> Open `Taskbar > Rainmeter > Manage > Settings`
+> - `C:\Program Files\Microsoft VS Code\Code.exe` =: Editor
+> - [x] Disable dragging
+> - [ ] Show notifications area icon
 
 
 ## Install [KeePass](https://keepass.info/download.html)

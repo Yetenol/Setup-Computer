@@ -62,8 +62,9 @@ Remove any pre-installed software.
     \- Do Express installation
 1. Install [QuickLook](https://www.microsoft.com/en-us/p/quicklook/9nv4bs3l1h4s)
     \- [➔ Instructions](instructions.md#install-quicklook)
+1. Install [Rainmeter](https://www.rainmeter.net/)
+    \- [➔ Instructions](instructions.md#install-rainmeter)
 1. Install [*PowerToys*](https://github.com/microsoft/PowerToys/releases/latest)
-    \- [➔ Instructions](instructions.md#install-quicklook)
 
 ## Dev
 1. Install [7-Zip](https://www.7-zip.org/)
