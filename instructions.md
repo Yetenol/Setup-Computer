@@ -74,7 +74,7 @@ Open `Settings > Advanced`
 
 ## Install OneDrive
 - Unlink device
-    - Click `Taskbar > OneDrive > More > Settings > Backup > Unlink`
+    - Click `System Tray > OneDrive > More > Settings > Backup > Unlink`
 
 > Setup up OneDrive
 > - Sign in
@@ -82,7 +82,7 @@ Open `Settings > Advanced`
 > - Confirm `Use this folder`
 > - DON'T backup Desktop
 
-Open `Taskbar > OneDrive > More > Settings`
+Open `System Tray > OneDrive > More > Settings`
 > Open `Settings` tab
 > - [ ] When OneDrive suggests a new collection of my photos and videos
 
@@ -96,7 +96,7 @@ Open `Taskbar > OneDrive > More > Settings`
 - Sign in on new device
 
 ### Mount as fixed drive
-> Open `Taskbar Corner > Boxcryptor > Settings > Advanced`
+> Open `System Tray > Boxcryptor > Settings > Advanced`
 > - [x] Start with Windows
 > - [x] Check for updates
 > - Click `Show more settigns`
@@ -172,7 +172,7 @@ Pictures¹⁾ | `X:\OneDrive\Pictures-E`
     - if aboce fails: [bundled pack](https://github.com/tjmarkham/win10widgets/releases/latest)
 - Set clock to 24-hour format
 
-> Open `Taskbar > Rainmeter > Manage > Settings`
+> Open `System Tray > Rainmeter > Manage > Settings`
 > - `C:\Program Files\Microsoft VS Code\Code.exe` =: Editor
 > - [x] Disable dragging
 > - [ ] Show notifications area icon
@@ -181,7 +181,7 @@ Pictures¹⁾ | `X:\OneDrive\Pictures-E`
 ## Install [Capture2Text](https://sourceforge.net/projects/capture2text/files/Capture2Text/)
 - run at [startup](how-to-dos.md#edit-startup-apps)
 
-> Open `Taskbar > Capture2Text > Settings > Hotkeys`
+> Open `System Tray > Capture2Text > Settings > Hotkeys`
 > - `Alt + Print Screen` Start OCR Capture
 > - `Shift + Alt + Print Screen` Re Capture Last
 > - Set everything else to `<Unmapped>`
@@ -190,7 +190,7 @@ Pictures¹⁾ | `X:\OneDrive\Pictures-E`
 ## Install [ShareX](https://github.com/ShareX/ShareX/releases/latest)
 - run at [startup](how-to-dos.md#edit-startup-apps)
 > Disable PrintScreen shortcut elsewhere
-> > Open `Taskbar > Onedrive > Settings > Backup` tab
+> > Open `System Tray > Onedrive > Settings > Backup` tab
 > > - [ ] Automatically save screenshots I capture to OneDrive
 >
 > > Open **Ease of Access > Interaction > Keyboard**

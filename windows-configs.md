@@ -2,10 +2,10 @@
 
 ## Setup Taskbar
 - Unpin all apps
-- Edit `Taskbar corner (systray)`
+- Edit `System Tray`
     - Hide `Meet now` icon
     - Hide `Bluetooth` icon
-    - Edit settings: [Always show all icons in the notif‌ication area](windows-settings.md#personalization--taskbar--select-which-icons-appear-on-the-taskbar)
+    - Edit settings: [Always show all icons in the notif‌ication area](windows-settings.md#personalization--taskbar)
 
 > Right-click taskbar
 > - `Hidden` =: Search
