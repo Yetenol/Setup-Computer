@@ -65,6 +65,10 @@ Remove any pre-installed software.
 1. Install [Rainmeter](https://www.rainmeter.net/)
     \- [➔ Instructions](instructions.md#install-rainmeter)
 1. Install [*PowerToys*](https://github.com/microsoft/PowerToys/releases/latest)
+1. *Install [Capture2Text](https://sourceforge.net/projects/capture2text/files/Capture2Text/)
+    \- [➔ Instructions](instructions.md#install-capture2text)*
+1. *Install [ShareX](https://github.com/ShareX/ShareX/releases/latest)
+    \- [➔ Instructions](instructions.md#install-sharex)*
 
 ## Dev
 1. Install [7-Zip](https://www.7-zip.org/)
