@@ -50,21 +50,14 @@
 > > - Open `Manage local storage` < [#Data and storage]
 > >     - `Never` Clear files older than
 
-Open `Settings > Notifications`
-- [x] Use Windows notifications
-
-Open `Settings > Advanced`
-- [x] Use system window frame
-- Open `Manage local storage`
-    - `Never` Clear files older than
-
 ## Install [Zoom](https://zoom.us/download)
 - Sign in using SSO
-> Open `Settings > Video`
-> - [x] `Auto` =: Adjust for low light
-
-> Open `Settings > Backgroud & Filters`
-> -  Install `Blur` Virtual Backgroud
+> Open `Settings`
+> > Open `Video`
+> > - [x] `Auto` =: Adjust for low light < [#My video]
+> 
+> > Open `Backgroud & Filters`
+> > -  Install `Blur` Virtual Backgroud
 
 
 ## Install [Teams](https://www.microsoft.com/en-us/microsoft-teams/download-app#desktopAppDownloadregion)
@@ -150,8 +143,18 @@ Pictures¹⁾ | `X:\OneDrive\Pictures-E`
 
 
 ## Install [Adobe Reader](https://get.adobe.com/reader/)
-> Open `Menu > Edit > Preferences > Page Layout > Default Layout and Zoom`
-> - `Two-Up Continuous` =: Page Layout
+>  Open `Menu > Edit > Preferences`
+> 
+> > Open `Language` tab
+> > - `Same as operating system` =:  Application Langauge < [#Language]
+> 
+> > Open `General` tab
+> > - [x] Enable PDF thumbnails in Windows Explorer < [#Basic Tools]
+> 
+> > Open `Page Display` tab
+> > - `Two-Up Continuous` =: Page Layout < [#Default Layout and Zoom]
+
+
 
 
 ## Install [ReddPlanet](https://www.microsoft.com/en-us/p/reddplanet/9nblggh4s44m)
