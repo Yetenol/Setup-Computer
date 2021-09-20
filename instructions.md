@@ -168,8 +168,8 @@ Pictures¹⁾ | `X:\OneDrive\Pictures-E`
 
 
 ## Install [Rainmeter](https://www.rainmeter.net/)
-- Install [Windows 10 Layout](Yetenol-Win10.rmskin)
-    - if aboce fails: [bundled pack](https://github.com/tjmarkham/win10widgets/releases/)
+- Install [Windows 10 Layout](config/Yetenol-Win10.rmskin)
+    - if aboce fails: [bundled pack](https://github.com/tjmarkham/win10widgets/releases/latest)
 - Set clock to 24-hour format
 
 > Open `Taskbar > Rainmeter > Manage > Settings`
