@@ -117,6 +117,22 @@
 > ```
 > - [x] Automatically process video to enhance it
 
+### Time & Language > Region > Additional date, time & regional settings
+```
+intl.cpl
+```
+- `English (Germany)` =: Format
+
+> Open `Additional settings... > Date`
+> - `yyyy-MM-dd ddd` =: Short date
+> - Click `OK` and check if the date format in the System Tray updates
+
+> Open `Administrative` tab
+> - Click `Copy settings...`
+> - [x] Welcome screen and system accounts
+> - [x] New user accounts
+> - Click `OK`
+
 ### Ease of Access > Interaction > Keyboard
 > ```
 > ms-settings:easeofaccess-keyboard
