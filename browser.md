@@ -85,12 +85,24 @@ Enabled | `about:flags/#enable-desktop-pwas-app-icon-shortcuts-menu` | Taskbar r
 > ```
 > about:settings/onStartup
 > ```
-- `Open the new tab page` =: On startup
+> - `Open the new tab page` =: On startup
 
+### Setup content handling
+> Block the following permission requests
+> ```
+> about:settings/content/location
+> ```
 > ```
 > about:settings/content/notifications
 > ```
-- [ ] Ask before sending 
+
+> Always view PDF documents in external program
+> ```
+> about:settings/content/pdfDocuments
+> ```
+> - Download any PDF like [Sample](https://education.github.com/git-cheat-sheet-education.pdf)
+> - Right-click the download and select `Always open with system viewer`
+> - Download the PDF again and check wether [Adobe Reader](instructions.md#install-adobe-reader) opens
 
 ## Progressive Web Apps
 - To add an app: `Menu > Apps > Install this site as an app`
