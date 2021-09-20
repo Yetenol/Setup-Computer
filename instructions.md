@@ -37,8 +37,18 @@
 
 
 ## Install [Telegram Desktop](https://www.microsoft.com/en-us/p/telegram-desktop/9nztwsqntd0s)
-Open `Settings > Chat Settings`
-- [x] Match the system settings
+> Open `Settings`
+> 
+> > Open `Chat Settings`
+> > - [x] Match the system settings < [#Auto-night mode]
+> 
+> > Open `Notifications`
+> > - [x] Use Windows notifications < [#Native notifications]
+> 
+> > Open `Advanced`
+> > - [x] Use system window frame < [#System integration]
+> > - Open `Manage local storage` < [#Data and storage]
+> >     - `Never` Clear files older than
 
 Open `Settings > Notifications`
 - [x] Use Windows notifications
