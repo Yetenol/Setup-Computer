@@ -53,6 +53,7 @@ Remove any pre-installed software.
 1. Install [Amazon Prime Video for Windows](https://www.microsoft.com/en-us/p/amazon-prime-video-for-windows/9p6rc76msmmj)
 
 ## Personalisation
+1. Install [WindowTools](https://github.com/Yetenol/AHK-tools/releases/latest/download/WindowTools.exe)
 1. Install [EdgeDeflector](https://github.com/da2x/EdgeDeflector/releases/latest/download/EdgeDeflector_install.exe)
 1. Install [BatteryBar Pro](https://batterybarpro.com/basic.php)
 1. Install [EarTrumpet](https://www.microsoft.com/en-us/p/eartrumpet/9nblggh516xp)
@@ -60,11 +61,12 @@ Remove any pre-installed software.
     \- [➔ Instructions](instructions.md#install-sharpkeys)
 1. Install [AutoHotkey](https://www.autohotkey.com/download/ahk-install.exe)
     \- Do Express installation
+1. Install [LapLock](https://github.com/dechamps/laplock/releases/latest/download/laplock.exe)
 1. Install [QuickLook](https://www.microsoft.com/en-us/p/quicklook/9nv4bs3l1h4s)
     \- [➔ Instructions](instructions.md#install-quicklook)
-1. Install [Rainmeter](https://www.rainmeter.net/)
+1. Install [Rainmeter](https://github.com/rainmeter/rainmeter/releases/latest)
     \- [➔ Instructions](instructions.md#install-rainmeter)
-1. Install [*PowerToys*](https://github.com/microsoft/PowerToys/releases/latest)
+1. *Install [PowerToys](https://github.com/microsoft/PowerToys/releases/latest)*
 1. *Install [Capture2Text](https://sourceforge.net/projects/capture2text/files/Capture2Text/)
     \- [➔ Instructions](instructions.md#install-capture2text)*
 1. *Install [ShareX](https://github.com/ShareX/ShareX/releases/latest)
