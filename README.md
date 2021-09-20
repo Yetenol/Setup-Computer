@@ -5,7 +5,6 @@
 1. [Windows Configurations](windows-configs.md)  
 1. [Browser](browser.md)  
 1. [Windows Settings](windows-settings.md)  
-1. [Taskbar Tools](taskbar-tools/taskbar-tools.md)  
 1. [Shell Tools](shell-tools/)
 
 
