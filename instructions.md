@@ -178,6 +178,47 @@ Pictures¹⁾ | `X:\OneDrive\Pictures-E`
 > - [ ] Show notifications area icon
 
 
+## Install [Capture2Text](https://sourceforge.net/projects/capture2text/files/Capture2Text/)
+- run at [startup](how-to-dos.md#edit-startup-apps)
+
+> Open `Taskbar > Capture2Text > Settings > Hotkeys`
+> - `Alt + Print Screen` Start OCR Capture
+> - `Shift + Alt + Print Screen` Re Capture Last
+> - Set everything else to `<Unmapped>`
+
+
+## Install [ShareX](https://github.com/ShareX/ShareX/releases/latest)
+- run at [startup](how-to-dos.md#edit-startup-apps)
+> Disable PrintScreen shortcut elsewhere
+> > Open `Taskbar > Onedrive > Settings > Backup` tab
+> > - [ ] Automatically save screenshots I capture to OneDrive
+>
+> > Open **Ease of Access > Interaction > Keyboard**
+> >     ```
+> >     ms-settings:easeofaccess-keyboard
+> >     ```
+> > - [ ] Use the PrtScn button to open screen snipping
+
+> Open `System Tray > ShareX > Hotkey settings`
+> Set Hotkey | Description
+> --- | ---
+> `Ctrl + Print Screen` | Capture region
+> `Print Screen` | Capture entire screen
+> `Ctrl + Shift + Print Screen` | Capture active window
+> `Win + Insert` | Start/Stop screen recording
+> `Shift + Win + Insert` | Start/Stop screen recording (GIF)
+
+> Open `System Tray > ShareX > After capture task`
+>- [x] Copy image to clipboard
+>- [x] Save image to file
+>- [ ] Upload image to host
+>- Disable everything else
+
+> Open `System Tray > ShareX > Application settings > Paths`
+>- [x] Use custom screenshot folder
+>- `%MyPictures%\Screenshots` =: Screenshot folder
+
+
 ## Install [KeePass](https://keepass.info/download.html)
 > Install plugins
 > - to install put files into 
