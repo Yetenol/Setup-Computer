@@ -5,7 +5,7 @@
 1. [Windows Configurations](windows-configs.md)  
 1. [Browser](browser.md)  
 1. [Windows Settings](windows-settings.md)  
-
+1. [Printers](printers.md)
 
 # Software
 Create an up-to-date Windows 10 installation device.
@@ -93,15 +93,3 @@ Remove any pre-installed software.
 1. Install [Minecraft Java Edition](https://www.minecraft.net/en-us/download/)
 1. Install [Minecraft Bedrock Edition](https://www.microsoft.com/en-us/p/minecraft-for-windows-10/9nblggh2jhxj)
 1. Install [Factorio](https://factorio.com/download)
-
-# Printer
-> Farbkopierer **HP Photosmart HP C4580**
-> - Install [Driver & Software](https://support.hp.com/us-en/drivers/selfservice/hp-photosmart-c4500-all-in-one-printer-series/3575173/model/3575174) -
-[[Direct Link v2015-04-04]](https://ftp.hp.com/pub/softlib/software13/COL30130/mp-109997-3/PS_AIO_04_C4500_USW_Full_Win_WW_140_408-5.exe)
->     - only select Scan software
-> - Install [HP Scan and Capture](https://www.microsoft.com/en-us/p/hp-scan-and-capture/9wzdncrfhwl0)
-
-> Graustufendrucker **HP LaserJet 1010**
-> - Install [Driver](https://support.hp.com/us-en/drivers/selfservice/hp-laserjet-1010-printer-series/306505) -
-[[Direct Link v2008-09-24]](https://ftp.hp.com/pub/softlib/software10/COL27082/lj-67501-1/lj1010serieshb-vista64.zip)
-> - Add printer via hostname/usb
