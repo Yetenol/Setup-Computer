@@ -101,7 +101,6 @@
 > ```
 > - [ ] Show more tiles on Start
 > - [ ] Show suggestions occasionally in Start
-> - [x] Use Start full screen
 
 ### Personalization > Taskbar
 > ```
