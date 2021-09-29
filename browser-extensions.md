@@ -5,6 +5,7 @@
 1. [Keyboard shortcuts](#Keyboard-shortcuts)
 1. [Hide from toolbar](#hide-from-toolbar)
 
+
 ## Layout / Design
 
 1. Install [Dark Reader](https://microsoftedge.microsoft.com/addons/detail/dark-reader/ifoakfbpdcdoeenechcleahebpibofpc?h) | [*(Chrome Webstore)*](https://chrome.google.com/webstore/detail/dark-reader/eimadpbcbfnmbkopoojfekhnkhdbieeh)
@@ -53,6 +54,29 @@
    > `SponsorBlock > Options`
    > - `Manual Skip` = Intermission/Intro Animation`
 
+1. Install [Open in VLC™ media player](https://microsoftedge.microsoft.com/addons/detail/open-in-vlc%E2%84%A2-media-player/hjfcjapkfahlmlefedkkpbbkeddpnnlc)
+  | [*(Chrome Webstore)*](https://chrome.google.com/webstore/detail/open-in-vlc-media-player/ihpiinojhnfhpdmmacgmpoonphhimkaj)
+   - `On click` Site access
+
+
+## Shopping
+
+1. Install [ReviewMeta.com Review Analyzer](https://microsoftedge.microsoft.com/addons/detail/reviewmetacom-review-ana/cagmalmckifngccehkojnimlabphpgci) | [*(Chrome Webstore)*](https://chrome.google.com/webstore/detail/reviewmetacom-review-anal/fjifglfkcaipnmhngbigdebkoikioend)
+   - `On click` Site access
+
+1. Install [The Camelizer](https://microsoftedge.microsoft.com/addons/detail/der-camelizer/bpggaanjmbjoahhknlajnhdhkljekpbg) | [*(Chrome Webstore)*](https://chrome.google.com/webstore/detail/the-camelizer/ghnomdcacenbmilgjigehppbamfndblo)
+
+
+
+## Deprecated / Disabled
+
+1. Install [Honey](https://microsoftedge.microsoft.com/addons/detail/honey/amnbcmdbanbkjhnfoeceemmmdiepnbpp) 
+  | [*(Chrome Webstore)*](https://chrome.google.com/webstore/detail/honey/bmnlcjabgnpnenekpadlanbbkooimhnj)
+   - `On click` Site access
+
+1. Install [Shoop Cashback & Gutscheine](https://microsoftedge.microsoft.com/addons/detail/shoop-cashback-gutschei/cpcckalhfmpnloapihhjjdoenplbhchn) | [*(Chrome Webstore*](https://chrome.google.com/webstore/detail/shoop-cashback-gutscheine/hacngjmphfcjdfpmfmlngemhddjdncpe)
+   - `On click` Site access
+
 1. Install [Enhancer for YouTube™](https://microsoftedge.microsoft.com/addons/detail/enhancer-for-youtube%E2%84%A2/dlgfaleeejmphhnemjgiaekdbonkagkd) | [*(Chrome Webstore)*](https://chrome.google.com/webstore/detail/enhancer-for-youtube/ponfpcnoihfmfllpaingbgckeeldkhle)
    - [x] Allow in InPrivate 
     > `Enhancer for YouTube > Toolbar > Buttons`
@@ -72,25 +96,6 @@
     >   - `480p` Third choice
     >   - `360p` Fourth choice
 
-1. Install [Open in VLC™ media player](https://microsoftedge.microsoft.com/addons/detail/open-in-vlc%E2%84%A2-media-player/hjfcjapkfahlmlefedkkpbbkeddpnnlc)
-  | [*(Chrome Webstore)*](https://chrome.google.com/webstore/detail/open-in-vlc-media-player/ihpiinojhnfhpdmmacgmpoonphhimkaj)
-   - `On click` Site access
-
-
-## Shopping
-
-1. Install [Honey](https://microsoftedge.microsoft.com/addons/detail/honey/amnbcmdbanbkjhnfoeceemmmdiepnbpp) 
-  | [*(Chrome Webstore)*](https://chrome.google.com/webstore/detail/honey/bmnlcjabgnpnenekpadlanbbkooimhnj)
-   - `On click` Site access
-
-1. Install [ReviewMeta.com Review Analyzer](https://microsoftedge.microsoft.com/addons/detail/reviewmetacom-review-ana/cagmalmckifngccehkojnimlabphpgci) | [*(Chrome Webstore)*](https://chrome.google.com/webstore/detail/reviewmetacom-review-anal/fjifglfkcaipnmhngbigdebkoikioend)
-   - `On click` Site access
-
-1. Install [Shoop Cashback & Gutscheine](https://microsoftedge.microsoft.com/addons/detail/shoop-cashback-gutschei/cpcckalhfmpnloapihhjjdoenplbhchn) | [*(Chrome Webstore*](https://chrome.google.com/webstore/detail/shoop-cashback-gutscheine/hacngjmphfcjdfpmfmlngemhddjdncpe)
-   - `On click` Site access
-
-1. Install [The Camelizer](https://microsoftedge.microsoft.com/addons/detail/der-camelizer/bpggaanjmbjoahhknlajnhdhkljekpbg) | [*(Chrome Webstore)*](https://chrome.google.com/webstore/detail/the-camelizer/ghnomdcacenbmilgjigehppbamfndblo)
-
 
 ## Keyboard shortcuts
 - `Alt + D` _Dark Reader :_ Activate the extension  
@@ -98,6 +103,7 @@
 - `Alt + I` _Download All Images :_ Activate the extension  
 - `Alt + O` _Office :_ Activate the extension  
 - `Alt + U` _uBlock Origin :_ Activate the extention  
+- `Alt + Shift + U` _uBlock Origin :_ Enter element picker mode
 - `Alt + P` _Picture-in-Picture :_ Activate the extension  
 
 ## Hide from toolbar
