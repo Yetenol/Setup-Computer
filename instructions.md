@@ -301,3 +301,14 @@ Open `File > Preferences > Settings > User > Text Editor > Formatting`
 > ```
 > - [x] Windows Subsystem for Linux
 - Launch ubuntu
+
+## Install [Minecraft Java Edition](https://www.minecraft.net/en-us/download/)
+
+## Install [Factorio](https://factorio.com/download)
+> Open `Settings > Graphics`
+> - [ ] Show all smoke
+
+> Sync AppData data to cloud
+- Create [symbolic links](how-to-dos.md#symbolic-links)
+- Folders: saves, mods, config
+- Files: achievements.dat, player-data.json

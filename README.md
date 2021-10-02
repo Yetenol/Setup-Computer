@@ -91,5 +91,7 @@ Remove any pre-installed software.
 1. *Install [Samsung Dex](https://www.samsung.com/global/download/SamsungDeXWin)*
 ## Gaming
 1. Install [Minecraft Java Edition](https://www.minecraft.net/en-us/download/)
+    \- [➔ Instructions](instructions.md#install-minecraft-java-edition)
 1. Install [Minecraft Bedrock Edition](https://www.microsoft.com/en-us/p/minecraft-for-windows-10/9nblggh2jhxj)
 1. Install [Factorio](https://factorio.com/download)
+    \- [➔ Instructions](instructions.md#install-factorio)

@@ -1,5 +1,9 @@
 # [⌂](README.md) › **Windows Configurations**
 
+## Check drivers
+- Open `Task Manager`
+- Are all graphics card installed properly?
+
 ## Setup Taskbar
 - Unpin all apps
 - Edit `System Tray`

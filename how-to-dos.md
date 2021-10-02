@@ -29,3 +29,13 @@ User specific startup:
 ```
 shell:startup
 ```
+
+## Symbolic Link
+1. Link a file (soft link)
+```powershell
+cmd /C "mklink $LinkFile $SourceFile"
+```
+2. Link a folder (soft link)
+```powershell
+cmd /C "mklink /D $LinkFolder $SourceFolder"
+```
