@@ -27,6 +27,13 @@
 > - Right-click the toolbar and hide its title
 > - Lock the taskbar
 
+> Pin taskbar apps
+> 1. Browser app
+> 1. Mail app
+> 1. Calendar app
+> 1. File Explorer
+> 1. KeePass
+
 ## Setup Explorer
 > Open `File Explorer options`
 > ```
@@ -34,6 +41,7 @@
 > ```
 > - Open `General` tab
 >     - `This PC` =: Open File Explorer to:
+>     - [ ] Show frequently used folders in Quick access
 > - Open `View` tab
 >     - [ ] Hide extensions for known file types
 >     - [x] Use check boxes to select item
