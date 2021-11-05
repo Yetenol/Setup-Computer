@@ -104,6 +104,13 @@ Enabled | `about:flags/#enable-desktop-pwas-app-icon-shortcuts-menu` | Taskbar r
 > - Right-click the download and select `Always open with system viewer`
 > - Download the PDF again and check wether [Adobe Reader](instructions.md#install-adobe-reader) opens
 
+# Disable *Restore pages* after reboot
+> - Open RegEdit and navigate to
+> ```
+> Computer\HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Edge
+> ```
+
+
 ## Progressive Web Apps
 - To add an app: `Menu > Apps > Install this site as an app`
 - Add [Google Maps](https://www.google.com/maps)

@@ -278,12 +278,8 @@ Pictures¹⁾ | `X:\OneDrive\Pictures-E`
     - During setup progress tick _Open with_ options for context menu
 - Press `F1` and search for `>settings sync:`
     - Sign in using Github
-
-Open `File > Preferences > Settings > User > Commonly Used`
-- `onFocusChange` =: Files: Auto Save
-
-Open `File > Preferences > Settings > User > Text Editor > Formatting`
-- [x] Editor: Format On Save
+- If *Settings Sync* fails:
+    - Replace `%AppData%\Code\User\settings.json` with [settings.json](configs/settings.json)
 
 
 ## Install [Git](https://git-scm.com/download/win)
