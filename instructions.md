@@ -247,6 +247,7 @@ Pictures¹⁾ | `X:\OneDrive\Pictures-E`
 >   - link OneDrive account
 > - Install [WinHelloUnlock](https://github.com/Angelelz/WinHelloUnlock/releases/latest/download/WinHelloUnlock.dll)
 >   - setup Windows Hello fingerprint unlock
+> - Install [KeeOtp2](https://github.com/tiuub/KeeOtp2/releases/latest/download/KeeOtp2.plgx)
 
 - import keyfile and unlock cloud database
 
