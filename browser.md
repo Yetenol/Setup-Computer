@@ -105,9 +105,14 @@ Enabled | `about:flags/#enable-desktop-pwas-app-icon-shortcuts-menu` | Taskbar r
 > - Download the PDF again and check wether [Adobe Reader](instructions.md#install-adobe-reader) opens
 
 # Disable *Restore pages* after reboot
-> - Open RegEdit and navigate to
-> ```
-> Computer\HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Edge
+> Open [[Registry]](how-to-dos.md#--Edit-registry) `HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Edge`
+> - 0 = `RestoreOnStartup` [DWORD]
+> ```powershell
+> $key = 'HKLM:\SOFTWARE\Policies\Microsoft'
+> if (!(Get-ItemProperty -Path "$key\Edge")) {
+>   New-Item -Path $key -Name "Edge"
+> }
+> Set-ItemProperty -Path "$key/Edge" -Name "RestoreOnStartup" -Value 0
 > ```
 
 

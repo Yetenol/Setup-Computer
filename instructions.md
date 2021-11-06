@@ -70,9 +70,13 @@
 - Sign in using Microsoft account
 - Download [Language Accessory Pack](https://support.office.com/en-us/article/language-accessory-pack-for-office-82ee1236-0f9a-45ee-9c72-05b026ee809f?ui=en-US&rs=en-US&ad=US)
 
-> Open `File > Options > General > Personalize your copy of Microsoft Office`
-> - `Geometry` Off‌ice Background:
-> - `Black` Office Theme:
+> Open `PowerPoint > File > Options`
+>> Open `General > #Personalize your copy of Microsoft Office`
+>> - `Geometry` = Off‌ice Background
+>> - `Black` = Office Theme
+>
+>> Open `Advanced > #Editing options`
+>> - 150 = Maximum number of undos
 
 
 ## Install OneDrive
@@ -125,10 +129,23 @@ Music | `X:\OneDrive\Music-E`
 Videos | `X:\OneDrive\Videos-E`
 Pictures¹⁾ | `X:\OneDrive\Pictures-E`
 
-> ¹⁾ if redirecting `Pictures` fails, do the following
+> - ¹⁾ if redirecting `Pictures` fails, do the following  
+> Open [[Registry]](how-to-dos.md#--Edit-registry) `HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\User Shell Folders`
+>> - X:\OneDrive\Pictures-E = `{0DDD015D-B06C-45D5-8C4C-F59713854639}` [DWORD]
+>> - X:\OneDrive\Pictures-E = Pictures
+>> - Restart explorer
+```powershell
+$preservePath = Get-Location
+Set-Location -Path 'HKCU:\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\User Shell Folders'
+Set-ItemProperty -Name "{0DDD015D-B06C-45D5-8C4C-F59713854639}" -Value 'X:\OneDrive\Pictures-E'
+Set-ItemProperty -Name "Pictures" -Value 'X:\OneDrive\Pictures-E'
+Set-Location -Path $preservePath
+```
+
+
 > - Open RegEdit and navigate to
 >   ```
->   Computer\HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\User Shell Folders
+>   Computer\
 >   ```
 > - Set entry `{0DDD015D-B06C-45D5-8C4C-F59713854639}` to `X:\OneDrive\Pictures-E`
 > - Restart explorer
