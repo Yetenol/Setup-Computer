@@ -2,32 +2,33 @@
 
 
 ## Install [Mail and Calendar](https://www.microsoft.com/en-us/p/mail-und-kalender/9wzdncrfhvqm)
-> Open `Settings > Manage accounts`
-> - Add `anton.pusch@outlook.de` and configure
->   - Rename account `MS-Exchange`
->   - Click `Change mailbox sync settings`
->       - `any time` =: Download email from
->       - [x] Email
->       - [x] Calendar
->       - [ ] Contacts
-> - Add `puschanton@gmail.com` and configure
->   - Rename account `MS-Exchange`
->   - Click `Change mailbox sync settings`
->       - [ ] Email
->       - [ ] Calendar
->       - [x] Contacts
-
-> Open `Settings > Focused inbox`
-> - [ ] Sort messages info Focused and Other
-
-> Open `Settings > Message list > Organization`
-> - `Individual messages` =: How do you want your messages tobe organized?
-
-> Open `Settings > Signature`
-> - `Viele Grüße Anton Pusch` =: Signature
-
-> Open `Settings > Notifications`
-> - [x] Show notifications for folders pinned to Start
+> Open `Settings`
+>> Open `Manage accounts`
+>> - Add `anton.pusch@outlook.de` and configure
+>>   - Rename account `MS-Exchange`
+>>   - Click `Change mailbox sync settings`
+>>       - `any time` =: Download email from
+>>       - [x] Email
+>>       - [x] Calendar
+>>       - [ ] Contacts
+>> - Add `puschanton@gmail.com` and configure
+>>   - Rename account `MS-Exchange`
+>>   - Click `Change mailbox sync settings`
+>>       - [ ] Email
+>>       - [ ] Calendar
+>>       - [x] Contacts
+>
+>> Open `Focused inbox`
+>> - [ ] Sort messages info Focused and Other
+>
+>> Open `Message list > #Organization`
+>> - `Individual messages` =: How do you want your messages tobe organized?
+>
+>> Open `Signature`
+>> - `Viele Grüße Anton Pusch` =: Signature
+>
+>> Open `Notifications`
+>> - [x] Show notifications for folders pinned to Start
 
 > Open `Menu > Folders`
 > - Pin to Start: Education, Finance, Health, Covid, Travel
