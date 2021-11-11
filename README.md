@@ -1,6 +1,4 @@
-## [⌂](README.md) **How to setup my PC** - Table of Contents
-![Lines of code](https://img.shields.io/tokei/lines/github/yetenol/setup-computer?color=white)
-![GitHub last commit](https://img.shields.io/github/last-commit/yetenol/setup-computer?color=white)
+## [⌂](README.md) **How to setup my PC** - Table of Contents ![GitHub last commit](https://img.shields.io/github/last-commit/yetenol/setup-computer?color=white)
 1. [Software](#software)
 1. [Windows Configurations](windows-configs.md)  
 1. [Browser](browser.md)  
