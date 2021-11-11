@@ -10,19 +10,19 @@ Create an up-to-date Windows 10 installation device.
 Format the system partition and do a clean OS install.
 Remove any pre-installed software.
 
+# Setup Windows Package Manager CLI (winget)
+- Install [App Installer](https://www.microsoft.com/en-us/p/app-installer/9nblggh4nns1)
+- Open a console and run `winget` to test the installation
+
 ## Communication
-1. Install [Mail and Calendar](https://www.microsoft.com/en-us/p/mail-and-calendar/9wzdncrfhvqm)
-    \- [➔ Instructions](instructions.md#install-mail-and-calendar)
-1. Install [Telegram Desktop](https://www.microsoft.com/en-us/p/telegram-desktop/9nztwsqntd0s)
-    \- [➔ Instructions](instructions.md#install-telegram-desktop)
-1. Install [WhatsApp Desktop](https://www.microsoft.com/en-us/p/whatsapp-desktop/9nksqgp7f2nh) - 
-    Swtich to `Dark` Theme
-1. Install [Discord](https://discord.com/download)
-    \- Don't run at [startup](how-to-dos.md#edit-startup-apps)
-1. Install [Teams](https://www.microsoft.com/en-us/microsoft-teams/download-app#desktopAppDownloadregion)
-    \- [➔ Instructions](instructions.md#install-teams)
-1. Install [Zoom](https://zoom.us/download)
-    \- [➔ Instructions](instructions.md#install-zoom)
+Name, Download link | Instructions | winget install id
+--- | --- | ---
+[Mail and Calendar](https://www.microsoft.com/en-us/p/mail-and-calendar/9wzdncrfhvqm) | [➔ Instructions](instructions.md#install-mail-and-calendar) | ```winget install 9WZDNCRFHVQM```
+[Telegram Desktop](https://www.microsoft.com/en-us/p/telegram-desktop/9nztwsqntd0s) | [➔ Instructions](instructions.md#install-telegram-desktop) | `winget install 9NZTWSQNTD0S`
+[WhatsApp Desktop](https://www.microsoft.com/en-us/p/whatsapp-desktop/9nksqgp7f2nh) | Swtich to `Dark` Theme | `winget install 9NKSQGP7F2NH`
+[Discord](https://discord.com/download) | Don't run at [startup](how-to-dos.md#edit-startup-apps)
+[Teams](https://www.microsoft.com/en-us/microsoft-teams/download-app#desktopAppDownloadregion) | [➔ Instructions](instructions.md#install-teams)
+[Zoom](https://zoom.us/download) | [➔ Instructions](instructions.md#install-zoom)
 
 ## Office
 1. Install [Microsoft Office](https://account.microsoft.com/services/office/install)
