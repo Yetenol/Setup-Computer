@@ -87,23 +87,23 @@ Name, Download link | Instructions | Install command
 ## Dev
 Name, Download link | Instructions | Install command
 --- | --- | ---
-[7-Zip](https://www.7-zip.org/)
-[KeePass](https://keepass.info/download.html) | [➔ Instructions](instructions.md#install-keepass)
-[Gitkraken](https://www.gitkraken.com/download/windows64) | Sign in using Github
-Install Visual Studio Code | [➔ Instructions](instructions.md#install-visual-studio-code)
-[Lenovo Vantage](https://www.microsoft.com/en-us/p/lenovo-vantage/9wzdncrfj4mv)
-[Git](https://git-scm.com/download/win) | [➔ Instructions](instructions.md#install-git)
-[Windows Terminal](https://www.microsoft.com/en-us/p/windows-terminal/9n0dx20hk701)
-[TreeSize](https://www.microsoft.com/en-us/p/treesize-free/9nblggh40881)
-[Windscribe](https://windscribe.com/install/desktop/windows)
-[Ubuntu](https://www.microsoft.com/en-us/p/ubuntu/9nblggh4msv6) | [➔ Instructions](instructions.md#install-ubuntu)
+[7-Zip](https://www.7-zip.org/) || `winget install -e --id 7zip.7zip`
+[KeePass](https://keepass.info/download.html) | [➔ Instructions](instructions.md#install-keepass) | `winget install -e --id DominikReichl.KeePass`
+[Gitkraken](https://www.gitkraken.com/download/windows64) | Sign in using Github | `winget install -e --id Axosoft.GitKraken`
+Install Visual Studio Code | [➔ Instructions](instructions.md#install-visual-studio-code) | `winget install -e --id Microsoft.VisualStudioCode-System-x86`
+[Lenovo Vantage](https://www.microsoft.com/en-us/p/lenovo-vantage/9wzdncrfj4mv) || `winget install -e --id 9WZDNCRFJ4MV --accept-package-agreements # Lenovo Vantage`
+[Git](https://git-scm.com/download/win) | [➔ Instructions](instructions.md#install-git) | `winget install -e --id Git.Git`
+[Windows Terminal](https://www.microsoft.com/en-us/p/windows-terminal/9n0dx20hk701) || `winget install -e --id 9N0DX20HK701 --accept-package-agreements # Windows Terminal` <br> `winget install -e --id Microsoft.WindowsTerminal`
+[TreeSize](https://www.microsoft.com/en-us/p/treesize-free/9nblggh40881) || `winget install -e --id 9NBLGGH40881 --accept-package-agreements # TreeSize Free` <br> `winget install -e --id JAMSoftware.TreeSizeFree`
+[Windscribe](https://windscribe.com/install/desktop/windows) || `winget install -e --id Windscribe.Windscribe`
+[Ubuntu](https://www.microsoft.com/en-us/p/ubuntu/9nblggh4msv6) | [➔ Instructions](instructions.md#install-ubuntu) | `winget install -e --id 9NBLGGH4MSV6 --accept-package-agreements # Ubuntu` <br> `winget install -e --id Canonical.Ubuntu`
 *[Recuva](https://www.ccleaner.com/recuva/download)*
 *[Resource Hacker](http://www.angusj.com/resourceh*acker/#download)*
-*[Samsung Dex](https://www.samsung.com/global/download/SamsungDeXWin)*
+*[Samsung Dex](https://www.samsung.com/global/download/SamsungDeXWin)* || `winget install -e --id Samsung.DeX`
 
 ## Gaming
 Name, Download link | Instructions | Install command
 --- | --- | ---
-[Minecraft Java Edition](https://www.minecraft.net/en-us/download/) | [➔ Instructions](instructions.md#install-minecraft-java-edition)
+[Minecraft Java Edition](https://www.minecraft.net/en-us/download/) | [➔ Instructions](instructions.md#install-minecraft-java-edition) | `winget install -e --id Mojang.MinecraftLauncher`
 [Minecraft Bedrock Edition](https://www.microsoft.com/en-us/p/minecraft-for-windows-10/9nblggh2jhxj)
 [Factorio](https://factorio.com/download) | [➔ Instructions](instructions.md#install-factorio)
