@@ -90,7 +90,7 @@ Name, Download link | Instructions | Install command
 [7-Zip](https://www.7-zip.org/) || `winget install -e --id 7zip.7zip`
 [KeePass](https://keepass.info/download.html) | [➔ Instructions](instructions.md#install-keepass) | `winget install -e --id DominikReichl.KeePass`
 [Gitkraken](https://www.gitkraken.com/download/windows64) | Sign in using Github | `winget install -e --id Axosoft.GitKraken`
-Install Visual Studio Code | [➔ Instructions](instructions.md#install-visual-studio-code) | `winget install -e --id Microsoft.VisualStudioCode-System-x86`
+Install Visual Studio Code | [➔ Instructions](instructions.md#install-visual-studio-code) | `winget install -e --id Microsoft.VisualStudioCode --scope machine`
 [Lenovo Vantage](https://www.microsoft.com/store/productID/9wzdncrfj4mv) || `winget install -e --id 9WZDNCRFJ4MV --accept-package-agreements # Lenovo Vantage`
 [Git](https://git-scm.com/download/win) | [➔ Instructions](instructions.md#install-git) | `winget install -e --id Git.Git`
 [Windows Terminal](https://www.microsoft.com/store/productID/9n0dx20hk701) || `winget install -e --id 9N0DX20HK701 --accept-package-agreements # Windows Terminal` <br> `winget install -e --id Microsoft.WindowsTerminal`
