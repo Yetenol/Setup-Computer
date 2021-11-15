@@ -24,7 +24,7 @@
 >> Open `Message list `
 >> - `Mark as read/unread` =: Swipe right
 >> - `Delete` =: Swipe left
->> - `Individual messages` =: How do you want your messages tobe organized? < [#Organization]
+>> - `Individual messages` =: How do you want your messages tobe organized? *< [#Organization]*
 >
 >> Open `Signature`
 >> - `Viele Grüße Anton Pusch` =: Signature
@@ -43,21 +43,21 @@
 > Open `Settings`
 > 
 > > Open `Chat Settings`
-> > - [x] Match the system settings < [#Auto-night mode]
+> > - [x] Match the system settings *< [#Auto-night mode]*
 > 
 > > Open `Notifications`
-> > - [x] Use Windows notifications < [#Native notifications]
+> > - [x] Use Windows notifications *< [#Native notifications]*
 > 
 > > Open `Advanced`
-> > - [x] Use system window frame < [#System integration]
-> > - Open `Manage local storage` < [#Data and storage]
+> > - [x] Use system window frame *< [#System integration]*
+> > - Open `Manage local storage` *< [#Data and storage]*
 > >     - `Never` Clear files older than
 
 ## Install [Zoom](https://zoom.us/download)
 - Sign in using SSO
 > Open `Settings`
 > > Open `Video`
-> > - [x] `Auto` =: Adjust for low light < [#My video]
+> > - [x] `Auto` =: Adjust for low light *< [#My video]*
 > 
 > > Open `Backgroud & Filters`
 > > -  Install `Blur` Virtual Backgroud
@@ -168,16 +168,16 @@ Set-Location -Path $preservePath
 >  Open `Menu > Edit > Preferences`
 >
 > > Open `Documents` tab 
-> > - [x] Remember current state of Tools Pane < [#Open Settings]
+> > - [x] Remember current state of Tools Pane *< [#Open Settings]*
 >
 > > Open `Language` tab
-> > - `Same as operating system` =:  Application Langauge < [#Language]
+> > - `Same as operating system` =:  Application Langauge *< [#Language]*
 > 
 > > Open `General` tab
-> > - [x] Enable PDF thumbnails in Windows Explorer < [#Basic Tools]
+> > - [x] Enable PDF thumbnails in Windows Explorer *< [#Basic Tools]*
 > 
 > > Open `Page Display` tab
-> > - `Two-Up Continuous` =: Page Layout < [#Default Layout and Zoom]
+> > - `Two-Up Continuous` =: Page Layout *< [#Default Layout and Zoom]*
 
 
 
@@ -274,17 +274,17 @@ Set-Location -Path $preservePath
 > Open `Tools > Options`
 >> Open `Security`
 >> - `30` Lock Workspace after KeePass iniactivity (seconds):
->> - [x] Lock workspace when locking the computer or switching the user
->> - [x] Lock workspace when the computer is about to be suspended
->> - [x] Lock workspace when the remote control mode changes
->> - [x] Enter master key on secure desktop
+>> - [x] Lock workspace when locking the computer or switching the user *< [#General]*
+>> - [x] Lock workspace when the computer is about to be suspended *< [#General]*
+>> - [x] Lock workspace when the remote control mode changes *< [#General]*
+>> - [x] Enter master key on secure desktop *< [#Advanced]*
 >
 >> Open `Interface`
->> - [x] Drop to background after copying data to the clipboard
->> - [x] Close button [X] minimizes main windows instead of terminating the application
->> - [x] Focus entry list after a successful quick search
->> - [x] Focus quick search box when restoring from taskbar
->> - [x] Focus quick search box when restoring from tray
+>> - [x] Drop to background after copying data to the clipboard *< [#Main Window]*
+>> - [x] Close button [X] minimizes main windows instead of terminating the application *< [#Main Window]*
+>> - [x] Focus entry list after a successful quick search *< [#Quick Search (Toolbar)]*
+>> - [x] Focus quick search box when restoring from taskbar *< [#Quick Search (Toolbar)]*
+>> - [x] Focus quick search box when restoring from tray *< [#Quick Search (Toolbar)]*
 
 > Copy password generation pattern
 > - Open `Tools > Generate Password`
