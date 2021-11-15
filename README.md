@@ -14,6 +14,29 @@ Remove any pre-installed software.
 - Install [App Installer](https://www.microsoft.com/en-us/p/app-installer/9nblggh4nns1)
 - Open a console and run `winget` to test the installation
 
+## Uninstall Bloatware
+```powershell
+winget uninstall AppUp.IntelGraphicsExperience_8j3eq9eme6ctt 			# Intel® Graphics Command Center
+winget uninstall AppUp.ThunderboltControlCenter_8j3eq9eme6ctt 			# ThunderboltTM Control Center
+winget uninstall DolbyLaboratories.DolbyAudioPremium_rz1tebttyb220 		# Dolby Audio Premium
+winget uninstall Microsoft.549981C3F5F10_8wekyb3d8bbwe 					# Cortana
+winget uninstall Microsoft.BingNews_8wekyb3d8bbwe 						# Microsoft News
+winget uninstall Microsoft.BingWeather_8wekyb3d8bbwe 					# MSN Weather
+winget uninstall Microsoft.GamingApp_8wekyb3d8bbwe 						# Xbox
+winget uninstall Microsoft.GetHelp_8wekyb3d8bbwe 						# Get Help
+winget uninstall Microsoft.Getstarted_8wekyb3d8bbwe 					# Microsoft Tips
+winget uninstall Microsoft.MicrosoftOfficeHub_8wekyb3d8bbwe 			# Office
+winget uninstall Microsoft.MicrosoftSolitaireCollection_8wekyb3d8bbwe 	# Microsoft Solitaire Collection
+winget uninstall Microsoft.People_8wekyb3d8bbwe 						# Microsoft People
+winget uninstall Microsoft.WindowsFeedbackHub_8wekyb3d8bbwe 			# Feedback Hub
+winget uninstall Microsoft.WindowsMaps_8wekyb3d8bbwe 					# Windows Maps
+winget uninstall Microsoft.XboxIdentityProvider_8wekyb3d8bbwe 			# Xbox Identity Provider
+winget uninstall Microsoft.XboxSpeechToTextOverlay_8wekyb3d8bbwe 		# Xbox Game Speech Window
+winget uninstall Microsoft.YourPhone_8wekyb3d8bbwe 						# Your Phone
+winget uninstall SynapticsIncorporated.SynapticsUtilities_807d65c4rvak2 # PrebootManager
+winget uninstall RealtekSemiconductorCorp.RealtekAudioControl_dt26b99r8h8gj # Realtek Audio Control
+```
+
 ## Communication
 Name, Download link | Instructions | winget install id
 --- | --- | ---
