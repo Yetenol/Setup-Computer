@@ -105,5 +105,5 @@ Install Visual Studio Code | [➔ Instructions](instructions.md#install-visual-s
 Name, Download link | Instructions | Install command
 --- | --- | ---
 [Minecraft Java Edition](https://www.minecraft.net/en-us/download/) | [➔ Instructions](instructions.md#install-minecraft-java-edition) | `winget install -e --id Mojang.MinecraftLauncher`
-[Minecraft Bedrock Edition](https://www.microsoft.com/store/productID/9nblggh2jhxj)
+[Minecraft Bedrock Edition](https://www.microsoft.com/store/productID/9n1bnzlgkg3c)
 [Factorio](https://factorio.com/download) | [➔ Instructions](instructions.md#install-factorio)
