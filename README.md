@@ -51,6 +51,7 @@ Name, Download link | Instructions | Install command
 Name, Download link | Instructions | Install command
 --- | --- | ---
 [Microsoft Office](https://account.microsoft.com/services/office/install) | [➔ Instructions](instructions.md#install-microsoft-office)
+[OneNote](https://www.microsoft.com/store/productID/9wzdncrfhvjl) || `winget install -e --id 9WZDNCRFHVJL --accept-package-agreements # OneNote for Windows 10`
 OneDrive | [➔ Instructions](instructions.md#install-onedrive) | `winget install -e --id Microsoft.OneDrive`
 [Boxcryptor](https://www.boxcryptor.com/en/download/) | [➔ Instructions](instructions.md#install-boxcryptor)
 [Firefox](https://www.mozilla.org/en-US/firefox/download/thanks/) || `winget install -e --id 9NZVDKPMR9RD --accept-package-agreements # Mozilla Firefox` <br> `winget install -e --id Mozilla.Firefox`
