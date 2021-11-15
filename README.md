@@ -59,7 +59,7 @@ OneDrive | [➔ Instructions](instructions.md#install-onedrive) | `winget instal
 [Adobe Photoshop Express](https://www.microsoft.com/store/productID/9wzdncrfj27n) | Set as default app for .jpg files | `winget install -e --id 9WZDNCRFJ27N --accept-package-agreements # Adobe Photoshop Express: Image Editor, Adjustments, Filters, Effects, Borders`
 Paint Shop Pro 7
 *[Citavi](https://www.citavi.com/en/download)*
-*[GeoGebra](https://download.geogebra.org/package/win)* || `winget install -e --id GeoGebra.GeoGebraClassic`
+*[GeoGebra](https://download.geogebra.org/package/win)* || `winget install -e --id GeoGebra.Classic.5`
 
 ## Entertainment
 Name, Download link | Instructions | Install command
