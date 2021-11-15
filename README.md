@@ -17,7 +17,7 @@ Remove any pre-installed software.
 ## Communication
 Name, Download link | Instructions | winget install id
 --- | --- | ---
-[Mail and Calendar](ms-windows-store://pdp/?ProductId=9WZDNCRFHVQM) | [➔ Instructions](instructions.md#install-mail-and-calendar) | ```winget install 9WZDNCRFHVQM --accept-package-agreements```
+[Mail and Calendar](https://www.microsoft.com/en-us/p/mail-and-calendar/9wzdncrfhvqm) | [➔ Instructions](instructions.md#install-mail-and-calendar) | ```winget install 9WZDNCRFHVQM --accept-package-agreements```
 [Telegram Desktop](https://www.microsoft.com/en-us/p/telegram-desktop/9nztwsqntd0s) | [➔ Instructions](instructions.md#install-telegram-desktop) | `winget install 9NZTWSQNTD0S --accept-package-agreements`
 [WhatsApp Desktop](https://www.microsoft.com/en-us/p/whatsapp-desktop/9nksqgp7f2nh) | Swtich to `Dark` Theme | `winget install 9NKSQGP7F2NH --accept-package-agreements`
 [Discord](https://discord.com/download) | Don't run at [startup](how-to-dos.md#edit-startup-apps)
