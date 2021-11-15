@@ -162,7 +162,7 @@ Set-Location -Path $preservePath
 - Test a Personalausweis
 
 
-## Install [Adobe Reader](https://get.adobe.com/reader/)
+## Install [Adobe Acrobat Reader](https://get.adobe.com/reader/)
 - Completely hide the Task Pane on the right-hand side
 
 >  Open `Menu > Edit > Preferences`
