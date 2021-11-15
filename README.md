@@ -71,7 +71,7 @@ Name, Download link | Instructions | Install command
 ## Personalisation
 Name, Download link | Instructions | Install command
 --- | --- | ---
-[WindowTools](https://github.com/Yetenol/AHK-tools/releases/latest/download/WindowTools.exe)
+[Window-Tools](https://github.com/Yetenol/Window-Tools/releases/latest/download/Window-Tools.exe)
 [EdgeDeflector](https://github.com/da2x/EdgeDeflector/releases/latest/download/EdgeDeflector_install.exe) || `winget install -e --id da2x.edgedeflector`
 [BatteryBar Pro](https://batterybarpro.com/basic.php)
 [EarTrumpet](https://www.microsoft.com/store/productID/9nblggh516xp) || `winget install -e --id File-New-Project.EarTrumpet`
