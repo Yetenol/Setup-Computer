@@ -11,7 +11,7 @@ Format the system partition and do a clean OS install.
 Remove any pre-installed software.
 
 # Setup Windows Package Manager CLI (winget)
-- Install [App Installer](https://www.microsoft.com/en-us/p/app-installer/9nblggh4nns1)
+- Install [App Installer](https://www.microsoft.com/store/productID/9nblggh4nns1)
 - Open a console and run `winget` to test the installation
 
 ## Uninstall Bloatware
@@ -40,9 +40,9 @@ winget uninstall RealtekSemiconductorCorp.RealtekAudioControl_dt26b99r8h8gj # Re
 ## Communication
 Name, Download link | Instructions | Install command
 --- | --- | ---
-[Mail and Calendar](https://www.microsoft.com/en-us/p/mail-and-calendar/9wzdncrfhvqm) | [➔ Instructions](instructions.md#install-mail-and-calendar) | ```winget install -e --id 9WZDNCRFHVQM --accept-package-agreements```
-[Telegram Desktop](https://www.microsoft.com/en-us/p/telegram-desktop/9nztwsqntd0s) | [➔ Instructions](instructions.md#install-telegram-desktop) | `winget install -e --id 9NZTWSQNTD0S --accept-package-agreements # Telegram Desktop` <br> `winget install -e --id Telegram.TelegramDesktop`
-[WhatsApp Desktop](https://www.microsoft.com/en-us/p/whatsapp-desktop/9nksqgp7f2nh) | Swtich to `Dark` Theme | `winget install -e --id 9NKSQGP7F2NH --accept-package-agreements` <br> `winget install -e --id WhatsApp.WhatsApp`
+[Mail and Calendar](https://www.microsoft.com/store/productID/9wzdncrfhvqm) | [➔ Instructions](instructions.md#install-mail-and-calendar) | ```winget install -e --id 9WZDNCRFHVQM --accept-package-agreements```
+[Telegram Desktop](https://www.microsoft.com/store/productID/9nztwsqntd0s) | [➔ Instructions](instructions.md#install-telegram-desktop) | `winget install -e --id 9NZTWSQNTD0S --accept-package-agreements # Telegram Desktop` <br> `winget install -e --id Telegram.TelegramDesktop`
+[WhatsApp Desktop](https://www.microsoft.com/store/productID/9nksqgp7f2nh) | Swtich to `Dark` Theme | `winget install -e --id 9NKSQGP7F2NH --accept-package-agreements` <br> `winget install -e --id WhatsApp.WhatsApp`
 [Discord](https://discord.com/download) | Don't run at [startup](how-to-dos.md#edit-startup-apps) | `winget install -e --id XPDC2RH70K22MN --accept-package-agreements # Discord` <br> `winget install -e --id Discord.Discord`
 [Teams](https://www.microsoft.com/en-us/microsoft-teams/download-app#desktopAppDownloadregion) | [➔ Instructions](instructions.md#install-teams) | `winget install -e --id Microsoft.Teams`
 [Zoom](https://zoom.us/download) | [➔ Instructions](instructions.md#install-zoom) | `winget install -e --id XP99J3KP4XZ4VV --accept-package-agreements # ZOOM Cloud Meetings` <br> `winget install -e --id Zoom.Zoom`
@@ -56,7 +56,7 @@ OneDrive | [➔ Instructions](instructions.md#install-onedrive) | `winget instal
 [Firefox](https://www.mozilla.org/en-US/firefox/download/thanks/) || `winget install -e --id 9NZVDKPMR9RD --accept-package-agreements # Mozilla Firefox` <br> `winget install -e --id Mozilla.Firefox`
 [AusweisApp](https://www.ausweisapp.bund.de/download/windows-und-mac/) | [➔ Instructions](instructions.md#install-ausweisapp)
 [Adobe Reader](https://get.adobe.com/reader/) | [➔ Instructions](instructions.md#install-adobe-reader) | `winget install -e --id Adobe.AdobeAcrobatReaderDC`
-[Adobe Photoshop Express](https://www.microsoft.com/en-us/p/adobe-photoshop-express-image-editor-adjustments-filters-effects-borders/9wzdncrfj27n) | Set as default app for .jpg files | `winget install -e --id 9WZDNCRFJ27N --accept-package-agreements # Adobe Photoshop Express: Image Editor, Adjustments, Filters, Effects, Borders`
+[Adobe Photoshop Express](https://www.microsoft.com/store/productID/9wzdncrfj27n) | Set as default app for .jpg files | `winget install -e --id 9WZDNCRFJ27N --accept-package-agreements # Adobe Photoshop Express: Image Editor, Adjustments, Filters, Effects, Borders`
 Paint Shop Pro 7
 *[Citavi](https://www.citavi.com/en/download)*
 *[GeoGebra](https://download.geogebra.org/package/win)* || `winget install -e --id GeoGebra.GeoGebraClassic`
@@ -64,9 +64,9 @@ Paint Shop Pro 7
 ## Entertainment
 Name, Download link | Instructions | Install command
 --- | --- | ---
-[Netflix](https://www.microsoft.com/en-us/p/netflix/9wzdncrfj3tj) || `winget install -e --id 9WZDNCRFJ3TJ --accept-package-agreements # Netflix`
-[ReddPlanet](https://www.microsoft.com/en-us/p/reddplanet/9nblggh4s44m) | [➔ Instructions](instructions.md#install-reddplanet) | `winget install -e --id 9NBLGGH4S44M --accept-package-agreements # ReddPlanet`
-[Amazon Prime Video for Windows](https://www.microsoft.com/en-us/p/amazon-prime-video-for-windows/9p6rc76msmmj) || `winget install -e --id 9P6RC76MSMMJ --accept-package-agreements # Amazon Prime Video for Windows`
+[Netflix](https://www.microsoft.com/store/productID/9wzdncrfj3tj) || `winget install -e --id 9WZDNCRFJ3TJ --accept-package-agreements # Netflix`
+[ReddPlanet](https://www.microsoft.com/store/productID/9nblggh4s44m) | [➔ Instructions](instructions.md#install-reddplanet) | `winget install -e --id 9NBLGGH4S44M --accept-package-agreements # ReddPlanet`
+[Amazon Prime Video for Windows](https://www.microsoft.com/store/productID/9p6rc76msmmj) || `winget install -e --id 9P6RC76MSMMJ --accept-package-agreements # Amazon Prime Video for Windows`
 
 ## Personalisation
 Name, Download link | Instructions | Install command
@@ -74,11 +74,11 @@ Name, Download link | Instructions | Install command
 [WindowTools](https://github.com/Yetenol/AHK-tools/releases/latest/download/WindowTools.exe)
 [EdgeDeflector](https://github.com/da2x/EdgeDeflector/releases/latest/download/EdgeDeflector_install.exe) || `winget install -e --id da2x.edgedeflector`
 [BatteryBar Pro](https://batterybarpro.com/basic.php)
-[EarTrumpet](https://www.microsoft.com/en-us/p/eartrumpet/9nblggh516xp) || `winget install -e --id File-New-Project.EarTrumpet`
+[EarTrumpet](https://www.microsoft.com/store/productID/9nblggh516xp) || `winget install -e --id File-New-Project.EarTrumpet`
 [SharpKeys](https://github.com/randyrants/sharpkeys/releases/latest) | [➔ Instructions](instructions.md#install-sharpkeys) | `winget install -e --id RandyRants.SharpKeys`
 [AutoHotkey](https://www.autohotkey.com/download/ahk-install.exe) | Do Express installation | `winget install -e --id Lexikos.AutoHotkey`
 [LapLock](https://github.com/dechamps/laplock/releases/latest/download/laplock.exe)
-[QuickLook](https://www.microsoft.com/en-us/p/quicklook/9nv4bs3l1h4s) | [➔ Instructions](instructions.md#install-quicklook) | `winget install -e --id QL-Win.QuickLook`
+[QuickLook](https://www.microsoft.com/store/productID/9nv4bs3l1h4s) | [➔ Instructions](instructions.md#install-quicklook) | `winget install -e --id QL-Win.QuickLook`
 [Rainmeter](https://github.com/rainmeter/rainmeter/releases/latest) | [➔ Instructions](instructions.md#install-rainmeter) | `winget install -e --id Rainmeter.Rainmeter`
 *[PowerToys](https://github.com/microsoft/PowerToys/releases/latest)* || `winget install -e --id Microsoft.PowerToys`
 *[Capture2Text](https://sourceforge.net/projects/capture2text/files/Capture2Text/)* | [➔ Instructions](instructions.md#install-capture2text)
@@ -91,12 +91,12 @@ Name, Download link | Instructions | Install command
 [KeePass](https://keepass.info/download.html) | [➔ Instructions](instructions.md#install-keepass) | `winget install -e --id DominikReichl.KeePass`
 [Gitkraken](https://www.gitkraken.com/download/windows64) | Sign in using Github | `winget install -e --id Axosoft.GitKraken`
 Install Visual Studio Code | [➔ Instructions](instructions.md#install-visual-studio-code) | `winget install -e --id Microsoft.VisualStudioCode-System-x86`
-[Lenovo Vantage](https://www.microsoft.com/en-us/p/lenovo-vantage/9wzdncrfj4mv) || `winget install -e --id 9WZDNCRFJ4MV --accept-package-agreements # Lenovo Vantage`
+[Lenovo Vantage](https://www.microsoft.com/store/productID/9wzdncrfj4mv) || `winget install -e --id 9WZDNCRFJ4MV --accept-package-agreements # Lenovo Vantage`
 [Git](https://git-scm.com/download/win) | [➔ Instructions](instructions.md#install-git) | `winget install -e --id Git.Git`
-[Windows Terminal](https://www.microsoft.com/en-us/p/windows-terminal/9n0dx20hk701) || `winget install -e --id 9N0DX20HK701 --accept-package-agreements # Windows Terminal` <br> `winget install -e --id Microsoft.WindowsTerminal`
-[TreeSize](https://www.microsoft.com/en-us/p/treesize-free/9nblggh40881) || `winget install -e --id 9NBLGGH40881 --accept-package-agreements # TreeSize Free` <br> `winget install -e --id JAMSoftware.TreeSizeFree`
+[Windows Terminal](https://www.microsoft.com/store/productID/9n0dx20hk701) || `winget install -e --id 9N0DX20HK701 --accept-package-agreements # Windows Terminal` <br> `winget install -e --id Microsoft.WindowsTerminal`
+[TreeSize](https://www.microsoft.com/store/productID/9nblggh40881) || `winget install -e --id 9NBLGGH40881 --accept-package-agreements # TreeSize Free` <br> `winget install -e --id JAMSoftware.TreeSizeFree`
 [Windscribe](https://windscribe.com/install/desktop/windows) || `winget install -e --id Windscribe.Windscribe`
-[Ubuntu](https://www.microsoft.com/en-us/p/ubuntu/9nblggh4msv6) | [➔ Instructions](instructions.md#install-ubuntu) | `winget install -e --id 9NBLGGH4MSV6 --accept-package-agreements # Ubuntu` <br> `winget install -e --id Canonical.Ubuntu`
+[Ubuntu](https://www.microsoft.com/store/productID/9nblggh4msv6) | [➔ Instructions](instructions.md#install-ubuntu) | `winget install -e --id 9NBLGGH4MSV6 --accept-package-agreements # Ubuntu` <br> `winget install -e --id Canonical.Ubuntu`
 *[Recuva](https://www.ccleaner.com/recuva/download)*
 *[Resource Hacker](http://www.angusj.com/resourceh*acker/#download)*
 *[Samsung Dex](https://www.samsung.com/global/download/SamsungDeXWin)* || `winget install -e --id Samsung.DeX`
@@ -105,5 +105,5 @@ Install Visual Studio Code | [➔ Instructions](instructions.md#install-visual-s
 Name, Download link | Instructions | Install command
 --- | --- | ---
 [Minecraft Java Edition](https://www.minecraft.net/en-us/download/) | [➔ Instructions](instructions.md#install-minecraft-java-edition) | `winget install -e --id Mojang.MinecraftLauncher`
-[Minecraft Bedrock Edition](https://www.microsoft.com/en-us/p/minecraft-for-windows-10/9nblggh2jhxj)
+[Minecraft Bedrock Edition](https://www.microsoft.com/store/productID/9nblggh2jhxj)
 [Factorio](https://factorio.com/download) | [➔ Instructions](instructions.md#install-factorio)
