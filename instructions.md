@@ -21,8 +21,10 @@
 >> Open `Focused inbox`
 >> - [ ] Sort messages info Focused and Other
 >
->> Open `Message list > #Organization`
->> - `Individual messages` =: How do you want your messages tobe organized?
+>> Open `Message list `
+>> - `Mark as read/unread` =: Swipe right
+>> - `Delete` =: Swipe left
+>> - `Individual messages` =: How do you want your messages tobe organized? < [#Organization]
 >
 >> Open `Signature`
 >> - `Viele Grüße Anton Pusch` =: Signature
