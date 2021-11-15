@@ -183,10 +183,10 @@ Set-Location -Path $preservePath
 
 
 ## Install [ReddPlanet](https://www.microsoft.com/en-us/p/reddplanet/9nblggh4s44m)
-- Sign in
+- no signin required
 > `App Settings > Other`
 > - [x] `Update wallpaper (beta)`
-> - `wallpaper` =: Wallpaper subreddit
+> - `EarthPorn` =: Wallpaper subreddit
 
 
 ## Install [SharpKeys](https://github.com/randyrants/sharpkeys/releases/latest)
