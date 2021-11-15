@@ -45,7 +45,7 @@ Name, Download link | Instructions | Install command
 [WhatsApp Desktop](https://www.microsoft.com/store/productID/9nksqgp7f2nh) | Swtich to `Dark` Theme | `winget install -e --id 9NKSQGP7F2NH --accept-package-agreements` <br> `winget install -e --id WhatsApp.WhatsApp`
 [Discord](https://discord.com/download) | Don't run at [startup](how-to-dos.md#edit-startup-apps) | `winget install -e --id XPDC2RH70K22MN --accept-package-agreements # Discord` <br> `winget install -e --id Discord.Discord`
 [Teams](https://www.microsoft.com/en-us/microsoft-teams/download-app#desktopAppDownloadregion) | [➔ Instructions](instructions.md#install-teams) | `winget install -e --id Microsoft.Teams`
-[Zoom](https://zoom.us/download) | [➔ Instructions](instructions.md#install-zoom) | `winget install -e --id XP99J3KP4XZ4VV --accept-package-agreements # ZOOM Cloud Meetings` <br> `winget install -e --id Zoom.Zoom`
+[Zoom](https://zoom.us/download) | [➔ Instructions](instructions.md#install-zoom) | `winget install -e --id Zoom.Zoom` <br> `winget install -e --id XP99J3KP4XZ4VV --accept-package-agreements # ZOOM Cloud Meetings`
 
 ## Office
 Name, Download link | Instructions | Install command
@@ -55,7 +55,7 @@ OneDrive | [➔ Instructions](instructions.md#install-onedrive) | `winget instal
 [Boxcryptor](https://www.boxcryptor.com/en/download/) | [➔ Instructions](instructions.md#install-boxcryptor)
 [Firefox](https://www.mozilla.org/en-US/firefox/download/thanks/) || `winget install -e --id 9NZVDKPMR9RD --accept-package-agreements # Mozilla Firefox` <br> `winget install -e --id Mozilla.Firefox`
 [AusweisApp](https://www.ausweisapp.bund.de/download/windows-und-mac/) | [➔ Instructions](instructions.md#install-ausweisapp)
-[Adobe Reader](https://get.adobe.com/reader/) | [➔ Instructions](instructions.md#install-adobe-reader) | `winget install -e --id Adobe.AdobeAcrobatReaderDC`
+[Adobe Reader](https://get.adobe.com/reader/) | [➔ Instructions](instructions.md#install-adobe-reader) | `winget install -e --id Adobe.Acrobat.Reader.64-bit` <br> `winget install -e --id XPDP273C0XHQH2 --accept-package-agreements # Adobe Acrobat Reader DC`
 [Adobe Photoshop Express](https://www.microsoft.com/store/productID/9wzdncrfj27n) | Set as default app for .jpg files | `winget install -e --id 9WZDNCRFJ27N --accept-package-agreements # Adobe Photoshop Express: Image Editor, Adjustments, Filters, Effects, Borders`
 Paint Shop Pro 7
 *[Citavi](https://www.citavi.com/en/download)*
@@ -63,7 +63,7 @@ Paint Shop Pro 7
 
 ## Entertainment
 Name, Download link | Instructions | Install command
---- | --- | ---
+--- | --- | --- 
 [Netflix](https://www.microsoft.com/store/productID/9wzdncrfj3tj) || `winget install -e --id 9WZDNCRFJ3TJ --accept-package-agreements # Netflix`
 [ReddPlanet](https://www.microsoft.com/store/productID/9nblggh4s44m) | [➔ Instructions](instructions.md#install-reddplanet) | `winget install -e --id 9NBLGGH4S44M --accept-package-agreements # ReddPlanet`
 [Amazon Prime Video for Windows](https://www.microsoft.com/store/productID/9p6rc76msmmj) || `winget install -e --id 9P6RC76MSMMJ --accept-package-agreements # Amazon Prime Video for Windows`
