@@ -69,47 +69,41 @@ Name, Download link | Instructions | Install command
 [Amazon Prime Video for Windows](https://www.microsoft.com/en-us/p/amazon-prime-video-for-windows/9p6rc76msmmj) || `winget install -e --id 9P6RC76MSMMJ --accept-package-agreements # Amazon Prime Video for Windows`
 
 ## Personalisation
-1. Install [WindowTools](https://github.com/Yetenol/AHK-tools/releases/latest/download/WindowTools.exe)
-1. Install [EdgeDeflector](https://github.com/da2x/EdgeDeflector/releases/latest/download/EdgeDeflector_install.exe)
-1. Install [BatteryBar Pro](https://batterybarpro.com/basic.php)
-1. Install [EarTrumpet](https://www.microsoft.com/en-us/p/eartrumpet/9nblggh516xp)
-1. Install [SharpKeys](https://github.com/randyrants/sharpkeys/releases/latest)
-    \- [➔ Instructions](instructions.md#install-sharpkeys)
-1. Install [AutoHotkey](https://www.autohotkey.com/download/ahk-install.exe)
-    \- Do Express installation
-1. Install [LapLock](https://github.com/dechamps/laplock/releases/latest/download/laplock.exe)
-1. Install [QuickLook](https://www.microsoft.com/en-us/p/quicklook/9nv4bs3l1h4s)
-    \- [➔ Instructions](instructions.md#install-quicklook)
-1. Install [Rainmeter](https://github.com/rainmeter/rainmeter/releases/latest)
-    \- [➔ Instructions](instructions.md#install-rainmeter)
-1. *Install [PowerToys](https://github.com/microsoft/PowerToys/releases/latest)*
-1. *Install [Capture2Text](https://sourceforge.net/projects/capture2text/files/Capture2Text/)
-    \- [➔ Instructions](instructions.md#install-capture2text)*
-1. *Install [ShareX](https://github.com/ShareX/ShareX/releases/latest)
-    \- [➔ Instructions](instructions.md#install-sharex)*
+Name, Download link | Instructions | Install command
+--- | --- | ---
+[WindowTools](https://github.com/Yetenol/AHK-tools/releases/latest/download/WindowTools.exe)
+[EdgeDeflector](https://github.com/da2x/EdgeDeflector/releases/latest/download/EdgeDeflector_install.exe) || `winget install -e --id da2x.edgedeflector`
+[BatteryBar Pro](https://batterybarpro.com/basic.php)
+[EarTrumpet](https://www.microsoft.com/en-us/p/eartrumpet/9nblggh516xp) || `winget install -e --id File-New-Project.EarTrumpet`
+[SharpKeys](https://github.com/randyrants/sharpkeys/releases/latest) | [➔ Instructions](instructions.md#install-sharpkeys) | `winget install -e --id RandyRants.SharpKeys`
+[AutoHotkey](https://www.autohotkey.com/download/ahk-install.exe) | Do Express installation | `winget install -e --id Lexikos.AutoHotkey`
+[LapLock](https://github.com/dechamps/laplock/releases/latest/download/laplock.exe)
+[QuickLook](https://www.microsoft.com/en-us/p/quicklook/9nv4bs3l1h4s) | [➔ Instructions](instructions.md#install-quicklook) | `winget install -e --id QL-Win.QuickLook`
+[Rainmeter](https://github.com/rainmeter/rainmeter/releases/latest) | [➔ Instructions](instructions.md#install-rainmeter) | `winget install -e --id Rainmeter.Rainmeter`
+*[PowerToys](https://github.com/microsoft/PowerToys/releases/latest)* || `winget install -e --id Microsoft.PowerToys`
+*[Capture2Text](https://sourceforge.net/projects/capture2text/files/Capture2Text/)* | [➔ Instructions](instructions.md#install-capture2text)
+*[ShareX](https://github.com/ShareX/ShareX/releases/latest)* | [➔ Instructions](instructions.md#install-sharex) | `winget install -e --id ShareX.ShareX`
 
 ## Dev
-1. Install [7-Zip](https://www.7-zip.org/)
-1. Install [KeePass](https://keepass.info/download.html)
-    \- [➔ Instructions](instructions.md#install-keepass)
-1. Install [Gitkraken](https://www.gitkraken.com/download/windows64)
-    \- Sign in using Github
-1. Install Install Visual Studio Code
-    \- [➔ Instructions](instructions.md#install-visual-studio-code)
-1. Install [Lenovo Vantage](https://www.microsoft.com/en-us/p/lenovo-vantage/9wzdncrfj4mv)
-1. Install [Git](https://git-scm.com/download/win)
-    \- [➔ Instructions](instructions.md#install-git)
-1. Install [Windows Terminal](https://www.microsoft.com/en-us/p/windows-terminal/9n0dx20hk701)
-1. Install [TreeSize](https://www.microsoft.com/en-us/p/treesize-free/9nblggh40881)
-1. Install [Windscribe](https://windscribe.com/install/desktop/windows)
-1. Install [Ubuntu](https://www.microsoft.com/en-us/p/ubuntu/9nblggh4msv6)
-    \- [➔ Instructions](instructions.md#install-ubuntu)
-1. *Install [Recuva](https://www.ccleaner.com/recuva/download)*
-1. *Install [Resource Hacker](http://www.angusj.com/resourceh*acker/#download)*
-1. *Install [Samsung Dex](https://www.samsung.com/global/download/SamsungDeXWin)*
+Name, Download link | Instructions | Install command
+--- | --- | ---
+[7-Zip](https://www.7-zip.org/)
+[KeePass](https://keepass.info/download.html) | [➔ Instructions](instructions.md#install-keepass)
+[Gitkraken](https://www.gitkraken.com/download/windows64) | Sign in using Github
+Install Visual Studio Code | [➔ Instructions](instructions.md#install-visual-studio-code)
+[Lenovo Vantage](https://www.microsoft.com/en-us/p/lenovo-vantage/9wzdncrfj4mv)
+[Git](https://git-scm.com/download/win) | [➔ Instructions](instructions.md#install-git)
+[Windows Terminal](https://www.microsoft.com/en-us/p/windows-terminal/9n0dx20hk701)
+[TreeSize](https://www.microsoft.com/en-us/p/treesize-free/9nblggh40881)
+[Windscribe](https://windscribe.com/install/desktop/windows)
+[Ubuntu](https://www.microsoft.com/en-us/p/ubuntu/9nblggh4msv6) | [➔ Instructions](instructions.md#install-ubuntu)
+*[Recuva](https://www.ccleaner.com/recuva/download)*
+*[Resource Hacker](http://www.angusj.com/resourceh*acker/#download)*
+*[Samsung Dex](https://www.samsung.com/global/download/SamsungDeXWin)*
+
 ## Gaming
-1. Install [Minecraft Java Edition](https://www.minecraft.net/en-us/download/)
-    \- [➔ Instructions](instructions.md#install-minecraft-java-edition)
-1. Install [Minecraft Bedrock Edition](https://www.microsoft.com/en-us/p/minecraft-for-windows-10/9nblggh2jhxj)
-1. Install [Factorio](https://factorio.com/download)
-    \- [➔ Instructions](instructions.md#install-factorio)
+Name, Download link | Instructions | Install command
+--- | --- | ---
+[Minecraft Java Edition](https://www.minecraft.net/en-us/download/) | [➔ Instructions](instructions.md#install-minecraft-java-edition)
+[Minecraft Bedrock Edition](https://www.microsoft.com/en-us/p/minecraft-for-windows-10/9nblggh2jhxj)
+[Factorio](https://factorio.com/download) | [➔ Instructions](instructions.md#install-factorio)
