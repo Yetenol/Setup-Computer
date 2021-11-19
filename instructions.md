@@ -5,7 +5,7 @@
 > Install plugins
 > - to install put files into 
 >   ```
->   %ProgramFiles%\KeePass Password Safe 2\Plugins
+>   %ProgramFiles%\KeePass2x\Plugins
 >   ```
 > - Install [KeeAnywhere](https://github.com/Kyrodan/KeeAnywhere/releases/latest)
 >   - link OneDrive account
