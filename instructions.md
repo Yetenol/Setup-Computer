@@ -47,7 +47,10 @@
 - Press `Ctrl + Shift + P` and search for `Settings Sync: Turn On`
     - Sign in using Github
 - If *Settings Sync* fails:
-    - Replace `%AppData%\Code\User\settings.json` with [settings.json](configs/settings.json)
+    - Import [settings.json](configs/VisualStidioCode-settings.json) to
+        ```
+        %AppData%\Code\User\settings.json
+        ```
 
 
 ## Install [Mail and Calendar](https://www.microsoft.com/en-us/p/mail-und-kalender/9wzdncrfhvqm)
@@ -315,9 +318,9 @@ Set-Location -Path $preservePath
 
 
 ## Install [Windows Terminal](https://www.microsoft.com/store/productID/9n0dx20hk701)
-- Import [profile]() to
+- Import [profile](configs/WindowsTerminal-settings.json) to
     ```
-    %LocalAppdata%\Packages\Microsoft.WindowsTerminal_8wekyb3d8bbwe\LocalState
+    %LocalAppdata%\Packages\Microsoft.WindowsTerminal_8wekyb3d8bbwe\LocalState\settings.json
     ```
 - If profile import fails, edit settings manually:
 > Open `Settings`
