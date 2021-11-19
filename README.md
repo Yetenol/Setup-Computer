@@ -102,7 +102,7 @@ Name, Download link | Instructions | Install command
 --- | --- | ---
 [7-Zip](https://www.7-zip.org/) || `winget install -e --id 7zip.7zip`
 [Git](https://git-scm.com/download/win) | [➔ Instructions](instructions.md#install-git) | `winget install -e --id Git.Git`
-[Windows Terminal](https://www.microsoft.com/store/productID/9n0dx20hk701) | set `Ctrl + W` to close pane| `winget install -e --id 9N0DX20HK701 --accept-package-agreements # Windows Terminal` <br> `winget install -e --id Microsoft.WindowsTerminal`
+[Windows Terminal](https://www.microsoft.com/store/productID/9n0dx20hk701) | [➔ Instructions](instructions.md#install-windows-terminal) | `winget install -e --id 9N0DX20HK701 --accept-package-agreements # Windows Terminal` <br> `winget install -e --id Microsoft.WindowsTerminal`
 [TreeSize](https://www.microsoft.com/store/productID/9nblggh40881) || `winget install -e --id 9NBLGGH40881 --accept-package-agreements # TreeSize Free` <br> `winget install -e --id JAMSoftware.TreeSizeFree`
 [Windscribe](https://windscribe.com/install/desktop/windows) || `winget install -e --id Windscribe.Windscribe`
 [Ubuntu](https://www.microsoft.com/store/productID/9nblggh4msv6) | [➔ Instructions](instructions.md#install-ubuntu) | `winget install -e --id 9NBLGGH4MSV6 --accept-package-agreements # Ubuntu` <br> `winget install -e --id Canonical.Ubuntu`

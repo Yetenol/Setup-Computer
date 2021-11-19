@@ -314,6 +314,32 @@ Set-Location -Path $preservePath
 > -  User Visual Studio Code as Git's default editor
 
 
+## Install [Windows Terminal](https://www.microsoft.com/store/productID/9n0dx20hk701)
+- Import [profile]() to
+    ```
+    %LocalAppdata%\Packages\Microsoft.WindowsTerminal_8wekyb3d8bbwe\LocalState
+    ```
+- If profile import fails, edit settings manually:
+> Open `Settings`
+>> Open `Startup`
+>> - `Windows Terminal`:=: Default terminal application
+>> - `Maximized` =: Launch mode
+>> - `Attach to the most recently used window on this desktop` =: New instance behavior 
+>> - Save changes
+> 
+>> Open `Appearance`
+>> - [x] Show acrylic in tab row
+>> - Save changes
+> 
+>> Open `Actions`
+>> - Add `Close pane` using `Ctrl + W`
+>> - Save changes
+>
+>> Open `Profiles > Default > Appearance`
+>> - `10` =: Font size
+>> - Save changes
+
+
 ## Install [Ubuntu](https://www.microsoft.com/en-us/p/ubuntu/9nblggh4msv6)
 > Enable Windows Optional Feature
 > ```
