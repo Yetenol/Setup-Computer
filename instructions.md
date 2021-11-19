@@ -98,7 +98,6 @@
 > > - [x] Use Windows notifications *< [#Native notifications]*
 > 
 > > Open `Advanced`
-> > - [x] Use system window frame *< [#System integration]*
 > > - Open `Manage local storage` *< [#Data and storage]*
 > >     - `Never` Clear files older than
 
