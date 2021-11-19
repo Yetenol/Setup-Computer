@@ -47,7 +47,7 @@
 - Press `Ctrl + Shift + P` and search for `Settings Sync: Turn On`
     - Sign in using Github
 - If *Settings Sync* fails:
-    - Import [settings.json](configs/VisualStidioCode-settings.json) to
+    - Import [settings.json](configs/VisualStudioCode-settings.json) to
         ```
         %AppData%\Code\User\settings.json
         ```
