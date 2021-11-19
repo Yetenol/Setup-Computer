@@ -1,6 +1,55 @@
 # [⌂](README.md) › **Installation instructions**
 
 
+## Install [KeePass](https://keepass.info/download.html)
+> Install plugins
+> - to install put files into 
+>   ```
+>   %ProgramFiles%\KeePass Password Safe 2\Plugins
+>   ```
+> - Install [KeeAnywhere](https://github.com/Kyrodan/KeeAnywhere/releases/latest)
+>   - link OneDrive account
+> - Install [WinHelloUnlock](https://github.com/Angelelz/WinHelloUnlock/releases/latest/download/WinHelloUnlock.dll)
+>   - setup Windows Hello fingerprint unlock
+> - Install [KeeOtp2](https://github.com/tiuub/KeeOtp2/releases/latest/download/KeeOtp2.plgx)
+
+- import keyfile and unlock cloud database
+
+> Open `Tools > Options`
+>> Open `Security`
+>> - `30` Lock Workspace after KeePass iniactivity (seconds):
+>> - [x] Lock workspace when locking the computer or switching the user *< [#General]*
+>> - [x] Lock workspace when the computer is about to be suspended *< [#General]*
+>> - [x] Lock workspace when the remote control mode changes *< [#General]*
+>> - [x] Enter master key on secure desktop *< [#Advanced]*
+>
+>> Open `Interface`
+>> - [x] Drop to background after copying data to the clipboard *< [#Main Window]*
+>> - [x] Close button [X] minimizes main windows instead of terminating the application *< [#Main Window]*
+>> - [x] Focus entry list after a successful quick search *< [#Quick Search (Toolbar)]*
+>> - [x] Focus quick search box when restoring from taskbar *< [#Quick Search (Toolbar)]*
+>> - [x] Focus quick search box when restoring from tray *< [#Quick Search (Toolbar)]*
+
+> Copy password generation pattern
+> - Open `Tools > Generate Password`
+> - Select Generate using pattern
+> - Paste pattern
+> - Click the save icon in the top right-hand corner
+> - Override the `(Automatically generated passwords for new entries)` profile
+
+
+## Install Visual Studio Code
+- Even if installed though winget, reinstall using wizzard
+    - Install **System Installer** from https://code.visualstudio.com/#alt-downloads
+    - During setup set `Select Additional Tasks`:
+    - [x] Add "Open with Code" action to Windows file contect menu
+    - [x] Add "Open with Code" action to Windows directory context menu
+- Press `Ctrl + Shift + P` and search for `Settings Sync: Turn On`
+    - Sign in using Github
+- If *Settings Sync* fails:
+    - Replace `%AppData%\Code\User\settings.json` with [settings.json](configs/settings.json)
+
+
 ## Install [Mail and Calendar](https://www.microsoft.com/en-us/p/mail-und-kalender/9wzdncrfhvqm)
 > Open `Settings`
 >> Open `Manage accounts`
@@ -255,52 +304,6 @@ Set-Location -Path $preservePath
 > Open `System Tray > ShareX > Application settings > Paths`
 >- [x] Use custom screenshot folder
 >- `%MyPictures%\Screenshots` =: Screenshot folder
-
-
-## Install [KeePass](https://keepass.info/download.html)
-> Install plugins
-> - to install put files into 
->   ```
->   %ProgramFiles%\KeePass Password Safe 2\Plugins
->   ```
-> - Install [KeeAnywhere](https://github.com/Kyrodan/KeeAnywhere/releases/latest)
->   - link OneDrive account
-> - Install [WinHelloUnlock](https://github.com/Angelelz/WinHelloUnlock/releases/latest/download/WinHelloUnlock.dll)
->   - setup Windows Hello fingerprint unlock
-> - Install [KeeOtp2](https://github.com/tiuub/KeeOtp2/releases/latest/download/KeeOtp2.plgx)
-
-- import keyfile and unlock cloud database
-
-> Open `Tools > Options`
->> Open `Security`
->> - `30` Lock Workspace after KeePass iniactivity (seconds):
->> - [x] Lock workspace when locking the computer or switching the user *< [#General]*
->> - [x] Lock workspace when the computer is about to be suspended *< [#General]*
->> - [x] Lock workspace when the remote control mode changes *< [#General]*
->> - [x] Enter master key on secure desktop *< [#Advanced]*
->
->> Open `Interface`
->> - [x] Drop to background after copying data to the clipboard *< [#Main Window]*
->> - [x] Close button [X] minimizes main windows instead of terminating the application *< [#Main Window]*
->> - [x] Focus entry list after a successful quick search *< [#Quick Search (Toolbar)]*
->> - [x] Focus quick search box when restoring from taskbar *< [#Quick Search (Toolbar)]*
->> - [x] Focus quick search box when restoring from tray *< [#Quick Search (Toolbar)]*
-
-> Copy password generation pattern
-> - Open `Tools > Generate Password`
-> - Select Generate using pattern
-> - Paste pattern
-> - Click the save icon in the top right-hand corner
-> - Override the `(Automatically generated passwords for new entries)` profile
-
-
-## Install Visual Studio Code
-- Install **System Installer** from https://code.visualstudio.com/#alt-downloads
-    - During setup progress tick _Open with_ options for context menu
-- Press `F1` and search for `>settings sync:`
-    - Sign in using Github
-- If *Settings Sync* fails:
-    - Replace `%AppData%\Code\User\settings.json` with [settings.json](configs/settings.json)
 
 
 ## Install [Git](https://git-scm.com/download/win)
