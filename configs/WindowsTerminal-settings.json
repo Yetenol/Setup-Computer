@@ -1,10 +1,8 @@
 {
     "$schema": "https://aka.ms/terminal-profiles-schema",
-    "actions": 
-    [
+    "actions": [
         {
-            "command": 
-            {
+            "command": {
                 "action": "copy",
                 "singleLine": false
             },
@@ -19,8 +17,7 @@
             "keys": "ctrl+shift+f"
         },
         {
-            "command": 
-            {
+            "command": {
                 "action": "splitPane",
                 "split": "auto",
                 "splitMode": "duplicate"
@@ -28,8 +25,7 @@
             "keys": "alt+shift+d"
         },
         {
-            "command": 
-            {
+            "command": {
                 "action": "closeTab"
             }
         },
@@ -42,17 +38,15 @@
     "copyOnSelect": false,
     "defaultProfile": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
     "launchMode": "maximized",
-    "profiles": 
-    {
-        "defaults": 
-        {
-            "font": 
-            {
+    "profiles": {
+        "defaults": {
+            "useAcrylic": true,
+            "acrylicOpacity": 0.5,
+            "font": {
                 "size": 10
             }
         },
-        "list": 
-        [
+        "list": [
             {
                 "commandline": "powershell.exe",
                 "guid": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
@@ -70,11 +64,15 @@
                 "hidden": false,
                 "name": "Azure Cloud Shell",
                 "source": "Windows.Terminal.Azure"
+            },
+            {
+                "guid": "{2ece5bfe-50ed-5f3a-ab87-5cd4baafed2b}",
+                "name": "Git Bash",
+                "source": "Git"
             }
         ]
     },
-    "schemes": 
-    [
+    "schemes": [
         {
             "background": "#0C0C0C",
             "black": "#0C0C0C",
