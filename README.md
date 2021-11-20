@@ -29,6 +29,7 @@ winget uninstall -e --id Microsoft.WindowsMaps_8wekyb3d8bbwe                    
 winget uninstall -e --id Microsoft.XboxIdentityProvider_8wekyb3d8bbwe           # Xbox Identity Provider
 winget uninstall -e --id Microsoft.XboxSpeechToTextOverlay_8wekyb3d8bbwe        # Xbox Game Speech Window
 winget uninstall -e --id Microsoft.YourPhone_8wekyb3d8bbwe                      # Your Phone
+winget uninstall -e --id MicrosoftTeams_8wekyb3d8bbwe                           # Microsoft Teams
 winget uninstall -e --id SpotifyAB.SpotifyMusic_zpdnekdrzrea0                   # Spotify Music
 winget uninstall -e --id Disney.37853FC22B2CE_6rarf9sa4v8jt                     # Disney+
 winget uninstall -e --id XINGAG.XING_xpfg3f7e9an52                              # XING

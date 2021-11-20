@@ -105,7 +105,6 @@
 > >     - `Never` Clear files older than
 
 ## Install [Zoom](https://zoom.us/download)
-- Sign in using SSO
 > Open `Settings`
 > > Open `Video`
 > > - [x] `Auto` =: Adjust for low light *< [#My video]*
