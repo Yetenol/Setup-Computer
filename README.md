@@ -15,25 +15,28 @@ Format the system partition and do a clean OS install. Remove any pre-installed 
 
 ## Uninstall Bloatware
 ```powershell
-winget uninstall AppUp.IntelGraphicsExperience_8j3eq9eme6ctt            # Intel® Graphics Command Center
-winget uninstall AppUp.ThunderboltControlCenter_8j3eq9eme6ctt           # ThunderboltTM Control Center
-winget uninstall DolbyLaboratories.DolbyAudioPremium_rz1tebttyb220      # Dolby Audio Premium
-winget uninstall Microsoft.549981C3F5F10_8wekyb3d8bbwe                  # Cortana
-winget uninstall Microsoft.BingNews_8wekyb3d8bbwe                       # Microsoft News
-winget uninstall Microsoft.BingWeather_8wekyb3d8bbwe                    # MSN Weather
-winget uninstall Microsoft.GamingApp_8wekyb3d8bbwe                      # Xbox
-winget uninstall Microsoft.GetHelp_8wekyb3d8bbwe                        # Get Help
-winget uninstall Microsoft.Getstarted_8wekyb3d8bbwe                     # Microsoft Tips
-winget uninstall Microsoft.MicrosoftOfficeHub_8wekyb3d8bbwe             # Office
-winget uninstall Microsoft.MicrosoftSolitaireCollection_8wekyb3d8bbwe   # Microsoft Solitaire Collection
-winget uninstall Microsoft.People_8wekyb3d8bbwe                         # Microsoft People
-winget uninstall Microsoft.WindowsFeedbackHub_8wekyb3d8bbwe             # Feedback Hub
-winget uninstall Microsoft.WindowsMaps_8wekyb3d8bbwe                    # Windows Maps
-winget uninstall Microsoft.XboxIdentityProvider_8wekyb3d8bbwe           # Xbox Identity Provider
-winget uninstall Microsoft.XboxSpeechToTextOverlay_8wekyb3d8bbwe        # Xbox Game Speech Window
-winget uninstall Microsoft.YourPhone_8wekyb3d8bbwe                      # Your Phone
-winget uninstall SynapticsIncorporated.SynapticsUtilities_807d65c4rvak2 # PrebootManager
-winget uninstall RealtekSemiconductorCorp.RealtekAudioControl_dt26b99r8h8gj # Realtek Audio Control
+winget uninstall -e --id Microsoft.549981C3F5F10_8wekyb3d8bbwe                  # Cortana
+winget uninstall -e --id Microsoft.BingNews_8wekyb3d8bbwe                       # Microsoft News
+winget uninstall -e --id Microsoft.BingWeather_8wekyb3d8bbwe                    # MSN Weather
+winget uninstall -e --id Microsoft.GamingApp_8wekyb3d8bbwe                      # Xbox
+winget uninstall -e --id Microsoft.GetHelp_8wekyb3d8bbwe                        # Get Help
+winget uninstall -e --id Microsoft.Getstarted_8wekyb3d8bbwe                     # Microsoft Tips
+winget uninstall -e --id Microsoft.MicrosoftOfficeHub_8wekyb3d8bbwe             # Office
+winget uninstall -e --id Microsoft.MicrosoftSolitaireCollection_8wekyb3d8bbwe   # Microsoft Solitaire Collection
+winget uninstall -e --id Microsoft.People_8wekyb3d8bbwe                         # Microsoft People
+winget uninstall -e --id Microsoft.WindowsFeedbackHub_8wekyb3d8bbwe             # Feedback Hub
+winget uninstall -e --id Microsoft.WindowsMaps_8wekyb3d8bbwe                    # Windows Maps
+winget uninstall -e --id Microsoft.XboxIdentityProvider_8wekyb3d8bbwe           # Xbox Identity Provider
+winget uninstall -e --id Microsoft.XboxSpeechToTextOverlay_8wekyb3d8bbwe        # Xbox Game Speech Window
+winget uninstall -e --id Microsoft.YourPhone_8wekyb3d8bbwe                      # Your Phone
+winget uninstall -e --id SpotifyAB.SpotifyMusic_zpdnekdrzrea0                   # Spotify Music
+winget uninstall -e --id Disney.37853FC22B2CE_6rarf9sa4v8jt                     # Disney+
+winget uninstall -e --id XINGAG.XING_xpfg3f7e9an52                              # XING
+winget uninstall -e --id AppUp.IntelGraphicsExperience_8j3eq9eme6ctt            # Intel® Graphics Command Center
+winget uninstall -e --id AppUp.ThunderboltControlCenter_8j3eq9eme6ctt           # ThunderboltTM Control Center
+winget uninstall -e --id DolbyLaboratories.DolbyAudioPremium_rz1tebttyb220      # Dolby Audio Premium
+winget uninstall -e --id SynapticsIncorporated.SynapticsUtilities_807d65c4rvak2 # PrebootManager
+winget uninstall -e --id RealtekSemiconductorCorp.RealtekAudioControl_dt26b99r8h8gj # Realtek Audio Control
 ```
 
 ## Priority
