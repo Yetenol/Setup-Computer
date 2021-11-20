@@ -340,17 +340,18 @@ Set-Location -Path $preservePath
 >> Open `Profiles > Default > Appearance`
 >> - `10` =: Font size
 >> - Save changes
+> 
+>> Click gear icon
+>> - a settings.json file should open
+>> - add properties to default profile:
+>>   ```
+>>   "useAcrylic": true,
+>>   "acrylicOpacity": 0.5
+>>   ``` 
 
-
-## Install [Ubuntu](https://www.microsoft.com/en-us/p/ubuntu/9nblggh4msv6)
-> Enable Windows Optional Feature
-> ```
-> optionalfeatures
-> ```
-> - [x] Windows Subsystem for Linux
-- Launch ubuntu
 
 ## Install [Minecraft Java Edition](https://www.minecraft.net/en-us/download/)
+
 
 ## Install [Factorio](https://factorio.com/download)
 > Open `Settings > Graphics`
