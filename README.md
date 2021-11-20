@@ -42,7 +42,7 @@ winget uninstall -e --id RealtekSemiconductorCorp.RealtekAudioControl_dt26b99r8h
 ## Priority
 Name, Download link | Instructions | Install command
 --- | --- | ---
-[Lenovo Vantage](https://www.microsoft.com/store/productID/9wzdncrfj4mv) || `winget install -e --id 9WZDNCRFJ4MV --accept-package-agreements # Lenovo Vantage`
+[Lenovo Vantage](https://www.microsoft.com/store/productID/9wzdncrfj4mv) | Run `Check for System Updates` | `winget install -e --id 9WZDNCRFJ4MV --accept-package-agreements # Lenovo Vantage`
 [KeePass](https://keepass.info/download.html) | [➔ Instructions](instructions.md#install-keepass) | `winget install -e --id DominikReichl.KeePass`
 Install Visual Studio Code | [➔ Instructions](instructions.md#install-visual-studio-code) | `winget install -e --id Microsoft.VisualStudioCode --scope machine`
 [Gitkraken](https://www.gitkraken.com/download/windows64) | Sign in using Github | `winget install -e --id Axosoft.GitKraken`
