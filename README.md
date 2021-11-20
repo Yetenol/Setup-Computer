@@ -6,9 +6,8 @@
 1. [Printers](printers.md)
 
 # Software
-Create an up-to-date Windows 11 installation device.
-Format the system partition and do a clean OS install.
-Remove any pre-installed software.
+Create an up-to-date [Windows 11 Installation Media](https://go.microsoft.com/fwlink/?linkid=2156295).  
+Format the system partition and do a clean OS install. Remove any pre-installed software.
 
 # Setup Windows Package Manager CLI (winget)
 - Install [App Installer](https://www.microsoft.com/store/productID/9nblggh4nns1)
