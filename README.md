@@ -2,7 +2,7 @@
 1. [Software](#software)
 1. [Windows Configurations](windows/configs.md)  
 1. [Browser](browser/browser.md)  
-1. [Windows Settings](windows-settings.md)  
+1. [Windows Settings](windows/settings.md)  
 1. [Printers](printers.md)
 
 # Software
