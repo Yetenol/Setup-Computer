@@ -9,7 +9,7 @@
 Create an up-to-date [Windows 11 Installation Media](https://go.microsoft.com/fwlink/?linkid=2156295).  
 Format the system partition and do a clean OS install. Remove any pre-installed software.
 
-# Setup Windows Package Manager CLI (winget)
+## Setup Windows Package Manager CLI (winget)
 - Install [App Installer](https://www.microsoft.com/store/productID/9nblggh4nns1)
 - Open a console and run `winget` to test the installation
 
