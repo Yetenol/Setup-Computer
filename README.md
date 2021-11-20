@@ -6,7 +6,7 @@
 1. [Printers](printers.md)
 
 # Software
-Create an up-to-date Windows 10 installation device.
+Create an up-to-date Windows 11 installation device.
 Format the system partition and do a clean OS install.
 Remove any pre-installed software.
 
