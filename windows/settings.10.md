@@ -106,30 +106,15 @@
 > ```
 > ms-settings:taskbar
 > ```
-> > Open `Taskbar items`
-> > - [ ] Search
-> > - [x] Task view
-> > - [ ] Widgets
-> > - [ ] Chat
->
-> > Open `Taskbar corner icon`
-> > - [ ] Pen Menu
-> > - [x] Touch keyboard
-> 
-> > Open `Taskbar corner overflow`
-> > - [x] Microsoft OneDrive
-> > - [x] Window-Tools.exe
+> > Open `Select which icons appear on the taskbar`
+> > - [x] Always show all icons in the notif‌ication area
 > > - See [Setup Taskbar](configs.md#setup-taskbar)
-
-### Time & language > Typing > Advanced keyboard settings
-> ```
-> ms-settings:typing
-> ```
-> > Open `Advanced keyboard settings`
-> > - [x] Use desktop language bar when it's available *< [#Switching input methods*]
-> > - A language bar should appear in the top left corner of the screen
-> > - Right-click the language bar and click `Close the language bar`
-> > - Confirm closing dialog
+>
+> > Open `Turn system icons on or off`
+> > - [ ] Volume *(if [EarTrumpet](https://www.microsoft.com/en-us/p/eartrumpet/9nblggh516xp) is installed)*
+> > - [ ] Power
+> > - [ ] Input Indicator
+> > - [ ] Meet Now
 
 ### Apps > Video playback
 > ```
