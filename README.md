@@ -108,10 +108,15 @@ Name, Download link | Instructions | Install command
 [Windows Terminal](https://www.microsoft.com/store/productID/9n0dx20hk701) | [➔ Instructions](instructions.md#install-windows-terminal) | `winget install -e --id 9N0DX20HK701 --accept-package-agreements # Windows Terminal` <br> `winget install -e --id Microsoft.WindowsTerminal`
 [TreeSize](https://www.microsoft.com/store/productID/9nblggh40881) || `winget install -e --id 9NBLGGH40881 --accept-package-agreements # TreeSize Free` <br> `winget install -e --id JAMSoftware.TreeSizeFree`
 [Windscribe](https://windscribe.com/install/desktop/windows) || `winget install -e --id Windscribe.Windscribe`
-[Ubuntu](https://www.microsoft.com/store/productID/9nblggh4msv6) || `wsl --install`
 *[Recuva](https://www.ccleaner.com/recuva/download)*
 *[Resource Hacker](http://www.angusj.com/resourceh*acker/#download)*
 *[Samsung Dex](https://www.samsung.com/global/download/SamsungDeXWin)* || `winget install -e --id Samsung.DeX`
+
+## Subsystems
+Name, Download link | Instructions | Install command
+--- | --- | ---
+[Ubuntu](https://www.microsoft.com/store/productID/9nblggh4msv6) || `wsl --install`
+[WSATools](https://www.microsoft.com/store/productId/9N4P75DXL6FG) || `winget install -e --id 9n4p75dxl6fg --accept-package-agreements # WSATools`
 
 ## Gaming
 Name, Download link | Instructions | Install command
