@@ -1,60 +1,84 @@
-# [⌂](../README.md) › Windows 11 › **Settings**
+# [⌂](../README.md) › Windows 11 › **Settings** - Table of Contents
+1. [System](#system)
+1. [Bluetooth & devices](#bluetooth--devices)
+1. Network & internet
+1. [Personalization](#personalization)
+1. [Time & language](#time--language)
 
-### System > Display
-> ```
-> ms-settings:display
-> ```
-> - [x] Schedule night light _🠘 (Night light settings)_
-> - `100%` Change the size of text, apps, and other items
 
-### System > Notif‌ications & actions
-> ```
-> ms-settings:notifications
-> ```
-> - [ ] Show notif‌ications on the lock screen
-> - [ ] Show me the Windows welcome experience after updates and occasionally
-> - [ ] Get tips, tricks and suggestions as you use Windows
+# 1. System
+### Display > Night light
+```
+ms-settings:nightlight
+```
+- [x] Schedule night light
 
-### System > Power & sleep
-> ```
-> ms-settings:powersleep
-> ```
-> - `10 minutes` On battery power, turn off after
-> - `20 minutes` When plugged in, turn off after
-> - `15 minutes` On battery power, PC goes to sleep after
-> - `Never` When plugged in, PC goes to sleep after
 
-### System > Storage
-> ```
-> ms-settings:storagesense
-> ```
-> - [x] Storage sense
+### Display 
+```
+ms-settings:display
+```
+- `100%` =: Scale _< [#Scale & layout]_
 
-### System > Clipboard
-> ```
-> ms-settings:clipboard
-> ```
-> - [x] Clipboard history
 
-### System > About
->```
->ms-settings:about
->```
->- Rename your PC to a suitable name
+### Notif‌ications & actions
+```
+ms-settings:notifications
+```
+> Notifications from apps and other senders
+> - [ ] Snipping Tool
+- [ ] Offer suggentions on how I can set up my device
+- [ ] Get tips, tricks and suggestions as you use Windows
 
-### Device > Mouse > Additional mouse options
-> ```
-> main.cpl
-> ```
+
+### Power & sleep
+```
+ms-settings:powersleep
+```
+> Screen and sleep
+> - `10 minutes` =: On battery power, turn off after
+> - `20 minutes` =: When plugged in, turn off after
+> - `15 minutes` =: On battery power, PC goes to sleep after
+> - `Never` =: When plugged in, PC goes to sleep after
+
+
+### Storage
+```
+ms-settings:storagesense
+```
+- [x] Storage sense
+
+
+### Clipboard
+```
+ms-settings:clipboard
+```
+- [x] Clipboard history
+
+
+### About
+```
+ms-settings:about
+```
+- Rename your PC to a suitable name
+
+
+
+# 1. Bluetooth & devices
+
+### Touchpad > Additional touchpad settings
+```
+main.cpl
+```
 > Open `ThinkPad` tab
 > - `Use as middle click` =: Middle mouse click
 
+
 ### Devices > Touchpad > Advanced gesture conf‌iguration
-> ```
-> ms-settings:devices-touchpad
-> ```
-> - Open `Advanced gesture conf‌iguration`
-> 
+```
+ms-settings:devices-touchpad
+```
+> Open `Advanced gestures` _< [# Related settigns]_
 > > Conf‌igure your **three** f‌inger gestures
 > > - `Custom shortcut` Taps
 > >   - `UNTBR` = `Ctrl + Pause` 
@@ -73,53 +97,50 @@
 > > - `Next Track` Left
 > > - `Previous track` Right
 
-### Devices > Typing > Hardware keyboard
-> ```
-> ms-settings:devicestyping-hwkbtextsuggestions
-> ```
-> - [x] Show text suggestions as I type
 
-### Personalization > Colors
-> ```
-> ms-settings:personalization-colors
-> ```
-> - Set color to orange
-> - [ ] Start, taskbar, and action cener
-> - [ ] Title bars and window borders
-> - `Dark` Choose your default app mode
+### Typing > Hardware keyboard
+```
+ms-settings:devicestyping-hwkbtextsuggestions
+```
+- [x] Show text suggestions as I type on the physical keyboard
 
-### Personalization > Themes > Desktop icon settings
-> ```
-> rundll32 shell32.dll,Control_RunDLL desk.cpl,null,0
-> ```
-> - Disable all icons
-> - [ ] Allow themes to change desktop icons
 
-### Personalization > Start
-> ```
-> ms-settings:personalization-start
-> ```
-> - [ ] Show more tiles on Start
-> - [ ] Show suggestions occasionally in Start
 
-### Personalization > Taskbar
-> ```
-> ms-settings:taskbar
-> ```
-> > Open `Taskbar items`
-> > - [ ] Search
-> > - [x] Task view
-> > - [ ] Widgets
-> > - [ ] Chat
->
-> > Open `Taskbar corner icon`
-> > - [ ] Pen Menu
-> > - [x] Touch keyboard
-> 
-> > Open `Taskbar corner overflow`
-> > - [x] Microsoft OneDrive
-> > - [x] Window-Tools.exe
-> > - See [Setup Taskbar](configs.md#setup-taskbar)
+# 1. Personalization
+
+
+### Colors
+```
+ms-settings:personalization-colors
+```
+- `Dark` =: Choose your default app mode
+- `Automatic` =: Accent color
+
+
+### Themes > Desktop icon settings
+```
+rundll32 shell32.dll,Control_RunDLL desk.cpl,null,0
+```
+- Disable all icons
+- [ ] Allow themes to change desktop icons
+
+### Taskbar
+```
+ms-settings:taskbar
+```
+> Open `Taskbar items`
+> - [ ] Search
+> - [x] Task view
+> - [ ] Widgets
+> - [ ] Chat
+> Open `Taskbar corner icon`
+> - [ ] Pen Menu
+> - [x] Touch keyboard
+
+> Open `Taskbar corner overflow`
+> - [x] Microsoft OneDrive
+> - [x] Window-Tools.exe
+> - See [Setup Taskbar](configs.md#setup-taskbar)
 
 ### Time & language > Typing > Advanced keyboard settings
 > ```
