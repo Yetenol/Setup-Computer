@@ -56,7 +56,7 @@ Name, Download link | Instructions | Install command
 [Mail and Calendar](https://www.microsoft.com/store/productID/9wzdncrfhvqm) | [➔ Instructions](instructions.md#install-mail-and-calendar) | ```winget install -e --id 9WZDNCRFHVQM --accept-package-agreements```
 [Telegram Desktop](https://www.microsoft.com/store/productID/9nztwsqntd0s) | [➔ Instructions](instructions.md#install-telegram-desktop) | `winget install -e --id 9NZTWSQNTD0S --accept-package-agreements # Telegram Desktop` <br> `winget install -e --id Telegram.TelegramDesktop`
 [WhatsApp Desktop](https://www.microsoft.com/store/productID/9nksqgp7f2nh) || `winget install -e --id 9NKSQGP7F2NH --accept-package-agreements` <br> `winget install -e --id WhatsApp.WhatsApp`
-[Discord](https://discord.com/download) | Don't run at [startup](how-to-dos.md#edit-startup-apps) | `winget install -e --id XPDC2RH70K22MN --accept-package-agreements # Discord` <br> `winget install -e --id Discord.Discord`
+[Discord](https://discord.com/download) | Don't run at [startup](how-to-dos.md#edit-startup-apps) | `winget install -e --id Discord.Discord` <br> `winget install -e --id XPDC2RH70K22MN --accept-package-agreements # Discord`
 [Teams](https://www.microsoft.com/en-us/microsoft-teams/download-app#desktopAppDownloadregion) | [➔ Instructions](instructions.md#install-teams) | `winget install -e --id Microsoft.Teams`
 [Zoom](https://zoom.us/download) | [➔ Instructions](instructions.md#install-zoom) | `winget install -e --id Zoom.Zoom` <br> `winget install -e --id XP99J3KP4XZ4VV --accept-package-agreements # ZOOM Cloud Meetings`
 
@@ -116,7 +116,7 @@ Name, Download link | Instructions | Install command
 Name, Download link | Instructions | Install command
 --- | --- | ---
 [Ubuntu](https://www.microsoft.com/store/productID/9nblggh4msv6) || `wsl --install`
-[WSATools](https://www.microsoft.com/store/productId/9N4P75DXL6FG) || `winget install -e --id 9n4p75dxl6fg --accept-package-agreements # WSATools`
+[WSATools](https://www.microsoft.com/store/productId/9N4P75DXL6FG) || `winget install -e --id 9N4P75DXL6FG --accept-package-agreements # WSATools`
 
 ## Gaming
 Name, Download link | Instructions | Install command
