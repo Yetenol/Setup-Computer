@@ -1,4 +1,4 @@
-# [⌂](../README.md) › **Windows Configurations**
+# [⌂](../README.md) › Windows 11 › **Configurations**
 
 ## Check drivers
 - Open `Task Manager`

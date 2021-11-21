@@ -1,4 +1,4 @@
-## [⌂](../README.md) › **Windows Settings**
+# [⌂](../README.md) › Windows 10 › **Settings**
 
 ### System > Display
 > ```
