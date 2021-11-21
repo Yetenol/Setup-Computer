@@ -1,8 +1,7 @@
 ## [⌂](README.md) **How to setup my PC** - Table of Contents ![GitHub last commit](https://img.shields.io/github/last-commit/yetenol/setup-computer?color=white)
 1. [Software](#software)
-1. [Windows Configurations](windows/configs.md)  
+1. [Windows Settings](windows/settings.md) - [_[Windows 10](windows/settings.10.md)_]
 1. [Browser](browser/browser.md)  
-1. [Windows Settings](windows/settings.md)  
 1. [Printers](printers.md)
 
 # Software
@@ -47,7 +46,8 @@ Name, Download link | Instructions | Install command
 [KeePass](https://keepass.info/download.html) | [➔ Instructions](instructions.md#install-keepass) | `winget install -e --id DominikReichl.KeePass`
 Install Visual Studio Code | [➔ Instructions](instructions.md#install-visual-studio-code) | `winget install -e --id Microsoft.VisualStudioCode --scope machine`
 [Gitkraken](https://www.gitkraken.com/download/windows64) | Sign in using Github | `winget install -e --id Axosoft.GitKraken`
-
+File Explorer | [➔ Instructions](instructions.md#setup-file-explorer)
+Local Group Policy | [➔ Instructions](instructions.md#setup-local-group-policy)
 
 
 ## Communication
