@@ -4,6 +4,35 @@
 - Open `Task Manager`
 - Are all graphics card installed properly?
 
+## Setup Taskbar
+- Unpin all apps
+- Edit `System Tray`
+    - Hide `Meet now` icon
+    - Hide `Bluetooth` icon
+    - Edit settings: [Always show all icons in the notif‌ication area](settings.md#personalization--taskbar)
+
+> Right-click taskbar
+> - `Hidden` =: Search
+> - [ ] Cortana button
+> - [ ] Task view button
+> - [ ] Show People on the taskbar
+> - [ ] Show Windows Ink Workspace button
+> - [ ] Show touch keyboard button
+
+> Align taskbar to the center
+> - Unlock taskbar
+> - Add a toolbar: `Right-click taskbar > Toolbars > Links`
+> - Drag the toolbar to the very left
+> - Resize the toolbar until the app icons are in the middle
+> - Right-click the toolbar and hide its title
+> - Lock the taskbar
+
+> Pin taskbar apps
+> 1. Browser app
+> 1. Mail app
+> 1. Calendar app
+> 1. File Explorer
+> 1. KeePass
 
 ## Setup Explorer
 > Open `File Explorer options`
