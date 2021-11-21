@@ -18,13 +18,6 @@
 >     - [x] Use check boxes to select item
 >     - [x] Always show availability status
 
-    ## Setup Start
-    - Install [TileIconifier](https://github.com/Jonno12345/TileIconifier/releases/latest)
-    - Import [scripts](configs/TileIconify-scripts.zip) into `C:\ProgramData`
-    - Create custom shortcuts according to PowerPoint Layout
-        - `Other > Shortcut Target` Add desktop apps
-        - `Windows Store`, `URI`, `Steam`
-        - Name shortcuts ~1 ... ~99
 
 ## Local Group Policy
 - [GroupPolicy:](how-to-dos.md#edit-local-group-policy) `Computer Configuration>Administrative Templates>System>Filesystem`
