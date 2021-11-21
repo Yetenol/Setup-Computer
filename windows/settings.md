@@ -4,6 +4,7 @@
 1. [Personalization](#personalization)
 1. [Apps](#apps)
 1. [Time & language](#time--language)
+1. [Accessibility](#accessibility)
 
 
 # 1. System
@@ -67,7 +68,7 @@ ms-settings:about
 
 
 
-# 1. Bluetooth & devices
+# 2. Bluetooth & devices
 
 ### Touchpad > Additional touchpad settings
 ```
@@ -109,7 +110,7 @@ ms-settings:devicestyping-hwkbtextsuggestions
 
 
 
-# 1. Personalization
+# 3. Personalization
 
 
 ### Colors
@@ -148,7 +149,7 @@ ms-settings:taskbar
 
 
 
-# Apps
+# 4. Apps
 
 
 ### Video playback
@@ -160,7 +161,7 @@ ms-settings:videoplayback
 
 
 
-# Time & language
+# 5. Time & language
 
 
 ### Typing > Advanced keyboard settings
@@ -195,7 +196,7 @@ intl.cpl
 
 
 
-# Accessibility
+# 6. Accessibility
 
 
 ### Keyboard _< [#Interaction]_
