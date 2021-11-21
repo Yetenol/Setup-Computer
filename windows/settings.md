@@ -85,11 +85,11 @@ ms-settings:devices-touchpad
 > > Conf‌igure your **three** f‌inger gestures
 > > - `Custom shortcut` Taps
 > >   - `UNTBR` = `Ctrl + Pause` 
-> >   - Record using [window-tools.ahk](https://github.com/Yetenol/AHK-tools/releases/latest/download/WindowTools.exe) tray menu 
+> >   - Record using [window-tools.ahk](https://github.com/Yetenol/Window-Tools/releases/latest/download/Window-Tools.exe) tray menu 
 > > - `Switch apps` Up
 > > - `Custom shortcut` Down
 > >   -  `PAUSE` 
-> >   - Record using [window-tools.ahk](https://github.com/Yetenol/AHK-tools/releases/latest/download/WindowTools.exe) tray menu 
+> >   - Record using [window-tools.ahk](https://github.com/Yetenol/Window-Tools/releases/latest/download/Window-Tools.exe) tray menu 
 > > - `Forward navigation` Left
 > > - `Backward navigation` Right
 > 
