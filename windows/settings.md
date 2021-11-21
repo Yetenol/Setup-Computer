@@ -1,8 +1,8 @@
 # [⌂](../README.md) › Windows 11 › **Settings** - Table of Contents
 1. [System](#system)
 1. [Bluetooth & devices](#bluetooth--devices)
-1. Network & internet
 1. [Personalization](#personalization)
+1. [Apps](#apps)
 1. [Time & language](#time--language)
 
 
@@ -19,9 +19,12 @@ ms-settings:nightlight
 ms-settings:display
 ```
 - `100%` =: Scale _< [#Scale & layout]_
+> Open `HDR`
+> - [x] Play streaming HDR video
 
 
 ### Notif‌ications & actions
+- _Clean up System Tray_
 ```
 ms-settings:notifications
 ```
@@ -110,6 +113,7 @@ ms-settings:devicestyping-hwkbtextsuggestions
 
 
 ### Colors
+_Dynamically match the accent color with the background image_
 ```
 ms-settings:personalization-colors
 ```
@@ -142,23 +146,38 @@ ms-settings:taskbar
 > - [x] Window-Tools.exe
 > - See [Setup Taskbar](configs.md#setup-taskbar)
 
-### Time & language > Typing > Advanced keyboard settings
-> ```
-> ms-settings:typing
-> ```
-> > Open `Advanced keyboard settings`
-> > - [x] Use desktop language bar when it's available *< [#Switching input methods*]
-> > - A language bar should appear in the top left corner of the screen
-> > - Right-click the language bar and click `Close the language bar`
-> > - Confirm closing dialog
 
-### Apps > Video playback
-> ```
-> ms-settings:videoplayback	
-> ```
-> - [x] Automatically process video to enhance it
 
-### Time & Language > Region > Additional date, time & regional settings
+# Apps
+
+
+### Video playback
+```
+ms-settings:videoplayback	
+```
+- [x] Process video automatically to enhance it (depends on your device hardware)
+
+
+
+
+# Time & language
+
+
+### Typing > Advanced keyboard settings
+_Hide the language swapper icon in the taskbbar_
+```
+ms-settings:typing
+```
+> Open `Advanced keyboard settings`
+> - [x] Use desktop language bar when it's available *< [#Switching input methods*]
+> - A language bar should appear in the top left corner of the screen
+> - Right-click the language bar and click `Close the language bar`
+> - Confirm closing dialog
+>> Open `Language bar options > Advanced Key Settings`
+>> - Set all sequences to `Not Assigned`
+
+
+### Region > Additional date, time & regional settings
 ```
 intl.cpl
 ```
@@ -166,7 +185,7 @@ intl.cpl
 
 > Open `Additional settings... > Date`
 > - `yyyy-MM-dd ddd` =: Short date
-> - Click `OK` and check if the date format in the System Tray updates
+> - Click `OK` and check that the time in the system tray is updated
 
 > Open `Administrative` tab
 > - Click `Copy settings...`
@@ -174,8 +193,14 @@ intl.cpl
 > - [x] New user accounts
 > - Click `OK`
 
-### Ease of Access > Interaction > Keyboard
-> ```
-> ms-settings:easeofaccess-keyboard
-> ```
-> - [ ] Use the PrtScn button to open screen snipping
+
+
+# Accessibility
+
+
+### Keyboard _< [#Interaction]_
+_directly launch `Snipping Tool` using `PrintScreen`_
+```
+ms-settings:easeofaccess-keyboard
+```
+- [x] Use the PrtScn button to open screen snipping
