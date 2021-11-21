@@ -7,7 +7,7 @@
 1. [Accessibility](#accessibility)
 
 
-# 1. System
+# System
 ### Display > Night light
 ```
 ms-settings:nightlight
@@ -68,7 +68,7 @@ ms-settings:about
 
 
 
-# 2. Bluetooth & devices
+# Bluetooth & devices
 
 ### Touchpad > Additional touchpad settings
 ```
@@ -110,7 +110,7 @@ ms-settings:devicestyping-hwkbtextsuggestions
 
 
 
-# 3. Personalization
+# Personalization
 
 
 ### Colors
@@ -149,7 +149,7 @@ ms-settings:taskbar
 
 
 
-# 4. Apps
+# Apps
 
 
 ### Video playback
@@ -161,7 +161,7 @@ ms-settings:videoplayback
 
 
 
-# 5. Time & language
+# Time & language
 
 
 ### Typing > Advanced keyboard settings
@@ -196,7 +196,7 @@ intl.cpl
 
 
 
-# 6. Accessibility
+# Accessibility
 
 
 ### Keyboard _< [#Interaction]_
