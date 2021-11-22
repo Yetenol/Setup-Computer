@@ -35,6 +35,12 @@
 > 1. KeePass
 
 ## Setup Explorer
+- Reset `Quick Access`
+    ```powershell
+    powershell -Command "Remove-Item -Path \"$env:AppData\microsoft\windows\Recent\AutomaticDestinations\f01b4d95cf55d32a.automaticDestinations-ms\""
+    ```
+- Unpin all `Quick Access` item
+
 > Open `File Explorer options`
 > ```
 > shell:::{6DFD7C5C-2451-11d3-A299-00C04F8EF6AF}
