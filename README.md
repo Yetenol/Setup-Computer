@@ -1,16 +1,31 @@
 ## [⌂](README.md) **How to setup my PC** - Table of Contents ![GitHub last commit](https://img.shields.io/github/last-commit/yetenol/setup-computer?color=white)
+
+1. [OS & Partitions](#os--partitions)
 1. [Software](#software)
 1. [Windows Settings](windows/settings.md) - [_[Windows 10](windows/settings.10.md)_]
 1. [Browser](browser/browser.md)  
 1. [Printers](printers.md)
 
+
+
+# OS & Partitions
+
+
+1. Create an up-to-date [Windows 11 Installation Media](https://go.microsoft.com/fwlink/?linkid=2156295).  
+1. Split the drive into two different partitions:
+    - System partition: at least 100GB 
+1. Format the system partition
+1. Do a clean OS install using the installation media
+
+
+
 # Software
-Create an up-to-date [Windows 11 Installation Media](https://go.microsoft.com/fwlink/?linkid=2156295).  
-Format the system partition and do a clean OS install. Remove any pre-installed software.
+
 
 ## Setup Windows Package Manager CLI (winget)
 - Install [App Installer](https://www.microsoft.com/store/productID/9nblggh4nns1)
 - Open a console and run `winget` to test the installation
+
 
 ## Uninstall Bloatware
 ```powershell
