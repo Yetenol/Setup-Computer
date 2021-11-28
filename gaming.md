@@ -68,3 +68,7 @@
     %userprofile%\curseforge\minecraft\Install\minecraft.exe --workDir="%userprofile%\curseforge\minecraft\Install"
     ```
 - Rename the shortcut to `Minecraft Launcher`
+
+## Summary
+- To play vanilla or modded Minecraft run `Minecraft Launcher`
+- To manage modpacks start `CurseForge`
