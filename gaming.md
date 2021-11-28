@@ -24,7 +24,7 @@
 
 - Install app through Microsoft Store
     ```
-    ms-windows-store://pdp/?ProductId=9N1BNZLGKG3C # Minecraft for Windows + Launcher
+    ms-windows-store://pdp/?ProductId=9NBLGGH2JHXJ # Minecraft for Windows
     ```
 
 
