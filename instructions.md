@@ -374,16 +374,3 @@ Set-Location -Path $preservePath
 >>   "useAcrylic": true,
 >>   "acrylicOpacity": 0.5
 >>   ``` 
-
-
-## Install [Minecraft Java Edition](https://www.minecraft.net/en-us/download/)
-
-
-## Install [Factorio](https://factorio.com/download)
-> Open `Settings > Graphics`
-> - [ ] Show all smoke
-
-> Sync AppData data to cloud
-- Create [symbolic links](how-to-dos.md#symbolic-links)
-- Folders: saves, mods, config
-- Files: achievements.dat, player-data.json
