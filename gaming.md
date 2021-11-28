@@ -26,8 +26,26 @@
     ```
     ms-windows-store://pdp/?ProductId=9NBLGGH2JHXJ # Minecraft for Windows
     ```
-
-
+- Open Minecraft
+- Sign in to Microsoft
+- Install Resource Packs
+    - Install [Marketplace Hider](https://mcpedl.com/marketplace-remover-resource-pack/)
+    - Install [Server List UI](https://foxynotail.com/resource-packs/server_list_ui/)
+- Download [skin](https://minecraft.tools/download-skin/Yetenol)
+- Open `Dressing Room > Menu > Classic Skins > Owned > Import > Choose new skin`
+- Import downlaoded skin
+> Open `Settings`
+>> Open `Video`
+>> - `100` =: Brightness
+>> - [x] Fullscreen
+>> - [x] Hide Paper Doll
+>> - `-1` =: GUI Scale Modifier
+>
+>> Open `Audio`
+>> - `0` =: Music
+>
+>> Open `Global Resources`
+>> - activate all resource packs
 
 # Minecraft Java Edition
 
