@@ -52,6 +52,8 @@ ms-settings:storagesense
 ```
 - [x] Storage sense
 
+> Open `Configure Storage Sense now`
+> - `14 days` =: Delete files in my Downloads folder if they haven't been opened for more than:
 
 ### Clipboard
 ```
