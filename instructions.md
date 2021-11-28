@@ -2,40 +2,48 @@
 
 
 ## Install [KeePass](https://keepass.info/download.html)
-> Install plugins
-> - to install put files into 
->   ```
->   %ProgramFiles%\KeePass2x\Plugins
->   ```
-> - Install [KeeAnywhere](https://github.com/Kyrodan/KeeAnywhere/releases/latest)
->   - link OneDrive account
-> - Install [WinHelloUnlock](https://github.com/Angelelz/WinHelloUnlock/releases/latest/download/WinHelloUnlock.dll)
->   - setup Windows Hello fingerprint unlock
-> - Install [KeeOtp2](https://github.com/tiuub/KeeOtp2/releases/latest/download/KeeOtp2.plgx)
 
-- import keyfile and unlock cloud database
+### Setup hotkey
+- Open `Lenovo Vantage`
+- Open `Device > Input & accessories >` _`#User-defined Key`_
+- `Open application or files` =: ACTION USER DEFINED KEY
+- Add _Keepass_ as the application to open
 
-> Open `Tools > Options`
->> Open `Security`
->> - `30` Lock Workspace after KeePass iniactivity (seconds):
->> - [x] Lock workspace when locking the computer or switching the user *< [#General]*
->> - [x] Lock workspace when the computer is about to be suspended *< [#General]*
->> - [x] Lock workspace when the remote control mode changes *< [#General]*
->> - [x] Enter master key on secure desktop *< [#Advanced]*
->
->> Open `Interface`
->> - [x] Drop to background after copying data to the clipboard *< [#Main Window]*
->> - [x] Close button [X] minimizes main windows instead of terminating the application *< [#Main Window]*
->> - [x] Focus entry list after a successful quick search *< [#Quick Search (Toolbar)]*
->> - [x] Focus quick search box when restoring from taskbar *< [#Quick Search (Toolbar)]*
->> - [x] Focus quick search box when restoring from tray *< [#Quick Search (Toolbar)]*
+### Install plugins
+- to install put .plgx or .dll files into 
+  ```
+  %ProgramFiles%\KeePass2x\Plugins
+  ```
+- Install [KeeAnywhere](https://github.com/Kyrodan/KeeAnywhere/releases/latest)
+  - link OneDrive account and unlock cloud database
+- Install [WinHelloUnlock](https://github.com/Angelelz/WinHelloUnlock/releases/latest/download/WinHelloUnlock.dll)
+  - setup Windows Hello face/fingerprint unlock
+- Install [KeeOtp2](https://github.com/tiuub/KeeOtp2/releases/latest/download/KeeOtp2.plgx)
 
-> Copy password generation pattern
-> - Open `Tools > Generate Password`
-> - Select Generate using pattern
-> - Paste pattern
-> - Click the save icon in the top right-hand corner
-> - Override the `(Automatically generated passwords for new entries)` profile
+### Open `Tools > Options`
+> Open `Security`
+> - `30` Lock Workspace after KeePass iniactivity (seconds):
+> - [x] Lock workspace when locking the computer or switching the user *< [#General]*
+> - [x] Lock workspace when the computer is about to be suspended *< [#General]*
+> - [x] Lock workspace when the remote control mode changes *< [#General]*
+> - [x] Enter master key on secure desktop *< [#Advanced]*
+
+> Open `Interface`
+> - [x] Minimize to tray instead of taskbar
+> - [x] Drop to background after copying data to the clipboard *< [#Main Window]*
+> - [x] Close button [X] minimizes main windows instead of terminating the application *< [#Main Window]*
+> - [x] Focus entry list after a successful quick search *< [#Quick Search (Toolbar)]*
+> - [x] Focus quick search box when restoring from taskbar *< [#Quick Search (Toolbar)]*
+> - [x] Focus quick search box when restoring from tray *< [#Quick Search (Toolbar)]*
+
+### Setup password generation pattern
+- Open entry `root\Password Generation`
+- Copy password pattern (username)
+- Open `Generate a password > Open Password Generator`
+- Select Generate using pattern
+- Paste pattern
+- Click the save icon in the top right-hand corner
+- Override the `(Automatically generated passwords for new entries)` profile
 
 
 ## Install Visual Studio Code
