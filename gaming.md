@@ -4,10 +4,10 @@
 
 # Factorio
 
-- Download directly via sign in through https://factorio.com/download
+- Download directly (sign-in required) through https://factorio.com/download
 - Alternatively install via Steam
     ```
-    start steam://store/427520
+    steam://store/427520
     ```
 
 > Open `Settings > Graphics`
@@ -70,5 +70,5 @@
 - Rename the shortcut to `Minecraft Launcher`
 
 ## Summary
-- To play vanilla or modded Minecraft run `Minecraft Launcher`
-- To manage modpacks start `CurseForge`
+- To play vanilla or modded Minecraft open `Minecraft Launcher`
+- To manage modpacks open `CurseForge`
