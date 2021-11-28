@@ -4,6 +4,7 @@
 1. [Software](#software)
 1. [Windows Settings](windows/settings.md) - [_[Windows 10](windows/settings.10.md)_]
 1. [Browser](browser/browser.md)  
+1. [Gaming](gaming.md)
 1. [Printers](printers.md)
 
 
@@ -132,10 +133,3 @@ Name, Download link | Instructions | Install command
 --- | --- | ---
 [Ubuntu](https://www.microsoft.com/store/productID/9nblggh4msv6) || `wsl --install`
 [WSATools](https://www.microsoft.com/store/productId/9N4P75DXL6FG) || `winget install -e --id 9N4P75DXL6FG --accept-package-agreements # WSATools`
-
-## Gaming
-Name, Download link | Instructions | Install command
---- | --- | ---
-[Minecraft Java Edition](https://www.minecraft.net/en-us/download/) | [➔ Instructions](instructions.md#install-minecraft-java-edition) | `start ms-windows-store://pdp/?ProductId=9PGW18NPBZV5 # Minecraft Launcher` <br> `winget install -e --id Mojang.MinecraftLauncher`
-[Minecraft Bedrock Edition](https://www.microsoft.com/store/productID/9n1bnzlgkg3c) || `start ms-windows-store://pdp/?ProductId=9N1BNZLGKG3C # Minecraft for Windows + Launcher`
-[Factorio](https://factorio.com/download) | [➔ Instructions](instructions.md#install-factorio) | `start steam://store/427520`
