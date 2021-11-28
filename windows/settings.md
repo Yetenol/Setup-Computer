@@ -8,11 +8,6 @@
 
 
 # System
-### Display > Night light
-```
-ms-settings:nightlight
-```
-- [x] Schedule night light
 
 
 ### Display 
@@ -22,6 +17,35 @@ ms-settings:display
 - `100%` =: Scale _< [#Scale & layout]_
 > Open `HDR`
 > - [x] Play streaming HDR video
+
+
+### Display > Night light
+```
+ms-settings:nightlight
+```
+- [x] Schedule night light
+
+
+## Display > Graphics
+- _Set Minecraft's java runtime environments to external graphics card_
+```
+ms-settings:display-advancedgraphics
+```
+- skip if no seperate graphics card is available
+- `Desktop app` =: Add an app
+- Click browser and open folder `%userprofile%\curseforge\minecraft\Install\runtime\`
+- Set the following applications to **High Performance**
+```
+java-runtime-alpha\windows-x64\java-runtime-alpha\bin\java.exe
+java-runtime-alpha\windows-x64\java-runtime-alpha\bin\javaw.exe
+java-runtime-beta\windows-x64\java-runtime-beta\bin\java.exe
+java-runtime-beta\windows-x64\java-runtime-beta\bin\javaw.exe
+jre-legacy\windows-x64\jre-legacy\bin\java.exe
+jre-legacy\windows-x64\jre-legacy\bin\javaw.exe
+jre-x64\bin\java.exe
+jre-x64\bin\javaw.exe
+```
+
 
 
 ### Notif‌ications & actions
