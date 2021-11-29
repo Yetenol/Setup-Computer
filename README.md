@@ -39,6 +39,7 @@ winget uninstall -e --id Microsoft.Getstarted_8wekyb3d8bbwe                     
 winget uninstall -e --id Microsoft.MicrosoftOfficeHub_8wekyb3d8bbwe             # Office
 winget uninstall -e --id Microsoft.MicrosoftSolitaireCollection_8wekyb3d8bbwe   # Microsoft Solitaire Collection
 winget uninstall -e --id Microsoft.People_8wekyb3d8bbwe                         # Microsoft People
+winget uninstall -e --id Microsoft.Todos_8wekyb3d8bbwe                          # Microsoft To Do
 winget uninstall -e --id Microsoft.WindowsFeedbackHub_8wekyb3d8bbwe             # Feedback Hub
 winget uninstall -e --id Microsoft.WindowsMaps_8wekyb3d8bbwe                    # Windows Maps
 winget uninstall -e --id Microsoft.XboxIdentityProvider_8wekyb3d8bbwe           # Xbox Identity Provider
