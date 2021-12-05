@@ -28,4 +28,4 @@
 X:\OneDrive
 
 ## Graustufendrucker **HP LaserJet 1010**
-- Import [Driver Files](resources\HP%20LaserJet%201010%20-%20Vista%20(64-bit).zip)
+- Import [Driver Files](https://1drv.ms/u/s!AiuslRJoLisdmaMW_KjKPYwh4cilkw?e=KrRZrJ)
