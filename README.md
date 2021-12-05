@@ -2,7 +2,7 @@
 
 1. [OS & Partitions](#os--partitions)
 1. [Software](#software)
-1. [Windows Settings](windows/settings.md) - [_[Windows 10](windows/settings.10.md)_]
+1. [Windows Settings](settings.md) - [_[Windows 10](archive/settings.10.md)_]
 1. [Browser](browser/browser.md)  
 1. [Gaming](gaming.md)
 1. [Printers](printers.md)
