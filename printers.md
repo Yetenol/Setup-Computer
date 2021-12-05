@@ -3,7 +3,7 @@
 ## Farbkopierer **HP Photosmart HP C4580**
 
 ### Install Driver
-> Install [Driver & Software Package](resources/HP%20Photosmart%20HP%20C4580%20-%20Driver%20and%20Software)
+> Install [Driver & Software Package](https://1drv.ms/u/s!AiuslRJoLisdmaMXxu7Ku7X8dCxOAQ?e=U06iUV)
 > - Click `Install`
 > - On `Review Installation Options` click `HP software* to be installed, click here to customize`
 >     - Disable everything but the Driver Software
