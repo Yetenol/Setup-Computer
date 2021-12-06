@@ -48,8 +48,16 @@
 >> - activate all resource packs
 
 # Minecraft Java Edition
+1. [Create install environment using CurseForge](#create-install-environment-using-curseforge)
+2. [_(Manage modpacks using CurseForge)_](#import-a-modpack)
+3. [Setup Minecraft Launcher](#import-a-modpack)
+4. [Install a chunk editor](#install-a-chunk-editor)
 
-## Setup CurseForge
+- To play vanilla or modded Minecraft open `Minecraft Launcher`
+- To manage modpacks open `CurseForge`
+- To edit chunks open `MCA Selector`
+
+## Create install environment using CurseForge
 - Install [Overwolf & CurseForge Mod Platform](https://download.curseforge.com/)
 - Launch CurseForge
 - Click `System Tray > Overwolf > Hide dock`
@@ -76,7 +84,7 @@
   - Right click profile and click `Open Folder`
   - Import and override all modpack files
 
-## Create launcher shortcut
+## Create a launcher shortcut
 - Open Programs Folder
     ```
     shell:programs
@@ -87,6 +95,6 @@
     ```
 - Rename the shortcut to `Minecraft Launcher`
 
-## Summary
-- To play vanilla or modded Minecraft open `Minecraft Launcher`
-- To manage modpacks open `CurseForge`
+## Install a chunk editor
+- Install [MCA Selector](https://github.com/Querz/mcaselector/releases/latest)
+- _An external tool to export or delete selected chunks and regions from a world save of Minecraft Java Edition._
