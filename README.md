@@ -106,6 +106,7 @@ Name, Download link | Instructions | Install command
 --- | --- | ---
 [Window-Tools](https://github.com/Yetenol/Window-Tools/releases/latest/download/Window-Tools.exe)
 [EdgeDeflector](https://github.com/da2x/EdgeDeflector/releases/latest/download/EdgeDeflector_install.exe) || `winget install -e --id da2x.edgedeflector`
+[Auto Dark Mode](https://github.com/AutoDarkMode/Windows-Auto-Night-Mode/releases/latest) | [➔ Instructions](instructions.md#install-auto-dark-mode) | `winget install -e --id Armin2208.WindowsAutoNightMode` <br> `winget install -e --id XP8JK4HZBVF435 --accept-package-agreements # Auto Dark Mode`
 [BatteryBar Pro](https://batterybarpro.com/basic.php)
 [EarTrumpet](https://www.microsoft.com/store/productID/9nblggh516xp) || `winget install -e --id File-New-Project.EarTrumpet`
 [SharpKeys](https://github.com/randyrants/sharpkeys/releases/latest) | [➔ Instructions](instructions.md#install-sharpkeys) | `winget install -e --id RandyRants.SharpKeys`

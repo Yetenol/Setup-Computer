@@ -273,6 +273,16 @@ Set-Location -Path $preservePath
 > - `EarthPorn` =: Wallpaper subreddit
 
 
+## Install [Auto Dark Mode](https://github.com/AutoDarkMode/Windows-Auto-Night-Mode/releases/latest)
+> Open `Time`
+> - `From sunset to sunrise (geographic coordinates)` =: Time
+> - `52.52` =: Latitude _< [#Geographic coordinates]_
+> - `13.405` =: Longitude _< [#Geographic coordinates]_
+
+> Open `Settings`
+> - [x] Hide tray icon (not recommended)
+
+
 ## Install [SharpKeys](https://github.com/randyrants/sharpkeys/releases/latest)
 - Durring setup select install for all users
 - Load keys from [keymap file](configs/SharpKeys-keymaps.skl)
