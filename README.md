@@ -62,7 +62,7 @@ Name, Download link | Instructions | Install command
 [Lenovo Vantage](https://www.microsoft.com/store/productID/9wzdncrfj4mv) | Run `Check for System Updates` | `winget install -e --id 9WZDNCRFJ4MV --accept-package-agreements # Lenovo Vantage`
 [KeePass](https://keepass.info/download.html) | [➔ Instructions](instructions.md#install-keepass) | `winget install -e --id DominikReichl.KeePass`
 Install Visual Studio Code | [➔ Instructions](instructions.md#install-visual-studio-code) | `winget install -e --id Microsoft.VisualStudioCode --scope machine`
-[Gitkraken](https://www.gitkraken.com/download/windows64) | Sign in using Github | `winget install -e --id Axosoft.GitKraken`
+[Gitkraken](https://www.gitkraken.com/download/windows64) | [➔ Instructions](instructions.md#install-gitkraken) | `winget install -e --id Axosoft.GitKraken`
 File Explorer | [➔ Instructions](instructions.md#setup-file-explorer)
 Local Group Policy | [➔ Instructions](instructions.md#setup-local-group-policy)
 

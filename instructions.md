@@ -61,6 +61,25 @@
         ```
 
 
+## Install [Gitkraken](https://www.gitkraken.com/download/windows64)
+- sign in using GitHub
+> Open `Preferences`
+>> Open General
+>> - `Visual Studio Code` =: External Editor
+>
+>> Open `Integrations`
+>> - add all relevant accounts
+>
+>> Open `Notifications`
+>> - [x] Enable Desktop Notifications
+>> - [ ] Receive Marketung Notifications
+>
+>> Open `UI Customization`
+>> - `Sync with system` =: Theme
+>> - [ ] Show toolbar icon labels
+>> - [ ] Show GitKraken Board button in toolbar
+
+
 ## Setup File Explorer
 - Reset `Quick Access`
     ```powershell
