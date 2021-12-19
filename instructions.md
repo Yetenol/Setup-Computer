@@ -144,18 +144,15 @@
 - Test all synced send-only email accounts
 
 
-## Install [Telegram Desktop](https://www.microsoft.com/en-us/p/telegram-desktop/9nztwsqntd0s)
-> Open `Settings`
-> 
-> > Open `Chat Settings`
-> > - [x] Match the system settings *< [#Auto-night mode]*
-> 
-> > Open `Notifications`
-> > - [x] Use Windows notifications *< [#Native notifications]*
-> 
-> > Open `Advanced`
-> > - Open `Manage local storage` *< [#Data and storage]*
-> >     - `Never` Clear files older than
+## Install [Signal](https://signal.org/en/download/)
+> Open `Preferences`
+>> Open `General`
+>> - [x] Hide menu bar
+>
+>> Open `Appearance`
+>> - `System` =: Theme
+>> - `orange to red` =: Char color
+
 
 ## Install [Zoom](https://zoom.us/download)
 > Open `Settings`
@@ -170,6 +167,20 @@
 > Open `Settings > Generell`
 > - `Dark` =: Theme
 > - [ ] Auto-start application
+
+
+## Install [Telegram Desktop](https://www.microsoft.com/en-us/p/telegram-desktop/9nztwsqntd0s)
+> Open `Settings`
+> 
+> > Open `Chat Settings`
+> > - [x] Match the system settings *< [#Auto-night mode]*
+> 
+> > Open `Notifications`
+> > - [x] Use Windows notifications *< [#Native notifications]*
+> 
+> > Open `Advanced`
+> > - Open `Manage local storage` *< [#Data and storage]*
+> >     - `Never` Clear files older than
 
 
 ## Install [Microsoft Office](https://account.microsoft.com/services/office/install)
