@@ -210,8 +210,14 @@ intl.cpl
 ```
 - `English (Germany)` =: Format
 
-> Open `Additional settings... > Date`
-> - `yyyy-MM-dd ddd` =: Short date
+> Open `Additional settings...`
+>> Open `Numbers`
+>> - `.` =: Decimal symbol
+>> - `,` =: Digit grouping symbol
+>> - `,` =: List seperator
+>
+>> Open `Date`
+>> - `yyyy-MM-dd ddd` =: Short date
 > - Click `OK` and check that the time in the system tray is updated
 
 > Open `Administrative` tab
