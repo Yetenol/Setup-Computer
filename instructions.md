@@ -85,7 +85,7 @@
 ## Setup File Explorer
 - Reset `Quick Access`
     ```powershell
-    powershell -Command "Remove-Item -Path \"$env:AppData\microsoft\windows\Recent\AutomaticDestinations\f01b4d95cf55d32a.automaticDestinations-ms\""
+    powershell -Command 'Remove-Item -Path \"$env:AppData\microsoft\windows\Recent\AutomaticDestinations\f01b4d95cf55d32a.automaticDestinations-ms\"'
     ```
 - Unpin all `Quick Access` item
 
