@@ -82,7 +82,7 @@ Disabled | `about:flags/#overscroll-history-navigation` | Two-finger overscroll 
 > ```
 > about:settings/onStartup
 > ```
-> - `Open the new tab page` =: On startup
+> - `Open the new tab page` =: When Edge starts
 
 ### Setup content handling
 > Block the following permission requests
