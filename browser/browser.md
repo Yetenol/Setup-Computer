@@ -37,12 +37,13 @@ Disabled | `about:flags/#overscroll-history-navigation` | Two-finger overscroll 
 > - Sign in to turn on sync
 > - [x] Favorites
 > - [x] Settings
-> - [ ] Personal info
+> - [ ] Basis info
 > - [ ] Passwords
 > - [ ] History
 > - [ ] Open tabs
 > - [x] Extensions
 > - [x] Collections
+> - [ ] Payments using Microsoft account
 
 > ```
 > about:settings/addresses
