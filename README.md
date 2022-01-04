@@ -54,6 +54,7 @@ winget uninstall -e --id AppUp.ThunderboltControlCenter_8j3eq9eme6ctt           
 winget uninstall -e --id DolbyLaboratories.DolbyAudioPremium_rz1tebttyb220      # Dolby Audio Premium
 winget uninstall -e --id SynapticsIncorporated.SynapticsUtilities_807d65c4rvak2 # PrebootManager
 winget uninstall -e --id RealtekSemiconductorCorp.RealtekAudioControl_dt26b99r8h8gj # Realtek Audio Control
+
 ```
 
 ## Priority
