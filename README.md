@@ -87,7 +87,7 @@ Name, Download link | Instructions | Install command
 [Microsoft Office](https://account.microsoft.com/services/office/install) | [➔ Instructions](instructions.md#install-microsoft-office)
 [OneNote](https://www.microsoft.com/store/productID/9wzdncrfhvjl) || `winget install -e --id 9WZDNCRFHVJL --accept-package-agreements # OneNote for Windows 10`
 OneDrive | [➔ Instructions](instructions.md#install-onedrive) | `winget install -e --id Microsoft.OneDrive`
-[Boxcryptor](https://www.boxcryptor.com/en/download/) | [➔ Instructions](instructions.md#install-boxcryptor)
+[Boxcryptor](https://www.boxcryptor.com/en/download/) | [➔ Instructions](instructions.md#install-boxcryptor) | `winget install -e --id SecombaGmbH.Boxcryptor`
 [Firefox](https://www.mozilla.org/en-US/firefox/download/thanks/) || `winget install -e --id 9NZVDKPMR9RD --accept-package-agreements # Mozilla Firefox` <br> `winget install -e --id Mozilla.Firefox`
 [AusweisApp](https://www.ausweisapp.bund.de/download/windows-und-mac/) | [➔ Instructions](instructions.md#install-ausweisapp)
 [Adobe Acrobat Reader](https://get.adobe.com/reader/) | [➔ Instructions](instructions.md#install-adobe-acrobat-reader) | `winget install -e --id Adobe.Acrobat.Reader.64-bit` <br> `winget install -e --id XPDP273C0XHQH2 --accept-package-agreements # Adobe Acrobat Reader DC`
