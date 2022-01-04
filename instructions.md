@@ -197,6 +197,13 @@
 >> - 150 = Maximum number of undos
 
 
+## Install [Simplenote](https://www.microsoft.com/store/productID/9nxqq40ldw3x)
+> Press `Ctrl + ,` to open Settings
+>> Open `Display`
+>> - `Condensed` := Note Display
+>> - [x] Hide Automatically _< [#Menu Bar]_
+
+
 ## Install OneDrive
 - Unlink device
     - Click `System Tray > OneDrive > More > Settings > Backup > Unlink`
