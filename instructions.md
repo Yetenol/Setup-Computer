@@ -119,7 +119,6 @@
 >>       - [x] Calendar
 >>       - [ ] Contacts
 >> - Add `puschanton@gmail.com` and configure
->>   - Rename account `MS-Exchange`
 >>   - Click `Change mailbox sync settings`
 >>       - [ ] Email
 >>       - [ ] Calendar
