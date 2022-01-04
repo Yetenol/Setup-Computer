@@ -164,6 +164,7 @@ ms-settings:taskbar
 > - [ ] Task view
 > - [ ] Widgets
 > - [ ] Chat
+
 > Open `Taskbar corner icon`
 > - [ ] Pen Menu
 > - [x] Touch keyboard
