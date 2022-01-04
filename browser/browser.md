@@ -66,7 +66,7 @@ Disabled | `about:flags/#overscroll-history-navigation` | Two-finger overscroll 
 > > - [x] Show tab actions menu
 > > - [x] Hide title bar while in vertical tabs
 > > - `Turn on` Show vertical tabs for all current browser windows
-> - `Never` =: Show favorites bar
+> - `Only on new tabs` =: Show favorites bar
 > > Select which buttons to show on the toolbar:
 > > - [ ] Home button `[Alt+Home]`
 > > - [x] Extensions button 
