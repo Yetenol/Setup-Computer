@@ -46,7 +46,7 @@ Disabled | `about:flags/#overscroll-history-navigation` | Two-finger overscroll 
 > - [ ] Payments using Microsoft account
 
 > ```
-> about:settings/addresses
+> about:settings/personalinfo
 > ```
 > - [x] Save and fill addresses
 > - Add personal info
