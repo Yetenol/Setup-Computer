@@ -209,7 +209,7 @@
 
 Open `System Tray > OneDrive > More > Settings`
 > Open `Settings` tab
-> - [ ] When OneDrive suggests a new collection of my photos and videos
+> - [ ] When OneDrive suggests a new collection of my photos and videos _< [#Notifications]_
 
 > Open `Backup` tab
 > - [ ] Automatically save screenshots I capture to OneDrive
