@@ -23,18 +23,18 @@
 ### Open `Tools > Options`
 > Open `Security`
 > - `30` Lock Workspace after KeePass iniactivity (seconds):
-> - [x] Lock workspace when locking the computer or switching the user *< [#General]*
-> - [x] Lock workspace when the computer is about to be suspended *< [#General]*
-> - [x] Lock workspace when the remote control mode changes *< [#General]*
-> - [x] Enter master key on secure desktop *< [#Advanced]*
+> - [x] Lock workspace when locking the computer or switching the user _< [#General]_
+> - [x] Lock workspace when the computer is about to be suspended _< [#General]_
+> - [x] Lock workspace when the remote control mode changes _< [#General]_
+> - [x] Enter master key on secure desktop _< [#Advanced]_
 
 > Open `Interface`
-> - [x] Minimize to tray instead of taskbar
-> - [x] Drop to background after copying data to the clipboard *< [#Main Window]*
-> - [x] Close button [X] minimizes main windows instead of terminating the application *< [#Main Window]*
-> - [x] Focus entry list after a successful quick search *< [#Quick Search (Toolbar)]*
-> - [x] Focus quick search box when restoring from taskbar *< [#Quick Search (Toolbar)]*
-> - [x] Focus quick search box when restoring from tray *< [#Quick Search (Toolbar)]*
+> - [x] Minimize to tray instead of taskbar _< [#Main Window]_
+> - [x] Drop to background after copying data to the clipboard _< [#Main Window]_
+> - [x] Close button [X] minimizes main windows instead of terminating the application _< [#Main Window]_
+> - [x] Focus entry list after a successful quick search _< [#Quick Search (Toolbar)]_
+> - [x] Focus quick search box when restoring from taskbar _< [#Quick Search (Toolbar)]_
+> - [x] Focus quick search box when restoring from tray _< [#Quick Search (Toolbar)]_
 
 ### Setup password generation pattern
 - Open entry `root\Password Generation`
