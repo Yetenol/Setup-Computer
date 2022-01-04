@@ -161,7 +161,7 @@ ms-settings:taskbar
 ```
 > Open `Taskbar items`
 > - [ ] Search
-> - [x] Task view
+> - [ ] Task view
 > - [ ] Widgets
 > - [ ] Chat
 > Open `Taskbar corner icon`
