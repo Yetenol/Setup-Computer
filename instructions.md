@@ -12,7 +12,7 @@
 ### Install plugins
 - to install put .plgx or .dll files into 
   ```
-  %ProgramFiles%\KeePass2x\Plugins
+  %ProgramFiles(x86)%\KeePass2x\Plugins
   ```
 - Install [KeeAnywhere](https://github.com/Kyrodan/KeeAnywhere/releases/latest)
   - link OneDrive account and unlock cloud database
