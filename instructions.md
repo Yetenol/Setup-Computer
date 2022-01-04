@@ -53,6 +53,8 @@
     - [x] Add "Open with Code" action to Windows file contect menu
     - [x] Add "Open with Code" action to Windows directory context menu
 - Press `Ctrl + Shift + P` and search for `Settings Sync: Turn On`
+    - [ ] UI State
+    - Click `Sign in & Turn on`
     - Sign in using Github
 - If *Settings Sync* fails:
     - Import [settings.json](configs/VisualStudioCode-settings.json) to
