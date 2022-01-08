@@ -79,6 +79,14 @@ ms-settings:storagesense
 > Open `Configure Storage Sense now`
 > - `14 days` =: Delete files in my Downloads folder if they haven't been opened for more than:
 
+
+### Multitasking
+```
+ms-settings:multitasking
+```
+- `Open windows only` := Pressing Alt + Tab shows
+
+
 ### Clipboard
 ```
 ms-settings:clipboard
