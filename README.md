@@ -82,7 +82,7 @@ Name, Download link | Instructions | Install command
 
 
 ## Office
-App ➔ Instructions | Store | Source | Winget command
+App ➔ Instructions | Store | Source | Install command
 --- | --- | --- | ---
 [Microsoft Office](instructions.md#install-microsoft-office) || [Web](https://account.microsoft.com/services/office/install)
 OneNote | [MS](https://www.microsoft.com/store/productID/9wzdncrfhvjl) || `winget install -e --id 9WZDNCRFHVJL --accept-package-agreements # OneNote for Windows 10`
@@ -98,7 +98,7 @@ _Citavi_ || [Web](https://www.citavi.com/en/download)
 _GeoGebra_ || [Web](https://download.geogebra.org/package/win) | `winget install -e --id GeoGebra.Classic.5`
 
 ## Entertainment
-App ➔ Instructions | Store | Down load | Winget command
+App ➔ Instructions | Store | Source | Install command
 --- | --- | --- | ---
 Netflix | [MS](https://www.microsoft.com/store/productID/9wzdncrfj3tj) || `winget install -e --id 9WZDNCRFJ3TJ --accept-package-agreements # Netflix`
 [ReddPlanet](instructions.md#install-reddplanet) | [MS](https://www.microsoft.com/store/productID/9nblggh4s44m) || `winget install -e --id 9NBLGGH4S44M --accept-package-agreements # ReddPlanet`
