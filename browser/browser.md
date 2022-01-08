@@ -27,7 +27,8 @@
 Status | Flag | Description
 --- | --- | ---
 Disabled | `about:flags/#edge-experimental-scrolling` | Overscroll bounce
-Disabled | `about:flags/#overscroll-history-navigation` | Two-finger overscroll navigation
+Disabled | `about:flags/#overscroll-history-navigation` | Two-finger overscroll navigations
+Disabled | `about:flags/#edge-show-feature-recommendations` | Recommends Bing as search engine
 
 ## Settings
 
