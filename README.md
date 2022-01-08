@@ -82,20 +82,20 @@ Name, Download link | Instructions | Install command
 
 
 ## Office
-Name, Download link | Instructions | Install command
---- | --- | ---
-[Microsoft Office](https://account.microsoft.com/services/office/install) | [➔ Instructions](instructions.md#install-microsoft-office)
-[OneNote](https://www.microsoft.com/store/productID/9wzdncrfhvjl) || `winget install -e --id 9WZDNCRFHVJL --accept-package-agreements # OneNote for Windows 10`
-[Simplenote](https://www.microsoft.com/store/productID/9nxqq40ldw3x) | [➔ Instructions](instructions.md#install-simplenote) | `winget install -e --id 9NXQQ40LDW3X --accept-package-agreements # Simplenote`
-OneDrive | [➔ Instructions](instructions.md#install-onedrive) | `winget install -e --id Microsoft.OneDrive`
-[Boxcryptor](https://www.boxcryptor.com/en/download/) | [➔ Instructions](instructions.md#install-boxcryptor) | `winget install -e --id SecombaGmbH.Boxcryptor`
-[Firefox](https://www.mozilla.org/en-US/firefox/download/thanks/) || `winget install -e --id 9NZVDKPMR9RD --accept-package-agreements # Mozilla Firefox` <br> `winget install -e --id Mozilla.Firefox`
-[AusweisApp](https://www.ausweisapp.bund.de/download/windows-und-mac/) | [➔ Instructions](instructions.md#install-ausweisapp)
-[Adobe Acrobat Reader](https://get.adobe.com/reader/) | [➔ Instructions](instructions.md#install-adobe-acrobat-reader) | `winget install -e --id Adobe.Acrobat.Reader.64-bit` <br> `winget install -e --id XPDP273C0XHQH2 --accept-package-agreements # Adobe Acrobat Reader DC`
-[Adobe Photoshop Express](https://www.microsoft.com/store/productID/9wzdncrfj27n) | Set as default app for .jpg files | `winget install -e --id 9WZDNCRFJ27N --accept-package-agreements # Adobe Photoshop Express: Image Editor, Adjustments, Filters, Effects, Borders`
+App ➔ Instructions | Store | Download | Install command
+--- | --- | --- | ---
+[Microsoft Office](instructions.md#install-microsoft-office) || [Web](https://account.microsoft.com/services/office/install)
+OneNote | [MS](https://www.microsoft.com/store/productID/9wzdncrfhvjl) || `winget install -e --id 9WZDNCRFHVJL --accept-package-agreements # OneNote for Windows 10`
+[Simplenote](instructions.md#install-simplenote) | [MS](https://www.microsoft.com/store/productID/9nxqq40ldw3x) || `winget install -e --id 9NXQQ40LDW3X --accept-package-agreements # Simplenote`
+[OneDrive](instructions.md#install-onedrive) ||| `winget install -e --id Microsoft.OneDrive`
+[Boxcryptor](instructions.md#install-boxcryptor) || [Web](https://www.boxcryptor.com/en/download/) | `winget install -e --id SecombaGmbH.Boxcryptor`
+Firefox | [MS](https://www.microsoft.com/store/productId/9NZVDKPMR9RD) | [Web](https://www.mozilla.org/en-US/firefox/download/thanks/) | `winget install -e --id 9NZVDKPMR9RD --accept-package-agreements # Mozilla Firefox` <br> `winget install -e --id Mozilla.Firefox`
+[AusweisApp](instructions.md#install-ausweisapp) || [Web](https://www.ausweisapp.bund.de/download/windows-und-mac/)
+Adobe Photoshop Express | [MS](https://www.microsoft.com/store/productID/9wzdncrfj27n) || `winget install -e --id 9WZDNCRFJ27N --accept-package-agreements # Adobe Photoshop Express: Image Editor, Adjustments, Filters, Effects, Borders`
 Paint Shop Pro 7
-*[Citavi](https://www.citavi.com/en/download)*
-*[GeoGebra](https://download.geogebra.org/package/win)* || `winget install -e --id GeoGebra.Classic.5`
+_[Adobe Acrobat Reader](instructions.md#install-adobe-acrobat-reader)_ || [Web](https://get.adobe.com/reader/) | `winget install -e --id Adobe.Acrobat.Reader.64-bit` <br> `winget install -e --id XPDP273C0XHQH2 --accept-package-agreements # Adobe Acrobat Reader DC`
+_Citavi_ || [Web](https://www.citavi.com/en/download)
+_GeoGebra_ || [Web](https://download.geogebra.org/package/win) | `winget install -e --id GeoGebra.Classic.5`
 
 ## Entertainment
 Name, Download link | Instructions | Install command
