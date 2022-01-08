@@ -82,7 +82,7 @@ Name, Download link | Instructions | Install command
 
 
 ## Office
-App ➔ Instructions | Store | Download | Install command
+App ➔ Instructions | Store | Source | Winget command
 --- | --- | --- | ---
 [Microsoft Office](instructions.md#install-microsoft-office) || [Web](https://account.microsoft.com/services/office/install)
 OneNote | [MS](https://www.microsoft.com/store/productID/9wzdncrfhvjl) || `winget install -e --id 9WZDNCRFHVJL --accept-package-agreements # OneNote for Windows 10`
