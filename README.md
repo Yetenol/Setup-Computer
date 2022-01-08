@@ -98,11 +98,11 @@ _Citavi_ || [Web](https://www.citavi.com/en/download)
 _GeoGebra_ || [Web](https://download.geogebra.org/package/win) | `winget install -e --id GeoGebra.Classic.5`
 
 ## Entertainment
-Name, Download link | Instructions | Install command
---- | --- | --- 
-[Netflix](https://www.microsoft.com/store/productID/9wzdncrfj3tj) || `winget install -e --id 9WZDNCRFJ3TJ --accept-package-agreements # Netflix`
-[ReddPlanet](https://www.microsoft.com/store/productID/9nblggh4s44m) | [➔ Instructions](instructions.md#install-reddplanet) | `winget install -e --id 9NBLGGH4S44M --accept-package-agreements # ReddPlanet`
-[Amazon Prime Video for Windows](https://www.microsoft.com/store/productID/9p6rc76msmmj) || `winget install -e --id 9P6RC76MSMMJ --accept-package-agreements # Amazon Prime Video for Windows`
+App ➔ Instructions | Store | Down load | Winget command
+--- | --- | --- | ---
+Netflix | [MS](https://www.microsoft.com/store/productID/9wzdncrfj3tj) || `winget install -e --id 9WZDNCRFJ3TJ --accept-package-agreements # Netflix`
+[ReddPlanet](instructions.md#install-reddplanet) | [MS](https://www.microsoft.com/store/productID/9nblggh4s44m) || `winget install -e --id 9NBLGGH4S44M --accept-package-agreements # ReddPlanet`
+Amazon Prime Video for Windows | [MS](https://www.microsoft.com/store/productID/9p6rc76msmmj) || `winget install -e --id 9P6RC76MSMMJ --accept-package-agreements # Amazon Prime Video for Windows`
 
 ## Personalisation
 Name, Download link | Instructions | Install command
