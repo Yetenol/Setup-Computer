@@ -108,33 +108,33 @@ Amazon Prime Video for Windows | [MS](https://www.microsoft.com/store/productID/
 App ➔ Instructions | Store | Source | Install command
 --- | --- | --- | ---
 Window-Tools || [Github](https://github.com/Yetenol/Window-Tools/releases/latest/download/Window-Tools.exe)
-EdgeDeflector || [Github](https://github.com/da2x/EdgeDeflector/releases/latest/download/EdgeDeflector_install.exe) | `winget install -e --id da2x.edgedeflector`
 [Auto Dark Mode](instructions.md#install-auto-dark-mode) || [Github](https://github.com/AutoDarkMode/Windows-Auto-Night-Mode/releases/latest) | `winget install -e --id Armin2208.WindowsAutoNightMode` <br> `winget install -e --id XP8JK4HZBVF435 --accept-package-agreements # Auto Dark Mode`
-BatteryBar Pro || [Web](https://batterybarpro.com/basic.php)
-EarTrumpet | [MS](https://www.microsoft.com/store/productID/9nblggh516xp) || `winget install -e --id File-New-Project.EarTrumpet`
 [SharpKeys](instructions.md#install-sharpkeys) || [Github](https://github.com/randyrants/sharpkeys/releases/latest) | `winget install -e --id RandyRants.SharpKeys`
 AutoHotkey || [Web](https://www.autohotkey.com/download/ahk-v2.zip)
-_LapLock_ || [Github](https://github.com/dechamps/laplock/releases/latest/download/laplock.exe)
 [QuickLook](instructions.md#install-quicklook) | [MS](https://www.microsoft.com/store/productID/9nv4bs3l1h4s) || `winget install -e --id 9NV4BS3L1H4S --accept-package-agreements # QuickLook` <br> `winget install -e --id QL-Win.QuickLook`
 [Rainmeter](instructions.md#install-rainmeter) || [Github](https://github.com/rainmeter/rainmeter/releases/latest) | `winget install -e --id Rainmeter.Rainmeter`
+EdgeDeflector || [Github](https://github.com/da2x/EdgeDeflector/releases/latest/download/EdgeDeflector_install.exe) | `winget install -e --id da2x.edgedeflector`
+BatteryBar Pro || [Web](https://batterybarpro.com/basic.php)
+EarTrumpet | [MS](https://www.microsoft.com/store/productID/9nblggh516xp) || `winget install -e --id File-New-Project.EarTrumpet`
+_LapLock_ || [Github](https://github.com/dechamps/laplock/releases/latest/download/laplock.exe)
 _PowerToys_ || [Github](https://github.com/microsoft/PowerToys/releases/latest) | `winget install -e --id Microsoft.PowerToys`
 _[Capture2Text](instructions.md#install-capture2text)_ || [Web](https://sourceforge.net/projects/capture2text/files/Capture2Text/)
 _[ShareX](instructions.md#install-sharex)_ || [Github](https://github.com/ShareX/ShareX/releases/latest) | `winget install -e --id ShareX.ShareX`
 
 ## Dev
-Name, Download link | Instructions | Install command
---- | --- | ---
-[7-Zip](https://www.7-zip.org/) || `winget install -e --id 7zip.7zip`
-[Git](https://git-scm.com/download/win) | [➔ Instructions](instructions.md#install-git) | `winget install -e --id Git.Git`
-[Windows Terminal](https://www.microsoft.com/store/productID/9n0dx20hk701) | [➔ Instructions](instructions.md#install-windows-terminal) | `winget install -e --id 9N0DX20HK701 --accept-package-agreements # Windows Terminal` <br> `winget install -e --id Microsoft.WindowsTerminal`
-[TreeSize](https://www.microsoft.com/store/productID/9nblggh40881) || `winget install -e --id 9NBLGGH40881 --accept-package-agreements # TreeSize Free` <br> `winget install -e --id JAMSoftware.TreeSizeFree`
-[Windscribe](https://windscribe.com/install/desktop/windows) || `winget install -e --id Windscribe.Windscribe`
-*[Recuva](https://www.ccleaner.com/recuva/download)*
-*[Resource Hacker](http://www.angusj.com/resourceh*acker/#download)*
-*[Samsung Dex](https://www.samsung.com/global/download/SamsungDeXWin)* || `winget install -e --id Samsung.DeX`
+App ➔ Instructions | Store | Source | Install command
+--- | --- | --- | ---
+7-Zip || [Web](https://www.7-zip.org/) | `winget install -e --id 7zip.7zip`
+[Git](instructions.md#install-git) || [Web](https://git-scm.com/download/win) | `winget install -e --id Git.Git`
+[Windows Terminal](instructions.md#install-windows-terminal) | [MS](https://www.microsoft.com/store/productID/9n0dx20hk701) || `winget install -e --id 9N0DX20HK701 --accept-package-agreements # Windows Terminal` <br> `winget install -e --id Microsoft.WindowsTerminal`
+TreeSize | [MS](https://www.microsoft.com/store/productID/9nblggh40881) | [Web](https://www.jam-software.com/treesize_free) | `winget install -e --id 9NBLGGH40881 --accept-package-agreements # TreeSize Free` <br> `winget install -e --id JAMSoftware.TreeSizeFree`
+Windscribe || [Web](https://windscribe.com/install/desktop/windows) | `winget install -e --id Windscribe.Windscribe`
+_Recuva_ || [Web](https://www.ccleaner.com/recuva/download)
+_Resource Hacker_ || [Web](http://www.angusj.com/resourceh*acker/#download)
+_Samsung Dex_ || [Web](https://www.samsung.com/global/download/SamsungDeXWin) | `winget install -e --id Samsung.DeX`
 
 ## Subsystems
-Name, Download link | Instructions | Install command
---- | --- | ---
-[Ubuntu](https://www.microsoft.com/store/productID/9nblggh4msv6) || `wsl --install`
-[WSATools](https://www.microsoft.com/store/productId/9N4P75DXL6FG) || `winget install -e --id 9N4P75DXL6FG --accept-package-agreements # WSATools`
+App ➔ Instructions | Store | Source | Install command
+--- | --- | --- | ---
+Ubuntu | [MS](https://www.microsoft.com/store/productID/9nblggh4msv6) || `wsl --install`
+WSATools | [MS](https://www.microsoft.com/store/productId/9N4P75DXL6FG) || `winget install -e --id 9N4P75DXL6FG --accept-package-agreements # WSATools`
