@@ -105,21 +105,21 @@ Netflix | [MS](https://www.microsoft.com/store/productID/9wzdncrfj3tj) || `winge
 Amazon Prime Video for Windows | [MS](https://www.microsoft.com/store/productID/9p6rc76msmmj) || `winget install -e --id 9P6RC76MSMMJ --accept-package-agreements # Amazon Prime Video for Windows`
 
 ## Personalisation
-Name, Download link | Instructions | Install command
---- | --- | ---
-[Window-Tools](https://github.com/Yetenol/Window-Tools/releases/latest/download/Window-Tools.exe)
-[EdgeDeflector](https://github.com/da2x/EdgeDeflector/releases/latest/download/EdgeDeflector_install.exe) || `winget install -e --id da2x.edgedeflector`
-[Auto Dark Mode](https://github.com/AutoDarkMode/Windows-Auto-Night-Mode/releases/latest) | [➔ Instructions](instructions.md#install-auto-dark-mode) | `winget install -e --id Armin2208.WindowsAutoNightMode` <br> `winget install -e --id XP8JK4HZBVF435 --accept-package-agreements # Auto Dark Mode`
-[BatteryBar Pro](https://batterybarpro.com/basic.php)
-[EarTrumpet](https://www.microsoft.com/store/productID/9nblggh516xp) || `winget install -e --id File-New-Project.EarTrumpet`
-[SharpKeys](https://github.com/randyrants/sharpkeys/releases/latest) | [➔ Instructions](instructions.md#install-sharpkeys) | `winget install -e --id RandyRants.SharpKeys`
-[AutoHotkey](https://www.autohotkey.com/download/ahk-install.exe) | Do Express installation | `winget install -e --id Lexikos.AutoHotkey`
-[LapLock](https://github.com/dechamps/laplock/releases/latest/download/laplock.exe)
-[QuickLook](https://www.microsoft.com/store/productID/9nv4bs3l1h4s) | [➔ Instructions](instructions.md#install-quicklook) | `winget install -e --id QL-Win.QuickLook`
-[Rainmeter](https://github.com/rainmeter/rainmeter/releases/latest) | [➔ Instructions](instructions.md#install-rainmeter) | `winget install -e --id Rainmeter.Rainmeter`
-*[PowerToys](https://github.com/microsoft/PowerToys/releases/latest)* || `winget install -e --id Microsoft.PowerToys`
-*[Capture2Text](https://sourceforge.net/projects/capture2text/files/Capture2Text/)* | [➔ Instructions](instructions.md#install-capture2text)
-*[ShareX](https://github.com/ShareX/ShareX/releases/latest)* | [➔ Instructions](instructions.md#install-sharex) | `winget install -e --id ShareX.ShareX`
+App ➔ Instructions | Store | Source | Install command
+--- | --- | --- | ---
+Window-Tools || [Github](https://github.com/Yetenol/Window-Tools/releases/latest/download/Window-Tools.exe)
+EdgeDeflector || [Github](https://github.com/da2x/EdgeDeflector/releases/latest/download/EdgeDeflector_install.exe) | `winget install -e --id da2x.edgedeflector`
+[Auto Dark Mode](instructions.md#install-auto-dark-mode) || [Github](https://github.com/AutoDarkMode/Windows-Auto-Night-Mode/releases/latest) | `winget install -e --id Armin2208.WindowsAutoNightMode` <br> `winget install -e --id XP8JK4HZBVF435 --accept-package-agreements # Auto Dark Mode`
+BatteryBar Pro || [Web](https://batterybarpro.com/basic.php)
+EarTrumpet | [MS](https://www.microsoft.com/store/productID/9nblggh516xp) || `winget install -e --id File-New-Project.EarTrumpet`
+[SharpKeys](instructions.md#install-sharpkeys) || [Github](https://github.com/randyrants/sharpkeys/releases/latest) | `winget install -e --id RandyRants.SharpKeys`
+AutoHotkey || [Web](https://www.autohotkey.com/download/ahk-v2.zip)
+_LapLock_ || [Github](https://github.com/dechamps/laplock/releases/latest/download/laplock.exe)
+[QuickLook](instructions.md#install-quicklook) | [MS](https://www.microsoft.com/store/productID/9nv4bs3l1h4s) || `winget install -e --id 9NV4BS3L1H4S --accept-package-agreements # QuickLook` <br> `winget install -e --id QL-Win.QuickLook`
+[Rainmeter](instructions.md#install-rainmeter) || [Github](https://github.com/rainmeter/rainmeter/releases/latest) | `winget install -e --id Rainmeter.Rainmeter`
+_PowerToys_ || [Github](https://github.com/microsoft/PowerToys/releases/latest) | `winget install -e --id Microsoft.PowerToys`
+_[Capture2Text](instructions.md#install-capture2text)_ || [Web](https://sourceforge.net/projects/capture2text/files/Capture2Text/)
+_[ShareX](instructions.md#install-sharex)_ || [Github](https://github.com/ShareX/ShareX/releases/latest) | `winget install -e --id ShareX.ShareX`
 
 ## Dev
 Name, Download link | Instructions | Install command
