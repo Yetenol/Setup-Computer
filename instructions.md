@@ -1,13 +1,18 @@
 # [⌂](README.md) › **Installation instructions**
 
 
+## Install Lenovo Vantage
+
+- click `Check for System Updates`
+
+> Open `Device > Input & accessories >` _`#User-defined Key`_
+> - `Open application or files` =: ACTION USER DEFINED KEY
+> - Add _Keepass_ as the application to open
+
+
 ## Install [KeePass](https://keepass.info/download.html)
 
 ### Setup hotkey
-- Open `Lenovo Vantage`
-- Open `Device > Input & accessories >` _`#User-defined Key`_
-- `Open application or files` =: ACTION USER DEFINED KEY
-- Add _Keepass_ as the application to open
 
 ### Install plugins
 - to install put .plgx or .dll files into 

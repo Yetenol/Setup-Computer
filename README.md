@@ -58,14 +58,14 @@ winget uninstall -e --id RealtekSemiconductorCorp.RealtekAudioControl_dt26b99r8h
 ```
 
 ## Priority
-Name, Download link | Instructions | Install command
---- | --- | ---
-[Lenovo Vantage](https://www.microsoft.com/store/productID/9wzdncrfj4mv) | Run `Check for System Updates` | `winget install -e --id 9WZDNCRFJ4MV --accept-package-agreements # Lenovo Vantage`
-[KeePass](https://keepass.info/download.html) | [➔ Instructions](instructions.md#install-keepass) | `winget install -e --id DominikReichl.KeePass`
-Install Visual Studio Code | [➔ Instructions](instructions.md#install-visual-studio-code) | `winget install -e --id Microsoft.VisualStudioCode --scope machine`
-[Gitkraken](https://www.gitkraken.com/download/windows64) | [➔ Instructions](instructions.md#install-gitkraken) | `winget install -e --id Axosoft.GitKraken`
-File Explorer | [➔ Instructions](instructions.md#setup-file-explorer)
-Local Group Policy | [➔ Instructions](instructions.md#setup-local-group-policy)
+App ➔ Instructions | Store | Source | Install command
+--- | --- | --- | ---
+[Lenovo Vantage](instructions#install-lenovo-vantage) | [MS](https://www.microsoft.com/store/productID/9wzdncrfj4mv) || `winget install -e --id 9WZDNCRFJ4MV --accept-package-agreements # Lenovo Vantage`
+[KeePass](instructions.md#install-keepass) || [Web](https://keepass.info/download.html) | `winget install -e --id DominikReichl.KeePass`
+[Visual Studio Code](instructions.md#install-visual-studio-code) || [Web](https://code.visualstudio.com/#alt-downloads) | `winget install -e --id Microsoft.VisualStudioCode --scope machine`
+[Gitkraken](instructions.md#install-gitkraken) || [Web](https://www.gitkraken.com/download/windows64) | `winget install -e --id Axosoft.GitKraken`
+[File Explorer]((instructions.md#setup-file-explorer))
+[Local Group Policy](instructions.md#setup-local-group-policy)
 
 
 ## Communication
