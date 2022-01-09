@@ -62,7 +62,7 @@ App ➔ Instructions | Store | Source | Install command
 --- | --- | --- | ---
 [Lenovo Vantage](instructions#install-lenovo-vantage) | [MS](https://www.microsoft.com/store/productID/9wzdncrfj4mv) || `winget install -e --id 9WZDNCRFJ4MV --accept-package-agreements # Lenovo Vantage`
 [KeePass](instructions.md#install-keepass) || [Web](https://keepass.info/download.html) | `winget install -e --id DominikReichl.KeePass`
-[Visual Studio Code](instructions.md#install-visual-studio-code) || [Web](https://code.visualstudio.com/#alt-downloads) | `winget install -e --id Microsoft.VisualStudioCode --scope machine`
+[Visual Studio Code](instructions.md#install-visual-studio-code) | 🔗 | [Web](https://code.visualstudio.com/#alt-downloads) | `winget install -e --id Microsoft.VisualStudioCode --scope machine`
 [Gitkraken](instructions.md#install-gitkraken) || [Web](https://www.gitkraken.com/download/windows64) | `winget install -e --id Axosoft.GitKraken`
 [File Explorer]((instructions.md#setup-file-explorer))
 [Local Group Policy](instructions.md#setup-local-group-policy)
@@ -83,7 +83,7 @@ WhatsApp Desktop | [MS](https://www.microsoft.com/store/productID/9nksqgp7f2nh) 
 ## Office
 App ➔ Instructions | Store | Source | Install command
 --- | --- | --- | ---
-[Microsoft Office](instructions.md#install-microsoft-office) || [Web](https://account.microsoft.com/services/office/install)
+[Microsoft Office](instructions.md#install-microsoft-office) | [MS](https://www.microsoft.com/store/apps/CFQ7TTC0K5DM) | [Web](https://account.microsoft.com/services/office/install)
 OneNote | [MS](https://www.microsoft.com/store/productID/9wzdncrfhvjl) || `winget install -e --id 9WZDNCRFHVJL --accept-package-agreements # OneNote for Windows 10`
 [Simplenote](instructions.md#install-simplenote) | [MS](https://www.microsoft.com/store/productID/9nxqq40ldw3x) || `winget install -e --id 9NXQQ40LDW3X --accept-package-agreements # Simplenote`
 [OneDrive](instructions.md#install-onedrive) ||| `winget install -e --id Microsoft.OneDrive`
