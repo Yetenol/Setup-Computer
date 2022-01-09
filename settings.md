@@ -226,7 +226,7 @@ intl.cpl
 >> - `,` =: List seperator
 >
 >> Open `Date`
->> - `yyyy-MM-dd ddd` =: Short date
+>> - `yyyy-MM-dd` =: Short date
 > - Click `OK` and check that the time in the system tray is updated
 
 > Open `Administrative` tab
