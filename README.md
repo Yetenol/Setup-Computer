@@ -59,7 +59,7 @@ winget uninstall -e --id RealtekSemiconductorCorp.RealtekAudioControl_dt26b99r8h
 
 ## Priority
 App ➔ Instructions | Store | Source | Install command
---- | --- | --- | ---
+--- | :---: | :---: | ---
 [Lenovo Vantage](instructions#install-lenovo-vantage) | [MS](https://www.microsoft.com/store/productID/9wzdncrfj4mv) || `winget install -e --id 9WZDNCRFJ4MV --accept-package-agreements # Lenovo Vantage`
 [KeePass](instructions.md#install-keepass) || [Web](https://keepass.info/download.html) | `winget install -e --id DominikReichl.KeePass`
 [Visual Studio Code](instructions.md#install-visual-studio-code) | 🔗 | [Web](https://code.visualstudio.com/#alt-downloads) | `winget install -e --id Microsoft.VisualStudioCode --scope machine`
@@ -70,7 +70,7 @@ App ➔ Instructions | Store | Source | Install command
 
 ## Communication
 App ➔ Instructions | Store | Source | Install command
---- | --- | --- | ---
+--- | :---: | :---: | ---
 [Mail and Calendar](instructions.md#install-mail-and-calendar) | [MS](https://www.microsoft.com/store/productID/9wzdncrfhvqm) || `winget install -e --id 9WZDNCRFHVQM --accept-package-agreements`
 WhatsApp Desktop | [MS](https://www.microsoft.com/store/productID/9nksqgp7f2nh) | [Web](https://web.whatsapp.com/desktop/windows/release/x64/WhatsAppSetup.exe) | `winget install -e --id 9NKSQGP7F2NH --accept-package-agreements` <br> `winget install -e --id WhatsApp.WhatsApp`
 [Signal](instructions.md#install-signal) || [Web](https://signal.org/en/download/) | `winget install -e --id OpenWhisperSystems.Signal --accept-package-agreements`
@@ -82,7 +82,7 @@ WhatsApp Desktop | [MS](https://www.microsoft.com/store/productID/9nksqgp7f2nh) 
 
 ## Office
 App ➔ Instructions | Store | Source | Install command
---- | --- | --- | ---
+--- | :---: | :---: | ---
 [Microsoft Office](instructions.md#install-microsoft-office) | [MS](https://www.microsoft.com/store/apps/CFQ7TTC0K5DM) | [Web](https://account.microsoft.com/services/office/install)
 OneNote | [MS](https://www.microsoft.com/store/productID/9wzdncrfhvjl) || `winget install -e --id 9WZDNCRFHVJL --accept-package-agreements # OneNote for Windows 10`
 [Simplenote](instructions.md#install-simplenote) | [MS](https://www.microsoft.com/store/productID/9nxqq40ldw3x) || `winget install -e --id 9NXQQ40LDW3X --accept-package-agreements # Simplenote`
@@ -99,14 +99,14 @@ _GeoGebra_ || [Web](https://download.geogebra.org/package/win) | `winget install
 
 ## Entertainment
 App ➔ Instructions | Store | Source | Install command
---- | --- | --- | ---
+--- | :---: | :---: | ---
 Netflix | [MS](https://www.microsoft.com/store/productID/9wzdncrfj3tj) || `winget install -e --id 9WZDNCRFJ3TJ --accept-package-agreements # Netflix`
 [ReddPlanet](instructions.md#install-reddplanet) | [MS](https://www.microsoft.com/store/productID/9nblggh4s44m) || `winget install -e --id 9NBLGGH4S44M --accept-package-agreements # ReddPlanet`
 Amazon Prime Video for Windows | [MS](https://www.microsoft.com/store/productID/9p6rc76msmmj) || `winget install -e --id 9P6RC76MSMMJ --accept-package-agreements # Amazon Prime Video for Windows`
 
 ## Personalisation
 App ➔ Instructions | Store | Source | Install command
---- | --- | --- | ---
+--- | :---: | :---: | ---
 Window-Tools || [Github](https://github.com/Yetenol/Window-Tools/releases/latest/download/Window-Tools.exe)
 [Auto Dark Mode](instructions.md#install-auto-dark-mode) | 🔗 | [Github](https://github.com/AutoDarkMode/Windows-Auto-Night-Mode/releases/latest) | `winget install -e --id Armin2208.WindowsAutoNightMode` <br> `winget install -e --id XP8JK4HZBVF435 --accept-package-agreements # Auto Dark Mode`
 [SharpKeys](instructions.md#install-sharpkeys) || [Github](https://github.com/randyrants/sharpkeys/releases/latest) | `winget install -e --id RandyRants.SharpKeys`
@@ -123,7 +123,7 @@ _[ShareX](instructions.md#install-sharex)_ || [Github](https://github.com/ShareX
 
 ## Dev
 App ➔ Instructions | Store | Source | Install command
---- | --- | --- | ---
+--- | :---: | :---: | ---
 7-Zip || [Web](https://www.7-zip.org/) | `winget install -e --id 7zip.7zip`
 [Git](instructions.md#install-git) || [Web](https://git-scm.com/download/win) | `winget install -e --id Git.Git`
 [Windows Terminal](instructions.md#install-windows-terminal) | [MS](https://www.microsoft.com/store/productID/9n0dx20hk701) || `winget install -e --id 9N0DX20HK701 --accept-package-agreements # Windows Terminal` <br> `winget install -e --id Microsoft.WindowsTerminal`
@@ -135,6 +135,6 @@ _Samsung Dex_ || [Web](https://www.samsung.com/global/download/SamsungDeXWin) | 
 
 ## Subsystems
 App ➔ Instructions | Store | Source | Install command
---- | --- | --- | ---
+--- | :---: | :---: | ---
 Ubuntu | [MS](https://www.microsoft.com/store/productID/9nblggh4msv6) || `wsl --install`
 WSATools | [MS](https://www.microsoft.com/store/productId/9N4P75DXL6FG) || `winget install -e --id 9N4P75DXL6FG --accept-package-agreements # WSATools`
