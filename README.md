@@ -60,7 +60,7 @@ winget uninstall -e --id RealtekSemiconductorCorp.RealtekAudioControl_dt26b99r8h
 ## Priority
 App ➔ Instructions | Store | Source | Install command
 --- | :---: | :---: | ---
-[Lenovo Vantage](instructions#install-lenovo-vantage) | [MS](https://www.microsoft.com/store/productID/9wzdncrfj4mv) || `winget install -e --id 9WZDNCRFJ4MV --accept-package-agreements # Lenovo Vantage`
+[Lenovo Vantage](instructions.md#install-lenovo-vantage) | [MS](https://www.microsoft.com/store/productID/9wzdncrfj4mv) || `winget install -e --id 9WZDNCRFJ4MV --accept-package-agreements # Lenovo Vantage`
 [KeePass](instructions.md#install-keepass) || [Web](https://keepass.info/download.html) | `winget install -e --id DominikReichl.KeePass`
 [Visual Studio Code](instructions.md#install-visual-studio-code) | 🔗 | [Web](https://code.visualstudio.com/#alt-downloads) | `winget install -e --id Microsoft.VisualStudioCode --scope machine`
 [Gitkraken](instructions.md#install-gitkraken) || [Web](https://www.gitkraken.com/download/windows64) | `winget install -e --id Axosoft.GitKraken`
