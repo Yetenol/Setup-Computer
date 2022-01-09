@@ -189,6 +189,11 @@
 > >     - `Never` Clear files older than
 
 
+## Install Discord
+
+- Disable [startup](how-to-dos.md#edit-startup-apps) shortcut
+
+
 ## Install [Microsoft Office](https://account.microsoft.com/services/office/install)
 - Sign in using Microsoft account
 - Download [Language Accessory Pack](https://support.office.com/en-us/article/language-accessory-pack-for-office-82ee1236-0f9a-45ee-9c72-05b026ee809f?ui=en-US&rs=en-US&ad=US)

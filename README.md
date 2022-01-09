@@ -69,16 +69,15 @@ App ➔ Instructions | Store | Source | Install command
 
 
 ## Communication
-Name, Download link | Instructions | Install command
---- | --- | ---
-[Mail and Calendar](https://www.microsoft.com/store/productID/9wzdncrfhvqm) | [➔ Instructions](instructions.md#install-mail-and-calendar) | ```winget install -e --id 9WZDNCRFHVQM --accept-package-agreements```
-[WhatsApp Desktop](https://www.microsoft.com/store/productID/9nksqgp7f2nh) || `winget install -e --id 9NKSQGP7F2NH --accept-package-agreements` <br> `winget install -e --id WhatsApp.WhatsApp`
-[Signal](https://signal.org/en/download/) | [➔ Instructions](instructions.md#install-signal) | `winget install -e --id OpenWhisperSystems.Signal --accept-package-agreements`
-[Discord](https://discord.com/download) | Don't run at [startup](how-to-dos.md#edit-startup-apps) | `winget install -e --id Discord.Discord` <br> `winget install -e --id XPDC2RH70K22MN --accept-package-agreements # Discord`
-[Teams](https://www.microsoft.com/en-us/microsoft-teams/download-app#desktopAppDownloadregion) | [➔ Instructions](instructions.md#install-teams) | `winget install -e --id Microsoft.Teams`
-[Zoom](https://zoom.us/download) | [➔ Instructions](instructions.md#install-zoom) | `winget install -e --id Zoom.Zoom` <br> `winget install -e --id XP99J3KP4XZ4VV --accept-package-agreements # ZOOM Cloud Meetings`
-[Telegram Desktop](https://www.microsoft.com/store/productID/9nztwsqntd0s) | [➔ Instructions](instructions.md#install-telegram-desktop) | `winget install -e --id 9NZTWSQNTD0S --accept-package-agreements # Telegram Desktop` <br> `winget install -e --id Telegram.TelegramDesktop`
-
+App ➔ Instructions | Store | Source | Install command
+--- | --- | --- | ---
+[Mail and Calendar](instructions.md#install-mail-and-calendar) | [MS](https://www.microsoft.com/store/productID/9wzdncrfhvqm) || `winget install -e --id 9WZDNCRFHVQM --accept-package-agreements`
+WhatsApp Desktop | [MS](https://www.microsoft.com/store/productID/9nksqgp7f2nh) | [Web](https://web.whatsapp.com/desktop/windows/release/x64/WhatsAppSetup.exe) | `winget install -e --id 9NKSQGP7F2NH --accept-package-agreements` <br> `winget install -e --id WhatsApp.WhatsApp`
+[Signal](instructions.md#install-signal) || [Web](https://signal.org/en/download/) | `winget install -e --id OpenWhisperSystems.Signal --accept-package-agreements`
+[Discord](instructions#install-discord) | 🔗 | [Web](https://discord.com/download) || `winget install -e --id Discord.Discord` <br> `winget install -e --id XPDC2RH70K22MN --accept-package-agreements # Discord`
+[Teams](instructions.md#install-teams) || [Web](https://www.microsoft.com/en-us/microsoft-teams/download-app#desktopAppDownloadregion) | `winget install -e --id Microsoft.Teams`
+[Zoom](instructions.md#install-zoom) | 🔗 | [Web](https://zoom.us/download) | `winget install -e --id Zoom.Zoom` <br> `winget install -e --id XP99J3KP4XZ4VV --accept-package-agreements # ZOOM Cloud Meetings`
+[Telegram Desktop](instructions.md#install-telegram-desktop) | [MS](https://www.microsoft.com/store/productID/9nztwsqntd0s) | [Web](https://telegram.org/dl/desktop/win64) | `winget install -e --id 9NZTWSQNTD0S --accept-package-agreements # Telegram Desktop` <br> `winget install -e --id Telegram.TelegramDesktop`
 
 
 ## Office
@@ -97,6 +96,7 @@ _[Adobe Acrobat Reader](instructions.md#install-adobe-acrobat-reader)_ || [Web](
 _Citavi_ || [Web](https://www.citavi.com/en/download)
 _GeoGebra_ || [Web](https://download.geogebra.org/package/win) | `winget install -e --id GeoGebra.Classic.5`
 
+
 ## Entertainment
 App ➔ Instructions | Store | Source | Install command
 --- | --- | --- | ---
@@ -108,7 +108,7 @@ Amazon Prime Video for Windows | [MS](https://www.microsoft.com/store/productID/
 App ➔ Instructions | Store | Source | Install command
 --- | --- | --- | ---
 Window-Tools || [Github](https://github.com/Yetenol/Window-Tools/releases/latest/download/Window-Tools.exe)
-[Auto Dark Mode](instructions.md#install-auto-dark-mode) || [Github](https://github.com/AutoDarkMode/Windows-Auto-Night-Mode/releases/latest) | `winget install -e --id Armin2208.WindowsAutoNightMode` <br> `winget install -e --id XP8JK4HZBVF435 --accept-package-agreements # Auto Dark Mode`
+[Auto Dark Mode](instructions.md#install-auto-dark-mode) | 🔗 | [Github](https://github.com/AutoDarkMode/Windows-Auto-Night-Mode/releases/latest) | `winget install -e --id Armin2208.WindowsAutoNightMode` <br> `winget install -e --id XP8JK4HZBVF435 --accept-package-agreements # Auto Dark Mode`
 [SharpKeys](instructions.md#install-sharpkeys) || [Github](https://github.com/randyrants/sharpkeys/releases/latest) | `winget install -e --id RandyRants.SharpKeys`
 AutoHotkey || [Web](https://www.autohotkey.com/download/ahk-v2.zip)
 [QuickLook](instructions.md#install-quicklook) | [MS](https://www.microsoft.com/store/productID/9nv4bs3l1h4s) || `winget install -e --id 9NV4BS3L1H4S --accept-package-agreements # QuickLook` <br> `winget install -e --id QL-Win.QuickLook`
