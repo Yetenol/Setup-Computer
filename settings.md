@@ -10,7 +10,7 @@
 # System
 
 
-### Display 
+## Display 
 ```
 ms-settings:display
 ```
@@ -19,7 +19,7 @@ ms-settings:display
 > - [x] Play streaming HDR video
 
 
-### Display > Night light
+## Display > Night light
 ```
 ms-settings:nightlight
 ```
@@ -48,7 +48,7 @@ jre-x64\bin\javaw.exe
 
 
 
-### Notif‌ications & actions
+## Notif‌ications & actions
 - _Clean up System Tray_
 ```
 ms-settings:notifications
@@ -59,7 +59,7 @@ ms-settings:notifications
 - [ ] Get tips, tricks and suggestions as you use Windows
 
 
-### Power & sleep
+## Power & sleep
 ```
 ms-settings:powersleep
 ```
@@ -70,7 +70,7 @@ ms-settings:powersleep
 > - `Never` =: When plugged in, PC goes to sleep after
 
 
-### Storage
+## Storage
 ```
 ms-settings:storagesense
 ```
@@ -80,21 +80,21 @@ ms-settings:storagesense
 > - `14 days` =: Delete files in my Downloads folder if they haven't been opened for more than:
 
 
-### Multitasking
+## Multitasking
 ```
 ms-settings:multitasking
 ```
 - `Open windows only` := Pressing Alt + Tab shows
 
 
-### Clipboard
+## Clipboard
 ```
 ms-settings:clipboard
 ```
 - [x] Clipboard history
 
 
-### About
+## About
 ```
 ms-settings:about
 ```
@@ -104,7 +104,7 @@ ms-settings:about
 
 # Bluetooth & devices
 
-### Touchpad > Additional touchpad settings
+## Touchpad > Additional touchpad settings
 ```
 main.cpl
 ```
@@ -112,7 +112,7 @@ main.cpl
 > - `Use as middle click` =: Middle mouse click
 
 
-### Devices > Touchpad > Advanced gesture conf‌iguration
+## Devices > Touchpad > Advanced gesture conf‌iguration
 ```
 ms-settings:devices-touchpad
 ```
@@ -136,7 +136,7 @@ ms-settings:devices-touchpad
 > > - `Previous track` Right
 
 
-### Typing > Hardware keyboard
+## Typing > Hardware keyboard
 ```
 ms-settings:devicestyping-hwkbtextsuggestions
 ```
@@ -147,7 +147,7 @@ ms-settings:devicestyping-hwkbtextsuggestions
 # Personalization
 
 
-### Colors
+## Colors
 _Dynamically match the accent color with the background image_
 ```
 ms-settings:personalization-colors
@@ -156,14 +156,14 @@ ms-settings:personalization-colors
 - `Automatic` =: Accent color
 
 
-### Themes > Desktop icon settings
+## Themes > Desktop icon settings
 ```
 rundll32 shell32.dll,Control_RunDLL desk.cpl,null,0
 ```
 - Disable all icons
 - [ ] Allow themes to change desktop icons
 
-### Taskbar
+## Taskbar
 ```
 ms-settings:taskbar
 ```
@@ -182,12 +182,16 @@ ms-settings:taskbar
 > - [x] Window-Tools.exe
 > - See [Setup Taskbar](configs.md#setup-taskbar)
 
+> Open `Action Center` by pressing `Win + A`
+> - replace `Accessibility` with `Nearby share`
+
+
 
 
 # Apps
 
 
-### Video playback
+## Video playback
 ```
 ms-settings:videoplayback	
 ```
@@ -199,7 +203,7 @@ ms-settings:videoplayback
 # Time & language
 
 
-### Typing > Advanced keyboard settings
+## Typing > Advanced keyboard settings
 _Hide the language swapper icon in the taskbbar_
 ```
 ms-settings:typing
@@ -213,7 +217,7 @@ ms-settings:typing
 >> - Set all sequences to `Not Assigned`
 
 
-### Region > Additional date, time & regional settings
+## Region > Additional date, time & regional settings
 ```
 intl.cpl
 ```
@@ -240,7 +244,7 @@ intl.cpl
 # Accessibility
 
 
-### Keyboard _< [#Interaction]_
+## Keyboard _< [#Interaction]_
 _directly launch `Snipping Tool` using `PrintScreen`_
 ```
 ms-settings:easeofaccess-keyboard
