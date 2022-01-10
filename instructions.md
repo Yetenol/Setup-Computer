@@ -84,7 +84,9 @@
 >> Open `UI Customization`
 >> - `Sync with system` =: Theme
 >> - [ ] Show toolbar icon labels
+>> - [ ] Show Workspace breadcrumb in toolbar
 >> - [ ] Show GitKraken Board button in toolbar
+>> - [ ] Show GitKraken Timelines button in toolbar
 
 
 ## Setup File Explorer
