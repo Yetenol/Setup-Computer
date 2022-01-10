@@ -1,4 +1,4 @@
-## [⌂](../README.md) › **Browser** - Table of Contents
+# [⌂](../README.md) › Browser - Table of Contents
 
 1. [Install Chromium browser](#install-chromium-browser)
 1. [Experimental features](#experimental-features)

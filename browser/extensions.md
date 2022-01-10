@@ -1,4 +1,4 @@
-## [⌂](../README.md) › [Browser](browser.md) › **Extensions** - Table of Contents
+# [⌂](../README.md) › [Browser](browser.md) › Extensions - Table of Contents
 1. [Layout / Design](#Layout-/-Design) 
 1. [Media / Youtube](#Media-/-Youtube)
 1. [Shopping](#Shopping)

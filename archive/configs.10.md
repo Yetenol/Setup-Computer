@@ -1,4 +1,4 @@
-# [⌂](../README.md) › Windows 10 › **Configurations**
+# [⌂](../README.md) › Windows 10 › Configurations
 
 ## Check drivers
 - Open `Task Manager`

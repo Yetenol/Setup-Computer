@@ -1,4 +1,4 @@
-# [⌂](README.md) › Windows 11 › **Settings** - Table of Contents
+# [⌂](README.md) › Windows 11 › Settings - Table of Contents
 1. [System](#system)
 1. [Bluetooth & devices](#bluetooth--devices)
 1. [Personalization](#personalization)

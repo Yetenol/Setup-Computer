@@ -1,4 +1,4 @@
-# [⌂](README.md) › **Printers**
+# [⌂](README.md) › Printers
 
 ## Farbkopierer **HP Photosmart HP C4580**
 

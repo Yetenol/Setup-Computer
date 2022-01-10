@@ -1,4 +1,4 @@
-# [⌂](README.md) › **Installation instructions**
+# [⌂](README.md) › Installation instructions
 
 
 ## Install Lenovo Vantage
