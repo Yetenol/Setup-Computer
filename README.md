@@ -24,11 +24,13 @@
 
 
 ## Setup Windows Package Manager CLI (winget)
+
 - Install [App Installer](https://www.microsoft.com/store/productID/9nblggh4nns1)
 - Open a console and run `winget` to test the installation
 
 
 ## Uninstall Bloatware
+
 ```powershell
 winget uninstall -e --id Microsoft.549981C3F5F10_8wekyb3d8bbwe                  # Cortana
 winget uninstall -e --id Microsoft.BingNews_8wekyb3d8bbwe                       # Microsoft News
@@ -58,6 +60,7 @@ winget uninstall -e --id RealtekSemiconductorCorp.RealtekAudioControl_dt26b99r8h
 ```
 
 ## Priority
+
 App ➔ Instructions | Store | Source | Install command
 --- | :---: | :---: | ---
 [Lenovo Vantage](instructions.md#install-lenovo-vantage) | [MS](https://www.microsoft.com/store/productID/9wzdncrfj4mv) || `winget install -e --id 9WZDNCRFJ4MV --accept-package-agreements # Lenovo Vantage`
@@ -69,6 +72,7 @@ App ➔ Instructions | Store | Source | Install command
 
 
 ## Communication
+
 App ➔ Instructions | Store | Source | Install command
 --- | :---: | :---: | ---
 [Mail and Calendar](instructions.md#install-mail-and-calendar) | [MS](https://www.microsoft.com/store/productID/9wzdncrfhvqm) || `winget install -e --id 9WZDNCRFHVQM --accept-package-agreements`
@@ -81,6 +85,7 @@ WhatsApp Desktop | [MS](https://www.microsoft.com/store/productID/9nksqgp7f2nh) 
 
 
 ## Office
+
 App ➔ Instructions | Store | Source | Install command
 --- | :---: | :---: | ---
 [Microsoft Office](instructions.md#install-microsoft-office) | [MS](https://www.microsoft.com/store/apps/CFQ7TTC0K5DM) | [Web](https://account.microsoft.com/services/office/install)
@@ -99,13 +104,16 @@ _GeoGebra_ || [Web](https://download.geogebra.org/package/win) | `winget install
 
 
 ## Entertainment
+
 App ➔ Instructions | Store | Source | Install command
 --- | :---: | :---: | ---
 Netflix | [MS](https://www.microsoft.com/store/productID/9wzdncrfj3tj) || `winget install -e --id 9WZDNCRFJ3TJ --accept-package-agreements # Netflix`
 [ReddPlanet](instructions.md#install-reddplanet) | [MS](https://www.microsoft.com/store/productID/9nblggh4s44m) || `winget install -e --id 9NBLGGH4S44M --accept-package-agreements # ReddPlanet`
 Amazon Prime Video for Windows | [MS](https://www.microsoft.com/store/productID/9p6rc76msmmj) || `winget install -e --id 9P6RC76MSMMJ --accept-package-agreements # Amazon Prime Video for Windows`
 
+
 ## Personalisation
+
 App ➔ Instructions | Store | Source | Install command
 --- | :---: | :---: | ---
 Window-Tools || [Github](https://github.com/Yetenol/Window-Tools/releases/latest/download/Window-Tools.exe)
@@ -122,7 +130,9 @@ _PowerToys_ || [Github](https://github.com/microsoft/PowerToys/releases/latest) 
 _[Capture2Text](instructions.md#install-capture2text)_ || [Web](https://sourceforge.net/projects/capture2text/files/Capture2Text/)
 _[ShareX](instructions.md#install-sharex)_ || [Github](https://github.com/ShareX/ShareX/releases/latest) | `winget install -e --id ShareX.ShareX`
 
+
 ## Dev
+
 App ➔ Instructions | Store | Source | Install command
 --- | :---: | :---: | ---
 7-Zip || [Web](https://www.7-zip.org/) | `winget install -e --id 7zip.7zip`
@@ -134,7 +144,9 @@ _Recuva_ || [Web](https://www.ccleaner.com/recuva/download)
 _Resource Hacker_ || [Web](http://www.angusj.com/resourceh*acker/#download)
 _Samsung Dex_ || [Web](https://www.samsung.com/global/download/SamsungDeXWin) | `winget install -e --id Samsung.DeX`
 
+
 ## Subsystems
+
 App ➔ Instructions | Store | Source | Install command
 --- | :---: | :---: | ---
 Ubuntu | [MS](https://www.microsoft.com/store/productID/9nblggh4msv6) || `wsl --install`
