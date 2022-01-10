@@ -1,4 +1,4 @@
-# [⌂](../README.md) › [Browser](browser/browser.md) › Settings
+# [⌂](../README.md) › [Browser](browser.md) › Settings
 
 ## Sync 
 ```
