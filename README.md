@@ -90,6 +90,7 @@ OneNote | [MS](https://www.microsoft.com/store/productID/9wzdncrfhvjl) || `winge
 [Boxcryptor](instructions.md#install-boxcryptor) || [Web](https://www.boxcryptor.com/en/download/) | `winget install -e --id SecombaGmbH.Boxcryptor`
 Firefox | [MS](https://www.microsoft.com/store/productId/9NZVDKPMR9RD) | [Web](https://www.mozilla.org/en-US/firefox/download/thanks/) | `winget install -e --id 9NZVDKPMR9RD --accept-package-agreements # Mozilla Firefox` <br> `winget install -e --id Mozilla.Firefox`
 [AusweisApp](instructions.md#install-ausweisapp) || [Web](https://www.ausweisapp.bund.de/download/windows-und-mac/)
+GIMP || [Web](https://www.gimp.org/downloads/) | `winget install -e --id GIMP.GIMP`
 Adobe Photoshop Express | [MS](https://www.microsoft.com/store/productID/9wzdncrfj27n) || `winget install -e --id 9WZDNCRFJ27N --accept-package-agreements # Adobe Photoshop Express: Image Editor, Adjustments, Filters, Effects, Borders`
 Paint Shop Pro 7
 _[Adobe Acrobat Reader](instructions.md#install-adobe-acrobat-reader)_ || [Web](https://get.adobe.com/reader/) | `winget install -e --id Adobe.Acrobat.Reader.64-bit` <br> `winget install -e --id XPDP273C0XHQH2 --accept-package-agreements # Adobe Acrobat Reader DC`
