@@ -14,6 +14,7 @@
 ```
 ms-settings:display
 ```
+
 - `100%` =: Scale _< [#Scale & layout]_
 > Open `HDR`
 > - [x] Play streaming HDR video
@@ -23,6 +24,7 @@ ms-settings:display
 ```
 ms-settings:nightlight
 ```
+
 - [x] Schedule night light
 
 
@@ -31,6 +33,7 @@ ms-settings:nightlight
 ```
 ms-settings:display-advancedgraphics
 ```
+
 - skip if no seperate graphics card is available
 - `Desktop app` =: Add an app
 - Click browser and open folder `%userprofile%\curseforge\minecraft\Install\runtime\`
@@ -53,6 +56,7 @@ jre-x64\bin\javaw.exe
 ```
 ms-settings:notifications
 ```
+
 > Notifications from apps and other senders
 > - [ ] Snipping Tool
 - [ ] Offer suggentions on how I can set up my device
@@ -63,6 +67,7 @@ ms-settings:notifications
 ```
 ms-settings:powersleep
 ```
+
 > Screen and sleep
 > - `10 minutes` =: On battery power, turn off after
 > - `20 minutes` =: When plugged in, turn off after
@@ -74,6 +79,7 @@ ms-settings:powersleep
 ```
 ms-settings:storagesense
 ```
+
 - [x] Storage sense
 
 > Open `Configure Storage Sense now`
@@ -84,6 +90,7 @@ ms-settings:storagesense
 ```
 ms-settings:multitasking
 ```
+
 - `Open windows only` := Pressing Alt + Tab shows
 
 
@@ -91,6 +98,7 @@ ms-settings:multitasking
 ```
 ms-settings:clipboard
 ```
+
 - [x] Clipboard history
 
 
@@ -98,16 +106,19 @@ ms-settings:clipboard
 ```
 ms-settings:about
 ```
+
 - Rename your PC to a suitable name
 
 
 
 # Bluetooth & devices
 
+
 ## Touchpad > Additional touchpad settings
 ```
 main.cpl
 ```
+
 > Open `ThinkPad` tab
 > - `Use as middle click` =: Middle mouse click
 
@@ -116,6 +127,7 @@ main.cpl
 ```
 ms-settings:devices-touchpad
 ```
+
 > Open `Advanced gestures` _< [# Related settigns]_
 > > Conf‌igure your **three** f‌inger gestures
 > > - `Custom shortcut` Taps
@@ -140,6 +152,7 @@ ms-settings:devices-touchpad
 ```
 ms-settings:devicestyping-hwkbtextsuggestions
 ```
+
 - [x] Show text suggestions as I type on the physical keyboard
 
 
@@ -152,6 +165,7 @@ _Dynamically match the accent color with the background image_
 ```
 ms-settings:personalization-colors
 ```
+
 - `Dark` =: Choose your default app mode
 - `Automatic` =: Accent color
 
@@ -160,13 +174,16 @@ ms-settings:personalization-colors
 ```
 rundll32 shell32.dll,Control_RunDLL desk.cpl,null,0
 ```
+
 - Disable all icons
 - [ ] Allow themes to change desktop icons
+
 
 ## Taskbar
 ```
 ms-settings:taskbar
 ```
+
 > Open `Taskbar items`
 > - [ ] Search
 > - [ ] Task view
@@ -187,7 +204,6 @@ ms-settings:taskbar
 
 
 
-
 # Apps
 
 
@@ -195,8 +211,8 @@ ms-settings:taskbar
 ```
 ms-settings:videoplayback	
 ```
-- [x] Process video automatically to enhance it (depends on your device hardware)
 
+- [x] Process video automatically to enhance it (depends on your device hardware)
 
 
 
@@ -208,6 +224,7 @@ _Hide the language swapper icon in the taskbbar_
 ```
 ms-settings:typing
 ```
+
 > Open `Advanced keyboard settings`
 > - [x] Use desktop language bar when it's available *< [#Switching input methods*]
 > - A language bar should appear in the top left corner of the screen
@@ -221,6 +238,7 @@ ms-settings:typing
 ```
 intl.cpl
 ```
+
 - `English (Germany)` =: Format
 
 > Open `Additional settings...`
@@ -249,4 +267,5 @@ _directly launch `Snipping Tool` using `PrintScreen`_
 ```
 ms-settings:easeofaccess-keyboard
 ```
+
 - [x] Use the PrtScn button to open screen snipping
