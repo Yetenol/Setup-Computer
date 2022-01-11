@@ -442,3 +442,8 @@ Set-Location -Path $preservePath
 >>   "useAcrylic": true,
 >>   "acrylicOpacity": 0.5
 >>   ``` 
+
+
+## Install OpenInWSA
+
+- Install [browser extension](https://chrome.google.com/webstore/detail/open-in-wsa/nkfpikoflncblmlajlcagaflndiijhhl)

@@ -151,3 +151,4 @@ App ➔ Instructions | Store | Source | Install command
 --- | :---: | :---: | ---
 Ubuntu | [MS](https://www.microsoft.com/store/productID/9nblggh4msv6) || `wsl --install`
 WSATools | [MS](https://www.microsoft.com/store/productId/9N4P75DXL6FG) || `winget install -e --id 9N4P75DXL6FG --accept-package-agreements # WSATools`
+[OpenInWSA](instructions.md#install-openinwsa) || [Github](https://github.com/efraimbart/OpenInWSA/releases/latest/download/OpenInWSA.exe)
