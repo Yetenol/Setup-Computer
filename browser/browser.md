@@ -31,9 +31,6 @@ Disabled | `about:flags/#edge-show-feature-recommendations` | Recommends Bing as
 
 ## Disable *Restore pages* after reboot
 
-> Open [[Registry]](how-to-dos.md#--Edit-registry) `HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Edge`
-> - 0 = `RestoreOnStartup` [DWORD]
-
 ```powershell
 $key = 'HKLM:\SOFTWARE\Policies\Microsoft'
 if (!(Get-ItemProperty -Path "$key\Edge")) {
@@ -41,6 +38,10 @@ if (!(Get-ItemProperty -Path "$key\Edge")) {
 }
 Set-ItemProperty -Path "$key/Edge" -Name "RestoreOnStartup" -Value 0
 ```
+
+> Open [[Registry]](how-to-dos.md#--Edit-registry) `HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Edge`
+> - 0 = `RestoreOnStartup` [DWORD]
+
 
 
 ## Progressive Web Apps
