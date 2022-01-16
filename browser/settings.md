@@ -32,6 +32,11 @@ about:settings/searchEngines
 ```
 
 - `Google` =: Search engine used in the address bar
+- Add custom search engines:
+
+Search engine | Keyword | URL with %s in place of query
+--- | --- | ---
+DeepL | deepl.com | `https://www.deepl.com/translator#../../%s`
 
 
 ## Appearance
