@@ -120,11 +120,11 @@ Window-Tools || [Github](https://github.com/Yetenol/Window-Tools/releases/latest
 [Auto Dark Mode](instructions.md#install-auto-dark-mode) | 🔗 | [Github](https://github.com/AutoDarkMode/Windows-Auto-Night-Mode/releases/latest) | `winget install -e Armin2208.WindowsAutoNightMode` <br> `winget install -e XP8JK4HZBVF435 --accept-package-agreements # Auto Dark Mode`
 [SharpKeys](instructions.md#install-sharpkeys) || [Github](https://github.com/randyrants/sharpkeys/releases/latest) | `winget install -e RandyRants.SharpKeys`
 AutoHotkey || [Web](https://www.autohotkey.com/download/ahk-v2.zip)
-[QuickLook](instructions.md#install-quicklook) | [MS](https://www.microsoft.com/store/productID/9nv4bs3l1h4s) || `winget install -e 9NV4BS3L1H4S --accept-package-agreements # QuickLook` <br> `winget install -e QL-Win.QuickLook`
-[Rainmeter](instructions.md#install-rainmeter) || [Github](https://github.com/rainmeter/rainmeter/releases/latest) | `winget install -e Rainmeter.Rainmeter`
-EdgeDeflector || [Github](https://github.com/da2x/EdgeDeflector/releases/latest/download/EdgeDeflector_install.exe) | `winget install -e da2x.edgedeflector`
-BatteryBar Pro || [Web](https://batterybarpro.com/basic.php)
-EarTrumpet | [MS](https://www.microsoft.com/store/productID/9nblggh516xp) || `winget install -e File-New-Project.EarTrumpet`
+_[QuickLook](instructions.md#install-quicklook)_ | [MS](https://www.microsoft.com/store/productID/9nv4bs3l1h4s) || `winget install -e 9NV4BS3L1H4S --accept-package-agreements # QuickLook` <br> `winget install -e QL-Win.QuickLook`
+_[Rainmeter](instructions.md#install-rainmeter)_ || [Github](https://github.com/rainmeter/rainmeter/releases/latest) | `winget install -e Rainmeter.Rainmeter`
+_EarTrumpet_ | [MS](https://www.microsoft.com/store/productID/9nblggh516xp) || `winget install -e File-New-Project.EarTrumpet`
+_BatteryBar Pro_ || [Web](https://batterybarpro.com/basic.php)
+_EdgeDeflector_ || [Github](https://github.com/da2x/EdgeDeflector/releases/latest/download/EdgeDeflector_install.exe) | `winget install -e da2x.edgedeflector`
 _LapLock_ || [Github](https://github.com/dechamps/laplock/releases/latest/download/laplock.exe)
 _PowerToys_ || [Github](https://github.com/microsoft/PowerToys/releases/latest) | `winget install -e Microsoft.PowerToys`
 _[Capture2Text](instructions.md#install-capture2text)_ || [Web](https://sourceforge.net/projects/capture2text/files/Capture2Text/)
