@@ -214,6 +214,9 @@
 >> Open `Display`
 >> - `Condensed` := Note Display
 >> - [x] Hide Automatically _< [#Menu Bar]_
+>
+>> Open `Tools`
+>> - [ ] Notify on remote changes
 
 
 ## Install OneDrive
