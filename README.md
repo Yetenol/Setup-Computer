@@ -150,5 +150,6 @@ _Samsung Dex_ || [Web](https://www.samsung.com/global/download/SamsungDeXWin) | 
 App ➔ Instructions | Store | Source | Install command
 --- | :---: | :---: | ---
 Ubuntu | [MS](https://www.microsoft.com/store/productID/9nblggh4msv6) || `wsl --install`
-WSATools | [MS](https://www.microsoft.com/store/productId/9N4P75DXL6FG) || `winget install -e 9N4P75DXL6FG --accept-package-agreements # WSATools`
+Windows Subsystem for Android | [MS](https://www.microsoft.com/store/productID/9p3395vx91nr) | [Adguard](https://allthings.how/how-to-download-windows-subsystem-for-android-without-microsoft-store-msixbundle/) | `winget install 9P3395VX91NR --accept-package-agreements # Windows Subsystem for Android`
+WSATools | [MS](https://www.microsoft.com/store/productId/9n4p75dxl6fg) || `winget install -e 9N4P75DXL6FG --accept-package-agreements # WSATools`
 [OpenInWSA](instructions.md#install-openinwsa) || [Github](https://github.com/efraimbart/OpenInWSA/releases/latest/download/OpenInWSA.exe)
