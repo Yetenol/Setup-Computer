@@ -78,7 +78,7 @@ App ➔ Instructions | Store | Source | Install command
 [Mail and Calendar](instructions.md#install-mail-and-calendar) | [MS](https://www.microsoft.com/store/productID/9wzdncrfhvqm) || `winget install -e 9WZDNCRFHVQM --accept-package-agreements`
 WhatsApp Desktop | [MS](https://www.microsoft.com/store/productID/9nksqgp7f2nh) | [Web](https://web.whatsapp.com/desktop/windows/release/x64/WhatsAppSetup.exe) | `winget install -e 9NKSQGP7F2NH --accept-package-agreements` <br> `winget install -e WhatsApp.WhatsApp`
 [Signal](instructions.md#install-signal) || [Web](https://signal.org/en/download/) | `winget install -e OpenWhisperSystems.Signal --accept-package-agreements`
-[Discord](instructions#install-discord) | 🔗 | [Web](https://discord.com/download) || `winget install -e Discord.Discord` <br> `winget install -e XPDC2RH70K22MN --accept-package-agreements # Discord`
+[Discord](instructions#install-discord) | 🔗 | [Web](https://discord.com/download) | `winget install -e Discord.Discord` <br> `winget install -e XPDC2RH70K22MN --accept-package-agreements # Discord`
 [Teams](instructions.md#install-teams) || [Web](https://www.microsoft.com/en-us/microsoft-teams/download-app#desktopAppDownloadregion) | `winget install -e Microsoft.Teams`
 [Zoom](instructions.md#install-zoom) | 🔗 | [Web](https://zoom.us/download) | `winget install -e Zoom.Zoom` <br> `winget install -e XP99J3KP4XZ4VV --accept-package-agreements # ZOOM Cloud Meetings`
 [Telegram Desktop](instructions.md#install-telegram-desktop) | [MS](https://www.microsoft.com/store/productID/9nztwsqntd0s) | [Web](https://telegram.org/dl/desktop/win64) | `winget install -e 9NZTWSQNTD0S --accept-package-agreements # Telegram Desktop` <br> `winget install -e Telegram.TelegramDesktop`
