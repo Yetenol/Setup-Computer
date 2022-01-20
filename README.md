@@ -94,10 +94,10 @@ OneNote | [MS](https://www.microsoft.com/store/productID/9wzdncrfhvjl) || `winge
 [OneDrive](instructions.md#install-onedrive) ||| `winget install -e Microsoft.OneDrive`
 [Boxcryptor](instructions.md#install-boxcryptor) || [Web](https://www.boxcryptor.com/en/download/) | `winget install -e SecombaGmbH.Boxcryptor`
 Firefox | [MS](https://www.microsoft.com/store/productId/9NZVDKPMR9RD) | [Web](https://www.mozilla.org/en-US/firefox/download/thanks/) | `winget install -e 9NZVDKPMR9RD --accept-package-agreements # Mozilla Firefox` <br> `winget install -e Mozilla.Firefox`
-[AusweisApp](instructions.md#install-ausweisapp) || [Web](https://www.ausweisapp.bund.de/download/windows-und-mac/)
 GIMP || [Web](https://www.gimp.org/downloads/) | `winget install -e GIMP.GIMP`
-Adobe Photoshop Express | [MS](https://www.microsoft.com/store/productID/9wzdncrfj27n) || `winget install -e 9WZDNCRFJ27N --accept-package-agreements # Adobe Photoshop Express`
-Paint Shop Pro 7
+[AusweisApp](instructions.md#install-ausweisapp) || [Web](https://www.ausweisapp.bund.de/download/windows-und-mac/)
+_Adobe Photoshop Express_ | [MS](https://www.microsoft.com/store/productID/9wzdncrfj27n) || `winget install -e 9WZDNCRFJ27N --accept-package-agreements # Adobe Photoshop Express`
+_Paint Shop Pro 7_
 _[Adobe Acrobat Reader](instructions.md#install-adobe-acrobat-reader)_ || [Web](https://get.adobe.com/reader/) | `winget install -e Adobe.Acrobat.Reader.64-bit` <br> `winget install -e XPDP273C0XHQH2 --accept-package-agreements # Adobe Acrobat Reader DC`
 _Citavi_ || [Web](https://www.citavi.com/en/download)
 _GeoGebra_ || [Web](https://download.geogebra.org/package/win) | `winget install -e GeoGebra.Classic.5`
