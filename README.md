@@ -139,7 +139,7 @@ App ➔ Instructions | Store | Source | Install command
 [Git](instructions.md#install-git) || [Web](https://git-scm.com/download/win) | `winget install -e Git.Git`
 [Windows Terminal](instructions.md#install-windows-terminal) | [MS](https://www.microsoft.com/store/productID/9n0dx20hk701) || `winget install -e 9N0DX20HK701 --accept-package-agreements # Windows Terminal` <br> `winget install -e Microsoft.WindowsTerminal`
 TreeSize | [MS](https://www.microsoft.com/store/productID/9nblggh40881) | [Web](https://www.jam-software.com/treesize_free) | `winget install -e 9NBLGGH40881 --accept-package-agreements # TreeSize Free` <br> `winget install -e JAMSoftware.TreeSizeFree`
-Windscribe || [Web](https://windscribe.com/install/desktop/windows) | `winget install -e Windscribe.Windscribe`
+_Windscribe_ || [Web](https://windscribe.com/install/desktop/windows) | `winget install -e Windscribe.Windscribe`
 _Recuva_ || [Web](https://www.ccleaner.com/recuva/download)
 _Resource Hacker_ || [Web](http://www.angusj.com/resourceh*acker/#download)
 _Samsung Dex_ || [Web](https://www.samsung.com/global/download/SamsungDeXWin) | `winget install -e Samsung.DeX`
