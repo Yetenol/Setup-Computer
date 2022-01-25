@@ -180,11 +180,15 @@
 ## Install [Telegram Desktop](https://www.microsoft.com/en-us/p/telegram-desktop/9nztwsqntd0s)
 > Open `Settings`
 > 
-> > Open `Chat Settings`
-> > - [x] Match the system settings *< [#Auto-night mode]*
+>> Open `Chat Settings`
+>> - [x] Match the system settings _< [#Auto-night mode]_
 > 
-> > Open `Notifications`
-> > - [x] Use Windows notifications *< [#Native notifications]*
+>> Open `Notifications`
+>> - [x] Use Windows notifications _< [#Native notifications]_
+>
+>> Open `Advanced`
+>> - [x] Use system window frame _< [#System integration]_
+
 
 
 ## Install Discord
