@@ -164,11 +164,11 @@
 
 ## Install [Zoom](https://zoom.us/download)
 > Open `Settings`
-> > Open `Video`
-> > - [x] `Auto` =: Adjust for low light *< [#My video]*
+>> Open `Video`
+>> - [x] `Auto` =: Adjust for low light *< [#My video]*
 > 
-> > Open `Backgroud & Filters`
-> > -  Install `Blur` Virtual Backgroud
+>> Open `Backgroud & Filters`
+>> -  Install `Blur` Virtual Backgroud
 
 
 ## Install [Teams](https://www.microsoft.com/en-us/microsoft-teams/download-app#desktopAppDownloadregion)
@@ -304,17 +304,17 @@ Set-Location -Path $preservePath
 
 >  Open `Menu > Edit > Preferences`
 >
-> > Open `Documents` tab 
-> > - [x] Remember current state of Tools Pane *< [#Open Settings]*
+>> Open `Documents` tab 
+>> - [x] Remember current state of Tools Pane *< [#Open Settings]*
 >
-> > Open `Language` tab
-> > - `Same as operating system` =:  Application Langauge *< [#Language]*
+>> Open `Language` tab
+>> - `Same as operating system` =:  Application Langauge *< [#Language]*
 > 
-> > Open `General` tab
-> > - [x] Enable PDF thumbnails in Windows Explorer *< [#Basic Tools]*
+>> Open `General` tab
+>> - [x] Enable PDF thumbnails in Windows Explorer *< [#Basic Tools]*
 > 
-> > Open `Page Display` tab
-> > - `Two-Up Continuous` =: Page Layout *< [#Default Layout and Zoom]*
+>> Open `Page Display` tab
+>> - `Two-Up Continuous` =: Page Layout *< [#Default Layout and Zoom]*
 
 
 
@@ -375,14 +375,14 @@ Set-Location -Path $preservePath
 ## Install [ShareX](https://github.com/ShareX/ShareX/releases/latest)
 - run at [startup](how-to-dos.md#edit-startup-apps)
 > Disable PrintScreen shortcut elsewhere
-> > Open `System Tray > Onedrive > Settings > Backup` tab
-> > - [ ] Automatically save screenshots I capture to OneDrive
+>> Open `System Tray > Onedrive > Settings > Backup` tab
+>> - [ ] Automatically save screenshots I capture to OneDrive
 >
-> > Open **Ease of Access > Interaction > Keyboard**
-> >     ```
-> >     ms-settings:easeofaccess-keyboard
-> >     ```
-> > - [ ] Use the PrtScn button to open screen snipping
+>> Open **Ease of Access > Interaction > Keyboard**
+>>     ```
+>>     ms-settings:easeofaccess-keyboard
+>>     ```
+>> - [ ] Use the PrtScn button to open screen snipping
 
 > Open `System Tray > ShareX > Hotkey settings`
 > Set Hotkey | Description
