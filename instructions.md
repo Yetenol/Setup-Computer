@@ -185,10 +185,6 @@
 > 
 > > Open `Notifications`
 > > - [x] Use Windows notifications *< [#Native notifications]*
-> 
-> > Open `Advanced`
-> > - Open `Manage local storage` *< [#Data and storage]*
-> >     - `Never` Clear files older than
 
 
 ## Install Discord
