@@ -332,6 +332,9 @@ Set-Location -Path $preservePath
 > - `52.52` =: Latitude _< [#Geographic coordinates]_
 > - `13.405` =: Longitude _< [#Geographic coordinates]_
 
+> Open `Apps`
+> - `Adapt to system` := Microsoft Office 2013 - 2019
+
 > Open `Settings`
 > - [x] Hide tray icon (not recommended)
 
