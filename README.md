@@ -61,43 +61,43 @@ winget uninstall -e RealtekSemiconductorCorp.RealtekAudioControl_dt26b99r8h8gj #
 
 ## Priority
 
-App ➔ Instructions | Store | Source | Install command
---- | :---: | :---: | ---
-[Lenovo Vantage](instructions.md#install-lenovo-vantage) | [MS](https://www.microsoft.com/store/productID/9wzdncrfj4mv) || `winget install -e 9WZDNCRFJ4MV --accept-package-agreements # Lenovo Vantage`
-[KeePass](instructions.md#install-keepass) || [Web](https://keepass.info/download.html) | `winget install -e DominikReichl.KeePass`
-[Visual Studio Code](instructions.md#install-visual-studio-code) | 🔗 | [Web](https://code.visualstudio.com/#alt-downloads) | `winget install -e Microsoft.VisualStudioCode --scope machine`
-[Gitkraken](instructions.md#install-gitkraken) || [Web](https://www.gitkraken.com/download/windows64) | `winget install -e Axosoft.GitKraken`
+| App ➔ Instructions                                               |                            Store                             |                       Source                        | Install command                                                               |
+| ---------------------------------------------------------------- | :----------------------------------------------------------: | :-------------------------------------------------: | ----------------------------------------------------------------------------- |
+| [Lenovo Vantage](instructions.md#install-lenovo-vantage)         | [MS](https://www.microsoft.com/store/productID/9wzdncrfj4mv) |                                                     | `winget install -e 9WZDNCRFJ4MV --accept-package-agreements # Lenovo Vantage` |
+| [KeePass](instructions.md#install-keepass)                       |                                                              |      [Web](https://keepass.info/download.html)      | `winget install -e DominikReichl.KeePass`                                     |
+| [Visual Studio Code](instructions.md#install-visual-studio-code) |                              🔗                               | [Web](https://code.visualstudio.com/#alt-downloads) | `winget install -e Microsoft.VisualStudioCode --scope machine`                |
+| [Gitkraken](instructions.md#install-gitkraken)                   |                                                              | [Web](https://www.gitkraken.com/download/windows64) | `winget install -e Axosoft.GitKraken`                                         |
 [File Explorer]((instructions.md#setup-file-explorer))
 [Local Group Policy](instructions.md#setup-local-group-policy)
 
 
 ## Communication
 
-App ➔ Instructions | Store | Source | Install command
---- | :---: | :---: | ---
-[Mail and Calendar](instructions.md#install-mail-and-calendar) | [MS](https://www.microsoft.com/store/productID/9wzdncrfhvqm) || `winget install -e 9WZDNCRFHVQM --accept-package-agreements`
-WhatsApp Desktop | [MS](https://www.microsoft.com/store/productID/9nksqgp7f2nh) | [Web](https://web.whatsapp.com/desktop/windows/release/x64/WhatsAppSetup.exe) | `winget install -e 9NKSQGP7F2NH --accept-package-agreements` <br> `winget install -e WhatsApp.WhatsApp`
-[Signal](instructions.md#install-signal) || [Web](https://signal.org/en/download/) | `winget install -e OpenWhisperSystems.Signal --accept-package-agreements`
-[Discord](instructions#install-discord) | 🔗 | [Web](https://discord.com/download) | `winget install -e Discord.Discord` <br> `winget install -e XPDC2RH70K22MN --accept-package-agreements # Discord`
-Threema || [Web](https://releases.threema.ch/web-electron/v1/release/Threema-Latest.exe) | `winget install -e Threema.Threema`
-[Teams](instructions.md#install-teams) || [Web](https://www.microsoft.com/en-us/microsoft-teams/download-app#desktopAppDownloadregion) | `winget install -e Microsoft.Teams`
-[Zoom](instructions.md#install-zoom) | 🔗 | [Web](https://zoom.us/download) | `winget install -e Zoom.Zoom` <br> `winget install -e XP99J3KP4XZ4VV --accept-package-agreements # ZOOM Cloud Meetings`
-[Telegram Desktop](instructions.md#install-telegram-desktop) | [MS](https://www.microsoft.com/store/productID/9nztwsqntd0s) | [Web](https://telegram.org/dl/desktop/win64) | `winget install -e 9NZTWSQNTD0S --accept-package-agreements # Telegram Desktop` <br> `winget install -e Telegram.TelegramDesktop`
+| App ➔ Instructions                                             |                            Store                             |                                            Source                                            | Install command                                                                                                                   |
+| -------------------------------------------------------------- | :----------------------------------------------------------: | :------------------------------------------------------------------------------------------: | --------------------------------------------------------------------------------------------------------------------------------- |
+| [Mail and Calendar](instructions.md#install-mail-and-calendar) | [MS](https://www.microsoft.com/store/productID/9wzdncrfhvqm) |                                                                                              | `winget install -e 9WZDNCRFHVQM --accept-package-agreements`                                                                      |
+| WhatsApp Desktop                                               | [MS](https://www.microsoft.com/store/productID/9nksqgp7f2nh) |        [Web](https://web.whatsapp.com/desktop/windows/release/x64/WhatsAppSetup.exe)         | `winget install -e 9NKSQGP7F2NH --accept-package-agreements` <br> `winget install -e WhatsApp.WhatsApp`                           |
+| [Signal](instructions.md#install-signal)                       |                                                              |                            [Web](https://signal.org/en/download/)                            | `winget install -e OpenWhisperSystems.Signal --accept-package-agreements`                                                         |
+| [Discord](instructions#install-discord)                        |                              🔗                               |                             [Web](https://discord.com/download)                              | `winget install -e Discord.Discord` <br> `winget install -e XPDC2RH70K22MN --accept-package-agreements # Discord`                 |
+| Threema                                                        |                                                              |        [Web](https://releases.threema.ch/web-electron/v1/release/Threema-Latest.exe)         | `winget install -e Threema.Threema`                                                                                               |
+| [Teams](instructions.md#install-teams)                         |                                                              | [Web](https://www.microsoft.com/en-us/microsoft-teams/download-app#desktopAppDownloadregion) | `winget install -e Microsoft.Teams`                                                                                               |
+| [Zoom](instructions.md#install-zoom)                           |                              🔗                               |                               [Web](https://zoom.us/download)                                | `winget install -e Zoom.Zoom` <br> `winget install -e XP99J3KP4XZ4VV --accept-package-agreements # ZOOM Cloud Meetings`           |
+| [Telegram Desktop](instructions.md#install-telegram-desktop)   | [MS](https://www.microsoft.com/store/productID/9nztwsqntd0s) |                         [Web](https://telegram.org/dl/desktop/win64)                         | `winget install -e 9NZTWSQNTD0S --accept-package-agreements # Telegram Desktop` <br> `winget install -e Telegram.TelegramDesktop` |
 
 
 ## Office
 
-App ➔ Instructions | Store | Source | Install command
---- | :---: | :---: | ---
-[Microsoft Office](instructions.md#install-microsoft-office) | [MS](https://www.microsoft.com/store/apps/CFQ7TTC0K5DM) | [Web](https://account.microsoft.com/services/office/install)
-OneNote | [MS](https://www.microsoft.com/store/productID/9wzdncrfhvjl) || `winget install -e 9WZDNCRFHVJL --accept-package-agreements # OneNote for Windows 10`
-[Simplenote](instructions.md#install-simplenote) | [MS](https://www.microsoft.com/store/productID/9nxqq40ldw3x) || `winget install -e 9NXQQ40LDW3X --accept-package-agreements # Simplenote`
-[OneDrive](instructions.md#install-onedrive) ||| `winget install -e Microsoft.OneDrive`
-[Boxcryptor](instructions.md#install-boxcryptor) || [Web](https://www.boxcryptor.com/en/download/) | `winget install -e SecombaGmbH.Boxcryptor`
-Firefox | [MS](https://www.microsoft.com/store/productId/9NZVDKPMR9RD) | [Web](https://www.mozilla.org/en-US/firefox/download/thanks/) | `winget install -e 9NZVDKPMR9RD --accept-package-agreements # Mozilla Firefox` <br> `winget install -e Mozilla.Firefox`
-GIMP || [Web](https://www.gimp.org/downloads/) | `winget install -e GIMP.GIMP`
-[AusweisApp](instructions.md#install-ausweisapp) || [Web](https://www.ausweisapp.bund.de/download/windows-und-mac/)
-_Adobe Photoshop Express_ | [MS](https://www.microsoft.com/store/productID/9wzdncrfj27n) || `winget install -e 9WZDNCRFJ27N --accept-package-agreements # Adobe Photoshop Express`
+| App ➔ Instructions                                           |                            Store                             |                             Source                              | Install command                                                                                                         |
+| ------------------------------------------------------------ | :----------------------------------------------------------: | :-------------------------------------------------------------: | ----------------------------------------------------------------------------------------------------------------------- |
+| [Microsoft Office](instructions.md#install-microsoft-office) |   [MS](https://www.microsoft.com/store/apps/CFQ7TTC0K5DM)    |  [Web](https://account.microsoft.com/services/office/install)   |
+| OneNote                                                      | [MS](https://www.microsoft.com/store/productID/9wzdncrfhvjl) |                                                                 | `winget install -e 9WZDNCRFHVJL --accept-package-agreements # OneNote for Windows 10`                                   |
+| [Simplenote](instructions.md#install-simplenote)             | [MS](https://www.microsoft.com/store/productID/9nxqq40ldw3x) |                                                                 | `winget install -e 9NXQQ40LDW3X --accept-package-agreements # Simplenote`                                               |
+| [OneDrive](instructions.md#install-onedrive)                 |                                                              |                                                                 | `winget install -e Microsoft.OneDrive`                                                                                  |
+| [Boxcryptor](instructions.md#install-boxcryptor)             |                                                              |         [Web](https://www.boxcryptor.com/en/download/)          | `winget install -e SecombaGmbH.Boxcryptor`                                                                              |
+| Firefox                                                      | [MS](https://www.microsoft.com/store/productId/9NZVDKPMR9RD) |  [Web](https://www.mozilla.org/en-US/firefox/download/thanks/)  | `winget install -e 9NZVDKPMR9RD --accept-package-agreements # Mozilla Firefox` <br> `winget install -e Mozilla.Firefox` |
+| GIMP                                                         |                                                              |             [Web](https://www.gimp.org/downloads/)              | `winget install -e GIMP.GIMP`                                                                                           |
+| [AusweisApp](instructions.md#install-ausweisapp)             |                                                              | [Web](https://www.ausweisapp.bund.de/download/windows-und-mac/) |
+| _Adobe Photoshop Express_                                    | [MS](https://www.microsoft.com/store/productID/9wzdncrfj27n) |                                                                 | `winget install -e 9WZDNCRFJ27N --accept-package-agreements # Adobe Photoshop Express`                                  |
 _Paint Shop Pro 7_
 _[Adobe Acrobat Reader](instructions.md#install-adobe-acrobat-reader)_ || [Web](https://get.adobe.com/reader/) | `winget install -e Adobe.Acrobat.Reader.64-bit` <br> `winget install -e XPDP273C0XHQH2 --accept-package-agreements # Adobe Acrobat Reader DC`
 _Citavi_ || [Web](https://www.citavi.com/en/download)
@@ -106,51 +106,51 @@ _GeoGebra_ || [Web](https://download.geogebra.org/package/win) | `winget install
 
 ## Entertainment
 
-App ➔ Instructions | Store | Source | Install command
---- | :---: | :---: | ---
-Netflix | [MS](https://www.microsoft.com/store/productID/9wzdncrfj3tj) || `winget install -e 9WZDNCRFJ3TJ --accept-package-agreements # Netflix`
-[ReddPlanet](instructions.md#install-reddplanet) | [MS](https://www.microsoft.com/store/productID/9nblggh4s44m) || `winget install -e 9NBLGGH4S44M --accept-package-agreements # ReddPlanet`
-Amazon Prime Video for Windows | [MS](https://www.microsoft.com/store/productID/9p6rc76msmmj) || `winget install -e 9P6RC76MSMMJ --accept-package-agreements # Amazon Prime Video for Windows`
+| App ➔ Instructions                               |                            Store                             | Source | Install command                                                                               |
+| ------------------------------------------------ | :----------------------------------------------------------: | :----: | --------------------------------------------------------------------------------------------- |
+| Netflix                                          | [MS](https://www.microsoft.com/store/productID/9wzdncrfj3tj) |        | `winget install -e 9WZDNCRFJ3TJ --accept-package-agreements # Netflix`                        |
+| [ReddPlanet](instructions.md#install-reddplanet) | [MS](https://www.microsoft.com/store/productID/9nblggh4s44m) |        | `winget install -e 9NBLGGH4S44M --accept-package-agreements # ReddPlanet`                     |
+| Amazon Prime Video for Windows                   | [MS](https://www.microsoft.com/store/productID/9p6rc76msmmj) |        | `winget install -e 9P6RC76MSMMJ --accept-package-agreements # Amazon Prime Video for Windows` |
 
 
 ## Personalisation
 
-App ➔ Instructions | Store | Source | Install command
---- | :---: | :---: | ---
-Window-Tools || [Github](https://github.com/Yetenol/Window-Tools/releases/latest/download/Window-Tools.exe)
-[Auto Dark Mode](instructions.md#install-auto-dark-mode) | 🔗 | [Github](https://github.com/AutoDarkMode/Windows-Auto-Night-Mode/releases/latest) | `winget install -e Armin2208.WindowsAutoNightMode` <br> `winget install -e XP8JK4HZBVF435 --accept-package-agreements # Auto Dark Mode`
-[SharpKeys](instructions.md#install-sharpkeys) || [Github](https://github.com/randyrants/sharpkeys/releases/latest) | `winget install -e RandyRants.SharpKeys`
-AutoHotkey || [Web](https://www.autohotkey.com/download/ahk-v2.zip)
-_[QuickLook](instructions.md#install-quicklook)_ | [MS](https://www.microsoft.com/store/productID/9nv4bs3l1h4s) || `winget install -e 9NV4BS3L1H4S --accept-package-agreements # QuickLook` <br> `winget install -e QL-Win.QuickLook`
-_[Rainmeter](instructions.md#install-rainmeter)_ || [Github](https://github.com/rainmeter/rainmeter/releases/latest) | `winget install -e Rainmeter.Rainmeter`
-_EarTrumpet_ | [MS](https://www.microsoft.com/store/productID/9nblggh516xp) || `winget install -e File-New-Project.EarTrumpet`
-_BatteryBar Pro_ || [Web](https://batterybarpro.com/basic.php)
-_EdgeDeflector_ || [Github](https://github.com/da2x/EdgeDeflector/releases/latest/download/EdgeDeflector_install.exe) | `winget install -e da2x.edgedeflector`
-_LapLock_ || [Github](https://github.com/dechamps/laplock/releases/latest/download/laplock.exe)
-_PowerToys_ || [Github](https://github.com/microsoft/PowerToys/releases/latest) | `winget install -e Microsoft.PowerToys`
-_[Capture2Text](instructions.md#install-capture2text)_ || [Web](https://sourceforge.net/projects/capture2text/files/Capture2Text/)
-_[ShareX](instructions.md#install-sharex)_ || [Github](https://github.com/ShareX/ShareX/releases/latest) | `winget install -e ShareX.ShareX`
+| App ➔ Instructions                                       |                            Store                             |                                               Source                                               | Install command                                                                                                                         |
+| -------------------------------------------------------- | :----------------------------------------------------------: | :------------------------------------------------------------------------------------------------: | --------------------------------------------------------------------------------------------------------------------------------------- |
+| Window-Tools                                             |                                                              |    [Github](https://github.com/Yetenol/Window-Tools/releases/latest/download/Window-Tools.exe)     |
+| [Auto Dark Mode](instructions.md#install-auto-dark-mode) |                              🔗                               |         [Github](https://github.com/AutoDarkMode/Windows-Auto-Night-Mode/releases/latest)          | `winget install -e Armin2208.WindowsAutoNightMode` <br> `winget install -e XP8JK4HZBVF435 --accept-package-agreements # Auto Dark Mode` |
+| [SharpKeys](instructions.md#install-sharpkeys)           |                                                              |                 [Github](https://github.com/randyrants/sharpkeys/releases/latest)                  | `winget install -e RandyRants.SharpKeys`                                                                                                |
+| AutoHotkey                                               |                                                              |                       [Web](https://www.autohotkey.com/download/ahk-v2.zip)                        |
+| _[QuickLook](instructions.md#install-quicklook)_         | [MS](https://www.microsoft.com/store/productID/9nv4bs3l1h4s) |                                                                                                    | `winget install -e 9NV4BS3L1H4S --accept-package-agreements # QuickLook` <br> `winget install -e QL-Win.QuickLook`                      |
+| _[Rainmeter](instructions.md#install-rainmeter)_         |                                                              |                  [Github](https://github.com/rainmeter/rainmeter/releases/latest)                  | `winget install -e Rainmeter.Rainmeter`                                                                                                 |
+| _EarTrumpet_                                             | [MS](https://www.microsoft.com/store/productID/9nblggh516xp) |                                                                                                    | `winget install -e File-New-Project.EarTrumpet`                                                                                         |
+| _BatteryBar Pro_                                         |                                                              |                             [Web](https://batterybarpro.com/basic.php)                             |
+| _EdgeDeflector_                                          |                                                              | [Github](https://github.com/da2x/EdgeDeflector/releases/latest/download/EdgeDeflector_install.exe) | `winget install -e da2x.edgedeflector`                                                                                                  |
+| _LapLock_                                                |                                                              |         [Github](https://github.com/dechamps/laplock/releases/latest/download/laplock.exe)         |
+| _PowerToys_                                              |                                                              |                  [Github](https://github.com/microsoft/PowerToys/releases/latest)                  | `winget install -e Microsoft.PowerToys`                                                                                                 |
+| _[Capture2Text](instructions.md#install-capture2text)_   |                                                              |              [Web](https://sourceforge.net/projects/capture2text/files/Capture2Text/)              |
+| _[ShareX](instructions.md#install-sharex)_               |                                                              |                     [Github](https://github.com/ShareX/ShareX/releases/latest)                     | `winget install -e ShareX.ShareX`                                                                                                       |
 
 
 ## Dev
 
-App ➔ Instructions | Store | Source | Install command
---- | :---: | :---: | ---
-7-Zip || [Web](https://www.7-zip.org/) | `winget install -e 7zip.7zip`
-[Git](instructions.md#install-git) || [Web](https://git-scm.com/download/win) | `winget install -e Git.Git`
-[Windows Terminal](instructions.md#install-windows-terminal) | [MS](https://www.microsoft.com/store/productID/9n0dx20hk701) || `winget install -e 9N0DX20HK701 --accept-package-agreements # Windows Terminal` <br> `winget install -e Microsoft.WindowsTerminal`
-TreeSize | [MS](https://www.microsoft.com/store/productID/9nblggh40881) | [Web](https://www.jam-software.com/treesize_free) | `winget install -e 9NBLGGH40881 --accept-package-agreements # TreeSize Free` <br> `winget install -e JAMSoftware.TreeSizeFree`
-_Windscribe_ || [Web](https://windscribe.com/install/desktop/windows) | `winget install -e Windscribe.Windscribe`
-_Recuva_ || [Web](https://www.ccleaner.com/recuva/download)
-_Resource Hacker_ || [Web](http://www.angusj.com/resourceh*acker/#download)
-_Samsung Dex_ || [Web](https://www.samsung.com/global/download/SamsungDeXWin) | `winget install -e Samsung.DeX`
+| App ➔ Instructions                                           |                            Store                             |                            Source                            | Install command                                                                                                                    |
+| ------------------------------------------------------------ | :----------------------------------------------------------: | :----------------------------------------------------------: | ---------------------------------------------------------------------------------------------------------------------------------- |
+| 7-Zip                                                        |                                                              |                [Web](https://www.7-zip.org/)                 | `winget install -e 7zip.7zip`                                                                                                      |
+| [Git](instructions.md#install-git)                           |                                                              |           [Web](https://git-scm.com/download/win)            | `winget install -e Git.Git`                                                                                                        |
+| [Windows Terminal](instructions.md#install-windows-terminal) | [MS](https://www.microsoft.com/store/productID/9n0dx20hk701) |                                                              | `winget install -e 9N0DX20HK701 --accept-package-agreements # Windows Terminal` <br> `winget install -e Microsoft.WindowsTerminal` |
+| TreeSize                                                     | [MS](https://www.microsoft.com/store/productID/9nblggh40881) |      [Web](https://www.jam-software.com/treesize_free)       | `winget install -e 9NBLGGH40881 --accept-package-agreements # TreeSize Free` <br> `winget install -e JAMSoftware.TreeSizeFree`     |
+| _Windscribe_                                                 |                                                              |    [Web](https://windscribe.com/install/desktop/windows)     | `winget install -e Windscribe.Windscribe`                                                                                          |
+| _Recuva_                                                     |                                                              |       [Web](https://www.ccleaner.com/recuva/download)        |
+| _Resource Hacker_                                            |                                                              |    [Web](http://www.angusj.com/resourceh*acker/#download)    |
+| _Samsung Dex_                                                |                                                              | [Web](https://www.samsung.com/global/download/SamsungDeXWin) | `winget install -e Samsung.DeX`                                                                                                    |
 
 
 ## Subsystems
 
-App ➔ Instructions | Store | Source | Install command
---- | :---: | :---: | ---
-Ubuntu | [MS](https://www.microsoft.com/store/productID/9nblggh4msv6) || `wsl --install`
-Windows Subsystem for Android | [MS](https://www.microsoft.com/store/productID/9p3395vx91nr) | [Adguard](https://allthings.how/how-to-download-windows-subsystem-for-android-without-microsoft-store-msixbundle/) | `winget install 9P3395VX91NR --accept-package-agreements # Windows Subsystem for Android`
-WSATools | [MS](https://www.microsoft.com/store/productId/9n4p75dxl6fg) || `winget install -e 9N4P75DXL6FG --accept-package-agreements # WSATools`
-[OpenInWSA](instructions.md#install-openinwsa) || [Github](https://github.com/efraimbart/OpenInWSA/releases/latest/download/OpenInWSA.exe)
+| App ➔ Instructions                             |                            Store                             |                                                       Source                                                       | Install command                                                                           |
+| ---------------------------------------------- | :----------------------------------------------------------: | :----------------------------------------------------------------------------------------------------------------: | ----------------------------------------------------------------------------------------- |
+| Ubuntu                                         | [MS](https://www.microsoft.com/store/productID/9nblggh4msv6) |                                                                                                                    | `wsl --install`                                                                           |
+| Windows Subsystem for Android                  | [MS](https://www.microsoft.com/store/productID/9p3395vx91nr) | [Adguard](https://allthings.how/how-to-download-windows-subsystem-for-android-without-microsoft-store-msixbundle/) | `winget install 9P3395VX91NR --accept-package-agreements # Windows Subsystem for Android` |
+| WSATools                                       | [MS](https://www.microsoft.com/store/productId/9n4p75dxl6fg) |                                                                                                                    | `winget install -e 9N4P75DXL6FG --accept-package-agreements # WSATools`                   |
+| [OpenInWSA](instructions.md#install-openinwsa) |                                                              |              [Github](https://github.com/efraimbart/OpenInWSA/releases/latest/download/OpenInWSA.exe)              |

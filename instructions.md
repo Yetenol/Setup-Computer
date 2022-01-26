@@ -259,15 +259,15 @@ Open `System Tray > OneDrive > More > Settings`
 
 - Redirect the following folders
 
-Folder name | New location
---- | ---
-Desktop | `D:\Desktop`
-Documents | `D:\OneDrive\Documents`
-Downloads | `D:\Download`
-3D Objects | `X:\OneDrive\3D-Objects-E`
-Music | `X:\OneDrive\Music-E`
-Videos | `X:\OneDrive\Videos-E`
-Pictures¹⁾ | `X:\OneDrive\Pictures-E`
+| Folder name | New location               |
+| ----------- | -------------------------- |
+| Desktop     | `D:\Desktop`               |
+| Documents   | `D:\OneDrive\Documents`    |
+| Downloads   | `D:\Download`              |
+| 3D Objects  | `X:\OneDrive\3D-Objects-E` |
+| Music       | `X:\OneDrive\Music-E`      |
+| Videos      | `X:\OneDrive\Videos-E`     |
+| Pictures¹⁾  | `X:\OneDrive\Pictures-E`   |
 
 > - ¹⁾ if redirecting `Pictures` fails, do the following  
 > Open [[Registry]](how-to-dos.md#--Edit-registry) `HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\User Shell Folders`

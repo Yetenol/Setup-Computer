@@ -1,19 +1,21 @@
 # [⌂](../README.md) › Browser - Table of Contents
 
 1. [Install Chromium browser](#install-chromium-browser)
-1. [Experimental features](#experimental-features)
-1. [Settings](settings.md)
-1. [Progressive Web Apps](#progressive-web-apps)
-1. [Extensions](extensions.md)
+  - [Install browser](#install-browser)
+    - [Set browser for Windows Search](#set-browser-for-windows-search)
+  - [Experimental features](#experimental-features)
+  - [Disable *Restore pages* after reboot](#disable-restore-pages-after-reboot)
+  - [Progressive Web Apps](#progressive-web-apps)
+  - [Extensions](#extensions)
 
 ## Install browser
 
-Browser | Store | Source | Install command
---- | :---: | :---: | ---
-Edge | 🔗 | [Web](https://www.microsoft.com/de-de/edge#evergreen) | `winget install -e --id Microsoft.Edge`
-Firefox | [MS](https://www.microsoft.com/store/productId/9NZVDKPMR9RD) | [Web](https://www.mozilla.org/en-US/firefox/download/thanks/) | `winget install -e --id 9NZVDKPMR9RD --accept-package-agreements # Mozilla Firefox` <br> `winget install -e --id Mozilla.Firefox`
-Vivaldi || [Web](https://vivaldi.com/de/) | `winget install -e --id VivaldiTechnologies.Vivaldi`
-Brave || [Web](https://brave.com/de/) | `winget install -e --id BraveSoftware.BraveBrowser`
+| Browser |                            Store                             |                            Source                             | Install command                                                                                                                   |
+| ------- | :----------------------------------------------------------: | :-----------------------------------------------------------: | --------------------------------------------------------------------------------------------------------------------------------- |
+| Edge    |                              🔗                               |     [Web](https://www.microsoft.com/de-de/edge#evergreen)     | `winget install -e --id Microsoft.Edge`                                                                                           |
+| Firefox | [MS](https://www.microsoft.com/store/productId/9NZVDKPMR9RD) | [Web](https://www.mozilla.org/en-US/firefox/download/thanks/) | `winget install -e --id 9NZVDKPMR9RD --accept-package-agreements # Mozilla Firefox` <br> `winget install -e --id Mozilla.Firefox` |
+| Vivaldi |                                                              |                [Web](https://vivaldi.com/de/)                 | `winget install -e --id VivaldiTechnologies.Vivaldi`                                                                              |
+| Brave   |                                                              |                 [Web](https://brave.com/de/)                  | `winget install -e --id BraveSoftware.BraveBrowser`                                                                               |
 
 ### Set browser for Windows Search
 - Install [EdgeDeflector](https://github.com/da2x/EdgeDeflector/releases)
@@ -22,11 +24,11 @@ Brave || [Web](https://brave.com/de/) | `winget install -e --id BraveSoftware.Br
 
 ## Experimental features
 
-Status | Flag | Description
---- | --- | ---
-Disabled | `about:flags/#edge-experimental-scrolling` | Overscroll bounce
-Disabled | `about:flags/#overscroll-history-navigation` | Two-finger overscroll navigations
-Disabled | `about:flags/#edge-show-feature-recommendations` | Recommends Bing as search engine
+| Status   | Flag                                             | Description                       |
+| -------- | ------------------------------------------------ | --------------------------------- |
+| Disabled | `about:flags/#edge-experimental-scrolling`       | Overscroll bounce                 |
+| Disabled | `about:flags/#overscroll-history-navigation`     | Two-finger overscroll navigations |
+| Disabled | `about:flags/#edge-show-feature-recommendations` | Recommends Bing as search engine  |
 
 
 ## Disable *Restore pages* after reboot
