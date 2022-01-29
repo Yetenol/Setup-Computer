@@ -2,11 +2,20 @@
 
 1. [OS & Partitions](#os--partitions)
 1. [Software](#software)
+   - [Setup Windows Package Manager CLI (winget)](#setup-windows-package-manager-cli-winget)
+   - [Uninstall Bloatware](#uninstall-bloatware)
+   - [Priority](#priority)
+   - [Communication](#communication)
+   - [Office](#office)
+   - [Storage](#storage)
+   - [Entertainment](#entertainment)
+   - [Personalisation](#personalisation)
+   - [Development](#development)
+   - [Subsystems](#subsystems)
 1. [Windows Settings](settings.md) - [_[Windows 10](archive/settings.10.md)_]
 1. [Browser](browser/browser.md)  
 1. [Gaming](gaming.md)
 1. [Printers](printers.md)
-
 
 
 # OS & Partitions
