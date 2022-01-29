@@ -1,4 +1,4 @@
-# [⌂](README.md) How to setup my PC - Table of Contents ![GitHub last commit](https://img.shields.io/github/last-commit/yetenol/setup-computer?color=white)
+****# [⌂](README.md) How to setup my PC - Table of Contents ![GitHub last commit](https://img.shields.io/github/last-commit/yetenol/setup-computer?color=white)
 
 1. [OS & Partitions](#os--partitions)
 1. [Software](#software)
@@ -97,11 +97,11 @@ winget uninstall -e RealtekSemiconductorCorp.RealtekAudioControl_dt26b99r8h8gj #
 | Firefox                                                      | [MS](https://www.microsoft.com/store/productId/9NZVDKPMR9RD) |  [Web](https://www.mozilla.org/en-US/firefox/download/thanks/)  | `winget install -e 9NZVDKPMR9RD --accept-package-agreements # Mozilla Firefox` <br> `winget install -e Mozilla.Firefox` |
 | GIMP                                                         |                                                              |             [Web](https://www.gimp.org/downloads/)              | `winget install -e GIMP.GIMP`                                                                                           |
 | [AusweisApp](instructions.md#install-ausweisapp)             |                                                              | [Web](https://www.ausweisapp.bund.de/download/windows-und-mac/) |
+| GeoGebra                                                     |                                                              |        [Web](https://download.geogebra.org/package/win)         | `winget install -e GeoGebra.Classic.5`                                                                                  |
 | _Adobe Photoshop Express_                                    | [MS](https://www.microsoft.com/store/productID/9wzdncrfj27n) |                                                                 | `winget install -e 9WZDNCRFJ27N --accept-package-agreements # Adobe Photoshop Express`                                  |
 _Paint Shop Pro 7_
 _[Adobe Acrobat Reader](instructions.md#install-adobe-acrobat-reader)_ || [Web](https://get.adobe.com/reader/) | `winget install -e Adobe.Acrobat.Reader.64-bit` <br> `winget install -e XPDP273C0XHQH2 --accept-package-agreements # Adobe Acrobat Reader DC`
 _Citavi_ || [Web](https://www.citavi.com/en/download)
-_GeoGebra_ || [Web](https://download.geogebra.org/package/win) | `winget install -e GeoGebra.Classic.5`
 
 
 ## Entertainment
@@ -132,7 +132,7 @@ _GeoGebra_ || [Web](https://download.geogebra.org/package/win) | `winget install
 | _[ShareX](instructions.md#install-sharex)_               |                                                              |                     [Github](https://github.com/ShareX/ShareX/releases/latest)                     | `winget install -e ShareX.ShareX`                                                                                                       |
 
 
-## Dev
+## Development
 
 | App ➔ Instructions                                           |                            Store                             |                            Source                            | Install command                                                                                                                    |
 | ------------------------------------------------------------ | :----------------------------------------------------------: | :----------------------------------------------------------: | ---------------------------------------------------------------------------------------------------------------------------------- |
