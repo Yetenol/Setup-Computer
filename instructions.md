@@ -66,6 +66,22 @@
         ```
         %AppData%\Code\User\settings.json
         ```
+    - Install extensions
+        ```
+        code --install-extension cschlosser.doxdocgen
+        code --install-extension cssho.vscode-svgviewer
+        code --install-extension GitHub.vscode-pull-request-github
+        code --install-extension jeff-hykin.better-cpp-syntax
+        code --install-extension ms-vscode-remote.remote-containers
+        code --install-extension ms-vscode-remote.remote-ssh
+        code --install-extension ms-vscode-remote.remote-ssh-edit
+        code --install-extension ms-vscode-remote.remote-wsl
+        code --install-extension ms-vscode.cpptools
+        code --install-extension ms-vscode.cpptools-extension-pack
+        code --install-extension ms-vscode.cpptools-themes
+        code --install-extension thqby.vscode-autohotkey2-lsp
+        code --install-extension yzhang.markdown-all-in-one
+        ```
 
 
 ## Install [Gitkraken](https://www.gitkraken.com/download/windows64)
