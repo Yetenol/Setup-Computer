@@ -353,6 +353,7 @@ Set-Location -Path $preservePath
 
 > Open `Settings`
 > - [x] Hide tray icon (not recommended)
+> - `English (English)` =: Language
 
 
 ## Install [SharpKeys](https://github.com/randyrants/sharpkeys/releases/latest)

@@ -2,11 +2,20 @@
 
 1. [OS & Partitions](#os--partitions)
 1. [Software](#software)
+   - [Setup Windows Package Manager CLI (winget)](#setup-windows-package-manager-cli-winget)
+   - [Uninstall Bloatware](#uninstall-bloatware)
+   - [Priority](#priority)
+   - [Communication](#communication)
+   - [Office](#office)
+   - [Storage](#storage)
+   - [Entertainment](#entertainment)
+   - [Personalisation](#personalisation)
+   - [Development](#development)
+   - [Subsystems](#subsystems)
 1. [Windows Settings](settings.md) - [_[Windows 10](archive/settings.10.md)_]
 1. [Browser](browser/browser.md)  
 1. [Gaming](gaming.md)
 1. [Printers](printers.md)
-
 
 
 # OS & Partitions
@@ -87,21 +96,30 @@ winget uninstall -e RealtekSemiconductorCorp.RealtekAudioControl_dt26b99r8h8gj #
 
 ## Office
 
-| App ➔ Instructions                                           |                            Store                             |                             Source                              | Install command                                                                                                         |
-| ------------------------------------------------------------ | :----------------------------------------------------------: | :-------------------------------------------------------------: | ----------------------------------------------------------------------------------------------------------------------- |
-| [Microsoft Office](instructions.md#install-microsoft-office) |   [MS](https://www.microsoft.com/store/apps/CFQ7TTC0K5DM)    |  [Web](https://account.microsoft.com/services/office/install)   |
-| OneNote                                                      | [MS](https://www.microsoft.com/store/productID/9wzdncrfhvjl) |                                                                 | `winget install -e 9WZDNCRFHVJL --accept-package-agreements # OneNote for Windows 10`                                   |
-| [Simplenote](instructions.md#install-simplenote)             | [MS](https://www.microsoft.com/store/productID/9nxqq40ldw3x) |                                                                 | `winget install -e 9NXQQ40LDW3X --accept-package-agreements # Simplenote`                                               |
-| [OneDrive](instructions.md#install-onedrive)                 |                                                              |                                                                 | `winget install -e Microsoft.OneDrive`                                                                                  |
-| [Boxcryptor](instructions.md#install-boxcryptor)             |                                                              |         [Web](https://www.boxcryptor.com/en/download/)          | `winget install -e SecombaGmbH.Boxcryptor`                                                                              |
-| Firefox                                                      | [MS](https://www.microsoft.com/store/productId/9NZVDKPMR9RD) |  [Web](https://www.mozilla.org/en-US/firefox/download/thanks/)  | `winget install -e 9NZVDKPMR9RD --accept-package-agreements # Mozilla Firefox` <br> `winget install -e Mozilla.Firefox` |
-| GIMP                                                         |                                                              |             [Web](https://www.gimp.org/downloads/)              | `winget install -e GIMP.GIMP`                                                                                           |
-| [AusweisApp](instructions.md#install-ausweisapp)             |                                                              | [Web](https://www.ausweisapp.bund.de/download/windows-und-mac/) |
-| _Adobe Photoshop Express_                                    | [MS](https://www.microsoft.com/store/productID/9wzdncrfj27n) |                                                                 | `winget install -e 9WZDNCRFJ27N --accept-package-agreements # Adobe Photoshop Express`                                  |
+| App ➔ Instructions                                           |                            Store                             |                                   Source                                    | Install command                                                                                                         |
+| ------------------------------------------------------------ | :----------------------------------------------------------: | :-------------------------------------------------------------------------: | ----------------------------------------------------------------------------------------------------------------------- |
+| [Microsoft Office](instructions.md#install-microsoft-office) |   [MS](https://www.microsoft.com/store/apps/CFQ7TTC0K5DM)    |        [Web](https://account.microsoft.com/services/office/install)         |                                                                                                                         |
+| TeX Live                                                     |                                                              | [Web](https://mirror.ctan.org/systems/texlive/tlnet/install-tl-windows.exe) |                                                                                                                         |
+| OneNote                                                      | [MS](https://www.microsoft.com/store/productID/9wzdncrfhvjl) |                                                                             | `winget install -e 9WZDNCRFHVJL --accept-package-agreements # OneNote for Windows 10`                                   |
+| [Simplenote](instructions.md#install-simplenote)             | [MS](https://www.microsoft.com/store/productID/9nxqq40ldw3x) |                                                                             | `winget install -e 9NXQQ40LDW3X --accept-package-agreements # Simplenote`                                               |
+| Firefox                                                      | [MS](https://www.microsoft.com/store/productId/9NZVDKPMR9RD) |        [Web](https://www.mozilla.org/en-US/firefox/download/thanks/)        | `winget install -e 9NZVDKPMR9RD --accept-package-agreements # Mozilla Firefox` <br> `winget install -e Mozilla.Firefox` |
+| GIMP                                                         |                                                              |                   [Web](https://www.gimp.org/downloads/)                    | `winget install -e GIMP.GIMP`                                                                                           |
+| [AusweisApp](instructions.md#install-ausweisapp)             |                                                              |       [Web](https://www.ausweisapp.bund.de/download/windows-und-mac/)       |                                                                                                                         |
+| GeoGebra                                                     |                                                              |              [Web](https://download.geogebra.org/package/win)               | `winget install -e GeoGebra.Classic.5`                                                                                  |
+| _Adobe Photoshop Express_                                    | [MS](https://www.microsoft.com/store/productID/9wzdncrfj27n) |                                                                             | `winget install -e 9WZDNCRFJ27N --accept-package-agreements # Adobe Photoshop Express`                                  |
 _Paint Shop Pro 7_
 _[Adobe Acrobat Reader](instructions.md#install-adobe-acrobat-reader)_ || [Web](https://get.adobe.com/reader/) | `winget install -e Adobe.Acrobat.Reader.64-bit` <br> `winget install -e XPDP273C0XHQH2 --accept-package-agreements # Adobe Acrobat Reader DC`
 _Citavi_ || [Web](https://www.citavi.com/en/download)
-_GeoGebra_ || [Web](https://download.geogebra.org/package/win) | `winget install -e GeoGebra.Classic.5`
+
+
+## Storage
+
+| App ➔ Instructions                               | Store                                                        | Source                                            | Install command                                                                                                                |
+| ------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------ |
+| [OneDrive](instructions.md#install-onedrive)     |                                                              |                                                   | `winget install -e Microsoft.OneDrive`                                                                                         |
+| [Boxcryptor](instructions.md#install-boxcryptor) |                                                              | [Web](https://www.boxcryptor.com/en/download/)    | `winget install -e SecombaGmbH.Boxcryptor`                                                                                     |
+| TreeSize                                         | [MS](https://www.microsoft.com/store/productID/9nblggh40881) | [Web](https://www.jam-software.com/treesize_free) | `winget install -e 9NBLGGH40881 --accept-package-agreements # TreeSize Free` <br> `winget install -e JAMSoftware.TreeSizeFree` |
+| _Recuva_                                         |                                                              | [Web](https://www.ccleaner.com/recuva/download)   |
 
 
 ## Entertainment
@@ -132,16 +150,14 @@ _GeoGebra_ || [Web](https://download.geogebra.org/package/win) | `winget install
 | _[ShareX](instructions.md#install-sharex)_               |                                                              |                     [Github](https://github.com/ShareX/ShareX/releases/latest)                     | `winget install -e ShareX.ShareX`                                                                                                       |
 
 
-## Dev
+## Development
 
 | App ➔ Instructions                                           |                            Store                             |                            Source                            | Install command                                                                                                                    |
 | ------------------------------------------------------------ | :----------------------------------------------------------: | :----------------------------------------------------------: | ---------------------------------------------------------------------------------------------------------------------------------- |
-| 7-Zip                                                        |                                                              |                [Web](https://www.7-zip.org/)                 | `winget install -e 7zip.7zip`                                                                                                      |
-| [Git](instructions.md#install-git)                           |                                                              |           [Web](https://git-scm.com/download/win)            | `winget install -e Git.Git`                                                                                                        |
 | [Windows Terminal](instructions.md#install-windows-terminal) | [MS](https://www.microsoft.com/store/productID/9n0dx20hk701) |                                                              | `winget install -e 9N0DX20HK701 --accept-package-agreements # Windows Terminal` <br> `winget install -e Microsoft.WindowsTerminal` |
-| TreeSize                                                     | [MS](https://www.microsoft.com/store/productID/9nblggh40881) |      [Web](https://www.jam-software.com/treesize_free)       | `winget install -e 9NBLGGH40881 --accept-package-agreements # TreeSize Free` <br> `winget install -e JAMSoftware.TreeSizeFree`     |
+| [Git](instructions.md#install-git)                           |                                                              |           [Web](https://git-scm.com/download/win)            | `winget install -e Git.Git`                                                                                                        |
+| 7-Zip                                                        |                                                              |                [Web](https://www.7-zip.org/)                 | `winget install -e 7zip.7zip`                                                                                                      |
 | _Windscribe_                                                 |                                                              |    [Web](https://windscribe.com/install/desktop/windows)     | `winget install -e Windscribe.Windscribe`                                                                                          |
-| _Recuva_                                                     |                                                              |       [Web](https://www.ccleaner.com/recuva/download)        |
 | _Resource Hacker_                                            |                                                              |    [Web](http://www.angusj.com/resourceh*acker/#download)    |
 | _Samsung Dex_                                                |                                                              | [Web](https://www.samsung.com/global/download/SamsungDeXWin) | `winget install -e Samsung.DeX`                                                                                                    |
 
