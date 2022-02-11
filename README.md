@@ -1,21 +1,18 @@
 # [⌂](README.md) How to setup my PC - Table of Contents ![GitHub last commit](https://img.shields.io/github/last-commit/yetenol/setup-computer?color=white)
 
-1. [OS & Partitions](#os--partitions)
-1. [Software](#software)
-   - [Setup Windows Package Manager CLI (winget)](#setup-windows-package-manager-cli-winget)
-   - [Uninstall Bloatware](#uninstall-bloatware)
-   - [Priority](#priority)
-   - [Communication](#communication)
-   - [Office](#office)
-   - [Storage](#storage)
-   - [Entertainment](#entertainment)
-   - [Personalisation](#personalisation)
-   - [Development](#development)
-   - [Subsystems](#subsystems)
-1. [Windows Settings](settings.md) - [_[Windows 10](archive/settings.10.md)_]
-1. [Browser](browser/browser.md)  
-1. [Gaming](gaming.md)
-1. [Printers](printers.md)
+- [⌂ How to setup my PC - Table of Contents ![GitHub last commit](https://img.shields.io/github/last-commit/yetenol/setup-computer?color=white)](#-how-to-setup-my-pc---table-of-contents-)
+- [OS & Partitions](#os--partitions)
+- [Software](#software)
+  - [Setup Windows Package Manager CLI (winget)](#setup-windows-package-manager-cli-winget)
+  - [Uninstall Bloatware](#uninstall-bloatware)
+  - [Priority](#priority)
+  - [Communication](#communication)
+  - [Office](#office)
+  - [Storage](#storage)
+  - [Entertainment](#entertainment)
+  - [Personalisation](#personalisation)
+  - [Development](#development)
+  - [Subsystems](#subsystems)
 
 
 # OS & Partitions
@@ -124,11 +121,12 @@ _Citavi_ || [Web](https://www.citavi.com/en/download)
 
 ## Entertainment
 
-| App ➔ Instructions                               |                            Store                             | Source | Install command                                                                               |
-| ------------------------------------------------ | :----------------------------------------------------------: | :----: | --------------------------------------------------------------------------------------------- |
-| Netflix                                          | [MS](https://www.microsoft.com/store/productID/9wzdncrfj3tj) |        | `winget install -e 9WZDNCRFJ3TJ --accept-package-agreements # Netflix`                        |
-| [ReddPlanet](instructions.md#install-reddplanet) | [MS](https://www.microsoft.com/store/productID/9nblggh4s44m) |        | `winget install -e 9NBLGGH4S44M --accept-package-agreements # ReddPlanet`                     |
-| Amazon Prime Video for Windows                   | [MS](https://www.microsoft.com/store/productID/9p6rc76msmmj) |        | `winget install -e 9P6RC76MSMMJ --accept-package-agreements # Amazon Prime Video for Windows` |
+| App ➔ Instructions                               |                            Store                             |                Source                | Install command                                                                               |
+| ------------------------------------------------ | :----------------------------------------------------------: | :----------------------------------: | --------------------------------------------------------------------------------------------- |
+| [VLC](instructions.md#install-vlc)               |                                                              | [Web](https://www.videolan.org/vlc/) | `winget install -e VideoLAN.VLC`                                                              |
+| Netflix                                          | [MS](https://www.microsoft.com/store/productID/9wzdncrfj3tj) |                                      | `winget install -e 9WZDNCRFJ3TJ --accept-package-agreements # Netflix`                        |
+| [ReddPlanet](instructions.md#install-reddplanet) | [MS](https://www.microsoft.com/store/productID/9nblggh4s44m) |                                      | `winget install -e 9NBLGGH4S44M --accept-package-agreements # ReddPlanet`                     |
+| Amazon Prime Video for Windows                   | [MS](https://www.microsoft.com/store/productID/9p6rc76msmmj) |                                      | `winget install -e 9P6RC76MSMMJ --accept-package-agreements # Amazon Prime Video for Windows` |
 
 
 ## Personalisation
