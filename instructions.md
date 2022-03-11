@@ -275,26 +275,26 @@ Open `System Tray > OneDrive > More > Settings`
 
 - Redirect the following folders
 
-| Folder name | New location               |
-| ----------- | -------------------------- |
-| Desktop     | `D:\Desktop`               |
-| Documents   | `D:\OneDrive\Documents`    |
-| Downloads   | `D:\Download`              |
-| 3D Objects  | `X:\OneDrive\3D-Objects-E` |
-| Music       | `X:\OneDrive\Music-E`      |
-| Videos      | `X:\OneDrive\Videos-E`     |
-| Pictures¹⁾  | `X:\OneDrive\Pictures-E`   |
+| Folder name  | New location              |
+| ------------ | ------------------------- |
+| Desktop      | `D:\Desktop`              |
+| Documents    | `D:\OneDrive\Documents`   |
+| Downloads    | `D:\Download`             |
+| Music        | `X:\OneDrive\Musicᴱ`      |
+| Videos       | `X:\OneDrive\Videosᴱ`     |
+| Pictures¹⁾   | `X:\OneDrive\Picturesᴱ`   |
+| _3D Objects_ | `X:\OneDrive\3D-Objectsᴱ` |
 
 > - ¹⁾ if redirecting `Pictures` fails, do the following  
 > Open [[Registry]](how-to-dos.md#--Edit-registry) `HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\User Shell Folders`
->> - X:\OneDrive\Pictures-E = `{0DDD015D-B06C-45D5-8C4C-F59713854639}` [DWORD]
->> - X:\OneDrive\Pictures-E = Pictures
+>> - X:\OneDrive\Picturesᴱ = `{0DDD015D-B06C-45D5-8C4C-F59713854639}` [DWORD]
+>> - X:\OneDrive\Picturesᴱ = Pictures
 >> - Restart explorer
 ```powershell
 $preservePath = Get-Location
 Set-Location -Path 'HKCU:\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\User Shell Folders'
-Set-ItemProperty -Name "{0DDD015D-B06C-45D5-8C4C-F59713854639}" -Value 'X:\OneDrive\Pictures-E'
-Set-ItemProperty -Name "Pictures" -Value 'X:\OneDrive\Pictures-E'
+Set-ItemProperty -Name "{0DDD015D-B06C-45D5-8C4C-F59713854639}" -Value 'X:\OneDrive\Picturesᴱ'
+Set-ItemProperty -Name "Pictures" -Value 'X:\OneDrive\Picturesᴱ'
 Set-Location -Path $preservePath
 ```
 
@@ -303,7 +303,7 @@ Set-Location -Path $preservePath
 >   ```
 >   Computer\
 >   ```
-> - Set entry `{0DDD015D-B06C-45D5-8C4C-F59713854639}` to `X:\OneDrive\Pictures-E`
+> - Set entry `{0DDD015D-B06C-45D5-8C4C-F59713854639}` to `X:\OneDrive\Picturesᴱ`
 > - Restart explorer
 
 
