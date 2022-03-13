@@ -31,7 +31,9 @@
 
 ## Setup Windows Package Manager CLI (winget)
 
-- Install [App Installer](https://www.microsoft.com/store/productID/9nblggh4nns1)
+- Update [App Installer](https://www.microsoft.com/store/productID/9nblggh4nns1)
+    
+    ```ms-windows-store://pdp/?ProductId=9NBLGGH4NNS1```
 - Open a console and run `winget` to test the installation
 
 
