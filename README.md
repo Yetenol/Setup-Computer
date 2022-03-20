@@ -13,6 +13,8 @@
   - [Personalisation](#personalisation)
   - [Development](#development)
   - [Subsystems](#subsystems)
+- [Gaming](gaming.md)
+- [Printer](printers.md)
 
 
 # OS & Partitions
