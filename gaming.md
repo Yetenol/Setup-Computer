@@ -1,39 +1,66 @@
 # [⌂](README.md) › Gaming
 
-
-
 # Factorio
 
-- Download directly (sign-in required) through https://factorio.com/download
+## Install Game
+
+- Official download (sign-in required) through https://factorio.com/download
 - Alternatively install via Steam
     ```
     steam://store/427520
     ```
+- Alternatively install [backup install media](https://1drv.ms/u/s!AiuslRJoLisdmc8ZYCvsmPYhmjYc4g?e=j7OnHZ)
 
-> Open `Settings > Graphics`
-> - [ ] Show all smoke
 
-> Sync AppData data to cloud
-> - Create [symbolic links](how-to-dos.md#symbolic-links)
-> - Folders: saves, mods, config
-> - Files: achievements.dat, player-data.json
+## Cloud Synchronization
+
+- run **elevated** PowerShell
+```powershell
+# SET CONFIGURATION
+$cloudPath = "D:\OneDrive\Gaming\Factorio"
+$syncedData = @('config'; 'mods'; 'achievements.dat'; 'achievements-modded.dat'; 'blueprint-storage.dat'; 'player-data.json';)
+
+# Test file paths on current system
+Set-Location "$cloudPath" -ErrorAction Stop
+Set-Location "$env:AppData\Factorio" -ErrorAction Stop
+
+# Delete previous configuration
+Remove-Item @('config'; 'mods') -Recurse
+
+# Don't sync _autosave.zip saves but only the cloud saves
+foreach ($save in Get-ChildItem "$cloudPath\saves") {
+    $syncedData += "saves\$save"
+}
+
+# Create symlinks
+foreach ($link in $syncedData) {
+    New-Item -ItemType SymbolicLink -Name "$link" -Target "$cloudPath\$link" -Force
+}
+```
 
 
 
 # Minecraft Bedrock
 
+## Install Game
+
 - Install app through Microsoft Store
     ```
     ms-windows-store://pdp/?ProductId=9NBLGGH2JHXJ # Minecraft for Windows
     ```
-- Open Minecraft
-- Sign in to Microsoft
+- Open Minecraft and sign in to Microsoft
+
+## Install Extensions
+
 - Install Resource Packs
     - Install [Marketplace Hider](https://mcpedl.com/marketplace-remover-resource-pack/)
     - Install [Server List UI](https://foxynotail.com/resource-packs/server_list_ui/)
 - Download [skin](https://minecraft.tools/download-skin/Yetenol)
 - Open `Dressing Room > Menu > Classic Skins > Owned > Import > Choose new skin`
-- Import downlaoded skin
+- Import downloaded skin
+
+## Edit Settings
+
 > Open `Settings`
 >> Open `Video`
 >> - `100` =: Brightness
@@ -47,22 +74,27 @@
 >> Open `Global Resources`
 >> - activate all resource packs
 
+
+
 # Minecraft Java Edition
-1. [Create install environment using CurseForge](#create-install-environment-using-curseforge)
-2. [_(Manage modpacks using CurseForge)_](#import-a-modpack)
-3. [Setup Minecraft Launcher](#import-a-modpack)
-4. [Install a chunk editor](#install-a-chunk-editor)
+
+## Explanations
 
 - To play vanilla or modded Minecraft open `Minecraft Launcher`
 - To manage modpacks open `CurseForge`
 - To edit chunks open `MCA Selector`
 
-## Create install environment using CurseForge
+## Install Game using CurseForge
+
 - Install [Overwolf & CurseForge Mod Platform](https://download.curseforge.com/)
+  - [ ] Create a Desktop Shortcut for CurseForge
 - Launch CurseForge
-- Click `System Tray > Overwolf > Hide dock`
-> Open `System Tray > Overwolf > Settings > General`
-> - [ ] Start Overwolf when Windows starts
+- Choose Minecraft and install it at the default location
+  
+> Open `System Tray > Overwolf`
+> - click `Hide dock`
+>> Open `Settings > General`
+>> - [ ] Start Overwolf when Windows starts
 
 > Open `System Tray > CurseForge > Settings`
 >> Open `CurseForge <` _`[#General]`_
@@ -72,10 +104,24 @@
 >> Open `Minecraft <` _`[#Game Specific]`_
 >> - `max` or `12288MB` =: Allocated Memory < _[#Java Settings]_
 
-- Launch CurseForge
-- Install Minecraft via CurseForge at the default location
 
-## Import a modpack
+## Add Launcher to Start Menu
+
+```powershell
+$WshShell = New-Object -comObject WScript.Shell
+$Shortcut = $WshShell.CreateShortcut("$env:AppData\Microsoft\Windows\Start Menu\Programs\Minecraft.lnk")
+$Shortcut.TargetPath = "$env:UserProfile\curseforge\minecraft\Install\minecraft.exe"
+$Shortcut.Arguments = '--workDir="%UserProfile%\curseforge\minecraft\Install"'
+$Shortcut.Save()
+```
+
+- Launch Minecraft from _Windows_ Search
+- sign in to Microsoft
+- play latest release
+
+
+## Install Modpacks (optional)
+
 - Skip if not playing modded
 - Click `Create Custom Profile`
 - Is there a CurseForge Profile Export available?
@@ -84,17 +130,8 @@
   - Right click profile and click `Open Folder`
   - Import and override all modpack files
 
-## Create a launcher shortcut
-- Open Programs Folder
-    ```
-    shell:programs
-    ```
-- Create shortcut to
-    ```
-    %userprofile%\curseforge\minecraft\Install\minecraft.exe --workDir="%userprofile%\curseforge\minecraft\Install"
-    ```
-- Rename the shortcut to `Minecraft Launcher`
 
-## Install a chunk editor
+## Install A Chunk Editor
+
+> _An external tool to export or delete selected chunks and regions from a world save of Minecraft Java Edition._
 - Install [MCA Selector](https://github.com/Querz/mcaselector/releases/latest)
-- _An external tool to export or delete selected chunks and regions from a world save of Minecraft Java Edition._
