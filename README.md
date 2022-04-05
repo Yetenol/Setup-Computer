@@ -13,7 +13,7 @@
   - [Personalisation](#personalisation)
   - [Development](#development)
   - [Subsystems](#subsystems)
-- [Gaming](gaming.md)
+- [Gaming](gaming/gaming.md)
 - [Printer](printers.md)
 
 
