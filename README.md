@@ -2,12 +2,12 @@
 
 Table of Contents
 
-- [OS, Partitioning](#operation-system-partitions)
-- [Software](#software)
-- [Browser](browser/browser.md)
-- [Settings](settings.md)
-- [Printers](printers.md)
-- [Gaming](gaming/gaming.md)
+1. [OS, Partitioning](#operation-system-partitions)
+1. [Software](#software)
+1. [Browser](browser/browser.md)
+1. [Settings](settings.md)
+1. [Printers](printers.md)
+1. [Gaming](gaming/gaming.md)
 
 # Operation System, Partitions
 
