@@ -4,6 +4,9 @@ Table of Contents
 
 - [OS, Partitioning](#operation-system-partitions)
 - [Software](#software)
+- [Browser](browser/browser.md)
+- [Settings](settings.md)
+- [Printers](printers.md)
 - [Gaming](gaming/gaming.md)
 
 # Operation System, Partitions
