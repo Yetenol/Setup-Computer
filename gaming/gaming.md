@@ -1,4 +1,4 @@
-# [⌂](README.md) › Gaming
+# [⌂](../README.md) › Gaming
 
 # Factorio
 
