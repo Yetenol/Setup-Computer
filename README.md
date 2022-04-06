@@ -1,23 +1,10 @@
 # [⌂](README.md) How to setup my PC - Table of Contents ![GitHub last commit](https://img.shields.io/github/last-commit/yetenol/setup-computer?color=white)
 
-- [⌂ How to setup my PC - Table of Contents ![GitHub last commit](https://img.shields.io/github/last-commit/yetenol/setup-computer?color=white)](#-how-to-setup-my-pc---table-of-contents-)
-- [OS & Partitions](#os--partitions)
+- [OS, Partitioning](#operation-system-partitions)
 - [Software](#software)
-  - [Setup Windows Package Manager CLI (winget)](#setup-windows-package-manager-cli-winget)
-  - [Uninstall Bloatware](#uninstall-bloatware)
-  - [Priority](#priority)
-  - [Communication](#communication)
-  - [Office](#office)
-  - [Storage](#storage)
-  - [Entertainment](#entertainment)
-  - [Personalisation](#personalisation)
-  - [Development](#development)
-  - [Subsystems](#subsystems)
 - [Gaming](gaming/gaming.md)
-- [Printer](printers.md)
 
-
-# OS & Partitions
+# Operation System, Partitions
 
 
 1. Create an up-to-date [Windows 11 Installation Media](https://go.microsoft.com/fwlink/?linkid=2156295).  
