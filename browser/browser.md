@@ -1,12 +1,12 @@
 # [⌂](../README.md) › Browser - Table of Contents
 
-1. [Install Chromium browser](#install-chromium-browser)
-  - [Install browser](#install-browser)
-    - [Set browser for Windows Search](#set-browser-for-windows-search)
-  - [Experimental features](#experimental-features)
-  - [Disable *Restore pages* after reboot](#disable-restore-pages-after-reboot)
-  - [Progressive Web Apps](#progressive-web-apps)
-  - [Extensions](#extensions)
+Table of Contents
+
+1. ⠀[Install browser](#install-browser)
+1. ⠀[Experimental features](#experimental-features)
+1. ⠀[Disable *Restore pages* after reboot](#disable-restore-pages-after-reboot)
+1. ⠀[Progressive Web Apps](#progressive-web-apps)
+2. ⠀[Extensions](extensions.md)
 
 ## Install browser
 
@@ -51,5 +51,3 @@ Set-ItemProperty -Path "$key/Edge" -Name "RestoreOnStartup" -Value 0
 - Add [Google Maps](https://www.google.com/maps)
 - Add [Google Keep](https://keep.google.com/)
 - Add [Google Contacts](https://contacts.google.com/)
-
-## [Extensions](extensions.md)
