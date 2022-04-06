@@ -1,4 +1,4 @@
-# [⌂](README.md) › Windows 11 › Settings
+# [⌂](README.md) › Settings
 
 Table of Contents
 

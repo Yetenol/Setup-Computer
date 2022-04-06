@@ -1,4 +1,4 @@
-# [⌂](../README.md) › Browser - Table of Contents
+# [⌂](../README.md) › Browser
 
 Table of Contents
 
