@@ -1,4 +1,6 @@
-# [⌂](README.md) How to setup my PC - Table of Contents ![GitHub last commit](https://img.shields.io/github/last-commit/yetenol/setup-computer?color=white)
+# [⌂](README.md) How to setup my PC ![GitHub last commit](https://img.shields.io/github/last-commit/yetenol/setup-computer?color=white)
+
+Table of Contents
 
 - [OS, Partitioning](#operation-system-partitions)
 - [Software](#software)
