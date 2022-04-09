@@ -67,7 +67,7 @@ winget uninstall -e RealtekSemiconductorCorp.RealtekAudioControl_dt26b99r8h8gj #
 | App ➔ Instructions                                               |                            Store                             |                       Source                        | Install command                                                               |
 | ---------------------------------------------------------------- | :----------------------------------------------------------: | :-------------------------------------------------: | ----------------------------------------------------------------------------- |
 | [Lenovo Vantage](instructions.md#install-lenovo-vantage)         | [MS](https://www.microsoft.com/store/productID/9wzdncrfj4mv) |                                                     | `winget install -e 9WZDNCRFJ4MV --accept-package-agreements # Lenovo Vantage` |
-| [KeeWeb](instructions.md#install-keeweb)                         |
+| [KeeWeb](instructions.md#install-keeweb)                         |                                                              |             [Web](https://keeweb.info/)             | `winget install -e KeeWeb.KeeWeb`                                             |
 | [Visual Studio Code](instructions.md#install-visual-studio-code) |                              🔗                               | [Web](https://code.visualstudio.com/#alt-downloads) | `winget install -e Microsoft.VisualStudioCode --scope machine`                |
 [File Explorer]((instructions.md#setup-file-explorer))
 [Local Group Policy](instructions.md#setup-local-group-policy)
