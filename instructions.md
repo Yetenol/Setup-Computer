@@ -1,9 +1,5 @@
 # [⌂](README.md) › Installation instructions
 
-
-
-
-
 ## Install [KeePass](https://keepass.info/download.html)
 
 ### Setup hotkey
@@ -66,32 +62,6 @@
 >> - [ ] Show Workspace breadcrumb in toolbar
 >> - [ ] Show GitKraken Board button in toolbar
 >> - [ ] Show GitKraken Timelines button in toolbar
-
-
-## Setup File Explorer
-- Reset `Quick Access`
-    ```powershell
-    powershell -Command 'Remove-Item -Path \"$env:AppData\microsoft\windows\Recent\AutomaticDestinations\f01b4d95cf55d32a.automaticDestinations-ms\"'
-    ```
-- Unpin all `Quick Access` item
-
-> Open `File Explorer options`
-> ```
-> shell:::{6DFD7C5C-2451-11d3-A299-00C04F8EF6AF}
-> ```
->> Open `General` tab
->> - `This PC` =: Open File Explorer to:
->> - [ ] Show frequently used folders in Quick access
->
->> Open `View` tab
->> - [ ] Hide extensions for known file types
->> - [x] Use check boxes to select item
->> - [x] Always show availability status
-
-
-## Setup Local Group Policy
-- [GroupPolicy:](how-to-dos.md#edit-local-group-policy) `Computer Configuration > Administrative Templates > System > Filesystem`
-    - [x] Enable Win32 long paths 
 
 
 ## Install [Mail and Calendar](https://www.microsoft.com/en-us/p/mail-und-kalender/9wzdncrfhvqm)
