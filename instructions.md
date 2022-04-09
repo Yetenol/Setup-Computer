@@ -1,76 +1,7 @@
 # [⌂](README.md) › Installation instructions
 
 
-## Install Lenovo Vantage
 
-- click `Check for System Updates`
-
-> Open `Device > Input & accessories >` _`#User-defined Key`_
-> - `Open application or files` =: ACTION USER DEFINED KEY
-> - Add _Keepass_ as the application to open
-
-## Install [KeeWeb](https://keeweb.info/)
-
-```powershell
-winget install -e KeeWeb.KeeWeb
-```
-
-- Start the application
-- Click `More > OneDrive`
-- Authenticate using the browser
-- Click `OneDrive` again and select the database
-- Unlock the database
-- Set sorting to Auto (click icon right of the search bar)
-
-> Open `Settings`
->> Open `General`
->>> Open `#Appearance`
->>> - [x] Automatically switch between light and theme when possible
->>> - [x] Colorful custom icons in the list
->>
->>> Open `#Function`
->>> - `On every change` =: Automatically save and sync periodically:
->>> - `In 10 seconds` =: Clear clipboard after copy:
->>> - [x] Minimize the app instead of close
->>> - [x] Minimize on field copy
->>> - [x] Automatically use group icon for new entries
->>
->>> Open `#Auto lock`
->>> - `In 5 minutes` =: If the app is inactive
->>> - [ ] When the app is minimized
->>> - [ ] When the computer is locked or put to sleep
->>
->> Open `Shortcuts`
->> - `Ctrl + Alt + O` =: copy OTP
->> - `Ctrl + Alt + K` =: open KeeWeb
->
->> Open your database settings
->> - `KDBX 3` =: File format _< [#Advanced]_
-
-### Browser Integration
-
-- Open `Settings > Browser`
-- [x] Edge in KeeWeb Connect
-- Click the newly appeared download icon and install the [extension](https://microsoftedge.microsoft.com/addons/detail/keeweb-connect/nmggpehkjmeaeocmaijenpejbepckinm)
-- Enable extension in InPrivate
-- Activate the extension or open `chrome-extension://nmggpehkjmeaeocmaijenpejbepckinm/pages/options.html`
-
-> Open `Extensions > Keyboard shortcuts`   
-> or `edge://extensions/shortcuts`
-> - `Ctrl + Shift + V` =: Activate the extension
-> - `Ctrl + Shift + O` =: One-time codes
-> - `Ctrl + Shift + C` =: Insert password
-> - `Ctrl + Shift + B` =: Insert username
-
-### Enable startup
-
-```powershell
-$WshShell = New-Object -comObject WScript.Shell
-$Shortcut = $WshShell.CreateShortcut("$env:AppData\Microsoft\Windows\Start Menu\Programs\Startup\KeeWeb.lnk")
-$Shortcut.TargetPath = "$env:ProgramFiles\KeeWeb\KeeWeb.exe"
-$Shortcut.Arguments = '--minimized'
-$Shortcut.Save()
-```
 
 
 ## Install [KeePass](https://keepass.info/download.html)
@@ -114,37 +45,6 @@ $Shortcut.Save()
 - Override the `(Automatically generated passwords for new entries)` profile
 
 
-## Install Visual Studio Code
-- Even if installed though winget, reinstall using wizzard
-    - Install **System Installer** from https://code.visualstudio.com/#alt-downloads
-    - During setup set `Select Additional Tasks`:
-    - [x] Add "Open with Code" action to Windows file contect menu
-    - [x] Add "Open with Code" action to Windows directory context menu
-- Press `Ctrl + Shift + P` and search for `Settings Sync: Turn On`
-    - [ ] UI State
-    - Click `Sign in & Turn on`
-    - Sign in using Github
-- If *Settings Sync* fails:
-    - Import [settings.json](configs/VisualStudioCode-settings.json) to
-        ```
-        %AppData%\Code\User\settings.json
-        ```
-    - Install extensions
-        ```
-        code --install-extension cschlosser.doxdocgen
-        code --install-extension cssho.vscode-svgviewer
-        code --install-extension GitHub.vscode-pull-request-github
-        code --install-extension jeff-hykin.better-cpp-syntax
-        code --install-extension ms-vscode-remote.remote-containers
-        code --install-extension ms-vscode-remote.remote-ssh
-        code --install-extension ms-vscode-remote.remote-ssh-edit
-        code --install-extension ms-vscode-remote.remote-wsl
-        code --install-extension ms-vscode.cpptools
-        code --install-extension ms-vscode.cpptools-extension-pack
-        code --install-extension ms-vscode.cpptools-themes
-        code --install-extension thqby.vscode-autohotkey2-lsp
-        code --install-extension yzhang.markdown-all-in-one
-        ```
 
 
 ## Install [Gitkraken](https://www.gitkraken.com/download/windows64)
