@@ -9,6 +9,69 @@
 > - `Open application or files` =: ACTION USER DEFINED KEY
 > - Add _Keepass_ as the application to open
 
+## Install [KeeWeb](https://keeweb.info/)
+
+```powershell
+winget install -e KeeWeb.KeeWeb
+```
+
+- Start the application
+- Click `More > OneDrive`
+- Authenticate using the browser
+- Click `OneDrive` again and select the database
+- Unlock the database
+- Set sorting to Auto (click icon right of the search bar)
+
+> Open `Settings`
+>> Open `General`
+>>> Open `#Appearance`
+>>> - [x] Automatically switch between light and theme when possible
+>>> - [x] Colorful custom icons in the list
+>>
+>>> Open `#Function`
+>>> - `On every change` =: Automatically save and sync periodically:
+>>> - `In 10 seconds` =: Clear clipboard after copy:
+>>> - [x] Minimize the app instead of close
+>>> - [x] Minimize on field copy
+>>> - [x] Automatically use group icon for new entries
+>>
+>>> Open `#Auto lock`
+>>> - `In 5 minutes` =: If the app is inactive
+>>> - [ ] When the app is minimized
+>>> - [ ] When the computer is locked or put to sleep
+>>
+>> Open `Shortcuts`
+>> - `Ctrl + Alt + O` =: copy OTP
+>> - `Ctrl + Alt + K` =: open KeeWeb
+>
+>> Open your database settings
+>> - `KDBX 3` =: File format _< [#Advanced]_
+
+### Browser Integration
+
+- Open `Settings > Browser`
+- [x] Edge in KeeWeb Connect
+- Click the newly appeared download icon and install the [extension](https://microsoftedge.microsoft.com/addons/detail/keeweb-connect/nmggpehkjmeaeocmaijenpejbepckinm)
+- Enable extension in InPrivate
+- Activate the extension or open `chrome-extension://nmggpehkjmeaeocmaijenpejbepckinm/pages/options.html`
+
+> Open `Extensions > Keyboard shortcuts`   
+> or `edge://extensions/shortcuts`
+> - `Ctrl + Shift + V` =: Activate the extension
+> - `Ctrl + Shift + O` =: One-time codes
+> - `Ctrl + Shift + C` =: Insert password
+> - `Ctrl + Shift + B` =: Insert username
+
+### Enable startup
+
+```powershell
+$WshShell = New-Object -comObject WScript.Shell
+$Shortcut = $WshShell.CreateShortcut("$env:AppData\Microsoft\Windows\Start Menu\Programs\Startup\KeeWeb.lnk")
+$Shortcut.TargetPath = "$env:ProgramFiles\KeeWeb\KeeWeb.exe"
+$Shortcut.Arguments = '--minimized'
+$Shortcut.Save()
+```
+
 
 ## Install [KeePass](https://keepass.info/download.html)
 
