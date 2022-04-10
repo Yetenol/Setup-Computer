@@ -121,13 +121,13 @@ winget uninstall -e RealtekSemiconductorCorp.RealtekAudioControl_dt26b99r8h8gj #
 
 ## Personalisation
 
-| App ➔ Instructions                                       | Store |                                           Source                                            | Install command                                                                                                                         |
-| -------------------------------------------------------- | :---: | :-----------------------------------------------------------------------------------------: | --------------------------------------------------------------------------------------------------------------------------------------- |
-| Window-Tools                                             |       | [Github](https://github.com/Yetenol/Window-Tools/releases/latest/download/Window-Tools.exe) |
-| [Auto Dark Mode](instructions.md#install-auto-dark-mode) |   🔗   |      [Github](https://github.com/AutoDarkMode/Windows-Auto-Night-Mode/releases/latest)      | `winget install -e Armin2208.WindowsAutoNightMode` <br> `winget install -e XP8JK4HZBVF435 --accept-package-agreements # Auto Dark Mode` |
-| [SharpKeys](instructions.md#install-sharpkeys)           |       |              [Github](https://github.com/randyrants/sharpkeys/releases/latest)              | `winget install -e RandyRants.SharpKeys`                                                                                                |
-| AutoHotkey                                               |       |                    [Web](https://www.autohotkey.com/download/ahk-v2.zip)                    |
-| PowerToys                                                |       |              [Github](https://github.com/microsoft/PowerToys/releases/latest)               | `winget install -e Microsoft.PowerToys`                                                                                                 |
+| App ➔ Instructions                                       | Store |                                          Source                                           | Install command                                                                                                                         |
+| -------------------------------------------------------- | :---: | :---------------------------------------------------------------------------------------: | --------------------------------------------------------------------------------------------------------------------------------------- |
+| shortcutFox                                              |       | [Github](https://github.com/Yetenol/shortcutFox/releases/latest/download/shortcutFox.exe) |
+| [Auto Dark Mode](instructions.md#install-auto-dark-mode) |   🔗   |     [Github](https://github.com/AutoDarkMode/Windows-Auto-Night-Mode/releases/latest)     | `winget install -e Armin2208.WindowsAutoNightMode` <br> `winget install -e XP8JK4HZBVF435 --accept-package-agreements # Auto Dark Mode` |
+| [SharpKeys](instructions.md#install-sharpkeys)           |       |             [Github](https://github.com/randyrants/sharpkeys/releases/latest)             | `winget install -e RandyRants.SharpKeys`                                                                                                |
+| AutoHotkey                                               |       |                   [Web](https://www.autohotkey.com/download/ahk-v2.zip)                   |
+| PowerToys                                                |       |             [Github](https://github.com/microsoft/PowerToys/releases/latest)              | `winget install -e Microsoft.PowerToys`                                                                                                 |
 
 
 ## Development
