@@ -97,7 +97,7 @@ winget uninstall -e RealtekSemiconductorCorp.RealtekAudioControl_dt26b99r8h8gj #
 | Firefox                                                      | [MS](https://www.microsoft.com/store/productId/9NZVDKPMR9RD) |        [Web](https://www.mozilla.org/en-US/firefox/download/thanks/)        | `winget install -e 9NZVDKPMR9RD --accept-package-agreements # Mozilla Firefox` <br> `winget install -e Mozilla.Firefox` |
 | GIMP                                                         |                                                              |                   [Web](https://www.gimp.org/downloads/)                    | `winget install -e GIMP.GIMP`                                                                                           |
 | GeoGebra                                                     |                                                              |              [Web](https://download.geogebra.org/package/win)               | `winget install -e GeoGebra.Classic.5`                                                                                  |
-| [AusweisApp](instructions.md#install-ausweisapp)             |                                                              |               [Web](https://www.ausweisapp.bund.de/download)                | `winget install -e Governikus.AusweisApp2 # AusweisApp2`                                                                |
+| [AusweisApp](instructions.md#install-ausweisapp)             |                                                              |               [Web](https://www.ausweisapp.bund.de/download)                | `winget install -e Governikus.AusweisApp2`                                                                              |
 
 
 ## Storage
