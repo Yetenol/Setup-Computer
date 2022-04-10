@@ -204,12 +204,6 @@ Set-Location -Path $preservePath
 > - [x] `Update wallpaper (beta)`
 > - `EarthPorn` =: Wallpaper subreddit
 
-## Install shortcutFox
-
-install via [Github](https://github.com/Yetenol/shortcutFox/releases/latest/download/shortcutFox.exe)
-
-- Enable `Tray icon > Manage script... > Run at startup`
-- Setup favorite action via `Tray icon > Set left click action...`
 
 
 ## Install [Auto Dark Mode](https://github.com/AutoDarkMode/Windows-Auto-Night-Mode/releases/latest)

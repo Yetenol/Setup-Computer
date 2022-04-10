@@ -64,11 +64,12 @@ winget uninstall -e RealtekSemiconductorCorp.RealtekAudioControl_dt26b99r8h8gj #
 
 ## Priority
 
-| App ➔ Instructions                                                        |                            Store                             |                       Source                        | Install command                                                               |
-| ------------------------------------------------------------------------- | :----------------------------------------------------------: | :-------------------------------------------------: | ----------------------------------------------------------------------------- |
-| [Lenovo Vantage](instructions/priority.md#install-lenovo-vantage)         | [MS](https://www.microsoft.com/store/productID/9wzdncrfj4mv) |                                                     | `winget install -e 9WZDNCRFJ4MV --accept-package-agreements # Lenovo Vantage` |
-| [KeeWeb](instructions/priority.md#install-keeweb)                         |                                                              |             [Web](https://keeweb.info/)             | `winget install -e KeeWeb.KeeWeb`                                             |
-| [Visual Studio Code](instructions/priority.md#install-visual-studio-code) |                              🔗                               | [Web](https://code.visualstudio.com/#alt-downloads) | `winget install -e Microsoft.VisualStudioCode --scope machine`                |
+| App ➔ Instructions                                                        |                            Store                             |                                          Source                                           | Install command                                                               |
+| ------------------------------------------------------------------------- | :----------------------------------------------------------: | :---------------------------------------------------------------------------------------: | ----------------------------------------------------------------------------- |
+| [Lenovo Vantage](instructions/priority.md#install-lenovo-vantage)         | [MS](https://www.microsoft.com/store/productID/9wzdncrfj4mv) |                                                                                           | `winget install -e 9WZDNCRFJ4MV --accept-package-agreements # Lenovo Vantage` |
+| [KeeWeb](instructions/priority.md#install-keeweb)                         |                                                              |                                [Web](https://keeweb.info/)                                | `winget install -e KeeWeb.KeeWeb`                                             |
+| [shortcutFox](instructions/priority.md#install-shortcutfox)               |                                                              | [Github](https://github.com/Yetenol/shortcutFox/releases/latest/download/shortcutFox.exe) |
+| [Visual Studio Code](instructions/priority.md#install-visual-studio-code) |                              🔗                               |                    [Web](https://code.visualstudio.com/#alt-downloads)                    | `winget install -e Microsoft.VisualStudioCode --scope machine`                |
 | [File Explorer](instructions/priority.md#setup-file-explorer)             |
 
 
@@ -121,13 +122,12 @@ winget uninstall -e RealtekSemiconductorCorp.RealtekAudioControl_dt26b99r8h8gj #
 
 ## Personalisation
 
-| App ➔ Instructions                                       | Store |                                          Source                                           | Install command                                                                                                                         |
-| -------------------------------------------------------- | :---: | :---------------------------------------------------------------------------------------: | --------------------------------------------------------------------------------------------------------------------------------------- |
-| [shortcutFox](instructions.md#install-shortcutfox)       |       | [Github](https://github.com/Yetenol/shortcutFox/releases/latest/download/shortcutFox.exe) |
-| [Auto Dark Mode](instructions.md#install-auto-dark-mode) |   🔗   |     [Github](https://github.com/AutoDarkMode/Windows-Auto-Night-Mode/releases/latest)     | `winget install -e Armin2208.WindowsAutoNightMode` <br> `winget install -e XP8JK4HZBVF435 --accept-package-agreements # Auto Dark Mode` |
-| [SharpKeys](instructions.md#install-sharpkeys)           |       |             [Github](https://github.com/randyrants/sharpkeys/releases/latest)             | `winget install -e RandyRants.SharpKeys`                                                                                                |
-| AutoHotkey                                               |       |                   [Web](https://www.autohotkey.com/download/ahk-v2.zip)                   |
-| PowerToys                                                |       |             [Github](https://github.com/microsoft/PowerToys/releases/latest)              | `winget install -e Microsoft.PowerToys`                                                                                                 |
+| App ➔ Instructions                                       | Store |                                      Source                                       | Install command                                                                                                                         |
+| -------------------------------------------------------- | :---: | :-------------------------------------------------------------------------------: | --------------------------------------------------------------------------------------------------------------------------------------- |
+| [Auto Dark Mode](instructions.md#install-auto-dark-mode) |   🔗   | [Github](https://github.com/AutoDarkMode/Windows-Auto-Night-Mode/releases/latest) | `winget install -e Armin2208.WindowsAutoNightMode` <br> `winget install -e XP8JK4HZBVF435 --accept-package-agreements # Auto Dark Mode` |
+| [SharpKeys](instructions.md#install-sharpkeys)           |       |         [Github](https://github.com/randyrants/sharpkeys/releases/latest)         | `winget install -e RandyRants.SharpKeys`                                                                                                |
+| AutoHotkey                                               |       |               [Web](https://www.autohotkey.com/download/ahk-v2.zip)               |
+| PowerToys                                                |       |         [Github](https://github.com/microsoft/PowerToys/releases/latest)          | `winget install -e Microsoft.PowerToys`                                                                                                 |
 
 
 ## Development
