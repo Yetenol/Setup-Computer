@@ -126,7 +126,6 @@ winget uninstall -e RealtekSemiconductorCorp.RealtekAudioControl_dt26b99r8h8gj #
 | -------------------------------------------------------- | :-------: | :-------------------------------------------------------------------------------: | --------------------------------------------------------------------------------------------------------------------------------------- |
 | [Auto Dark Mode](instructions.md#install-auto-dark-mode) | &#128279; | [Github](https://github.com/AutoDarkMode/Windows-Auto-Night-Mode/releases/latest) | `winget install -e Armin2208.WindowsAutoNightMode` <br> `winget install -e XP8JK4HZBVF435 --accept-package-agreements # Auto Dark Mode` |
 | [SharpKeys](instructions.md#install-sharpkeys)           |           |         [Github](https://github.com/randyrants/sharpkeys/releases/latest)         | `winget install -e RandyRants.SharpKeys`                                                                                                |
-| AutoHotkey                                               |           |               [Web](https://www.autohotkey.com/download/ahk-v2.zip)               |
 | PowerToys                                                |           |         [Github](https://github.com/microsoft/PowerToys/releases/latest)          | `winget install -e Microsoft.PowerToys`                                                                                                 |
 
 
@@ -137,6 +136,7 @@ winget uninstall -e RealtekSemiconductorCorp.RealtekAudioControl_dt26b99r8h8gj #
 | [Windows Terminal](instructions.md#install-windows-terminal) | [MS](https://www.microsoft.com/store/apps/9n0dx20hk701) |                                                       | `winget install -e 9N0DX20HK701 --accept-package-agreements # Windows Terminal` <br> `winget install -e Microsoft.WindowsTerminal` |
 | [Git](instructions.md#install-git)                           |                                                         |        [Web](https://git-scm.com/download/win)        | `winget install -e Git.Git`                                                                                                        |
 | 7-Zip                                                        |                                                         |             [Web](https://www.7-zip.org/)             | `winget install -e 7zip.7zip`                                                                                                      |
+| AutoHotkey                                                   |                                                         | [Web](https://www.autohotkey.com/download/ahk-v2.zip) |
 | _Windscribe_                                                 |                                                         | [Web](https://windscribe.com/install/desktop/windows) | `winget install -e Windscribe.Windscribe`                                                                                          |
 
 
