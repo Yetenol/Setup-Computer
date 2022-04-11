@@ -69,76 +69,9 @@
 
 
 
-## Install OneDrive
-- Unlink device
-    - Click `System Tray > OneDrive > More > Settings > Backup > Unlink`
-
-> Setup up OneDrive
-> - Sign in
-> - **CHANGE LOCATION** to `D:\Onedrive`
-> - Confirm `Use this folder`
-> - DON'T backup Desktop
-
-Open `System Tray > OneDrive > More > Settings`
-> Open `Settings` tab
-> - [ ] When OneDrive suggests a new collection of my photos and videos _< [#Notifications]_
-
-> Open `Backup` tab
-> - [ ] Automatically save screenshots I capture to OneDrive
 
 
-## Install [Boxcryptor](https://www.boxcryptor.com/en/download/)
-- Visit https://www.boxcryptor.com/app/
-- Delete license from old device
-- Sign in on new device
 
-### Mount as fixed drive
-> Open `System Tray > Boxcryptor > Settings > Advanced`
-> - [x] Start with Windows
-> - [x] Check for updates
-> - Click `Show more settigns`
-> - [x] Enable recycle bin
-> - [ ] Auto detect removable drives
-> - [ ] Auto detect network drives
-
-### Redirect This PC folders
-> How to redirect a `Folder` in `This PC`:
-> - Open `Properties > Location > Move`
-> - Enter the new path and click `OK`
-> - If asked wether to move the files click `Yes`
-
-- Redirect the following folders
-
-| Folder name  | New location              |
-| ------------ | ------------------------- |
-| Desktop      | `D:\Desktop`              |
-| Documents    | `D:\OneDrive\Documents`   |
-| Downloads    | `D:\Download`             |
-| Music        | `X:\OneDrive\Musicᴱ`      |
-| Videos       | `X:\OneDrive\Videosᴱ`     |
-| Pictures¹⁾   | `X:\OneDrive\Picturesᴱ`   |
-| _3D Objects_ | `X:\OneDrive\3D-Objectsᴱ` |
-
-> - ¹⁾ if redirecting `Pictures` fails, do the following  
-> Open [[Registry]](how-to-dos.md#--Edit-registry) `HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\User Shell Folders`
->> - X:\OneDrive\Picturesᴱ = `{0DDD015D-B06C-45D5-8C4C-F59713854639}` [DWORD]
->> - X:\OneDrive\Picturesᴱ = Pictures
->> - Restart explorer
-```powershell
-$preservePath = Get-Location
-Set-Location -Path 'HKCU:\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\User Shell Folders'
-Set-ItemProperty -Name "{0DDD015D-B06C-45D5-8C4C-F59713854639}" -Value 'X:\OneDrive\Picturesᴱ'
-Set-ItemProperty -Name "Pictures" -Value 'X:\OneDrive\Picturesᴱ'
-Set-Location -Path $preservePath
-```
-
-
-> - Open RegEdit and navigate to
->   ```
->   Computer\
->   ```
-> - Set entry `{0DDD015D-B06C-45D5-8C4C-F59713854639}` to `X:\OneDrive\Picturesᴱ`
-> - Restart explorer
 
 
 ## Install [AusweisApp](https://www.ausweisapp.bund.de/download/windows-und-mac/)

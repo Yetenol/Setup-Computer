@@ -101,13 +101,13 @@ winget uninstall -e RealtekSemiconductorCorp.RealtekAudioControl_dt26b99r8h8gj #
 | [AusweisApp2](instructions/office.md#install-ausweisapp2)           |                                                              |               [Web](https://www.ausweisapp.bund.de/download)                | `winget install -e Governikus.AusweisApp2`                                                                              |
 
 
-## Storage
+## [Storage](instructions/storage.md)
 
-| App ➔ Instructions                               | Store                                                        | Source                                            | Install command                                                                                                                |
-| ------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------ |
-| [OneDrive](instructions.md#install-onedrive)     |                                                              |                                                   | `winget install -e Microsoft.OneDrive`                                                                                         |
-| [Boxcryptor](instructions.md#install-boxcryptor) |                                                              | [Web](https://www.boxcryptor.com/en/download/)    | `winget install -e SecombaGmbH.Boxcryptor`                                                                                     |
-| TreeSize                                         | [MS](https://www.microsoft.com/store/productID/9nblggh40881) | [Web](https://www.jam-software.com/treesize_free) | `winget install -e 9NBLGGH40881 --accept-package-agreements # TreeSize Free` <br> `winget install -e JAMSoftware.TreeSizeFree` |
+| App ➔ Instructions                                       | Store                                                        | Source                                            | Install command                                                                                                                |
+| -------------------------------------------------------- | ------------------------------------------------------------ | ------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------ |
+| [OneDrive](instructions/storage.md#install-onedrive)     |                                                              |                                                   | `winget install -e Microsoft.OneDrive`                                                                                         |
+| [Boxcryptor](instructions/storage.md#install-boxcryptor) |                                                              | [Web](https://www.boxcryptor.com/en/download/)    | `winget install -e SecombaGmbH.Boxcryptor`                                                                                     |
+| TreeSize                                                 | [MS](https://www.microsoft.com/store/productID/9nblggh40881) | [Web](https://www.jam-software.com/treesize_free) | `winget install -e 9NBLGGH40881 --accept-package-agreements # TreeSize Free` <br> `winget install -e JAMSoftware.TreeSizeFree` |
 
 
 ## Entertainment
