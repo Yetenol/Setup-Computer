@@ -64,27 +64,9 @@
 >> - [ ] Show GitKraken Timelines button in toolbar
 
 
-## Install [Microsoft Office](https://account.microsoft.com/services/office/install)
-- Sign in using Microsoft account
-- Download [Language Accessory Pack](https://support.office.com/en-us/article/language-accessory-pack-for-office-82ee1236-0f9a-45ee-9c72-05b026ee809f?ui=en-US&rs=en-US&ad=US)
-
-> Open `PowerPoint > File > Options`
->> Open `General > #Personalize your copy of Microsoft Office`
->> - `Geometry` = Off‌ice Background
->> - `Black` = Office Theme
->
->> Open `Advanced > #Editing options`
->> - 150 = Maximum number of undos
 
 
-## Install [Simplenote](https://www.microsoft.com/store/productID/9nxqq40ldw3x)
-> Press `Ctrl + ,` to open Settings
->> Open `Display`
->> - `Condensed` := Note Display
->> - [x] Hide Automatically _< [#Menu Bar]_
->
->> Open `Tools`
->> - [ ] Notify on remote changes
+
 
 
 ## Install OneDrive
