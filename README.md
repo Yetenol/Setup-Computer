@@ -141,11 +141,11 @@ winget uninstall -e RealtekSemiconductorCorp.RealtekAudioControl_dt26b99r8h8gj #
 
 ## Subsystems
 
-| App ➔ Instructions                             |                          Store                          |                                                       Source                                                       | Install command                                                                           |
-| ---------------------------------------------- | :-----------------------------------------------------: | :----------------------------------------------------------------------------------------------------------------: | ----------------------------------------------------------------------------------------- |
-| Ubuntu                                         | [MS](https://www.microsoft.com/store/apps/9nblggh4msv6) |                                                                                                                    | `wsl --install`                                                                           |
-| Windows Subsystem for Android                  | [MS](https://www.microsoft.com/store/apps/9p3395vx91nr) | [Adguard](https://allthings.how/how-to-download-windows-subsystem-for-android-without-microsoft-store-msixbundle/) | `winget install 9P3395VX91NR --accept-package-agreements # Windows Subsystem for Android` |
-| WSATools                                       | [MS](https://www.microsoft.com/store/apps/9n4p75dxl6fg) |                                                                                                                    | `winget install -e 9N4P75DXL6FG --accept-package-agreements`                              |
+| App ➔ Instructions                             |                          Store                          |                                                       Source                                                       | Install command                                              |
+| ---------------------------------------------- | :-----------------------------------------------------: | :----------------------------------------------------------------------------------------------------------------: | ------------------------------------------------------------ |
+| Ubuntu                                         | [MS](https://www.microsoft.com/store/apps/9nblggh4msv6) |                                                                                                                    | `wsl --install`                                              |
+| Windows Subsystem for Android                  | [MS](https://www.microsoft.com/store/apps/9p3395vx91nr) | [Adguard](https://allthings.how/how-to-download-windows-subsystem-for-android-without-microsoft-store-msixbundle/) | `winget install -e 9P3395VX91NR --accept-package-agreements` |
+| WSATools                                       | [MS](https://www.microsoft.com/store/apps/9n4p75dxl6fg) |                                                                                                                    | `winget install -e 9N4P75DXL6FG --accept-package-agreements` |
 | [OpenInWSA](instructions.md#install-openinwsa) |                                                         |              [Github](https://github.com/efraimbart/OpenInWSA/releases/latest/download/OpenInWSA.exe)              |
 
 
