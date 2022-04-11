@@ -62,7 +62,7 @@ winget uninstall -e RealtekSemiconductorCorp.RealtekAudioControl_dt26b99r8h8gj #
 
 ```
 
-## Priority
+## [Priority](instructions/priority.md)
 
 | App ➔ Instructions                                                        |                            Store                             |                                          Source                                           | Install command                                                               |
 | ------------------------------------------------------------------------- | :----------------------------------------------------------: | :---------------------------------------------------------------------------------------: | ----------------------------------------------------------------------------- |
@@ -73,7 +73,7 @@ winget uninstall -e RealtekSemiconductorCorp.RealtekAudioControl_dt26b99r8h8gj #
 | [File Explorer](instructions/priority.md#setup-file-explorer)             |
 
 
-## Communication
+## [Communication](instructions/communication.md)
 
 | App ➔ Instructions                                                           |                            Store                             |                                            Source                                            | Install command                                                                                                                   |
 | ---------------------------------------------------------------------------- | :----------------------------------------------------------: | :------------------------------------------------------------------------------------------: | --------------------------------------------------------------------------------------------------------------------------------- |
@@ -87,7 +87,7 @@ winget uninstall -e RealtekSemiconductorCorp.RealtekAudioControl_dt26b99r8h8gj #
 | [Telegram Desktop](instructions/communication.md#install-telegram-desktop)   | [MS](https://www.microsoft.com/store/productID/9nztwsqntd0s) |                         [Web](https://telegram.org/dl/desktop/win64)                         | `winget install -e 9NZTWSQNTD0S --accept-package-agreements # Telegram Desktop` <br> `winget install -e Telegram.TelegramDesktop` |
 
 
-## Office
+## [Office](instructions/office.md)
 
 | App ➔ Instructions                                                  |                            Store                             |                                   Source                                    | Install command                                                                                                         |
 | ------------------------------------------------------------------- | :----------------------------------------------------------: | :-------------------------------------------------------------------------: | ----------------------------------------------------------------------------------------------------------------------- |
