@@ -110,14 +110,14 @@ winget uninstall -e RealtekSemiconductorCorp.RealtekAudioControl_dt26b99r8h8gj #
 | TreeSize                                                 | [MS](https://www.microsoft.com/store/productID/9nblggh40881) | [Web](https://www.jam-software.com/treesize_free) | `winget install -e 9NBLGGH40881 --accept-package-agreements # TreeSize Free` <br> `winget install -e JAMSoftware.TreeSizeFree` |
 
 
-## Entertainment
+## [Entertainment](instructions/entertainment.md)
 
-| App ➔ Instructions                               |                            Store                             |                Source                | Install command                                                                               |
-| ------------------------------------------------ | :----------------------------------------------------------: | :----------------------------------: | --------------------------------------------------------------------------------------------- |
-| [VLC](instructions.md#install-vlc)               |                                                              | [Web](https://www.videolan.org/vlc/) | `winget install -e VideoLAN.VLC`                                                              |
-| Netflix                                          | [MS](https://www.microsoft.com/store/productID/9wzdncrfj3tj) |                                      | `winget install -e 9WZDNCRFJ3TJ --accept-package-agreements # Netflix`                        |
-| [ReddPlanet](instructions.md#install-reddplanet) | [MS](https://www.microsoft.com/store/productID/9nblggh4s44m) |                                      | `winget install -e 9NBLGGH4S44M --accept-package-agreements # ReddPlanet`                     |
-| Amazon Prime Video for Windows                   | [MS](https://www.microsoft.com/store/productID/9p6rc76msmmj) |                                      | `winget install -e 9P6RC76MSMMJ --accept-package-agreements # Amazon Prime Video for Windows` |
+| App ➔ Instructions                                             |                            Store                             |                Source                | Install command                                                                               |
+| -------------------------------------------------------------- | :----------------------------------------------------------: | :----------------------------------: | --------------------------------------------------------------------------------------------- |
+| [VLC](instructions/entertainment.md#install-vlc)               |                                                              | [Web](https://www.videolan.org/vlc/) | `winget install -e VideoLAN.VLC`                                                              |
+| Netflix                                                        | [MS](https://www.microsoft.com/store/productID/9wzdncrfj3tj) |                                      | `winget install -e 9WZDNCRFJ3TJ --accept-package-agreements # Netflix`                        |
+| [ReddPlanet](instructions/entertainment.md#install-reddplanet) | [MS](https://www.microsoft.com/store/productID/9nblggh4s44m) |                                      | `winget install -e 9NBLGGH4S44M --accept-package-agreements # ReddPlanet`                     |
+| Amazon Prime Video                                             | [MS](https://www.microsoft.com/store/productID/9p6rc76msmmj) |                                      | `winget install -e 9P6RC76MSMMJ --accept-package-agreements # Amazon Prime Video for Windows` |
 
 
 ## Personalisation

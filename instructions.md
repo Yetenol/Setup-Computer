@@ -100,24 +100,8 @@
 >> - `Two-Up Continuous` =: Page Layout *< [#Default Layout and Zoom]*
 
 
-## Install [VLC](https://www.videolan.org/vlc/)
-- if installed through winget and dialog `Privacy and Network Access Policy` appears
-    - [ ] Regularly check for VLC updates 
-
-> Open `Preferences` [Ctrl + P]
->> Open `Interface` tab 
->> - `Always` =: Continue playback?
->
->> Open `Subtitles / OSD`
->> - [ ] Show media title on video start _< [#On Screen Display]_
-> - click `Save`
 
 
-## Install [ReddPlanet](https://www.microsoft.com/en-us/p/reddplanet/9nblggh4s44m)
-- no signin required
-> `App Settings > Other`
-> - [x] `Update wallpaper (beta)`
-> - `EarthPorn` =: Wallpaper subreddit
 
 
 
