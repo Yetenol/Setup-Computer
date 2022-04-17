@@ -105,27 +105,8 @@
 
 
 
-## Install [Auto Dark Mode](https://github.com/AutoDarkMode/Windows-Auto-Night-Mode/releases/latest)
-> Open `Time`
-> - `From sunset to sunrise (geographic coordinates)` =: Time
-> - `52.52` =: Latitude _< [#Geographic coordinates]_
-> - `13.405` =: Longitude _< [#Geographic coordinates]_
-
-> Open `Apps`
-> - `Adapt to system` := Microsoft Office 2013 - 2019
-
-> Open `Settings`
-> - [x] Hide tray icon (not recommended)
-> - `English (English)` =: Language
 
 
-## Install [SharpKeys](https://github.com/randyrants/sharpkeys/releases/latest)
-- Durring setup select install for all users
-- Load keys from [keymap file](configs/SharpKeys-keymaps.skl)
-- Enable NumLock by default using AutoHotKey:
-    ```ahk
-    SetNumLockState, AlwaysOn
-    ```
 
 ## Install [QuickLook](https://www.microsoft.com/en-us/p/quicklook/9nv4bs3l1h4s)
 - [x] `Taskbar Corner > QuickLook >` Run at Startup
