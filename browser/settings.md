@@ -34,12 +34,13 @@ about:settings/searchEngines
 - `Google` =: Search engine used in the address bar
 - Add custom search engines:
 
-| Search engine           | Keyword           | URL with %s in place of query                 |
-| ----------------------- | ----------------- | --------------------------------------------- |
-| DeepL                   | deepl.com         | `https://www.deepl.com/translator#../../%s`   |
-| JustWatch               | justwatch.com     | `https://www.justwatch.com/de/Suche?q=%s`     |
-| Duden                   | duden.de          | `https://www.duden.de/suchen/dudenonline/%s`  |
-| Unicode Character Table | unicode-table.com | `https://unicode-table.com/en/search/?q=%s&p` |
+| Search engine             | Keyword                 | URL with %s in place of query                                                                    |
+| ------------------------- | ----------------------- | ------------------------------------------------------------------------------------------------ |
+| DeepL                     | deepl.com               | `https://www.deepl.com/translator#../../%s`                                                      |
+| JustWatch                 | justwatch.com           | `https://www.justwatch.com/de/Suche?q=%s`                                                        |
+| Duden                     | duden.de                | `https://www.duden.de/suchen/dudenonline/%s`                                                     |
+| Unicode Character Table   | unicode-table.com       | `https://unicode-table.com/en/search/?q=%s&p`                                                    |
+| MOSES Modul Kurzübersicht | moseskonto.tu-berlin.de | `https://moseskonto.tu-berlin.de/moses/modultransfersystem/bolognamodule/ansehen.html?number=%s` |
 
 
 ## Appearance
