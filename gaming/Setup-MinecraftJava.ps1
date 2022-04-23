@@ -1,9 +1,9 @@
 # SET CONFIGURATION
 $cloudPath = "D:\OneDrive\Gaming\Minecraft Java"
-$gamePath = "$env:UserProfile\curseforge\minecraft\Install"
+$localPath = "$env:UserProfile\curseforge\minecraft\Install"
 
 # Test paths
-Get-Item -Path $cloudPath, $gamePath -ErrorAction Stop | Out-Null
+Get-Item -Path $cloudPath, $localPath -ErrorAction Stop | Out-Null
 
 # List relative item paths
 Set-Location $cloudPath -ErrorAction Stop
@@ -32,7 +32,7 @@ $syncPaths | foreach {
 }
 
 
-Set-Location $gamePath -ErrorAction Stop
+Set-Location $localPath -ErrorAction Stop
 
 # Create symlinks
 foreach ($item in $syncPaths) {

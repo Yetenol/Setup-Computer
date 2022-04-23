@@ -3,10 +3,10 @@
 
 # SET CONFIGURATION
 $cloudPath = "D:\OneDrive\Gaming\Factorio"
-$gamePath = "$env:AppData\Factorio"
+$localPath = "$env:AppData\Factorio"
 
 # Test paths
-Get-Item -Path $cloudPath, $gamePath -ErrorAction Stop | Out-Null
+Get-Item -Path $cloudPath, $localPath -ErrorAction Stop | Out-Null
 
 # List relative item paths
 Set-Location $cloudPath -ErrorAction Stop
@@ -34,7 +34,7 @@ $syncPaths | foreach {
 }
 
 
-Set-Location $gamePath -ErrorAction Stop
+Set-Location $localPath -ErrorAction Stop
 
 # Delete previous configuration
 Remove-Item -Path '.\config', '.\mods' -Recurse -ErrorAction SilentlyContinue
