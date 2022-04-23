@@ -168,42 +168,9 @@
 >- `%MyPictures%\Screenshots` =: Screenshot folder
 
 
-## Install [Git](https://git-scm.com/download/win)
-> `Select Components` durring setup
-> - [ ] Windows Explorer integration
-> - [x] (NEW!) Add a GIT Bash Profile to Windows Terminal
-
-> `Default editor` durring setup
-> -  User Visual Studio Code as Git's default editor
 
 
-## Install [Windows Terminal](https://www.microsoft.com/store/productID/9n0dx20hk701)
 
-## Cloud Synchronization
-- run **elevated** [Synchronization Setup Script](configs/Setup-Terminal.ps1)
-
-## Or Setup Manually
-> Open `Settings`
->> Open `Startup`
->> - `Windows Terminal`:=: Default terminal application
->> - `Maximized focus` =: Launch mode
->> - `Attach to the most recently used window on this desktop` =: New instance behavior 
->> - Save changes
-> 
->> Open `Appearance`
->> - [x] Show acrylic in tab row
->> - Save changes
-> 
->> Open `Actions`
->> - Delete `Paste` using `Ctrl + V`
->> - Add `Toggle focus mode` using `F10`
->> - Save changes
->
->> Open `Profiles > Default > Appearance`
->> - `10` =: Font size _< [#Text]_
->> - `70%` =: Background opacity
->> - [x] Enable acrylic
->> - Save changes
 
 
 ## Install OpenInWSA
