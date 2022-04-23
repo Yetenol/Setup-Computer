@@ -14,7 +14,7 @@
 
 ## Cloud Synchronization
 
-- run **elevated** [Factorio setup script](Setup-Factorio.ps1)
+- run **elevated** [Synchronization Setup Script](Setup-Factorio.ps1)
 
 
 # Minecraft Bedrock
@@ -98,7 +98,7 @@ $Shortcut.Save()
 
 ## Cloud Synchronization
 
-- run **elevated** [Minecraft Java setup script](Setup-MinecraftJava.ps1)
+- run **elevated** [Synchronization Setup Script](Setup-MinecraftJava.ps1)
 
 ## Install Modpacks (optional)
 
