@@ -178,15 +178,15 @@
 
 
 ## Install [Windows Terminal](https://www.microsoft.com/store/productID/9n0dx20hk701)
-- Import [profile](configs/WindowsTerminal-settings.json) to
-    ```
-    %LocalAppdata%\Packages\Microsoft.WindowsTerminal_8wekyb3d8bbwe\LocalState\settings.json
-    ```
-- If profile import fails, edit settings manually:
+
+## Cloud Synchronization
+- run **elevated** [Synchronization Setup Script](configs/Setup-Terminal.ps1)
+
+## Or Setup Manually
 > Open `Settings`
 >> Open `Startup`
 >> - `Windows Terminal`:=: Default terminal application
->> - `Maximized` =: Launch mode
+>> - `Maximized focus` =: Launch mode
 >> - `Attach to the most recently used window on this desktop` =: New instance behavior 
 >> - Save changes
 > 
@@ -195,20 +195,15 @@
 >> - Save changes
 > 
 >> Open `Actions`
->> - Add `Close pane` using `Ctrl + W`
+>> - Delete `Paste` using `Ctrl + V`
+>> - Add `Toggle focus mode` using `F10`
 >> - Save changes
 >
 >> Open `Profiles > Default > Appearance`
->> - `10` =: Font size
+>> - `10` =: Font size _< [#Text]_
+>> - `70%` =: Background opacity
+>> - [x] Enable acrylic
 >> - Save changes
-> 
->> Click gear icon
->> - a settings.json file should open
->> - add properties to default profile:
->>   ```
->>   "useAcrylic": true,
->>   "acrylicOpacity": 0.5
->>   ``` 
 
 
 ## Install OpenInWSA
