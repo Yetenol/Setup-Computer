@@ -28,7 +28,7 @@
 >
 >> Open `Preferences`
 >> - For Photo > `Change default folder` to `shell:My Pictures`
->> - For Documents > `Change default folder` to `shell:Personal`
+>> - For Documents > `Change default folder` to `X:\OneDrive`
 
 ## Graustufendrucker **HP LaserJet 1010**
 - Import [Driver Files](https://1drv.ms/u/s!AiuslRJoLisdmaMW_KjKPYwh4cilkw?e=KrRZrJ)
