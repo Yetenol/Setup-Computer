@@ -9,20 +9,20 @@
 
 # Software
 
-[☟ Priority](#priority) [❯](instructions/priority.md)  
-[☟ Communication](#communication) [❯](instructions/communication.md)  
-[☟ Office](#office) [❯](instructions/office.md)  
-[☟ Storage](#storage) [❯](instructions/storage.md)  
-[☟ Entertainment](#entertainment) [❯](instructions/entertainment.md)  
-[☟ Personalisation](#personalisation) [❯](instructions/personalisation.md)  
-[☟ Development](#development) [❯](instructions/development.md)  
-[☟ Subsystems](#subsystems) [❯](instructions/subsystems.md)  
-[☟ Deprecated](#deprecated) [❯](instructions/deprecated.md)  
+- [☟ Priority](#priority) [❯](instructions/priority.md)  
+- [☟ Communication](#communication) [❯](instructions/communication.md)  
+- [☟ Office](#office) [❯](instructions/office.md)  
+- [☟ Storage](#storage) [❯](instructions/storage.md)  
+- [☟ Entertainment](#entertainment) [❯](instructions/entertainment.md)  
+- [☟ Personalisation](#personalisation) [❯](instructions/personalisation.md)  
+- [☟ Development](#development) [❯](instructions/development.md)  
+- [☟ Subsystems](#subsystems) [❯](instructions/subsystems.md)  
+- [☟ Deprecated](#deprecated) [❯](instructions/deprecated.md)  
 
-[Browser ❯](browser/browser.md)  
-[Settings ❯](settings.md)  
-[Printers ❯](printers.md)  
-[Gaming ❯](gaming/gaming.md)  
+### [Browser ❯](browser/browser.md)  
+### [Settings ❯](settings.md)  
+### [Printers ❯](printers.md)  
+### [Gaming ❯](gaming/gaming.md)  
 
 
 ## WINGET Package Manager
