@@ -1,33 +1,35 @@
 # [⌂](README.md) How to setup my PC ![GitHub last commit](https://img.shields.io/github/last-commit/yetenol/setup-computer?color=white)
 
-Table of Contents
-
-1. [OS, Partitioning](#operation-system-partitions)
-1. [Software](#software)
-1. [Browser](browser/browser.md)
-1. [Settings](settings.md)
-1. [Printers](printers.md)
-1. [Gaming](gaming/gaming.md)
-
-# Operation System, Partitions
-
 
 1. Create an up-to-date [Windows 11 Installation Media](https://go.microsoft.com/fwlink/?linkid=2156295).  
-1. Split the drive into two different partitions:
+2. Split the drive into two different partitions:
     - System partition: at least 100GB 
-1. Format the system partition
-1. Do a clean OS install using the installation media
-
-
+3. Format the system partition
+4. Do a clean OS install using the installation media
 
 # Software
 
+- [Priority](#priority)  
+- [Communication](#communication)  
+- [Office](#office)  
+- [Storage](#storage)  
+- [Entertainment](#entertainment)  
+- [Personalisation](#personalisation)  
+- [Development](#development)  
+- [Subsystems](#subsystems)  
+- [Deprecated](#deprecated)  
 
-## Setup Windows Package Manager CLI (winget)
+## [Browser](browser/browser.md)
+## [Settings](settings.md)
+## [Printers](printers.md)
+## [Gaming](gaming/gaming.md)
+
+
+## WINGET Package Manager
 
 - Update [App Installer](https://www.microsoft.com/store/productID/9nblggh4nns1)
   ```run
-  ms-windows-store://pdp/?ProductId=9NBLGGH4NNS1 # App Installer
+  ms-windows-store://pdp/?ProductId=9NBLGGH4NNS1
   ```
 - Open a console and run `winget` to test the installation
 
