@@ -1,11 +1,11 @@
 # [⌂](README.md) › Settings
 
-- [☟  System](#system)
-- [☟  Bluetooth & devices](#bluetooth--devices)
-- [☟  Personalization](#personalization)
-- [☟  Apps](#apps)
-- [☟  Time & language](#time--language)
-- [☟  Accessibility](#accessibility)
+- [☟ System](#system)
+- [☟ Bluetooth & devices](#bluetooth--devices)
+- [☟ Personalization](#personalization)
+- [☟ Apps](#apps)
+- [☟ Time & language](#time--language)
+- [☟ Accessibility](#accessibility)
 
 
 # System

@@ -1,5 +1,9 @@
 # [⌂](../README.md) › Gaming
 
+- [☟ Factorio](#factorio)
+- [☟ Minecraft Bedrock](#minecraft-bedrock)
+- [☟ Minecraft Java Edition](#minecraft-java-edition)
+
 # Factorio
 
 ## Install Game
