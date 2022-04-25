@@ -6,7 +6,7 @@
 
 # Factorio
 
-## Install Game
+# Install Game
 
 - Official download (sign-in required) through https://factorio.com/download
 - Alternatively install via Steam
@@ -23,7 +23,7 @@
 
 # Minecraft Bedrock
 
-## Install Game
+# Install Game
 
 - Install app through Microsoft Store
     ```
@@ -31,7 +31,7 @@
     ```
 - Open Minecraft and sign in to Microsoft
 
-## Install Extensions
+# Extensions
 
 - Install Resource Packs
     - Install [Marketplace Hider](https://mcpedl.com/marketplace-remover-resource-pack/)
@@ -65,7 +65,7 @@
 - To manage modpacks open `CurseForge`
 - To edit chunks open `MCA Selector`
 
-## Install Game using CurseForge
+# Game using CurseForge
 
 - Install [Overwolf & CurseForge Mod Platform](https://download.curseforge.com/)
   - [ ] Create a Desktop Shortcut for CurseForge
@@ -107,7 +107,7 @@ $Shortcut.Save()
 
 - run **elevated**: [Synchronization Setup Script](Setup-MinecraftJava.ps1)
 
-## Install Modpacks (optional)
+# Modpacks (optional)
 
 - Skip if not playing modded
 - Click `Create Custom Profile`
@@ -118,7 +118,7 @@ $Shortcut.Save()
   - Import and override all modpack files
 
 
-## Install A Chunk Editor
+# A Chunk Editor
 
 > _An external tool to export or delete selected chunks and regions from a world save of Minecraft Java Edition._
 - Install [MCA Selector](https://github.com/Querz/mcaselector/releases/latest)

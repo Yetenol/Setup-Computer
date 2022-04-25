@@ -1,6 +1,6 @@
 # [⌂](README.md) › Installation instructions
 
-## Install [KeePass](https://keepass.info/download.html)
+# [KeePass](https://keepass.info/download.html)
 
 ### Setup hotkey
 
@@ -43,7 +43,7 @@
 
 
 
-## Install [Gitkraken](https://www.gitkraken.com/download/windows64)
+# [Gitkraken](https://www.gitkraken.com/download/windows64)
 - sign in using GitHub
 > Open `Preferences`
 >> Open General
@@ -74,7 +74,7 @@
 
 
 
-## Install [AusweisApp](https://www.ausweisapp.bund.de/download/windows-und-mac/)
+# [AusweisApp](https://www.ausweisapp.bund.de/download/windows-und-mac/)
 - [ ] Auto start AusweisApp2 after boot
 - Connect smartphone and PC in the same WiFi network
 - ON THE SMARTPHONE: Remote > Start pairing
@@ -82,7 +82,7 @@
 - Test a Personalausweis
 
 
-## Install [Adobe Acrobat Reader](https://get.adobe.com/reader/)
+# [Adobe Acrobat Reader](https://get.adobe.com/reader/)
 - Completely hide the Task Pane on the right-hand side
 
 >  Open `Menu > Edit > Preferences`
@@ -108,7 +108,7 @@
 
 
 
-## Install [QuickLook](https://www.microsoft.com/en-us/p/quicklook/9nv4bs3l1h4s)
+# [QuickLook](https://www.microsoft.com/en-us/p/quicklook/9nv4bs3l1h4s)
 - [x] `Taskbar Corner > QuickLook >` Run at Startup
 > Install plugins
 > - To install select file in Explorer and press `Space`
@@ -116,7 +116,7 @@
 > - [Epub Viewer](https://github.com/QL-Win/QuickLook.Plugin.EpubViewer/releases/latest/download/QuickLook.Plugin.EpubViewer.qlplugin)
 
 
-## Install [Rainmeter](https://www.rainmeter.net/)
+# [Rainmeter](https://www.rainmeter.net/)
 - Install [Windows 10 Layout](config/Yetenol-Win10.rmskin)
     - if aboce fails: [bundled pack](https://github.com/tjmarkham/win10widgets/releases/latest)
 - Set clock to 24-hour format
@@ -127,7 +127,7 @@
 > - [ ] Show notifications area icon
 
 
-## Install [Capture2Text](https://sourceforge.net/projects/capture2text/files/Capture2Text/)
+# [Capture2Text](https://sourceforge.net/projects/capture2text/files/Capture2Text/)
 - run at [startup](how-to-dos.md#edit-startup-apps)
 
 > Open `System Tray > Capture2Text > Settings > Hotkeys`
@@ -136,7 +136,7 @@
 > - Set everything else to `<Unmapped>`
 
 
-## Install [ShareX](https://github.com/ShareX/ShareX/releases/latest)
+# [ShareX](https://github.com/ShareX/ShareX/releases/latest)
 - run at [startup](how-to-dos.md#edit-startup-apps)
 > Disable PrintScreen shortcut elsewhere
 >> Open `System Tray > Onedrive > Settings > Backup` tab
@@ -173,6 +173,6 @@
 
 
 
-## Install OpenInWSA
+# OpenInWSA
 
 - Install [browser extension](https://chrome.google.com/webstore/detail/open-in-wsa/nkfpikoflncblmlajlcagaflndiijhhl)
