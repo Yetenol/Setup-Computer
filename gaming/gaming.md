@@ -85,10 +85,13 @@
 ## Add Launcher to Start Menu
 
 ```powershell
+$minecraftFolder = "%UserProfile%\curseforge\minecraft\Install\"
+$env:Programs = (New-Object -ComObject Shell.Application).NameSpace('shell:Programs').Self.Path
+
 $WshShell = New-Object -comObject WScript.Shell
-$Shortcut = $WshShell.CreateShortcut("$env:AppData\Microsoft\Windows\Start Menu\Programs\Minecraft.lnk")
-$Shortcut.TargetPath = "$env:UserProfile\curseforge\minecraft\Install\minecraft.exe"
-$Shortcut.Arguments = '--workDir="%UserProfile%\curseforge\minecraft\Install"'
+$Shortcut = $WshShell.CreateShortcut("$env:Programs\Minecraft.lnk")
+$Shortcut.TargetPath = "$minecraftFolder\minecraft.exe"
+$Shortcut.Arguments = '--workDir="' + $minecraftFolder + '"'
 $Shortcut.Save()
 ```
 
