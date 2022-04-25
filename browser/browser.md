@@ -1,13 +1,8 @@
-# [⌂](../README.md) › Browser
+# [⌂](../README.md) › Browser - Installation instructions
 
-Table of Contents
+## [Settings](settings.md)
+## [Extensions](extensions.md)
 
-1. ⠀[Install browser](#install-browser)
-2. ⠀[Settings](settings.md)
-3. ⠀[Experimental features](#experimental-features)
-4. ⠀[Disable *Restore pages* after reboot](#disable-restore-pages-after-reboot)
-5. ⠀[Progressive Web Apps](#progressive-web-apps)
-6. ⠀[Extensions](extensions.md)
 
 ## Install browser
 
@@ -23,7 +18,21 @@ Table of Contents
 - Search anything and select EdgeDeflector as default program
 
 
-## Experimental features
+## Custom Search Engines
+```
+about:settings/searchEngines
+```
+
+| Search engine             | Keyword                 | URL with %s in place of query                                                                    |
+| ------------------------- | ----------------------- | ------------------------------------------------------------------------------------------------ |
+| DeepL                     | deepl.com               | `https://www.deepl.com/translator#../../%s`                                                      |
+| JustWatch                 | justwatch.com           | `https://www.justwatch.com/de/Suche?q=%s`                                                        |
+| Duden                     | duden.de                | `https://www.duden.de/suchen/dudenonline/%s`                                                     |
+| Unicode Character Table   | unicode-table.com       | `https://unicode-table.com/en/search/?q=%s&p`                                                    |
+| MOSES Modul Kurzübersicht | moseskonto.tu-berlin.de | `https://moseskonto.tu-berlin.de/moses/modultransfersystem/bolognamodule/ansehen.html?number=%s` |
+
+
+## Experimental Features
 
 | Status   | Flag                                             | Description                       |
 | -------- | ------------------------------------------------ | --------------------------------- |
@@ -33,7 +42,8 @@ Table of Contents
 
 
 ## Progressive Web Apps
-- To add an app: `Menu > Apps > Install this site as an app`
+
+> To add an app: `Menu > Apps > Install this site as an app`
 - Add [Google Maps](https://www.google.com/maps)
 - Add [Google Keep](https://keep.google.com/)
 - Add [Google Contacts](https://contacts.google.com/)
