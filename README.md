@@ -9,20 +9,20 @@
 
 # Software
 
-- [Priority](#priority)  
-- [Communication](#communication)  
-- [Office](#office)  
-- [Storage](#storage)  
-- [Entertainment](#entertainment)  
-- [Personalisation](#personalisation)  
-- [Development](#development)  
-- [Subsystems](#subsystems)  
-- [Deprecated](#deprecated)  
+☟ [Priority](#priority)  
+☟ [Communication](#communication)  
+☟ [Office](#office)  
+☟ [Storage](#storage)  
+☟ [Entertainment](#entertainment)  
+☟ [Personalisation](#personalisation)  
+- [Development ☟](#development)  
+- [Subsystems ☟](#subsystems)  
+- [Deprecated ☟](#deprecated)  
 
-## [Browser](browser/browser.md)
-## [Settings](settings.md)
-## [Printers](printers.md)
-## [Gaming](gaming/gaming.md)
+### [Browser ☞](browser/browser.md)
+### [Settings ☞](settings.md)
+### [Printers ☞](printers.md)
+### [Gaming ☞](gaming/gaming.md)
 
 
 ## WINGET Package Manager
