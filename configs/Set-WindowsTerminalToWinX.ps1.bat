@@ -1,6 +1,13 @@
 # & cls & powershell -Command "Invoke-Command -ScriptBlock ([ScriptBlock]::Create(((Get-Content """%0""") -join """`n""")))" & exit
 # The above line makes the script executable when renamed .cmd or .bat
 
+# Install Terminal
+$url = "https://onedrive.live.com/download?cid=1D2B2E681295AC2B&resid=1d2b2e681295ac2b%21427066&authkey=AFeFSmgeI0zG93o"
+$file = "$env:TEMP\terminal.msixbundle"
+$downloadCommand = "Invoke-WebRequest -Uri '$url' -OutFile '$file'"
+$installCommand = "Add-AppxPackage -Path '$file'"
+start powershell -NoNewWindow -ArgumentList "-NoExit -Command & { $downloadCommand; $installCommand }"
+
 $group3 = "$env:LOCALAPPDATA\Microsoft\Windows\WinX\Group3"
 
 # Copy valified entries into WinX
