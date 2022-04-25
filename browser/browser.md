@@ -3,7 +3,7 @@
 Table of Contents
 
 1. ⠀[Install browser](#install-browser)
-2.  [Settings](settings.md)
+2. ⠀[Settings](settings.md)
 3. ⠀[Experimental features](#experimental-features)
 4. ⠀[Disable *Restore pages* after reboot](#disable-restore-pages-after-reboot)
 5. ⠀[Progressive Web Apps](#progressive-web-apps)
