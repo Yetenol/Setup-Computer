@@ -6,7 +6,7 @@ $url = "https://onedrive.live.com/download?cid=1D2B2E681295AC2B&resid=1d2b2e6812
 $file = "$env:TEMP\terminal.msixbundle"
 $downloadCommand = "Invoke-WebRequest -Uri '$url' -OutFile '$file'"
 $installCommand = "Add-AppxPackage -Path '$file'"
-start powershell -NoNewWindow -ArgumentList "-NoExit -Command & { $downloadCommand; $installCommand }"
+start powershell -Verb RunAs -ArgumentList "-NoExit -Command & { $downloadCommand; $installCommand }"
 
 $group3 = "$env:LOCALAPPDATA\Microsoft\Windows\WinX\Group3"
 
