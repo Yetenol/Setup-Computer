@@ -1,11 +1,10 @@
 # [⌂](../README.md) › [Browser](browser.md) › Extensions
 
-Table of Contents
-1. [Layout / Design](#Layout-/-Design) 
-1. [Media / Youtube](#Media-/-Youtube)
-1. [Shopping](#Shopping)
-1. [Keyboard shortcuts](#Keyboard-shortcuts)
-1. [Hide from toolbar](#hide-from-toolbar)
+- [☟ Layout / Design](#Layout-/-Design) 
+- [☟ Media / Youtube](#Media-/-Youtube)
+- [☟ Shopping](#Shopping)
+- [☟ Keyboard shortcuts](#Keyboard-shortcuts)
+- [☟ Hide from toolbar](#hide-from-toolbar)
 
 
 ## Layout / Design
