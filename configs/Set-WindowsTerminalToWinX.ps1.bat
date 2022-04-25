@@ -13,3 +13,6 @@ Copy-Item -Path @('.\configs\01 - wt.lnk'; '.\configs\01a - wt.lnk') -Destinatio
 
 # Apply changes
 Get-Process explorer | Stop-Process
+
+# Pull profile settings
+Invoke-WebRequest -Uri "https://onedrive.live.com/download?cid=1D2B2E681295AC2B&resid=1D2B2E681295AC2B%21426988&authkey=APtx4ejDLNgdBLE" -OutFile "$env:LOCALAPPDATA\Packages\Microsoft.WindowsTerminal_8wekyb3d8bbwe\LocalState\settings.json"
