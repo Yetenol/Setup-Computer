@@ -19,10 +19,10 @@
 - [☟ Subsystems](#subsystems) [❯](instructions/subsystems.md)  
 - [☟ Deprecated](#deprecated) [❯](instructions/deprecated.md)  
 
-### [Browser ❯](browser/browser.md)  
-### [Settings ❯](settings.md)  
-### [Printers ❯](printers.md)  
-### [Gaming ❯](gaming/gaming.md)  
+[Browser ❯](browser/browser.md)  
+[Settings ❯](settings.md)  
+[Printers ❯](printers.md)  
+[Gaming ❯](gaming/gaming.md)  
 
 
 ## WINGET Package Manager
