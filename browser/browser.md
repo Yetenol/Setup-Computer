@@ -1,8 +1,7 @@
 # [⌂](../README.md) › Browser - Installation instructions
 
-## [Settings](settings.md)
-## [Extensions](extensions.md)
-
+### [Settings ❯](settings.md)  
+### [Extensions ❯](extensions.md)  
 
 ## Install browser
 
