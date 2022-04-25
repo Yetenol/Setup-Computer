@@ -2,12 +2,12 @@
 
 Table of Contents
 
-1. [System](#system)
-1. [Bluetooth & devices](#bluetooth--devices)
-1. [Personalization](#personalization)
-1. [Apps](#apps)
-1. [Time & language](#time--language)
-1. [Accessibility](#accessibility)
+1. [☟  System](#system)
+1. [☟  Bluetooth & devices](#bluetooth--devices)
+1. [☟  Personalization](#personalization)
+1. [☟  Apps](#apps)
+1. [☟  Time & language](#time--language)
+1. [☟  Accessibility](#accessibility)
 
 
 # System
