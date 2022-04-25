@@ -2,7 +2,7 @@
 # The above line makes the script executable when renamed .cmd or .bat
 
 # SET CONFIGURATION
-$cloudPath = "D:\OneDrive\Config\Windows Terminal"
+$cloudPath = "D:\OneDrive\Config\Terminal"
 $localPath = "$env:LocalAppData\Packages\Microsoft.WindowsTerminal_8wekyb3d8bbwe\LocalState"
 
 # Test paths
