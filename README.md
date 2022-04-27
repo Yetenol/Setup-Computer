@@ -65,13 +65,12 @@ winget uninstall -e RealtekSemiconductorCorp.RealtekAudioControl_dt26b99r8h8gj #
 
 ## [Priority](instructions/priority.md)
 
-| App ➔ Instructions                                                |                          Store                          |                                          Source                                           | Install command                                                |
-| ----------------------------------------------------------------- | :-----------------------------------------------------: | :---------------------------------------------------------------------------------------: | -------------------------------------------------------------- |
-| [Lenovo Vantage](instructions/priority.md#lenovo-vantage)         | [MS](https://www.microsoft.com/store/apps/9wzdncrfj4mv) |                                                                                           | `winget install -e 9WZDNCRFJ4MV --accept-package-agreements`   |
-| [KeeWeb](instructions/priority.md#keeweb)                         |                                                         |                                [Web](https://keeweb.info/)                                | `winget install -e KeeWeb.KeeWeb`                              |
-| [shortcutFox](instructions/priority.md#shortcutfox)               |                                                         | [Github](https://github.com/Yetenol/shortcutFox/releases/latest/download/shortcutFox.exe) |
-| [Visual Studio Code](instructions/priority.md#visual-studio-code) |                        &#128279;                        |                    [Web](https://code.visualstudio.com/#alt-downloads)                    | `winget install -e Microsoft.VisualStudioCode --scope machine` |
-| [File Explorer](instructions/priority.md#setup-file-explorer)     |
+| App ➔ Instructions                                            |                          Store                          |                                          Source                                           | Install command                                              |
+| ------------------------------------------------------------- | :-----------------------------------------------------: | :---------------------------------------------------------------------------------------: | ------------------------------------------------------------ |
+| [Lenovo Vantage](instructions/priority.md#lenovo-vantage)     | [MS](https://www.microsoft.com/store/apps/9wzdncrfj4mv) |                                                                                           | `winget install -e 9WZDNCRFJ4MV --accept-package-agreements` |
+| [KeeWeb](instructions/priority.md#keeweb)                     |                                                         |                                [Web](https://keeweb.info/)                                | `winget install -e KeeWeb.KeeWeb`                            |
+| [shortcutFox](instructions/priority.md#shortcutfox)           |                                                         | [Github](https://github.com/Yetenol/shortcutFox/releases/latest/download/shortcutFox.exe) |
+| [File Explorer](instructions/priority.md#setup-file-explorer) |
 
 
 ## [Communication](instructions/communication.md)
@@ -135,6 +134,7 @@ winget uninstall -e RealtekSemiconductorCorp.RealtekAudioControl_dt26b99r8h8gj #
 | App ➔ Instructions                                   |                          Store                          |                              Source                               | Install command                                                                                                 |
 | ---------------------------------------------------- | :-----------------------------------------------------: | :---------------------------------------------------------------: | --------------------------------------------------------------------------------------------------------------- |
 | [Terminal](instructions/development.md#terminal)     | [MS](https://www.microsoft.com/store/apps/9n0dx20hk701) |                                                                   | `winget install -e 9N0DX20HK701 --accept-package-agreements` <br> `winget install -e Microsoft.WindowsTerminal` |
+| [Visual Studio Code](instructions/development.md)    |                        &#128279;                        |        [Web](https://code.visualstudio.com/#alt-downloads)        | `winget install -e Microsoft.VisualStudioCode --scope machine`                                                  |
 | [Git](instructions/development.md#git)               |                                                         |              [Web](https://git-scm.com/download/win)              | `winget install -e Git.Git`                                                                                     |
 | IntelliJ IDEA Edu                                    |                                                         | [Web](https://www.jetbrains.com/education/download/#section=idea) | `winget install -e JetBrains.IntelliJIDEA.Edu`                                                                  |
 | 7-Zip                                                |                                                         |                   [Web](https://www.7-zip.org/)                   | `winget install -e 7zip.7zip`                                                                                   |
