@@ -120,7 +120,7 @@ winget uninstall -e RealtekSemiconductorCorp.RealtekAudioControl_dt26b99r8h8gj #
 | Amazon Prime Video                                     | [MS](https://www.microsoft.com/store/apps/9p6rc76msmmj) |                                      | `winget install -e 9P6RC76MSMMJ --accept-package-agreements` |
 
 
-## Personalisation
+## [Personalisation](instructions/personalisation.md)
 
 | App ➔ Instructions                                               |   Store   |                                      Source                                       | Install command                                                                                                        |
 | ---------------------------------------------------------------- | :-------: | :-------------------------------------------------------------------------------: | ---------------------------------------------------------------------------------------------------------------------- |
@@ -129,17 +129,17 @@ winget uninstall -e RealtekSemiconductorCorp.RealtekAudioControl_dt26b99r8h8gj #
 | [PowerToys](instructions/personalisation.md#powertoys)           |           |         [Github](https://github.com/microsoft/PowerToys/releases/latest)          | `winget install -e Microsoft.PowerToys` <br> `winget install -e XP89DCGQ3K6VLD --accept-package-agreements`            |
 
 
-## Development
+## [Development](instructions/development.md)
 
-| App ➔ Instructions                                   |                          Store                          |                              Source                               | Install command                                                                                                 |
-| ---------------------------------------------------- | :-----------------------------------------------------: | :---------------------------------------------------------------: | --------------------------------------------------------------------------------------------------------------- |
-| [Terminal](instructions/development.md#terminal)     | [MS](https://www.microsoft.com/store/apps/9n0dx20hk701) |                                                                   | `winget install -e 9N0DX20HK701 --accept-package-agreements` <br> `winget install -e Microsoft.WindowsTerminal` |
-| [Visual Studio Code](instructions/development.md)    |                        &#128279;                        |        [Web](https://code.visualstudio.com/#alt-downloads)        | `winget install -e Microsoft.VisualStudioCode --scope machine`                                                  |
-| [Git](instructions/development.md#git)               |                                                         |              [Web](https://git-scm.com/download/win)              | `winget install -e Git.Git`                                                                                     |
-| IntelliJ IDEA Edu                                    |                                                         | [Web](https://www.jetbrains.com/education/download/#section=idea) | `winget install -e JetBrains.IntelliJIDEA.Edu`                                                                  |
-| 7-Zip                                                |                                                         |                   [Web](https://www.7-zip.org/)                   | `winget install -e 7zip.7zip`                                                                                   |
-| [AutoHotkey](instructions/development.md#autohotkey) |                                                         |    [Web](https://www.autohotkey.com/download/ahk-install.exe)     | `winget install -e Lexikos.AutoHotkey`                                                                          |
-| _Windscribe_                                         |                                                         |       [Web](https://windscribe.com/install/desktop/windows)       | `winget install -e Windscribe.Windscribe`                                                                       |
+| App ➔ Instructions                                                 |                          Store                          |                              Source                               | Install command                                                                                                 |
+| ------------------------------------------------------------------ | :-----------------------------------------------------: | :---------------------------------------------------------------: | --------------------------------------------------------------------------------------------------------------- |
+| [Terminal](instructions/development.md#terminal)                   | [MS](https://www.microsoft.com/store/apps/9n0dx20hk701) |                                                                   | `winget install -e 9N0DX20HK701 --accept-package-agreements` <br> `winget install -e Microsoft.WindowsTerminal` |
+| [Visual Studio Code](instructions/development.md)                  |                        &#128279;                        |        [Web](https://code.visualstudio.com/#alt-downloads)        | `winget install -e Microsoft.VisualStudioCode --scope machine`                                                  |
+| [Git](instructions/development.md#git)                             |                                                         |              [Web](https://git-scm.com/download/win)              | `winget install -e Git.Git`                                                                                     |
+| [IntelliJ IDEA Edu](instructions/development.md#intellij-idea-edu) |                                                         | [Web](https://www.jetbrains.com/education/download/#section=idea) | `winget install -e JetBrains.IntelliJIDEA.Edu`                                                                  |
+| 7-Zip                                                              |                                                         |                   [Web](https://www.7-zip.org/)                   | `winget install -e 7zip.7zip`                                                                                   |
+| [AutoHotkey](instructions/development.md#autohotkey)               |                                                         |    [Web](https://www.autohotkey.com/download/ahk-install.exe)     | `winget install -e Lexikos.AutoHotkey`                                                                          |
+| _Windscribe_                                                       |                                                         |       [Web](https://windscribe.com/install/desktop/windows)       | `winget install -e Windscribe.Windscribe`                                                                       |
 
 
 ## Subsystems
