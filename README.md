@@ -12,6 +12,7 @@
 - [☟ Priority](#priority) [❯](instructions/priority.md)  
 - [☟ Communication](#communication) [❯](instructions/communication.md)  
 - [☟ Office](#office) [❯](instructions/office.md)  
+- [☟ Education](#education) [❯](instructions/education.md)  
 - [☟ Storage](#storage) [❯](instructions/storage.md)  
 - [☟ Entertainment](#entertainment) [❯](instructions/entertainment.md)  
 - [☟ Personalisation](#personalisation) [❯](instructions/personalisation.md)  
@@ -89,16 +90,23 @@ winget uninstall -e RealtekSemiconductorCorp.RealtekAudioControl_dt26b99r8h8gj #
 
 ## [Office](instructions/office.md)
 
-| App ➔ Instructions                                          |                          Store                          |                                   Source                                    | Install command                                                                                       |
-| ----------------------------------------------------------- | :-----------------------------------------------------: | :-------------------------------------------------------------------------: | ----------------------------------------------------------------------------------------------------- |
-| [Microsoft Office](instructions/office.md#microsoft-office) | [MS](https://www.microsoft.com/store/apps/CFQ7TTC0K5DM) |        [Web](https://account.microsoft.com/services/office/install)         |                                                                                                       |
-| TeX Live                                                    |                                                         | [Web](https://mirror.ctan.org/systems/texlive/tlnet/install-tl-windows.exe) |                                                                                                       |
-| OneNote                                                     | [MS](https://www.microsoft.com/store/apps/9wzdncrfhvjl) |                                                                             | `winget install -e 9WZDNCRFHVJL --accept-package-agreements`                                          |
-| [Simplenote](instructions/office.md#simplenote)             | [MS](https://www.microsoft.com/store/apps/9nxqq40ldw3x) |                                                                             | `winget install -e 9NXQQ40LDW3X --accept-package-agreements`                                          |
-| Firefox                                                     | [MS](https://www.microsoft.com/store/apps/9NZVDKPMR9RD) |        [Web](https://www.mozilla.org/en-US/firefox/download/thanks/)        | `winget install -e 9NZVDKPMR9RD --accept-package-agreements` <br> `winget install -e Mozilla.Firefox` |
-| GIMP                                                        |                                                         |                   [Web](https://www.gimp.org/downloads/)                    | `winget install -e GIMP.GIMP`                                                                         |
-| GeoGebra                                                    |                                                         |              [Web](https://download.geogebra.org/package/win)               | `winget install -e GeoGebra.Classic.5`                                                                |
-| [AusweisApp2](instructions/office.md#ausweisapp2)           |                                                         |               [Web](https://www.ausweisapp.bund.de/download)                | `winget install -e Governikus.AusweisApp2`                                                            |
+| App ➔ Instructions                                          |                          Store                          |                            Source                             | Install command                                                                                       |
+| ----------------------------------------------------------- | :-----------------------------------------------------: | :-----------------------------------------------------------: | ----------------------------------------------------------------------------------------------------- |
+| [Microsoft Office](instructions/office.md#microsoft-office) | [MS](https://www.microsoft.com/store/apps/CFQ7TTC0K5DM) | [Web](https://account.microsoft.com/services/office/install)  |                                                                                                       |
+| OneNote                                                     | [MS](https://www.microsoft.com/store/apps/9wzdncrfhvjl) |                                                               | `winget install -e 9WZDNCRFHVJL --accept-package-agreements`                                          |
+| [Simplenote](instructions/office.md#simplenote)             | [MS](https://www.microsoft.com/store/apps/9nxqq40ldw3x) |                                                               | `winget install -e 9NXQQ40LDW3X --accept-package-agreements`                                          |
+| Firefox                                                     | [MS](https://www.microsoft.com/store/apps/9NZVDKPMR9RD) | [Web](https://www.mozilla.org/en-US/firefox/download/thanks/) | `winget install -e 9NZVDKPMR9RD --accept-package-agreements` <br> `winget install -e Mozilla.Firefox` |
+| GIMP                                                        |                                                         |            [Web](https://www.gimp.org/downloads/)             | `winget install -e GIMP.GIMP`                                                                         |
+| [AusweisApp2](instructions/office.md#ausweisapp2)           |                                                         |        [Web](https://www.ausweisapp.bund.de/download)         | `winget install -e Governikus.AusweisApp2`                                                            |
+
+
+## [Education](instructions/education.md)
+
+| App ➔ Instructions | Store | Source                                                                      | Install command                        |
+| ------------------ | ----- | --------------------------------------------------------------------------- | -------------------------------------- |
+| TeX Live           |       | [Web](https://mirror.ctan.org/systems/texlive/tlnet/install-tl-windows.exe) |                                        |
+| GeoGebra           |       | [Web](https://download.geogebra.org/package/win)                            | `winget install -e GeoGebra.Classic.5` |
+
 
 
 ## [Storage](instructions/storage.md)
