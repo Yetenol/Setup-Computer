@@ -115,38 +115,43 @@ ms-settings:about
 # Bluetooth & devices
 
 
-## Touchpad > Additional touchpad settings
+## Mouse > TrackPoint settings
+1. Modern touchpad driver
+```
+ms-settings:mousetouchpad
+```
+- Click `TrackPoint settings` _< [#ELAN TrackPoint for Thinkpad]_
+- `Middle click` =: Middle Button Action
+
+1. Old touchpad driver
 ```
 main.cpl
 ```
+- Open `ThinkPad` tab
+- `Use as middle click` =: Middle mouse click
 
-> Open `ThinkPad` tab
-> - `Use as middle click` =: Middle mouse click
 
-
-## Devices > Touchpad > Advanced gesture conf‌iguration
+## Devices > Touchpad > Advanced gestures
 ```
 ms-settings:devices-touchpad
 ```
 
-> Open `Advanced gestures` _< [# Related settigns]_
-> > Conf‌igure your **three** f‌inger gestures
-> > - `Custom shortcut` Taps
-> >   - `UNTBR` = `Ctrl + Pause` 
-> >   - Record using [window-tools.ahk](https://github.com/Yetenol/Window-Tools/releases/latest/download/Window-Tools.exe) tray menu 
-> > - `Switch apps` Up
-> > - `Custom shortcut` Down
-> >   -  `PAUSE` 
-> >   - Record using [window-tools.ahk](https://github.com/Yetenol/Window-Tools/releases/latest/download/Window-Tools.exe) tray menu 
-> > - `Forward navigation` Left
-> > - `Backward navigation` Right
+> Open `Advanced gestures` _< [# Related settings]_
+>> Conf‌igure **three**-f‌inger gestures
+>> - `Middle mouse button` =: Tap
+>> - `Switch apps` =: Swipe up
+>> - `Custom shortcut` =: Swipe down
+>>   -  `PAUSE` 
+>>   - Record using [window-tools.ahk](https://github.com/Yetenol/Window-Tools/releases/latest/download/Window-Tools.exe) tray menu 
+>> - `Forward navigation` =: Swipe left
+>> - `Backward navigation` =: Swipe right
 > 
-> > Conf‌igure your **four** f‌inger gestures
-> > - `Play/pause` Taps
-> > - `Volume up` Up
-> > - `Volume down` Down
-> > - `Next Track` Left
-> > - `Previous track` Right
+>> Conf‌igure **four**-f‌inger gestures
+>> - `Play/pause` =: Tap
+>> - `Volume up` =: Swipe up
+>> - `Volume down` =: Swipe down
+>> - `Next Track` =: Swipe left
+>> - `Previous track` =: Swipe right
 
 
 ## Typing > Hardware keyboard
