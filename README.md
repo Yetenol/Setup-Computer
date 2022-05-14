@@ -150,7 +150,7 @@ winget uninstall -e RealtekSemiconductorCorp.RealtekAudioControl_dt26b99r8h8gj #
 | [IntelliJ IDEA Edu](instructions/development.md#intellij-idea-edu) |                                                     | [Web](https://www.jetbrains.com/education/download/#section=idea) | `winget install -e JetBrains.IntelliJIDEA.Edu`                                                                  |
 | 7-Zip                                                              |                                                     |                   [Web](https://www.7-zip.org/)                   | `winget install -e 7zip.7zip`                                                                                   |
 | [AutoHotkey](instructions/development.md#autohotkey)               |                                                     |    [Web](https://www.autohotkey.com/download/ahk-install.exe)     | `winget install -e Lexikos.AutoHotkey`                                                                          |
-| _Windscribe_                                                       |                                                     |       [Web](https://windscribe.com/install/desktop/windows)       | `winget install -e Windscribe.Windscribe`                                                                       |
+| _Windscribe_                                                       |                                                     |       [Web](https://windscribe.com/install/desktop/windows)       | `winget install -e WindscribeLimited.Windscribe`                                                                |
 
 
 ## Subsystems
