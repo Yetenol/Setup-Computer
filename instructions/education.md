@@ -31,7 +31,7 @@ install via [Website](https://www.mathworks.com/academia/tah-portal/tu-berlin-31
 winget install -e 9MVVSZK43QQW --accept-package-agreements
 ```
 
-or install via  [Microsoft Store](https://www.microsoft.com/store/apps/9MVVSZK43QQW) or via [Website](https://github.com/jgraph/drawio-desktop/releases/latest) or via winget:  
+or install via  [Microsoft Store](https://microsoft.com/store/apps/9MVVSZK43QQW) or via [Website](https://github.com/jgraph/drawio-desktop/releases/latest) or via winget:  
 `winget install -e JGraph.Draw`
 
 ## Setup GUI

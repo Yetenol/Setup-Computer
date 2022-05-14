@@ -5,12 +5,12 @@
 
 ## Install browser
 
-| Browser |                          Store                          |                            Source                             | Install command                                                                                       |
-| ------- | :-----------------------------------------------------: | :-----------------------------------------------------------: | ----------------------------------------------------------------------------------------------------- |
-| Edge    |                        &#128279;                        |     [Web](https://www.microsoft.com/de-de/edge#evergreen)     | `winget install -e Microsoft.Edge`                                                                    |
-| Firefox | [MS](https://www.microsoft.com/store/apps/9NZVDKPMR9RD) | [Web](https://www.mozilla.org/en-US/firefox/download/thanks/) | `winget install -e 9NZVDKPMR9RD --accept-package-agreements` <br> `winget install -e Mozilla.Firefox` |
-| Vivaldi |                                                         |                [Web](https://vivaldi.com/de/)                 | `winget install -e VivaldiTechnologies.Vivaldi`                                                       |
-| Brave   |                                                         |                 [Web](https://brave.com/de/)                  | `winget install -e BraveSoftware.BraveBrowser`                                                        |
+| Browser |                        Store                        |                            Source                             | Install command                                                                                       |
+| ------- | :-------------------------------------------------: | :-----------------------------------------------------------: | ----------------------------------------------------------------------------------------------------- |
+| Edge    |                      &#128279;                      |     [Web](https://www.microsoft.com/de-de/edge#evergreen)     | `winget install -e Microsoft.Edge`                                                                    |
+| Firefox | [MS](https://microsoft.com/store/apps/9NZVDKPMR9RD) | [Web](https://www.mozilla.org/en-US/firefox/download/thanks/) | `winget install -e 9NZVDKPMR9RD --accept-package-agreements` <br> `winget install -e Mozilla.Firefox` |
+| Vivaldi |                                                     |                [Web](https://vivaldi.com/de/)                 | `winget install -e VivaldiTechnologies.Vivaldi`                                                       |
+| Brave   |                                                     |                 [Web](https://brave.com/de/)                  | `winget install -e BraveSoftware.BraveBrowser`                                                        |
 
 ### Set browser for Windows Search
 - Install [EdgeDeflector](https://github.com/da2x/EdgeDeflector/releases)
