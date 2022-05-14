@@ -102,10 +102,13 @@ winget uninstall -e RealtekSemiconductorCorp.RealtekAudioControl_dt26b99r8h8gj #
 
 ## [Education](instructions/education.md)
 
-| App ➔ Instructions | Store | Source                                                                      | Install command                        |
-| ------------------ | ----- | --------------------------------------------------------------------------- | -------------------------------------- |
-| TeX Live           |       | [Web](https://mirror.ctan.org/systems/texlive/tlnet/install-tl-windows.exe) |                                        |
-| GeoGebra           |       | [Web](https://download.geogebra.org/package/win)                            | `winget install -e GeoGebra.Classic.5` |
+| App ➔ Instructions                          | Store                                                   | Source                                                                       | Install command                                                                                   |
+| ------------------------------------------- | ------------------------------------------------------- | ---------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------- |
+| TeX Live                                    |                                                         | [Web](https://mirror.ctan.org/systems/texlive/tlnet/install-tl-windows.exe)  |                                                                                                   |
+| GeoGebra                                    |                                                         | [Web](https://download.geogebra.org/package/win)                             | `winget install -e GeoGebra.Classic.5`                                                            |
+| LTSpice                                     |                                                         | [Web](https://ltspice.analog.com/software/LTspice64.exe)                     |
+| MATLAB                                      |                                                         | [Web](https://www.mathworks.com/academia/tah-portal/tu-berlin-31461245.html) |
+| [draw.io](instructions/education.md#drawio) | [MS](https://www.microsoft.com/store/apps/9MVVSZK43QQW) | [Web](https://github.com/jgraph/drawio-desktop/releases/latest)              | `winget install -e 9MVVSZK43QQW --accept-package-agreements` <br> `winget install -e JGraph.Draw` |
 
 
 
