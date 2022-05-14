@@ -28,7 +28,7 @@ install via [Website](https://www.mathworks.com/academia/tah-portal/tu-berlin-31
 # Draw.io
 
 ```powershell
-winget install -e 9MVVSZK43QQW --accept-package-agreements
+winget install -e 9MVVSZK43QQW --accept-package-agreements # Draw.io
 ```
 
 or install via  [Microsoft Store](https://microsoft.com/store/apps/9MVVSZK43QQW) or via [Website](https://github.com/jgraph/drawio-desktop/releases/latest) or via winget:  
