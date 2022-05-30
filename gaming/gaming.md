@@ -45,11 +45,18 @@
 
 ## Edit Settings
 > Open `Settings`
+>> Open `Profile`
+>> - `Yetenol` =: Name
+>
 >> Open `Video`
 >> - `100` =: Brightness
 >> - [x] Fullscreen
 >> - [x] Hide Paper Doll
+>> - [ ] Screen Animations
 >> - `-1` =: GUI Scale Modifier
+>> - `70.00°` =: FOV
+>> - [ ] View Bobbing
+>> - [ ] FOV Can Be Altered By Gameplay
 >
 >> Open `Audio`
 >> - `0` =: Music
