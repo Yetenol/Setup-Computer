@@ -23,25 +23,27 @@
 
 # Minecraft Bedrock
 
-# Install Game
-
+## Install Game
 - Install app through Microsoft Store
     ```
     ms-windows-store://pdp/?ProductId=9NBLGGH2JHXJ # Minecraft for Windows
     ```
 - Open Minecraft and sign in to Microsoft
 
-# Extensions
-
+## Install Extensions
 - Install Resource Packs
     - Install [Marketplace Hider](https://mcpedl.com/marketplace-remover-resource-pack/)
-    - Install [Server List UI](https://foxynotail.com/resource-packs/server_list_ui/)
+    - Install [Foxy's Resource Pack Bundle](https://foxynotail.com/resource-packs/foxys-resource-pack/)
+- Activate packs
+  - Open `Settings > Global Resources > My packs`
+  - click on the packs and activate them
+
+## Setup skin
 - Download [skin](https://minecraft.tools/download-skin/Yetenol)
 - Open `Dressing Room > Menu > Classic Skins > Owned > Import > Choose new skin`
 - Import downloaded skin
 
 ## Edit Settings
-
 > Open `Settings`
 >> Open `Video`
 >> - `100` =: Brightness
@@ -60,13 +62,11 @@
 # Minecraft Java Edition
 
 ## Explanations
-
 - To play vanilla or modded Minecraft open `Minecraft Launcher`
 - To manage modpacks open `CurseForge`
 - To edit chunks open `MCA Selector`
 
-# Game using CurseForge
-
+## Install Game using CurseForge
 - Install [Overwolf & CurseForge Mod Platform](https://download.curseforge.com/)
   - [ ] Create a Desktop Shortcut for CurseForge
 - Launch CurseForge
@@ -87,7 +87,6 @@
 
 
 ## Add Launcher to Start Menu
-
 ```powershell
 $minecraftFolder = "%UserProfile%\curseforge\minecraft\Install\"
 $env:Programs = (New-Object -ComObject Shell.Application).NameSpace('shell:Programs').Self.Path
@@ -104,11 +103,9 @@ $Shortcut.Save()
 - play latest release
 
 ## Cloud Synchronization
-
 - run **elevated**: [Synchronization Setup Script](Setup-MinecraftJava.ps1)
 
-# Modpacks (optional)
-
+## Install Modpacks (optional)
 - Skip if not playing modded
 - Click `Create Custom Profile`
 - Is there a CurseForge Profile Export available?
@@ -118,7 +115,6 @@ $Shortcut.Save()
   - Import and override all modpack files
 
 
-# A Chunk Editor
-
+## A Chunk Editor
 > _An external tool to export or delete selected chunks and regions from a world save of Minecraft Java Edition._
 - Install [MCA Selector](https://github.com/Querz/mcaselector/releases/latest)
