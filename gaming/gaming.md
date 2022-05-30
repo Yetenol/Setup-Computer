@@ -6,8 +6,7 @@
 
 # Factorio
 
-# Install Game
-
+## Install Game
 - Official download (sign-in required) through https://factorio.com/download
 - Alternatively install via Steam
     ```
@@ -15,9 +14,7 @@
     ```
 - Alternatively install [backup install media](https://1drv.ms/u/s!AiuslRJoLisdmc8ZYCvsmPYhmjYc4g?e=j7OnHZ)
 
-
 ## Cloud Synchronization
-
 - run **elevated**: [Synchronization Setup Script](Setup-Factorio.ps1)
 
 
@@ -30,7 +27,12 @@
     ```
 - Open Minecraft and sign in to Microsoft
 
-## Install Extensions
+## Cloud Synchronization
+- run **elevated**: [Synchronization Setup Script](Setup-MinecraftBedrock.ps1)
+
+## Or setup manually
+
+### Install Extensions
 - Install Resource Packs
     - Install [Marketplace Hider](https://mcpedl.com/marketplace-remover-resource-pack/)
     - Install [Foxy's Resource Pack Bundle](https://foxynotail.com/resource-packs/foxys-resource-pack/)
@@ -38,12 +40,12 @@
   - Open `Settings > Global Resources > My packs`
   - click on the packs and activate them
 
-## Setup skin
+### Setup skin
 - Download [skin](https://minecraft.tools/download-skin/Yetenol)
 - Open `Dressing Room > Menu > Classic Skins > Owned > Import > Choose new skin`
 - Import downloaded skin
 
-## Edit Settings
+### Edit Settings
 > Open `Settings`
 >> Open `Profile`
 >> - `Yetenol` =: Name
@@ -65,13 +67,12 @@
 >> - activate all resource packs
 
 
-
 # Minecraft Java Edition
 
-## Explanations
-- To play vanilla or modded Minecraft open `Minecraft Launcher`
-- To manage modpacks open `CurseForge`
-- To edit chunks open `MCA Selector`
+## How to use Minecraft Java
+- To play vanilla or modded Minecraft launch `Minecraft Launcher`  
+- To manage modpacks launch `CurseForge`  
+- To edit chunks launch `MCA Selector`  
 
 ## Install Game using CurseForge
 - Install [Overwolf & CurseForge Mod Platform](https://download.curseforge.com/)
@@ -91,7 +92,6 @@
 >
 >> Open `Minecraft <` _`[#Game Specific]`_
 >> - `max` or `12288MB` =: Allocated Memory < _[#Java Settings]_
-
 
 ## Add Launcher to Start Menu
 ```powershell
@@ -120,7 +120,6 @@ $Shortcut.Save()
   - NO: Enter a name and the version configuration
   - Right click profile and click `Open Folder`
   - Import and override all modpack files
-
 
 ## A Chunk Editor
 > _An external tool to export or delete selected chunks and regions from a world save of Minecraft Java Edition._
