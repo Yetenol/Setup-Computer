@@ -262,16 +262,3 @@ intl.cpl
 > - [x] Welcome screen and system accounts
 > - [x] New user accounts
 > - Click `OK`
-
-
-
-# Accessibility
-
-
-## Keyboard _< [#Interaction]_
-_directly launch `Snipping Tool` using `PrintScreen`_
-```
-ms-settings:easeofaccess-keyboard
-```
-
-- [x] Use the PrtScn button to open screen snipping
