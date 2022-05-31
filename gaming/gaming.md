@@ -16,7 +16,7 @@
 
 ## Cloud Synchronization
 - run **elevated**: [Synchronization Setup Script](Sync-Factorio.ps1)
-
+- reenable Global Resource Packs
 
 # Minecraft Bedrock
 
