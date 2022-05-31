@@ -10,8 +10,8 @@ $localRoot = "$env:LocalAppData\Packages\Microsoft.MinecraftUWP_8wekyb3d8bbwe"
 Get-Item -Path $localRoot -ErrorAction Stop | Out-Null
 
 # Setup permission to use external cloud location
-Rename-Item -Path $localRoot -NewName ($localRoot + "_Temp")
-New-Item -ItemType Junction -Path $localRoot -Target $cloudRoot
+Rename-Item -Path $localRoot -NewName ($localRoot + "_Temp") -ErrorAction Stop
+New-Item -ItemType Junction -Path $localRoot -Target $cloudRoot -ErrorAction Stop
 
 # Launch Minecraft Bedrock and wait for it to be closed
 explorer.exe shell:AppsFolder\Microsoft.MinecraftUWP_8wekyb3d8bbwe!App
@@ -31,7 +31,7 @@ $balmsg.ShowBalloonTip(20000)
 while (-not (Get-Process Minecraft.Windows -ErrorAction SilentlyContinue)) {}
 Wait-Process Minecraft.Windows
 
-########## SETUP PERMISSIONS FOR EXTERNAL STORAGE ##########
+########## SETUP WORLDS AND SETTINGS SYNCHRONIZATION ##########
 
 # Override local appdata
 [io.directory]::Delete((Resolve-Path -Path $localRoot))

@@ -25,7 +25,7 @@
     ```
     ms-windows-store://pdp/?ProductId=9NBLGGH2JHXJ # Minecraft for Windows
     ```
-- Open Minecraft
+- DON'T LAUNCH MINECRAFT YET
 
 ## Cloud Synchronization
 - run **elevated**: [Synchronization Setup Script](Sync-MinecraftBedrock.ps1)
