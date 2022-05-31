@@ -35,7 +35,7 @@ Wait-Process Minecraft.Windows
 
 # Override local appdata
 [io.directory]::Delete((Resolve-Path -Path $localRoot))
-Rename-Item -Path ($localRoot + "_Temp") -NewName $localRoot
+Rename-Item -Path ($localRoot + "_Temp") -NewName $localRoot -ErrorAction Stop
 
 # Test paths
 Get-Item -Path $cloudPath, $cloudRoot, $localPath, $localRoot -ErrorAction Stop | Out-Null
@@ -78,3 +78,6 @@ foreach ($item in $syncPaths) {
     $target = Get-Item -Path "$cloudPath\$item"
     New-Item -ItemType SymbolicLink -Name $item -Target $target -Force
 }
+
+# Minecraft Bedrock is ready to be used
+explorer.exe shell:AppsFolder\Microsoft.MinecraftUWP_8wekyb3d8bbwe!App
