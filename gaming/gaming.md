@@ -15,7 +15,7 @@
 - Alternatively install [backup install media](https://1drv.ms/u/s!AiuslRJoLisdmc8ZYCvsmPYhmjYc4g?e=j7OnHZ)
 
 ## Cloud Synchronization
-- run **elevated**: [Synchronization Setup Script](Setup-Factorio.ps1)
+- run **elevated**: [Synchronization Setup Script](Sync-Factorio.ps1)
 
 
 # Minecraft Bedrock
@@ -25,10 +25,10 @@
     ```
     ms-windows-store://pdp/?ProductId=9NBLGGH2JHXJ # Minecraft for Windows
     ```
-- Open Minecraft and sign in to Microsoft
+- Open Minecraft
 
 ## Cloud Synchronization
-- run **elevated**: [Synchronization Setup Script](Setup-MinecraftBedrock.ps1)
+- run **elevated**: [Synchronization Setup Script](Sync-MinecraftBedrock.ps1)
 
 ## Or setup manually
 
@@ -107,7 +107,7 @@ $Shortcut.Save()
 - play latest release
 
 ## Cloud Synchronization
-- run **elevated**: [Synchronization Setup Script](Setup-MinecraftJava.ps1)
+- run **elevated**: [Synchronization Setup Script](Sync-MinecraftJava.ps1)
 
 ## Install Modpacks (optional)
 - Skip if not playing modded
