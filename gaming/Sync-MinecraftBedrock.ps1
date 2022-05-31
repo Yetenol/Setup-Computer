@@ -38,6 +38,7 @@ Wait-Process Minecraft.Windows
 Rename-Item -Path ($localRoot + "_Temp") -NewName $localRoot -ErrorAction Stop
 
 # Test paths
+New-Item -Force -ItemType Directory $localPath
 Get-Item -Path $cloudPath, $cloudRoot, $localPath, $localRoot -ErrorAction Stop | Out-Null
 
 # List relative item paths
