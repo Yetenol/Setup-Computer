@@ -1,5 +1,5 @@
 # SET CONFIGURATION
-$cloudPath = "D:\OneDrive\Gaming\Minecraft Bedrock"
+$cloudPath = "D:\OneDrive\Gaming\Minecraft Bedrock\LocalAppData\LocalState\games\com.mojang"
 $localPath = "$env:LocalAppData\Packages\Microsoft.MinecraftUWP_8wekyb3d8bbwe\LocalState\games\com.mojang"
 
 # Test paths
