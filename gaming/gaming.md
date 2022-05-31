@@ -55,16 +55,13 @@
 >> - [x] Fullscreen
 >> - [x] Hide Paper Doll
 >> - [ ] Screen Animations
->> - `-1` =: GUI Scale Modifier
 >> - `70.00°` =: FOV
 >> - [ ] View Bobbing
 >> - [ ] FOV Can Be Altered By Gameplay
+>> - `-1` =: GUI Scale Modifier
 >
 >> Open `Audio`
 >> - `0` =: Music
->
->> Open `Global Resources`
->> - activate all resource packs
 
 
 # Minecraft Java Edition
