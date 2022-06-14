@@ -25,6 +25,7 @@ about:settings/searchEngines
 | Search engine             | Keyword                 | URL with %s in place of query                                                                    |
 | ------------------------- | ----------------------- | ------------------------------------------------------------------------------------------------ |
 | DeepL                     | deepl.com               | `https://www.deepl.com/translator#../../%s`                                                      |
+| Duden                     | duden.de                | `https://www.duden.de/suchen/dudenonline/%s`                                                     |
 | JustWatch                 | justwatch.com           | `https://www.justwatch.com/de/Suche?q=%s`                                                        |
 | Duden                     | duden.de                | `https://www.duden.de/suchen/dudenonline/%s`                                                     |
 | Unicode Character Table   | unicode-table.com       | `https://unicode-table.com/en/search/?q=%s&p`                                                    |
