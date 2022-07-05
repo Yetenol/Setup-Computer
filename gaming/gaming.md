@@ -118,6 +118,15 @@ $Shortcut.Save()
   - Right click profile and click `Open Folder`
   - Import and override all modpack files
 
-## A Chunk Editor
-> _An external tool to export or delete selected chunks and regions from a world save of Minecraft Java Edition._
+# Modification Tools
+
+## Chunk Editor
+> An external tool to export or delete selected chunks and regions from a world save of Minecraft Java Edition.
 - Install [MCA Selector](https://github.com/Querz/mcaselector/releases/latest)
+
+## NBT Editor
+> An external tool to modify the `level.dat` file.
+```
+winget install -e Jaquadro.NBTExplorer
+```
+or install via [Github](https://github.com/jaquadro/NBTExplorer/releases/latest)
