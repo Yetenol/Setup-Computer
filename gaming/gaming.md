@@ -1,10 +1,13 @@
-# [⌂](../README.md) › Gaming
+<h1> Gaming </h1>
 
-- [⌂ › Gaming](#--gaming)
+[⌂](../README.md) ›
+
 - [Factorio](#factorio)
 - [Minecraft Bedrock](#minecraft-bedrock)
 - [Minecraft Java Edition](#minecraft-java-edition)
-- [Modification Tools](#modification-tools)
+  - [Modpacks](#modpacks)
+  - [Chunk Editor](#chunk-editor)
+  - [NBT Editor](#nbt-editor)
 
 # Factorio
 

@@ -1,8 +1,10 @@
-# [⌂](README.md) › Printers
+<h1> Printers </h1>
+
+[⌂](README.md) ›
 
 - [Farbkopierer **HP Photosmart HP C4580**](#farbkopierer-hp-photosmart-hp-c4580)
-  - [Install Driver](#install-driver)
-  - [Install Scanning Software](#install-scanning-software)
+  - [Driver](#driver)
+  - [Scanning Software](#scanning-software)
 - [Graustufendrucker **HP LaserJet 1010**](#graustufendrucker-hp-laserjet-1010)
 
 # Farbkopierer **HP Photosmart HP C4580**

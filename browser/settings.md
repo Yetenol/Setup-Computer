@@ -1,4 +1,13 @@
-# [⌂](../README.md) › [Browser](browser.md) › Settings
+<h1> Settings </h1>
+
+[⌂](../README.md) › [Browser](browser.md) ›
+
+- [Sync](#sync)
+- [Personal info](#personal-info)
+- [Manage search engines](#manage-search-engines)
+- [Appearance](#appearance)
+- [When Edge starts](#when-edge-starts)
+- [Setup content handling](#setup-content-handling)
 
 ## Sync 
 ```

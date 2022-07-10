@@ -1,11 +1,13 @@
-# [⌂](../README.md) › [Browser](browser.md) › Extensions
+<h1> Extensions </h1>
 
-- [☟ Layout / Design](#Layout-/-Design) 
-- [☟ Media / Youtube](#Media-/-Youtube)
-- [☟ Shopping](#Shopping)
-- [☟ Keyboard shortcuts](#Keyboard-shortcuts)
-- [☟ Hide from toolbar](#hide-from-toolbar)
+[⌂](../README.md) › [Browser](browser.md) › 
 
+- [Layout / Design](#layout--design)
+- [Media / Youtube](#media--youtube)
+- [Shopping](#shopping)
+- [Deprecated / Disabled](#deprecated--disabled)
+- [Keyboard shortcuts](#keyboard-shortcuts)
+- [Hide from toolbar](#hide-from-toolbar)
 
 ## Layout / Design
 

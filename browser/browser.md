@@ -1,4 +1,6 @@
-# [⌂](../README.md) › Browser - Installation instructions
+<h1> Browser </h1>
+
+[⌂](../README.md) ›
 
 - **[Settings](settings.md)**  
     Sync | `about:settings/searchEngines`
