@@ -2,16 +2,13 @@
 
 [⌂](README.md)
 
-1. Create an up-to-date [Windows 11 Installation Media](https://go.microsoft.com/fwlink/?linkid=2156295).  
-2. Split the drive into two different partitions:
-        - System partition: at least 100GB 
-3. Format the system partition
-4. Do a clean OS install using the installation media
-
+- [Operation System](#operation-system)
+- [Uninstall Bloatware](#uninstall-bloatware)
 - **[Browser](browser/browser.md)**  
-    - **[Settings](settings.md)**  
-    Sync | `about:settings/searchEngines`
-    - **[Extensions](extensions.md)**  
+    Custom Search Engines | `about:flags/#edge-show-feature-recommendations`
+    - **[Settings](browser/settings.md)**  
+    Sync | `about:settings/content/notifications`
+    - **[Extensions](browser/extensions.md)**  
     Keyboard shortcuts | `about:extensions`
 - **[Settings](settings.md)**  
     Touchpad gestures | `ms-settings:`
@@ -19,8 +16,6 @@
     Scanning Software | `shell:printersfolder`
 - **[Gaming](gaming/gaming.md)**  
     Cloud Synchronization | `ms-windows-store://pdp/?ProductId=9NBLGGH2JHXJ`
-- [WINGET Package Manager](#winget-package-manager)
-- [Uninstall Bloatware](#uninstall-bloatware)
 - [Priority](#priority) -
     [📃](instructions/priority.md)
 - [Communication](#communication) -
@@ -42,14 +37,16 @@
 - [Deprecated](#deprecated) -
     [📃](instructions/deprecated.md)
 
-## WINGET Package Manager
-
-- Update [App Installer](https://microsoft.com/store/productID/9nblggh4nns1)
-    ```run
-    ms-windows-store://pdp/?ProductId=9NBLGGH4NNS1
-    ```
-- Open a console and run `winget` to test the installation
-
+## Operation System
+1. Create an up-to-date [Windows 11 Installation Media](https://go.microsoft.com/fwlink/?linkid=2156295).  
+2. Split the drive into two different partitions:
+    - System partition: at least 100GB 
+3. Format the system partition
+4. Do a clean OS install using the installation media
+5. Confirm the installation of the _Windows Package Manager_ (short: _winget_)
+    - Run `winget` to test the installation
+    - Update via [Microsoft Store](https://microsoft.com/store/productID/9nblggh4nns1)  
+        or run `ms-windows-store://pdp/?ProductId=9NBLGGH4NNS1`
 
 ## Uninstall Bloatware
 
