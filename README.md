@@ -1,5 +1,6 @@
-# [⌂](README.md) How to setup my PC ![GitHub last commit](https://img.shields.io/github/last-commit/yetenol/setup-computer?color=white)
+<h1> How to setup my PC <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/yetenol/Setup-Computer?color=white"></h1>
 
+[⌂](README.md)
 
 1. Create an up-to-date [Windows 11 Installation Media](https://go.microsoft.com/fwlink/?linkid=2156295).  
 2. Split the drive into two different partitions:
