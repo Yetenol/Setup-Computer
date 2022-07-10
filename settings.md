@@ -1,12 +1,28 @@
 # [⌂](README.md) › Settings
 
-- [☟ System](#system)
-- [☟ Bluetooth & devices](#bluetooth--devices)
-- [☟ Personalization](#personalization)
-- [☟ Apps](#apps)
-- [☟ Time & language](#time--language)
-- [☟ Accessibility](#accessibility)
-
+- [System](#system)
+  - [Display](#display)
+  - [Display > Night light](#display--night-light)
+  - [Display > Graphics](#display--graphics)
+  - [Notif‌ications & actions](#notifications--actions)
+  - [Power & sleep](#power--sleep)
+  - [Storage](#storage)
+  - [Multitasking](#multitasking)
+  - [Clipboard](#clipboard)
+  - [About](#about)
+- [Bluetooth & devices](#bluetooth--devices)
+  - [Mouse > TrackPoint settings](#mouse--trackpoint-settings)
+  - [Devices > Touchpad > Advanced gestures](#devices--touchpad--advanced-gestures)
+  - [Typing > Hardware keyboard](#typing--hardware-keyboard)
+- [Personalization](#personalization)
+  - [Colors](#colors)
+  - [Themes > Desktop icon settings](#themes--desktop-icon-settings)
+  - [Taskbar](#taskbar)
+- [Apps](#apps)
+  - [Video playback](#video-playback)
+- [Time & language](#time--language)
+  - [Typing > Advanced keyboard settings](#typing--advanced-keyboard-settings)
+  - [Region > Additional date, time & regional settings](#region--additional-date-time--regional-settings)
 
 # System
 

@@ -1,8 +1,10 @@
 # [⌂](../README.md) › Gaming
 
-- [☟ Factorio](#factorio)
-- [☟ Minecraft Bedrock](#minecraft-bedrock)
-- [☟ Minecraft Java Edition](#minecraft-java-edition)
+- [⌂ › Gaming](#--gaming)
+- [Factorio](#factorio)
+- [Minecraft Bedrock](#minecraft-bedrock)
+- [Minecraft Java Edition](#minecraft-java-edition)
+- [Modification Tools](#modification-tools)
 
 # Factorio
 
@@ -21,6 +23,7 @@
 # Minecraft Bedrock
 
 ## Install Game
+
 - Install app through Microsoft Store
     ```
     ms-windows-store://pdp/?ProductId=9NBLGGH2JHXJ # Minecraft for Windows

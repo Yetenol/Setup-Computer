@@ -9,22 +9,27 @@
 
 # Software
 
-- [☟ Priority](#priority) [❯](instructions/priority.md)  
-- [☟ Communication](#communication) [❯](instructions/communication.md)  
-- [☟ Office](#office) [❯](instructions/office.md)  
-- [☟ Education](#education) [❯](instructions/education.md)  
-- [☟ Storage](#storage) [❯](instructions/storage.md)  
-- [☟ Entertainment](#entertainment) [❯](instructions/entertainment.md)  
-- [☟ Personalisation](#personalisation) [❯](instructions/personalisation.md)  
-- [☟ Development](#development) [❯](instructions/development.md)  
-- [☟ Subsystems](#subsystems) [❯](instructions/subsystems.md)  
-- [☟ Deprecated](#deprecated) [❯](instructions/deprecated.md)  
-
-### [Browser ❯](browser/browser.md)  
-### [Settings ❯](settings.md)  
-### [Printers ❯](printers.md)  
-### [Gaming ❯](gaming/gaming.md)  
-
+- **[Browser](browser/browser.md)**  
+    - **[Settings](settings.md)**  
+    Sync | `about:settings/searchEngines`
+    - **[Extensions](extensions.md)**  
+    Keyboard shortcuts | `about:extensions`
+- **[Settings](settings.md)**  
+    Touchpad gestures | `ms-settings:`
+- **[Printers](printers.md)**  
+    Scanning Software | `shell:printersfolder`
+- **[Gaming](gaming/gaming.md)**  
+    Cloud Synchronization | `ms-windows-store://pdp/?ProductId=9NBLGGH2JHXJ`
+- [Priority](#priority) - [📃](instructions/priority.md)  
+- [Communication](#communication) - [📃](instructions/communication.md)  
+- [Office](#office) - [📃](instructions/office.md)  
+- [Education](#education) - [📃](instructions/education.md)  
+- [Storage](#storage) - [📃](instructions/storage.md)  
+- [Entertainment](#entertainment) - [📃](instructions/entertainment.md)  
+- [Personalisation](#personalisation) - [📃](instructions/personalisation.md)  
+- [Development](#development) - [📃](instructions/development.md)  
+- [Subsystems](#subsystems) - [📃](instructions/subsystems.md)  
+- [Deprecated](#deprecated) - [📃](instructions/deprecated.md)  
 
 ## WINGET Package Manager
 

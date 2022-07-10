@@ -1,7 +1,13 @@
 # [⌂](../README.md) › Browser - Installation instructions
 
-### [Settings ❯](settings.md)  
-### [Extensions ❯](extensions.md)  
+- **[Settings](settings.md)**  
+    Sync | `about:settings/searchEngines`
+- **[Extensions](extensions.md)**  
+    Keyboard shortcuts | `about:extensions`
+- [Install browser](#install-browser)
+- [Custom Search Engines](#custom-search-engines)
+- [Experimental Features](#experimental-features)
+- [Progressive Web Apps](#progressive-web-apps)
 
 ## Install browser
 
@@ -11,11 +17,6 @@
 | Firefox | [MS](https://microsoft.com/store/apps/9NZVDKPMR9RD) | [Web](https://www.mozilla.org/en-US/firefox/download/thanks/) | `winget install -e 9NZVDKPMR9RD --accept-package-agreements` <br> `winget install -e Mozilla.Firefox` |
 | Vivaldi |                                                     |                [Web](https://vivaldi.com/de/)                 | `winget install -e VivaldiTechnologies.Vivaldi`                                                       |
 | Brave   |                                                     |                 [Web](https://brave.com/de/)                  | `winget install -e BraveSoftware.BraveBrowser`                                                        |
-
-### Set browser for Windows Search
-- Install [EdgeDeflector](https://github.com/da2x/EdgeDeflector/releases)
-- Search anything and select EdgeDeflector as default program
-
 
 ## Custom Search Engines
 ```
