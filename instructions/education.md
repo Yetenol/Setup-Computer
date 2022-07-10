@@ -1,5 +1,14 @@
-# [⌂](../README.md) ([Education](../README.md#education)) - Installation instructions
+<h1> Installation instructions </h1>
 
+[⌂](../README.md) ([Education](../README.md#education))
+
+- [TeX Live](#tex-live)
+- [GeoGebra](#geogebra)
+- [LTSpice](#ltspice)
+- [MATLAB](#matlab)
+- [Draw.io](#drawio)
+  - [Setup GUI](#setup-gui)
+  - [Setup new project defaults](#setup-new-project-defaults)
 
 # TeX Live
 
