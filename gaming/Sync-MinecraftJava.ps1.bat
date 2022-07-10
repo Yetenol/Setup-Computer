@@ -1,3 +1,6 @@
+# & cls & powershell -Command "Invoke-Command -ScriptBlock ([ScriptBlock]::Create(((Get-Content """%0""") -join """`n""")))" & exit
+# The above line makes the script executable when renamed .cmd or .bat
+
 # SET CONFIGURATION
 $cloudPath = "D:\OneDrive\Gaming\Minecraft Java"
 $localPath = "$env:UserProfile\curseforge\minecraft\Install"
