@@ -11,6 +11,7 @@ $syncPaths = [string[]]@(
     '.\saves'; 
     '.\resourcepacks'; 
     '.\screenshots'; 
+    '.\config'; 
     '.\shaderpacks'; 
     '.\hotbar.nbt'; 
     '.\options.txt'; 
