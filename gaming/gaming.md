@@ -42,20 +42,11 @@ or install via [Website](https://download.curseforge.com/)
 - Set Minecraft Ram usage
   > Open `System Tray > CurseForge > Settings > Minecraft`
   > - `max` or `12288MB` =: Allocated Memory < _[#Java Settings]_
-- Add Minecraft to **application list**  
-  ```powershell
-  $minecraftFolder = "%UserProfile%\curseforge\minecraft\Install\"
-  $env:Programs = (New-Object -ComObject Shell.Application).NameSpace('shell:Programs').Self.Path
-
-  $WshShell = New-Object -comObject WScript.Shell
-  $Shortcut = $WshShell.CreateShortcut("$env:Programs\Minecraft.lnk")
-  $Shortcut.TargetPath = "$minecraftFolder\minecraft.exe"
-  $Shortcut.Arguments = '--workDir="' + $minecraftFolder + '"'
-  $Shortcut.Save()
-  ```
-  - Launch Minecraft from _Windows_ Search
-  - sign in to Microsoft
-  - play latest release
+- **Add** Minecraft to **application list**  
+  - Run: [Add to AppsFolder Script](Link-MinecraftJava.ps1)
+  - Launch Minecraft from _Windows Search_
+  - Sign in to Microsoft
+  - Play latest release
 - **synchronize settings** using cloud symbolic links  
   run as Administrator: [Synchronization Setup Script](Sync-MinecraftJava.ps1)
 -  To **play** vanilla or modded Minecraft launch `Minecraft Launcher`  
