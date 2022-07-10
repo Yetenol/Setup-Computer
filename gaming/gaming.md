@@ -3,11 +3,11 @@
 [⌂](../README.md) ›
 
 - [Factorio](#factorio)
-- [Minecraft Bedrock](#minecraft-bedrock)
 - [Minecraft Java Edition](#minecraft-java-edition)
   - [Modpacks](#modpacks)
   - [Chunk Editor](#chunk-editor)
   - [NBT Editor](#nbt-editor)
+- [Minecraft Bedrock](#minecraft-bedrock)
 
 # Factorio
 
@@ -18,46 +18,8 @@ or via [backup install media](https://1drv.ms/u/s!AiuslRJoLisdmc8ZYCvsmPYhmjYc4g
 - **synchronize setup** using cloud symbolic links  
   run as Administrator: [Synchronization Setup Script](Sync-Factorio.ps1)
 
-# Minecraft Bedrock
-
-```
-start ms-windows-store://pdp/?ProductId=9NBLGGH2JHXJ # Minecraft for Windows
-```
-- **DON'T LAUNCH MINECRAFT YET**
-- **synchronize setup** using cloud symbolic links  
-  run as Administrator: [Synchronization Setup Script](Sync-MinecraftBedrock.ps1)
-- **alternatively** configure **_manually_**:
-- Install Resource Packs _manually_
-    - [Marketplace Hider](https://mcpedl.com/marketplace-remover-resource-pack/)
-    - [Foxy's Resource Pack Bundle](https://foxynotail.com/resource-packs/foxys-resource-pack/)
-- Activate packs _manually_
-  - Open `Settings > Global Resources > My packs`
-  - click on the packs and activate them
-- Setup Skin _manually_
-  - Download [skin](https://minecraft.tools/download-skin/Yetenol)
-  - Open `Dressing Room > Menu > Classic Skins > Owned > Import > Choose new skin`
-  - Import downloaded skin
-- Edit Settings _manually_  
-> Open `Settings`
->> Open `Profile`
->> - `Yetenol` =: Name
->
->> Open `Video`
->> - `100` =: Brightness
->> - [x] Fullscreen
->> - [x] Hide Paper Doll
->> - [ ] Screen Animations
->> - `70.00°` =: FOV
->> - [ ] View Bobbing
->> - [ ] FOV Can Be Altered By Gameplay
->> - `-1` =: GUI Scale Modifier
->
->> Open `Audio`
->> - `0` =: Music
-
 
 # Minecraft Java Edition
-
 
 > Only one installation is used for **vanilla and modded** Minecraft
 > which gets installed by _Overwolf & CurseForge Mod Platform_.  
@@ -127,3 +89,41 @@ Install via [Github](https://github.com/Querz/mcaselector/releases/latest)
 winget install -e Jaquadro.NBTExplorer
 ```
 or install via [Github](https://github.com/jaquadro/NBTExplorer/releases/latest)
+
+
+# Minecraft Bedrock
+
+```
+start ms-windows-store://pdp/?ProductId=9NBLGGH2JHXJ # Minecraft for Windows
+```
+- **DON'T LAUNCH MINECRAFT YET**
+- **synchronize setup** using cloud symbolic links  
+  run as Administrator: [Synchronization Setup Script](Sync-MinecraftBedrock.ps1)
+- **alternatively** configure **_manually_**:
+- Install Resource Packs _manually_
+    - [Marketplace Hider](https://mcpedl.com/marketplace-remover-resource-pack/)
+    - [Foxy's Resource Pack Bundle](https://foxynotail.com/resource-packs/foxys-resource-pack/)
+- Activate packs _manually_
+  - Open `Settings > Global Resources > My packs`
+  - click on the packs and activate them
+- Setup Skin _manually_
+  - Download [skin](https://minecraft.tools/download-skin/Yetenol)
+  - Open `Dressing Room > Menu > Classic Skins > Owned > Import > Choose new skin`
+  - Import downloaded skin
+- Edit Settings _manually_  
+> Open `Settings`
+>> Open `Profile`
+>> - `Yetenol` =: Name
+>
+>> Open `Video`
+>> - `100` =: Brightness
+>> - [x] Fullscreen
+>> - [x] Hide Paper Doll
+>> - [ ] Screen Animations
+>> - `70.00°` =: FOV
+>> - [ ] View Bobbing
+>> - [ ] FOV Can Be Altered By Gameplay
+>> - `-1` =: GUI Scale Modifier
+>
+>> Open `Audio`
+>> - `0` =: Music
