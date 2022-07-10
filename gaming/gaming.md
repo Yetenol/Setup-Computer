@@ -23,10 +23,6 @@ or via [backup install media](https://1drv.ms/u/s!AiuslRJoLisdmc8ZYCvsmPYhmjYc4g
 
 > Only one installation is used for **vanilla and modded** Minecraft
 > which gets installed by _Overwolf & CurseForge Mod Platform_.  
--  To **play** vanilla or modded Minecraft launch `Minecraft Launcher`  
--  To **manage modpacks** launch `CurseForge`  
--  To **edit chunks** launch `MCA Selector`  
--  To **edit NBT** launch `NBTExplorer`
 ```
 winget install -e Overwolf.CurseForge
 ```
@@ -62,6 +58,8 @@ or install via [Website](https://download.curseforge.com/)
   - play latest release
 - **synchronize settings** using cloud symbolic links  
   run as Administrator: [Synchronization Setup Script](Sync-MinecraftJava.ps1)
+-  To **play** vanilla or modded Minecraft launch `Minecraft Launcher`  
+-  To **manage modpacks** launch `CurseForge`  
 
 ## Modpacks
 - [Sodium](https://www.curseforge.com/minecraft/mc-mods/sodium/download?client=y) -
