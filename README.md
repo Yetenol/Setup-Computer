@@ -176,7 +176,7 @@ winget uninstall -e RealtekSemiconductorCorp.RealtekAudioControl_dt26b99r8h8gj #
 | [OpenInWSA](instructions/subsystems.md#openinwsa) |                                                     |              [Github](https://github.com/efraimbart/OpenInWSA/releases/latest/download/OpenInWSA.exe)              |
 
 
-## Deprecated
+## [Deprecated](instructions/deprecated.md)
 
 | App ➔ Instructions                                                        |                        Store                        |                                               Source                                               | Install command                                                                                                     |
 | ------------------------------------------------------------------------- | :-------------------------------------------------: | :------------------------------------------------------------------------------------------------: | ------------------------------------------------------------------------------------------------------------------- |
