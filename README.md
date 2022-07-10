@@ -3,7 +3,7 @@
 
 1. Create an up-to-date [Windows 11 Installation Media](https://go.microsoft.com/fwlink/?linkid=2156295).  
 2. Split the drive into two different partitions:
-    - System partition: at least 100GB 
+        - System partition: at least 100GB 
 3. Format the system partition
 4. Do a clean OS install using the installation media
 
@@ -29,9 +29,9 @@
 ## WINGET Package Manager
 
 - Update [App Installer](https://microsoft.com/store/productID/9nblggh4nns1)
-  ```run
-  ms-windows-store://pdp/?ProductId=9NBLGGH4NNS1
-  ```
+    ```run
+    ms-windows-store://pdp/?ProductId=9NBLGGH4NNS1
+    ```
 - Open a console and run `winget` to test the installation
 
 
