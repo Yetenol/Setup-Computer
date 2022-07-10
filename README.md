@@ -2,7 +2,7 @@
 
 [⌂](README.md)
 
-- [Operation System](#operation-system)
+- [Operating System](#operation-system)
 - [Uninstall Bloatware](#uninstall-bloatware)
 - **[Browser](browser/browser.md)**  
     Custom Search Engines | `about:flags/#edge-show-feature-recommendations`
@@ -37,7 +37,7 @@
 - [Deprecated](#deprecated) -
     [📃](instructions/deprecated.md)
 
-## Operation System
+## Operating System
 1. Create an up-to-date [Windows 11 Installation Media](https://go.microsoft.com/fwlink/?linkid=2156295).  
 2. Split the drive into two different partitions:
     - System partition: at least 100GB 
