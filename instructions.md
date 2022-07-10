@@ -166,13 +166,3 @@
 > Open `System Tray > ShareX > Application settings > Paths`
 >- [x] Use custom screenshot folder
 >- `%MyPictures%\Screenshots` =: Screenshot folder
-
-
-
-
-
-
-
-# OpenInWSA
-
-- Install [browser extension](https://chrome.google.com/webstore/detail/open-in-wsa/nkfpikoflncblmlajlcagaflndiijhhl)
