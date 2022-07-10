@@ -56,11 +56,11 @@ or install via [Website](https://download.curseforge.com/)
 - [Sodium](https://www.curseforge.com/minecraft/mc-mods/sodium/download?client=y) -
   [👁️](https://www.curseforge.com/minecraft/mc-mods/sodium)  
   Create a new profile
-- **Import** custom modpack  
+- **Import** a custom modpack (_optional_)  
   using a CurseForge export file
   - Click `Create Custom Profile`
   - Click `Import a previously created profile`
-- **Add** custom modpacks
+- **Add** a custom modpack (_optional_)  
   - Click `Create Custom Profile`
   - Enter a name and the version configuration
   - Right click profile and click `Open Folder`
@@ -72,7 +72,7 @@ or install via [Website](https://download.curseforge.com/)
 Install via [Github](https://github.com/Querz/mcaselector/releases/latest)
 
 ## NBT Editor
-> _NBTExplorer_ is an external tool to modify the `level.dat` file.  
+> _NBTExplorer_ is an external tool to modify the `level.dat` file.
 > Insert colorful text, get seeds, modify inventories etc.
 ```
 winget install -e Jaquadro.NBTExplorer
