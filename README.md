@@ -2,8 +2,9 @@
 
 [⌂](README.md)
 
-- [Operating System](#operation-system)
-- [Uninstall Bloatware](#uninstall-bloatware)
+Table of Contents
+- [Operating System](#operation-system) 
+- [Uninstall Bloatware](#uninstall-bloatware) 
 - **[Browser](browser/browser.md)**  
     Custom Search Engines | `about:flags/#edge-show-feature-recommendations`
     - **[Settings](browser/settings.md)**  

@@ -34,6 +34,7 @@ about:settings/searchEngines
 | Unicode Character Table   | unicode-table.com       | `https://unicode-table.com/en/search/?q=%s&p`                                                    |
 | MOSES Modul Kurzübersicht | moseskonto.tu-berlin.de | `https://moseskonto.tu-berlin.de/moses/modultransfersystem/bolognamodule/ansehen.html?number=%s` |
 | LaTeX Documentation       | texdoc.org              | `http://texdoc.org/serve/%s/0`                                                                   |
+| LaTeX Documentation       | ctan.org                | `https://ctan.org/pkg/%s`                                                                        |
 
 
 ## Experimental Features
