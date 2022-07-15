@@ -41,7 +41,7 @@ or install via [Website](https://download.curseforge.com/)
   > - [ ] Run CurseForge on startup
 - Set Minecraft Ram usage
   > Open `System Tray > CurseForge > Settings > Minecraft`
-  > - `max` or `12288MB` =: Allocated Memory < _[#Java Settings]_
+  > - `max` or `12288MB` =: Allocated Memory _# Java Settings_
 - **Add** Minecraft to **application list**  
   - Run: [Add to AppsFolder Script](Link-MinecraftJava.ps1)
   - Launch Minecraft from _Windows Search_
