@@ -1,4 +1,23 @@
-# [⌂](../README.md) › Windows 10 › Settings
+<h1> Settings </h1>
+
+[⌂](../README.md) › Windows 10 › 
+
+- [System > Display](#system--display)
+- [System > Notif‌ications & actions](#system--notifications--actions)
+- [System > Power & sleep](#system--power--sleep)
+- [System > Storage](#system--storage)
+- [System > Clipboard](#system--clipboard)
+- [System > About](#system--about)
+- [Device > Mouse > Additional mouse options](#device--mouse--additional-mouse-options)
+- [Devices > Touchpad > Advanced gesture conf‌iguration](#devices--touchpad--advanced-gesture-configuration)
+- [Devices > Typing > Hardware keyboard](#devices--typing--hardware-keyboard)
+- [Personalization > Colors](#personalization--colors)
+- [Personalization > Themes > Desktop icon settings](#personalization--themes--desktop-icon-settings)
+- [Personalization > Start](#personalization--start)
+- [Personalization > Taskbar](#personalization--taskbar)
+- [Apps > Video playback](#apps--video-playback)
+- [Time & Language > Region > Additional date, time & regional settings](#time--language--region--additional-date-time--regional-settings)
+- [Ease of Access > Interaction > Keyboard](#ease-of-access--interaction--keyboard)
 
 ### System > Display
 > ```

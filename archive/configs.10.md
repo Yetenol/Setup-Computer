@@ -1,4 +1,11 @@
-# [⌂](../README.md) › Windows 10 › Configurations
+<h1 > Configurations </h1>
+
+[⌂](../README.md) › Windows 10 › 
+
+- [Check drivers](#check-drivers)
+- [Setup Taskbar](#setup-taskbar)
+- [Setup Explorer](#setup-explorer)
+- [Local Group Policy](#local-group-policy)
 
 ## Check drivers
 - Open `Task Manager`
@@ -9,7 +16,7 @@
 - Edit `System Tray`
     - Hide `Meet now` icon
     - Hide `Bluetooth` icon
-    - Edit settings: [Always show all icons in the notif‌ication area](settings.md#personalization--taskbar)
+    - Edit settings: [Always show all icons in the notif‌ication area](settings.10.md#personalization--taskbar)
 
 > Right-click taskbar
 > - `Hidden` =: Search
