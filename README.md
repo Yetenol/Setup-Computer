@@ -5,38 +5,38 @@
 Table of Contents
 - [Operating System](#operation-system) 
 - [Uninstall Bloatware](#uninstall-bloatware) 
-- **[Browser](browser/browser.md)**  
+- **[Browser ›](browser/browser.md)**  
     Custom Search Engines | `about:flags/#edge-show-feature-recommendations`
-    - **[Settings](browser/settings.md)**  
+    - **[Settings ›](browser/settings.md)**  
     Sync | `about:settings/content/notifications`
-    - **[Extensions](browser/extensions.md)**  
+    - **[Extensions ›](browser/extensions.md)**  
     Keyboard shortcuts | `about:extensions`
-- **[Settings](settings.md)**  
+- **[Settings ›](settings.md)**  
     Touchpad gestures | `ms-settings:`
-- **[Printers](printers.md)**  
+- **[Printers ›](printers.md)**  
     Scanning Software | `shell:printersfolder`
-- **[Gaming](gaming/gaming.md)**  
+- **[Gaming ›](gaming/gaming.md)**  
     Cloud Synchronization | `ms-windows-store://pdp/?ProductId=9NBLGGH2JHXJ`
 - [Priority](#priority) -
-    [📃](instructions/priority.md)
+    [📃›](instructions/priority.md)
 - [Communication](#communication) -
-    [📃](instructions/communication.md)
+    [📃›](instructions/communication.md)
 - [Office](#office) -
-    [📃](instructions/office.md)
+    [📃›](instructions/office.md)
 - [Education](#education) -
-    [📃](instructions/education.md)
+    [📃›](instructions/education.md)
 - [Storage](#storage) -
-    [📃](instructions/storage.md)
+    [📃›](instructions/storage.md)
 - [Entertainment](#entertainment) -
-    [📃](instructions/entertainment.md)
+    [📃›](instructions/entertainment.md)
 - [Personalisation](#personalisation) -
-    [📃](instructions/personalisation.md)
+    [📃›](instructions/personalisation.md)
 - [Development](#development) -
-    [📃](instructions/development.md)
+    [📃›](instructions/development.md)
 - [Subsystems](#subsystems) -
-    [📃](instructions/subsystems.md)
+    [📃›](instructions/subsystems.md)
 - [Deprecated](#deprecated) -
-    [📃](instructions/deprecated.md)
+    [📃›](instructions/deprecated.md)
 
 ## Operating System
 1. Create an up-to-date [Windows 11 Installation Media](https://go.microsoft.com/fwlink/?linkid=2156295).  
@@ -156,15 +156,15 @@ winget uninstall -e RealtekSemiconductorCorp.RealtekAudioControl_dt26b99r8h8gj #
 
 ## [Development](instructions/development.md)
 
-| App ➔ Instructions                                                 |                        Store                        |                              Source                               | Install command                                                                                                 |
-| ------------------------------------------------------------------ | :-------------------------------------------------: | :---------------------------------------------------------------: | --------------------------------------------------------------------------------------------------------------- |
-| [Terminal](instructions/development.md#terminal)                   | [MS](https://microsoft.com/store/apps/9n0dx20hk701) |                                                                   | `winget install -e 9N0DX20HK701 --accept-package-agreements` <br> `winget install -e Microsoft.WindowsTerminal` |
-| [Visual Studio Code](instructions/development.md)                  |                      &#128279;                      |        [Web](https://code.visualstudio.com/#alt-downloads)        | `winget install -e Microsoft.VisualStudioCode --scope machine`                                                  |
-| [Git](instructions/development.md#git)                             |                                                     |              [Web](https://git-scm.com/download/win)              | `winget install -e Git.Git`                                                                                     |
-| [IntelliJ IDEA Edu](instructions/development.md#intellij-idea-edu) |                                                     | [Web](https://www.jetbrains.com/education/download/#section=idea) | `winget install -e JetBrains.IntelliJIDEA.Edu`                                                                  |
-| 7-Zip                                                              |                                                     |                   [Web](https://www.7-zip.org/)                   | `winget install -e 7zip.7zip`                                                                                   |
-| [AutoHotkey](instructions/development.md#autohotkey)               |                                                     |    [Web](https://www.autohotkey.com/download/ahk-install.exe)     | `winget install -e Lexikos.AutoHotkey`                                                                          |
-| _Windscribe_                                                       |                                                     |       [Web](https://windscribe.com/install/desktop/windows)       | `winget install -e WindscribeLimited.Windscribe`                                                                |
+| App ➔ Instructions                                                   |                        Store                        |                              Source                               | Install command                                                                                                 |
+| -------------------------------------------------------------------- | :-------------------------------------------------: | :---------------------------------------------------------------: | --------------------------------------------------------------------------------------------------------------- |
+| [Terminal](instructions/development.md#terminal)                     | [MS](https://microsoft.com/store/apps/9n0dx20hk701) |                                                                   | `winget install -e 9N0DX20HK701 --accept-package-agreements` <br> `winget install -e Microsoft.WindowsTerminal` |
+| [Visual Studio Code](instructions/development.md#visual-studio-code) |                      &#128279;                      |        [Web](https://code.visualstudio.com/#alt-downloads)        | `winget install -e Microsoft.VisualStudioCode --scope machine`                                                  |
+| [Git](instructions/development.md#git)                               |                                                     |              [Web](https://git-scm.com/download/win)              | `winget install -e Git.Git`                                                                                     |
+| [IntelliJ IDEA Edu](instructions/development.md#intellij-idea-edu)   |                                                     | [Web](https://www.jetbrains.com/education/download/#section=idea) | `winget install -e JetBrains.IntelliJIDEA.Edu`                                                                  |
+| 7-Zip                                                                |                                                     |                   [Web](https://www.7-zip.org/)                   | `winget install -e 7zip.7zip`                                                                                   |
+| [AutoHotkey](instructions/development.md#autohotkey)                 |                                                     |    [Web](https://www.autohotkey.com/download/ahk-install.exe)     | `winget install -e Lexikos.AutoHotkey`                                                                          |
+| _Windscribe_                                                         |                                                     |       [Web](https://windscribe.com/install/desktop/windows)       | `winget install -e WindscribeLimited.Windscribe`                                                                |
 
 
 ## [Subsystems](instructions/subsystems.md)

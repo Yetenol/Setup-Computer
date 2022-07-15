@@ -2,9 +2,9 @@
 
 [⌂](../README.md) ›
 
-- **[Settings](settings.md)**  
+- **[Settings ›](settings.md)**  
     Sync | `about:settings/searchEngines`
-- **[Extensions](extensions.md)**  
+- **[Extensions ›](extensions.md)**  
     Keyboard shortcuts | `about:extensions`
 - [Install browser](#install-browser)
 - [Custom Search Engines](#custom-search-engines)
