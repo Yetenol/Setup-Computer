@@ -1,6 +1,6 @@
 <h1> Installation instructions </h1>
 
-[⌂](../README.md) ([Education](../README.md#education))
+[⌂](../README.md) ([Education](../README.md#education)) ›
 
 - [TeX Live](#tex-live)
 - [GeoGebra](#geogebra)
