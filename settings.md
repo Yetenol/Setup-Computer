@@ -34,7 +34,7 @@
 ms-settings:display
 ```
 
-- `100%` =: Scale _< [#Scale & layout]_
+- `100%` =: Scale _# Scale & layout_
 > Open `HDR`
 > - [x] Play streaming HDR video
 
@@ -138,7 +138,7 @@ ms-settings:about
 ```
 ms-settings:mousetouchpad
 ```
-- Click `TrackPoint settings` _< [#ELAN TrackPoint for Thinkpad]_
+- Click `TrackPoint settings` _# ELAN TrackPoint for Thinkpad_
 - `Middle click` =: Middle Button Action
 
 1. Old touchpad driver
@@ -154,7 +154,7 @@ main.cpl
 ms-settings:devices-touchpad
 ```
 
-> Open `Advanced gestures` _< [# Related settings]_
+> Open `Advanced gestures` _#  Related settings_
 >> Conf‌igure **three**-f‌inger gestures
 >> - `Middle mouse button` =: Tap
 >> - `Switch apps` =: Swipe up

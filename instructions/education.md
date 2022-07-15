@@ -54,7 +54,7 @@ or install via  [Microsoft Store](https://microsoft.com/store/apps/9MVVSZK43QQW)
 
 ## Setup new project defaults
 Open `Format > Diagram`
-- [ ] Page View _< [#View]_
-- [x] Autosave _< [#Options]_
-- [x] Mathematical Typesetting _< [#Options]_
+- [ ] Page View _# View_
+- [x] Autosave _# Options_
+- [x] Mathematical Typesetting _# Options_
 - `A4` =: Paper Size
