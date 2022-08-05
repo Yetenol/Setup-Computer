@@ -53,9 +53,16 @@ or install via [Website](https://download.curseforge.com/)
 -  To **manage modpacks** launch `CurseForge`  
 
 ## Modpacks
-- [Sodium](https://www.curseforge.com/minecraft/mc-mods/sodium/download?client=y) -
+- **Create / import** vanilla modpack
+  - [Sodium](https://www.curseforge.com/minecraft/mc-mods/sodium/download?client=y) -
   [👁️](https://www.curseforge.com/minecraft/mc-mods/sodium)  
-  Create a new profile
+  Improve Performance
+  - [Inventory Tabs](https://www.curseforge.com/minecraft/mc-mods/inventory-tabs-updated/download?client=y) -
+  [👁️](https://www.curseforge.com/minecraft/mc-mods/inventory-tabs-updated)  
+  Access all nearby containers from the inventory
+  - [Mouse Tweaks](https://www.curseforge.com/minecraft/mc-mods/mouse-tweaks/download?client=y) -
+  [👁️](https://www.curseforge.com/minecraft/mc-mods/mouse-tweaks)  
+  Improve Inventory Stack Splitting
 - **Import** a custom modpack (_optional_)  
   using a CurseForge export file
   - Click `Create Custom Profile`
