@@ -53,7 +53,8 @@ or install via [Website](https://download.curseforge.com/)
 -  To **manage modpacks** launch `CurseForge`  
 
 ## Modpacks
-- **Create / import** vanilla modpack
+- **Import** modpack called `Vanilla`  
+  or create manually
   - [Sodium](https://www.curseforge.com/minecraft/mc-mods/sodium/download?client=y) -
   [👁️](https://www.curseforge.com/minecraft/mc-mods/sodium)  
   Improve Performance
@@ -63,6 +64,8 @@ or install via [Website](https://download.curseforge.com/)
   - [Mouse Tweaks](https://www.curseforge.com/minecraft/mc-mods/mouse-tweaks/download?client=y) -
   [👁️](https://www.curseforge.com/minecraft/mc-mods/mouse-tweaks)  
   Improve Inventory Stack Splitting
+  - add modpack **profile to vanilla launcher**  
+  run as Administrator: [Fabric-Vanilla Profile Setup Script](Link-MinecraftFabric.ps1)
 - **Import** a custom modpack (_optional_)  
   using a CurseForge export file
   - Click `Create Custom Profile`
