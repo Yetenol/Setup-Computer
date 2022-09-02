@@ -11,6 +11,7 @@ Get-Item -Path $cloudPath, $localPath -ErrorAction Stop | Out-Null
 # List relative item paths
 Set-Location $cloudPath -ErrorAction Stop
 $syncPaths = [string[]]@(
+    '.\saves\';
     '.\config\'; 
     '.\mods\';
     '.\achievements.dat'; 
@@ -18,7 +19,6 @@ $syncPaths = [string[]]@(
     '.\blueprint-storage.dat'; 
     '.\player-data.json';
 ;)
-$syncPaths += Get-ChildItem -Path ".\saves\" | Resolve-Path -Relative
 
 # Make cloud files AlwaysAvailable
 $syncPaths | foreach {
