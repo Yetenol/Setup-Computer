@@ -1,10 +1,13 @@
-<h1> Installation instructions </h1>
+<h1> Uninstall Bloatware </h1>
 
 [⌂](../README.md) ›
 
 - [Pre-installed Apps](#pre-installed-apps)
 - [Hardware specific configuration apps](#hardware-specific-configuration-apps)
 - [Optional](#optional)
+
+To remove the unwanted pre-installed apps,  
+run the following PowerShell commands **elevated**.
 
 # Pre-installed Apps
 ```powershell
