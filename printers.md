@@ -43,4 +43,5 @@
 
 # Graustufendrucker **HP LaserJet 1010**
 - Run [installation script](configs/Setup-HPLaserJet1010.ps1.bat)
+- select `Other devices` and update its driver
 - or download [driver files](https://onedrive.live.com/download?cid=1D2B2E681295AC2B&resid=1D2B2E681295AC2B%21414102&authkey=AFaLfpDJ8CpIpps)

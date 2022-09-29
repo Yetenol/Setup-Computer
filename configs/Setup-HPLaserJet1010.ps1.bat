@@ -20,5 +20,4 @@ $item = Get-Item -Path "$driverPath\.."
 $item.Attributes = $item.Attributes -bor [System.IO.FileAttributes]::Hidden
 
 # Install printer
-Add-PrinterPort -Name "USB_HP-LaserJet1010:"
-rundll32 printui.dll,PrintUIEntry /if /b "Grayscale printer USB" /f "$driverPath\hpc1015w.inf" /r "USB_HP-LaserJet1010:" /m "hp LaserJet 1010 HB"
+devmgmt
