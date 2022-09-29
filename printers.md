@@ -10,7 +10,7 @@
 # Farbkopierer **HP Photosmart HP C4580**
 
 ## Driver
-> Install [Driver & Software Package](https://1drv.ms/u/s!AiuslRJoLisdmaMXxu7Ku7X8dCxOAQ?e=U06iUV)
+> Install [Driver & Software Package](https://onedrive.live.com/download?cid=1D2B2E681295AC2B&resid=1D2B2E681295AC2B%21414103&authkey=AAIZpKvx5ieDWDA)
 > - Click `Install`
 > - On `Review Installation Options` click `HP software* to be installed, click here to customize`
 >     - Disable everything but the Driver Software
@@ -38,4 +38,4 @@
 >> - For Documents > `Change default folder` to `X:\OneDrive`
 
 # Graustufendrucker **HP LaserJet 1010**
-- Import [Driver Files](https://1drv.ms/u/s!AiuslRJoLisdmaMW_KjKPYwh4cilkw?e=KrRZrJ)
+- Import [Driver Files](https://onedrive.live.com/download?cid=1D2B2E681295AC2B&resid=1D2B2E681295AC2B%21414102&authkey=AFaLfpDJ8CpIpps)
