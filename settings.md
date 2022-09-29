@@ -157,21 +157,20 @@ ms-settings:devices-touchpad
 ```
 
 - Open `Advanced gestures` _#  Related settings_  
-  Expand `Three-f‌inger gestures`
-    - `Middle mouse button` ← Tap
+  - Expand `Configure three-f‌inger gestures`
+    - `Custom shortcut` ← Tap  
+      Record `UNTBR` using [shortcutFox](https://github.com/Yetenol/shortcutFox)
     - `Switch apps` ← Swipe up
-    - `Custom shortcut` ← Swipe down
-      -  `PAUSE` 
-      - Record using [window-tools.ahk](https://github.com/Yetenol/Window-Tools/releases/latest/download/Window-Tools.exe) tray menu 
+    - `Custom shortcut` ← Swipe down  
+      Record `PAUSE` using [shortcutFox](https://github.com/Yetenol/shortcutFox)
     - `Forward navigation` ← Swipe left
     - `Backward navigation` ← Swipe right
-
-  Expand `Four-f‌inger gestures`
-  - `Play/pause` ← Tap
-  - `Volume up` ← Swipe up
-  - `Volume down` ← Swipe down
-  - `Next Track` ← Swipe left
-  - `Previous track` ← Swipe right
+  - Expand `Configure four-f‌inger gestures`
+    - `Play/pause` ← Tap
+    - `Volume up` ← Swipe up
+    - `Volume down` ← Swipe down
+    - `Next Track` ← Swipe left
+    - `Previous track` ← Swipe right
 
 
 ## Typing > Hardware keyboard
