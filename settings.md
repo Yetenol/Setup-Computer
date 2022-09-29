@@ -34,7 +34,7 @@
 ms-settings:display
 ```
 
-- `100%` =: Scale _# Scale & layout_
+- `100%` ← Scale _# Scale & layout_
 > Open `HDR`
 > - [x] Play streaming HDR video
 
@@ -48,15 +48,14 @@ ms-settings:nightlight
 
 
 ## Display > Graphics
-- _Set Minecraft's java runtime environments to external graphics card_
 ```
 ms-settings:display-advancedgraphics
 ```
 
-- skip if no seperate graphics card is available
-- `Desktop app` =: Add an app
-- Click browser and open folder `%userprofile%\curseforge\minecraft\Install\runtime\`
-- Set the following applications to **High Performance**
+- Let Minecraft's JRE use an external graphics card 
+  - `Desktop app` ← Add an app
+  - Click `Browse` and open folder `%userprofile%\curseforge\minecraft\Install\runtime\`
+  - Set the following applications to **High Performance**
 ```
 java-runtime-alpha\windows-x64\java-runtime-alpha\bin\java.exe
 java-runtime-alpha\windows-x64\java-runtime-alpha\bin\javaw.exe
@@ -71,15 +70,15 @@ jre-x64\bin\javaw.exe
 
 
 ## Notif‌ications & actions
-- _Clean up System Tray_
 ```
 ms-settings:notifications
 ```
 
-> Notifications from apps and other senders
-> - [ ] Snipping Tool
-- [ ] Offer suggentions on how I can set up my device
-- [ ] Get tips, tricks and suggestions as you use Windows
+- [ ] Snipping Tool _# Notifications from apps and other senders_
+
+- Expand `Additional settings`
+  - [ ] Offer suggentions on how I can set up my device
+  - [ ] Get tips, tricks and suggestions as you use Windows
 
 
 ## Power & sleep
@@ -87,11 +86,11 @@ ms-settings:notifications
 ms-settings:powersleep
 ```
 
-> Screen and sleep
-> - `10 minutes` =: On battery power, turn off after
-> - `20 minutes` =: When plugged in, turn off after
-> - `15 minutes` =: On battery power, PC goes to sleep after
-> - `Never` =: When plugged in, PC goes to sleep after
+- Expand `Screen and sleep`
+  - `10 minutes` ← On battery power, turn off after
+  - `20 minutes` ← When plugged in, turn off after
+  - `15 minutes` ← On battery power, PC goes to sleep after
+  - `Never` ← When plugged in, PC goes to sleep after
 
 
 ## Storage
@@ -100,9 +99,8 @@ ms-settings:storagesense
 ```
 
 - [x] Storage sense
-
-> Open `Configure Storage Sense now`
-> - `14 days` =: Delete files in my Downloads folder if they haven't been opened for more than:
+- Open `Storage sense`
+  - `14 days` ← Delete files in my Downloads folder if they haven't been opened for more than:
 
 
 ## Multitasking
@@ -110,7 +108,7 @@ ms-settings:storagesense
 ms-settings:multitasking
 ```
 
-- `Open windows only` := Pressing Alt + Tab shows
+- `Don't show tabs` := Pressing Alt + Tab shows
 
 
 ## Clipboard
@@ -119,6 +117,8 @@ ms-settings:clipboard
 ```
 
 - [x] Clipboard history
+- [x] Sync across your devices
+  - [x] Manually sync text that I copy
 
 
 ## About
@@ -138,15 +138,17 @@ ms-settings:about
 ```
 ms-settings:mousetouchpad
 ```
-- Click `TrackPoint settings` _# ELAN TrackPoint for Thinkpad_
-- `Middle click` =: Middle Button Action
 
-1. Old touchpad driver
-```
-main.cpl
-```
-- Open `ThinkPad` tab
-- `Use as middle click` =: Middle mouse click
+- Setup **modern** touchpad driver
+  - Click `TrackPoint settings` _# ELAN TrackPoint for Thinkpad_
+  - `Middle click` ← Middle Button Action
+
+- Or setup **old** touchpad driver
+  ```
+  main.cpl
+  ```
+  - Open `ThinkPad` tab
+  - `Use as middle click` ← Middle mouse click
 
 
 ## Devices > Touchpad > Advanced gestures
@@ -154,22 +156,22 @@ main.cpl
 ms-settings:devices-touchpad
 ```
 
-> Open `Advanced gestures` _#  Related settings_
->> Conf‌igure **three**-f‌inger gestures
->> - `Middle mouse button` =: Tap
->> - `Switch apps` =: Swipe up
->> - `Custom shortcut` =: Swipe down
->>   -  `PAUSE` 
->>   - Record using [window-tools.ahk](https://github.com/Yetenol/Window-Tools/releases/latest/download/Window-Tools.exe) tray menu 
->> - `Forward navigation` =: Swipe left
->> - `Backward navigation` =: Swipe right
-> 
->> Conf‌igure **four**-f‌inger gestures
->> - `Play/pause` =: Tap
->> - `Volume up` =: Swipe up
->> - `Volume down` =: Swipe down
->> - `Next Track` =: Swipe left
->> - `Previous track` =: Swipe right
+- Open `Advanced gestures` _#  Related settings_  
+  Expand `Three-f‌inger gestures`
+    - `Middle mouse button` ← Tap
+    - `Switch apps` ← Swipe up
+    - `Custom shortcut` ← Swipe down
+      -  `PAUSE` 
+      - Record using [window-tools.ahk](https://github.com/Yetenol/Window-Tools/releases/latest/download/Window-Tools.exe) tray menu 
+    - `Forward navigation` ← Swipe left
+    - `Backward navigation` ← Swipe right
+
+  Expand `Four-f‌inger gestures`
+  - `Play/pause` ← Tap
+  - `Volume up` ← Swipe up
+  - `Volume down` ← Swipe down
+  - `Next Track` ← Swipe left
+  - `Previous track` ← Swipe right
 
 
 ## Typing > Hardware keyboard
@@ -185,13 +187,11 @@ ms-settings:devicestyping-hwkbtextsuggestions
 
 
 ## Colors
-_Dynamically match the accent color with the background image_
 ```
 ms-settings:personalization-colors
 ```
 
-- `Dark` =: Choose your default app mode
-- `Automatic` =: Accent color
+- `Orange` ← Accent color
 
 
 ## Themes > Desktop icon settings
@@ -199,32 +199,27 @@ ms-settings:personalization-colors
 rundll32 shell32.dll,Control_RunDLL desk.cpl,null,0
 ```
 
-- Disable all icons
-- [ ] Allow themes to change desktop icons
-
+- [ ] Recycle bin
 
 ## Taskbar
 ```
 ms-settings:taskbar
 ```
 
-> Open `Taskbar items`
-> - [ ] Search
-> - [ ] Task view
-> - [ ] Widgets
-> - [ ] Chat
+- Expand `Taskbar items`
+  - [ ] Search
+  - [ ] Task view
+  - [x] Widgets
+  - [ ] Chat
 
-> Open `Taskbar corner icon`
-> - [ ] Pen Menu
-> - [x] Touch keyboard
+- Expand `Taskbar corner icon`
+  - [ ] Pen Menu
+  - [x] Touch keyboard
 
-> Open `Taskbar corner overflow`
-> - [x] Microsoft OneDrive
-> - [x] Window-Tools.exe
-> - See [Setup Taskbar](configs.md#setup-taskbar)
-
-> Open `Action Center` by pressing `Win + A`
-> - replace `Accessibility` with `Nearby share`
+- Expand `Other system tray icons`
+  - [x] Microsoft OneDrive
+  - [x] shortcutFox.exe
+  - Disable everything else
 
 
 
@@ -244,18 +239,17 @@ ms-settings:videoplayback
 
 
 ## Typing > Advanced keyboard settings
-_Hide the language swapper icon in the taskbbar_
 ```
 ms-settings:typing
 ```
 
-> Open `Advanced keyboard settings`
-> - [x] Use desktop language bar when it's available *< [#Switching input methods*]
-> - A language bar should appear in the top left corner of the screen
-> - Right-click the language bar and click `Close the language bar`
-> - Confirm closing dialog
->> Open `Language bar options > Advanced Key Settings`
->> - Set all sequences to `Not Assigned`
+Hide the language swapper icon in the taskbbar
+- Open `Advanced keyboard settings`
+  - [x] Use desktop language bar when it's available
+  - Right-click the language bar in the upper-left corner of the screen
+    - Click `Close the Language bar` and confirm the dialog
+  - Open `Language bar options > Advanced Key Settings`
+    - Set all sequences to `Not Assigned`
 
 
 ## Region > Additional date, time & regional settings
@@ -263,20 +257,17 @@ ms-settings:typing
 intl.cpl
 ```
 
-- `English (Germany)` =: Format
-
-> Open `Additional settings...`
->> Open `Numbers`
->> - `.` =: Decimal symbol
->> - `,` =: Digit grouping symbol
->> - `,` =: List seperator
->
->> Open `Date`
->> - `yyyy-MM-dd` =: Short date
-> - Click `OK` and check that the time in the system tray is updated
-
-> Open `Administrative` tab
-> - Click `Copy settings...`
-> - [x] Welcome screen and system accounts
-> - [x] New user accounts
-> - Click `OK`
+- `English (Germany)` ← Format
+- Click `Additional settings...`  
+  - Open `Numbers` tab
+    - `.` ← Decimal symbol
+    - `,` ← Digit grouping symbol
+    - `,` ← List seperator
+  - Open `Date` tab
+    - `yyyy-MM-dd` ← Short date
+  - Click `Apply` and `OK`
+- Open `Administrative` tab
+  - Click `Copy settings...` and confirm dialog
+  - [x] Welcome screen and system accounts
+  - [x] New user accounts
+  - Click `OK` 
