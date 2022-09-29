@@ -13,7 +13,7 @@
 
 Install via [Website](https://factorio.com/download) (sign-in required)  
 or install via Steam: `steam://store/427520`  
-or via [backup install media](https://1drv.ms/u/s!AiuslRJoLisdmc8ZYCvsmPYhmjYc4g?e=j7OnHZ)
+or via [backup install media](https://onedrive.live.com/download?cid=1D2B2E681295AC2B&resid=1D2B2E681295AC2B%21419737&authkey=AG1w_3MTEaosDeQ)
 
 - **synchronize setup** using cloud symbolic links  
   run as Administrator: [Synchronization Setup Script](Sync-Factorio.ps1)
