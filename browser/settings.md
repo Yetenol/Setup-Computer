@@ -84,11 +84,3 @@ about:settings/content/location
 ```
 about:settings/content/notifications
 ```
-
-Always view PDF documents in external program
-```
-about:settings/content/pdfDocuments
-```
-- Download any PDF like [Sample](https://education.github.com/git-cheat-sheet-education.pdf)
-- Right-click the download and select `Always open with system viewer`
-- Download the PDF again and check wether [Adobe Reader](../instructions.md#adobe-acrobat-reader) opens
