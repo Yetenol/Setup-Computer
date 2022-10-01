@@ -25,6 +25,8 @@
 - [Time & language](#time--language)
   - [Typing > Advanced keyboard settings](#typing--advanced-keyboard-settings)
   - [Region > Additional date, time & regional settings](#region--additional-date-time--regional-settings)
+- [Privacy & security](#privacy--security)
+  - [Windows Security > Open Windows Security](#windows-security--open-windows-security)
 
 # System
 
@@ -270,3 +272,14 @@ intl.cpl
   - [x] Welcome screen and system accounts
   - [x] New user accounts
   - Click `OK` 
+
+# Privacy & security
+
+## Windows Security > Open Windows Security
+```
+windowsdefender:
+```
+
+- Open `Settings` in the bottom-left corner
+- Open `Manage notifications`
+- [ ] Recent activity and scan results
