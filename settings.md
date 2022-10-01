@@ -27,6 +27,7 @@
   - [Region > Additional date, time & regional settings](#region--additional-date-time--regional-settings)
 - [Privacy & security](#privacy--security)
   - [Windows Security > Open Windows Security](#windows-security--open-windows-security)
+  - [For developers](#for-developers)
 
 # System
 
@@ -297,3 +298,10 @@ windowsdefender:
 - Open `Settings` in the bottom-left corner
 - Open `Manage notifications`
 - [ ] Recent activity and scan results
+
+## For developers
+```
+ms-settings:developers
+```
+
+- `Windows Terminal` ← Terminal
