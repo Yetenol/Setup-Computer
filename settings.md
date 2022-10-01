@@ -212,15 +212,29 @@ ms-settings:taskbar
   - [ ] Task view
   - [x] Widgets
   - [ ] Chat
-
 - Expand `Taskbar corner icon`
   - [ ] Pen Menu
   - [x] Touch keyboard
-
 - Expand `Other system tray icons`
   - [x] Microsoft OneDrive
   - [x] shortcutFox.exe
   - Disable everything else
+
+Pin apps to taskbar
+- Unpin all application
+- Pin _Microsoft Edge_
+- Pin _Visual Studio Code_
+  - Open the following folder in _VS Code_ and trust their parent folder
+  - `D:\WIKI\doc`
+  - `D:\WIKI\Setup-Computer`
+  - `D:\DEV\shortcutFox`
+  - `D:\LATEX\LaTeX.equations`
+  - `D:\LATEX\LaTeX.cleanSyntax`
+  - Right-click _VS Code_ in the taskbar and pin the folders to the list 
+- Pin _OneNote for Windows 10_
+- Pin _File Explorer_
+- Pin _Calendar_
+- Pin _Mail_
 
 
 
