@@ -1,5 +1,5 @@
-# & cls & powershell -Command "Invoke-Command -ScriptBlock ([ScriptBlock]::Create(((Get-Content """%0""") -join """`n""")))" & exit
-# The above line makes the script executable when renamed .cmd or .bat
+# & cls & powershell -Command Start-Process wt -Verb RunAs -ArgumentList """PowerShell.exe -NoExit -Command Invoke-Command -ScriptBlock ([ScriptBlock]::Create(((Get-Content %0) -join [Environment]::NewLine)))""" & exit
+# Script is executable, self-elevating and persistent when renamed *.cmd or *.bat
 
 # SET CONFIGURATION
 $cloudPath = "D:\OneDrive\Config\Terminal"
