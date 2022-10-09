@@ -2,6 +2,7 @@
 
 [⌂](../README.md) › [Browser](browser.md) › 
 
+Table of Contents
 - [Content Blocking](#content-blocking)
 - [Design](#design)
 - [Utilities](#utilities)
