@@ -3,4 +3,3 @@ www.google.com##div[class*="explore-main"]
 www.google.com##div[class*="exp-outline"]
 google.*##div[id^="eob"]
 google.*##.exp-outline
-

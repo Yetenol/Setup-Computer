@@ -3,14 +3,12 @@
 [⌂](../README.md) › [Browser](browser.md) › 
 
 Table of Contents
+- **[Setup Instruction ›](instructions.md)**  
+   Disable "People also search for" | [📃›](../configs/uBlock-filters.txt)
 - [Content Blocking](#content-blocking)
 - [Design](#design)
 - [Utilities](#utilities)
 - [Shopping](#shopping)
-  - [uBlock Origin](#ublock-origin)
-  - [SponsorBlock for YouTube](#sponsorblock-for-youtube)
-  - [Dark Reader](#dark-reader)
-  - [Enhancer for YouTube](#enhancer-for-youtube)
 - [Keyboard shortcuts](#keyboard-shortcuts)
 - [Hide from toolbar](#hide-from-toolbar)
 
@@ -44,39 +42,6 @@ Table of Contents
 | _The Camelizer_                  | [Edge](https://microsoftedge.microsoft.com/addons/detail/der-camelizer/bpggaanjmbjoahhknlajnhdhkljekpbg)            | [Chrome](https://chrome.google.com/webstore/detail/the-camelizer/ghnomdcacenbmilgjigehppbamfndblo)             |
 | _Honey_                          | [Edge](https://microsoftedge.microsoft.com/addons/detail/honey/amnbcmdbanbkjhnfoeceemmmdiepnbpp)                    | [Chrome](https://chrome.google.com/webstore/detail/honey/bmnlcjabgnpnenekpadlanbbkooimhnj)                     |                         | `On click`  |
 | _Shoop Cashback & Gutscheine_    | [Edge](https://microsoftedge.microsoft.com/addons/detail/shoop-cashback-gutschei/cpcckalhfmpnloapihhjjdoenplbhchn)  | [Chrome](https://chrome.google.com/webstore/detail/shoop-cashback-gutscheine/hacngjmphfcjdfpmfmlngemhddjdncpe) |                         | `On click`  |
-
-
-## uBlock Origin
-- Import [filter list](../configs/uBlock-filters.txt)  
-   `uBlock Origin > Open the dashboard > My filters > Import and append`
-
-## SponsorBlock for YouTube
-- Open extension options
-- `Manual Skip` ← Intermission/Intro Animation
-
-## Dark Reader
-- Click extension
-- Import site list and settings from [config file](../configs/Dark-Reader.json)  
-   `Dark Reader > Settings > Manage settings > Import Settings`
-
-
-## Enhancer for YouTube
-- Open extension options
-- Open `Toolbar > Buttons`
-  - [ ] *Disable all buttons*
-- Open `Video player`
-   - [x] Pin the video player when scrolling down the page
-     - `640x360` Pinned video player size
-     - `Top left corner` Pinned video player position
-   - [x] Automatically enlarge the video player
-   - [x] Use the whole viewport for the enlarged video player when the cinema mode is not enabled, without altering the aspect ratio
-   - [x] Automatically pause videos opened in background tabs
-   - [x] Pause videos playing in background tabs when a video starts playing in the foreground tab
-   - [x] Automatically play videos at my preferred quality
-     - `1080p HD` Preferred quality
-     - `720p` Second choice
-     - `480p` Third choice
-     - `360p` Fourth choice
 
 
 # Keyboard shortcuts
