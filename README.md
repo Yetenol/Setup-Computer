@@ -126,7 +126,6 @@ Table of Contents
 | [SharpKeys](instructions/personalisation.md#sharpkeys)                     |                                                     |         [Github](https://github.com/randyrants/sharpkeys/releases/latest)         | `winget install -e RandyRants.SharpKeys`                                                                               |
 | [PowerToys](instructions/personalisation.md#powertoys)                     |                                                     |         [Github](https://github.com/microsoft/PowerToys/releases/latest)          | `winget install -e Microsoft.PowerToys` <br> `winget install -e XP89DCGQ3K6VLD --accept-package-agreements`            |
 | [Lenovo Pen Settings](instructions/personalisation.md#lenovo-pen-settings) | [MS](https://microsoft.com/store/apps/9MVLWT5DMSKR) |                                                                                   | `winget install -e 9MVLWT5DMSKR --accept-package-agreements`                                                           |
-`
 
 ## [Development](instructions/development.md)
 
