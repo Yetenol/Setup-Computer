@@ -161,11 +161,9 @@ ms-settings:devices-touchpad
 
 - Open `Advanced gestures` _#  Related settings_  
   - Expand `Configure three-f‌inger gestures`
-    - `Custom shortcut` ← Tap  
-      Record `UNTBR` using [shortcutFox](https://github.com/Yetenol/shortcutFox)
+    - `Mouse back button` ← Tap  
     - `Switch apps` ← Swipe up
-    - `Custom shortcut` ← Swipe down  
-      Record `PAUSE` using [shortcutFox](https://github.com/Yetenol/shortcutFox)
+    - `Snap window to the right` ← Swipe down  
     - `Forward navigation` ← Swipe left
     - `Backward navigation` ← Swipe right
   - Expand `Configure four-f‌inger gestures`
