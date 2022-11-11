@@ -78,8 +78,10 @@ ms-settings:notifications
 - [ ] Snipping Tool _# Notifications from apps and other senders_
 
 - Expand `Additional settings`
-  - [ ] Offer suggentions on how I can set up my device
-  - [ ] Get tips, tricks and suggestions as you use Windows
+  - [ ] Show the Windows welcome experience after updates and when signed in to show what's new
+and suggested
+  - [ ] Suggest ways to get the most out of Windows and finish setting up this device
+  - [ ] Get tips and suggestions when using Windows
 
 
 ## Power & sleep
