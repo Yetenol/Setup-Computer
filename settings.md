@@ -37,9 +37,7 @@
 ms-settings:display
 ```
 
-- `100%` ← Scale _# Scale & layout_
-> Open `HDR`
-> - [x] Play streaming HDR video
+- `125%` ← Scale _# Scale & layout_
 
 
 ## Display > Night light
