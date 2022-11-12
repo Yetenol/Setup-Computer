@@ -14,6 +14,7 @@ run the following PowerShell commands **elevated**.
 winget uninstall -e Microsoft.549981C3F5F10_8wekyb3d8bbwe                  # Cortana
 winget uninstall -e Microsoft.WindowsFeedbackHub_8wekyb3d8bbwe             # Feedback Hub
 winget uninstall -e Microsoft.GetHelp_8wekyb3d8bbwe                        # Get Help
+winget uninstall -e microsoft.windowscommunicationsapps_8wekyb3d8bbwe      # Mail and Calendar
 winget uninstall -e Microsoft.WindowsMaps_8wekyb3d8bbwe                    # Maps
 winget uninstall -e Microsoft.BingNews_8wekyb3d8bbwe                       # Microsoft News
 winget uninstall -e MicrosoftTeams_8wekyb3d8bbwe                           # Microsoft Teams
