@@ -207,7 +207,7 @@ ms-settings:taskbar
 ```
 
 - Expand `Taskbar items`
-  - [ ] Search
+  - [x] Search
   - [ ] Task view
   - [x] Widgets
   - [ ] Chat
