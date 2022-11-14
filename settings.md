@@ -207,13 +207,11 @@ ms-settings:taskbar
 ```
 
 - Expand `Taskbar items`
-  - [x] Search
   - [ ] Task view
-  - [x] Widgets
   - [ ] Chat
 - Expand `Taskbar corner icon`
   - [ ] Pen Menu
-  - [x] Touch keyboard
+  - [ ] Touch keyboard
 - Expand `Other system tray icons`
   - [x] Microsoft OneDrive
   - [x] shortcutFox.exe
