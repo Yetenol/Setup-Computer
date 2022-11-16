@@ -48,7 +48,7 @@ Table of Contents
 - `Alt + Shift + D` ← Toggle current site _# Dark Reader_
 - `Ctrl + Shift + 2` ← Choose another field in KeeWeb _# KeeWeb Connect_
 - `Ctrl + Shift + 1` ← One-time codes _# KeeWeb Connect_
-- `Ctrl + Shift + 2` ← Submit the form automatically _# KeeWeb Connect_
+- `Ctrl + Shift + V` ← Submit the form automatically _# KeeWeb Connect_
 - `Alt + P` ← Activate the extension _# Picture-in-Picture_
 
 # Hide from toolbar
