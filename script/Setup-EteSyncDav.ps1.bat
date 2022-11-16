@@ -16,5 +16,6 @@ $Shortcut = $WshShell.CreateShortcut("$env:Startup\$shortcutName")
 $Shortcut.TargetPath = $path
 $Shortcut.Save()
 
-# Launch EteSync DAV Bridge
-Start-Process -FilePath $path
+Start-Process -FilePath $path   # Launch EteSync DAV Bridge
+
+while ($Error) {}   # Keep alive on failure
