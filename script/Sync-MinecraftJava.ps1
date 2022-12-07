@@ -20,7 +20,7 @@ $syncPaths = [string[]]@(
     '.\options.txt'; 
     '.\optionsof.txt'; 
     '.\servers.dat';
-;)
+    ; )
 
 # Make cloud files AlwaysAvailable
 $syncPaths | foreach {
@@ -28,13 +28,12 @@ $syncPaths | foreach {
     Write-Output $item
     if ($item.PSIsContainer) {
         # Add directory content recursively
-        Get-ChildItem -Path $item -Recurse | where {$_.PSIsContainer} | Get-Item
+        Get-ChildItem -Path $item -Recurse | where { $_.PSIsContainer } | Get-Item
         Get-ChildItem -Path $item -Recurse -File
     }
 } | foreach {
     $_.Attributes = $_.Attributes -bor 0x080000
 }
-
 
 Set-Location $localPath -ErrorAction Stop
 

@@ -5,6 +5,8 @@
 - [Factorio](#factorio)
 - [Minecraft Java Edition](#minecraft-java-edition)
   - [Modpacks](#modpacks)
+    - [Setup Vanilla Modpack](#setup-vanilla-modpack)
+    - [Custom Modpacks](#custom-modpacks)
   - [Chunk Editor](#chunk-editor)
   - [NBT Editor](#nbt-editor)
 - [Minecraft Bedrock](#minecraft-bedrock)
@@ -15,9 +17,12 @@ Install via [Website](https://factorio.com/download) (sign-in required)
 or install via Steam: `steam://store/427520`  
 or via [backup install media](https://onedrive.live.com/download?cid=1D2B2E681295AC2B&resid=1D2B2E681295AC2B%21419737&authkey=AG1w_3MTEaosDeQ)
 
-- **synchronize setup** using cloud symbolic links  
-  run as Administrator: [Synchronization Setup Script](Sync-Factorio.ps1)
-
+- setup **cloud synchronization** using elevated [script](../script/Sync-Factorio.ps1)
+  ```powershell
+  $url = 'https://raw.githubusercontent.com/Yetenol/Setup-Computer/main/script/Sync-Factorio.ps1'
+  $command = "Invoke-Command -ScriptBlock ([ScriptBlock]::Create((Invoke-WebRequest -Uri $url)))"
+  Start-Process wt -Verb RunAs -ArgumentList "PowerShell.exe -NoExit -Command $command"
+  ```
 
 # Minecraft Java Edition
 
@@ -42,30 +47,40 @@ or install via [Website](https://download.curseforge.com/)
 - Set Minecraft Ram usage
   > Open `System Tray > CurseForge > Settings > Minecraft`
   > - `max` or `12288MB` =: Allocated Memory _# Java Settings_
-- **Add** Minecraft to **application list**  
-  - Run: [Add to AppsFolder Script](Link-MinecraftJava.ps1)
+- Add _Minecraft_ to **Start Menu**  
+  - add to Start Menu
   - Launch Minecraft from _Windows Search_
   - Sign in to Microsoft
   - Play latest release
-- **synchronize settings** using cloud symbolic links  
-  run as Administrator: [Synchronization Setup Script](Sync-MinecraftJava.ps1)
+- setup **cloud synchronization** using elevated [script](../script/Sync-MinecraftJava.ps1)
+  ```powershell
+  $url = 'https://raw.githubusercontent.com/Yetenol/Setup-Computer/main/script/Sync-MinecraftJava.ps1'
+  $command = "Invoke-Command -ScriptBlock ([ScriptBlock]::Create((Invoke-WebRequest -Uri $url)))"
+  Start-Process wt -Verb RunAs -ArgumentList "PowerShell.exe -NoExit -Command $command"
+  ```
 -  To **play** vanilla or modded Minecraft launch `Minecraft Launcher`  
 -  To **manage modpacks** launch `CurseForge`  
 
 ## Modpacks
-- **Import** modpack called `Vanilla`  
-  or create manually
-  - [Sodium](https://www.curseforge.com/minecraft/mc-mods/sodium/download?client=y) -
-  [👁️](https://www.curseforge.com/minecraft/mc-mods/sodium)  
-  Improve Performance
-  - [Inventory Tabs](https://www.curseforge.com/minecraft/mc-mods/inventory-tabs-updated/download?client=y) -
-  [👁️](https://www.curseforge.com/minecraft/mc-mods/inventory-tabs-updated)  
-  Access all nearby containers from the inventory
-  - [Mouse Tweaks](https://www.curseforge.com/minecraft/mc-mods/mouse-tweaks/download?client=y) -
-  [👁️](https://www.curseforge.com/minecraft/mc-mods/mouse-tweaks)  
-  Improve Inventory Stack Splitting
-  - add modpack **profile to vanilla launcher**  
-  run as Administrator: [Fabric-Vanilla Profile Setup Script](Link-MinecraftFabric.ps1)
+
+### Setup Vanilla Modpack
+- install **[Sodium](https://www.curseforge.com/minecraft/mc-mods/sodium)**
+  via [CurseForge](https://www.curseforge.com/minecraft/mc-mods/sodium/download?client=y)  
+  to improve performance
+- install **[Inventory Tabs](https://www.curseforge.com/minecraft/mc-mods/inventory-tabs-updated)**
+  via [CurseForge](https://www.curseforge.com/minecraft/mc-mods/inventory-tabs-updated/download?client=y)  
+  to access all nearby containers from the inventory
+- install **[Mouse Tweaks](https://www.curseforge.com/minecraft/mc-mods/mouse-tweaks)**
+  via [CurseForge](https://www.curseforge.com/minecraft/mc-mods/mouse-tweaks/download?client=y)
+  to improve inventory stack splitting
+- add **profile to vanilla launcher** using elevated [script](../script/Link-MinecraftFabric.ps1)
+  ```powershell
+  $url = 'https://raw.githubusercontent.com/Yetenol/Setup-Computer/main/script/Link-MinecraftFabric.ps1'
+  $command = "Invoke-Command -ScriptBlock ([ScriptBlock]::Create((Invoke-WebRequest -Uri $url)))"
+  Start-Process wt -Verb RunAs -ArgumentList "PowerShell.exe -NoExit -Command $command"
+  ```
+
+### Custom Modpacks
 - **Import** a custom modpack (_optional_)  
   using a CurseForge export file
   - Click `Create Custom Profile`
@@ -96,8 +111,12 @@ or install via [Github](https://github.com/jaquadro/NBTExplorer/releases/latest)
 start ms-windows-store://pdp/?ProductId=9NBLGGH2JHXJ # Minecraft for Windows
 ```
 - **DON'T LAUNCH MINECRAFT YET**
-- **synchronize setup** using cloud symbolic links  
-  run as Administrator: [Synchronization Setup Script](Sync-MinecraftBedrock.ps1)
+- setup **cloud synchronization** using elevated [script](../script/Sync-MinecraftBedrock.ps1)
+  ```powershell
+  $url = 'https://raw.githubusercontent.com/Yetenol/Setup-Computer/main/script/Sync-MinecraftBedrock.ps1'
+  $command = "Invoke-Command -ScriptBlock ([ScriptBlock]::Create((Invoke-WebRequest -Uri $url)))"
+  Start-Process wt -Verb RunAs -ArgumentList "PowerShell.exe -NoExit -Command $command"
+  ```
 - **alternatively** configure **_manually_**:
 - Install Resource Packs _manually_
     - [Marketplace Hider](https://mcpedl.com/marketplace-remover-resource-pack/)
