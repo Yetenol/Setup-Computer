@@ -1,5 +1,5 @@
-# & cls & powershell -Command Start-Process wt -Verb RunAs -ArgumentList """PowerShell.exe -NoExit -Command cd "%CD%" `n Invoke-Command -ScriptBlock ([ScriptBlock]::Create(((Get-Content %0) -join [Environment]::NewLine)))""" & exit
-# Script is executable, self-elevating and persistent when renamed *.cmd or *.bat
+# & cls & powershell -Command Start-Process wt -Verb RunAs -ArgumentList """PowerShell.exe -Command cd "%CD%" `n Invoke-Command -ScriptBlock ([ScriptBlock]::Create(((Get-Content %0) -join [Environment]::NewLine)))""" & exit
+# Script is executable and self-elevating when renamed *.cmd or *.bat
 
 # SET CONFIGURATION
 $cloudPath = "D:\OneDrive\Config\Obsidian"
@@ -7,8 +7,18 @@ $localPath = ".obsidian"
 
 # Test paths
 Get-Item -Path $cloudPath -ErrorAction Stop | Out-Null
+
+# Confirm folder
 $path = (Resolve-Path .).Path
-Read-Host -Prompt "Is $path the correct folder?"
+Write-Host "Opening " -NoNewline
+Write-Host $path -ForegroundColor Cyan -NoNewline
+Write-Host " in Obsidian" -NoNewline
+1..5 |
+foreach { 
+    Start-Sleep -Seconds 1
+    Write-Host "." -NoNewline
+}
+
 
 # Make cloud files AlwaysAvailable
 $cloudPath | 
@@ -26,6 +36,11 @@ foreach {
 }
 
 # Create symlinks
+try {
+    Remove-Item -Path $localPath -Recurse
+}
+catch {
+}
 New-Item -ItemType SymbolicLink -Name $localPath -Target $cloudPath -Force
 
 # Attribute symblink as SYSTEM
