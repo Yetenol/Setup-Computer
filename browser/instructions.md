@@ -1,6 +1,6 @@
 <h1> Setup instructions </h1>
 
-[⌂](../README.md) › [Browser](browser.md) › [Extensions](extensions.md) › 
+[⌂](../README.md) › [Browser](Setup%20the%20browsers.md) › [Extensions](extensions.md) › 
 
 ## uBlock Origin
 - Import [filter list](../configs/uBlock-filters.txt)  

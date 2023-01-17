@@ -1,6 +1,6 @@
 <h1> Extensions </h1>
 
-[⌂](../README.md) › [Browser](browser.md) › 
+[⌂](../README.md) › [Browser](Setup%20the%20browsers.md) › 
 
 Table of Contents
 - **[Setup Instruction ›](instructions.md)**  
