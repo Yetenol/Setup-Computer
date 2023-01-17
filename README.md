@@ -51,42 +51,51 @@ Table of Contents
         or run `ms-windows-store://pdp/?ProductId=9NBLGGH4NNS1`
 6. [Uninstall bloatware](instructions/bloatware.md)
 
+
+
+
 ## [Priority](instructions/priority.md)
 
-| App ➔ Instructions                                                |                        Store                        |                                          Source                                           | Install command                                                |
-| ----------------------------------------------------------------- | :-------------------------------------------------: | :---------------------------------------------------------------------------------------: | -------------------------------------------------------------- |
+```dataview
+TABLE
+    without id
+    file.link as "Title",
+    choice(storeId,choice(startswith(storeId,"xp"),"&#128279;","[MS](https://microsoft.com/store/apps/" + storeId + ")"),null) as "Store",
+    choice(githubUser,"[" + githubUser + "](https://github.com/" + githubUser + "/" + githubRepo + "/releases/latest" + choice(githubBinary,"/download/" + githubBinary, "") + ")",null) as "Github",
+    join(nonnull(list(choice(storeId,"`winget install -e " + storeId + " --accept-package-agreements`",null),choice(wingetId,"`winget install -e " + wingetId + "`",null)))," <br> ") as "Winget"
+FROM
+    [[Priority]]
+```
+
 [[Lenovo Vantage]]
-
 [[KeeWeb]]
-
 [[Git]]
-
 [[Visual Studio Code]]
-
 [[shortcutFox]]
-
 [[File Explorer]]
 
 
 
 ## [Communication](instructions/communication.md)
 
-| App ➔ Instructions                                   |                        Store                        |                                            Source                                            | Install command                                                                                         |
-| ---------------------------------------------------- | :-------------------------------------------------: | :------------------------------------------------------------------------------------------: | ------------------------------------------------------------------------------------------------------- |
+```dataview
+TABLE
+    without id
+    file.link as "Title",
+    choice(storeId,choice(startswith(storeId,"xp"),"&#128279;","[MS](https://microsoft.com/store/apps/" + storeId + ")"),null) as "Store",
+    choice(githubUser,"[" + githubUser + "](https://github.com/" + githubUser + "/" + githubRepo + "/releases/latest" + choice(githubBinary,"/download/" + githubBinary, "") + ")",null) as "Github",
+    join(nonnull(list(choice(storeId,"`winget install -e " + storeId + " --accept-package-agreements`",null),choice(wingetId,"`winget install -e " + wingetId + "`",null)))," <br> ") as "Winget"
+FROM
+    [[Communications]]
+```
+
 [[eM Client]]
-
 [[WhatsApp]]
-
 [[Signal]]
-
 [[Discord]]
-
 [[Threema]]
-
 [[Teams]]
-
 [[Zoom]]
-
 [[Unigram]]
 
 
