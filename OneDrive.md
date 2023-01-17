@@ -1,0 +1,4 @@
+---
+storeId: 
+wingetId: Microsoft.OneDrive
+---
