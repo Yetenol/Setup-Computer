@@ -6,4 +6,3 @@ githubRepo: ShareX
 ---
 
 [Personalisation](../Personalisation.md)
-[Deprecated](../Deprecated.md)

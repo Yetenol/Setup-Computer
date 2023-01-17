@@ -41,5 +41,9 @@ LIST
         )
     ))
 FROM
-    [[]] and "apps"
+    "apps"
+WHERE
+    priority = 1
+SORT
+    choice(priority,priority,99)
 ```

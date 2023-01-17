@@ -5,4 +5,3 @@ website: https://www.samsung.com/global/download/SamsungDeXWin
 ---
 
 [Entertainment](../Entertainment.md)
-[Deprecated](../Deprecated.md)

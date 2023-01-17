@@ -1,11 +1,10 @@
 ---
-storeId: 9wzdncrfj27n
+storeId: 
 wingetId: 
 githubUser: 
 githubRepo: 
 githubBinary: 
 website: 
-priority:
+priority: 10
 ---
 
-[Office](../Office.md)

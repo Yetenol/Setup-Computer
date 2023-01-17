@@ -4,4 +4,3 @@ wingetId: QL-Win.QuickLook
 ---
 
 [Personalisation](../Personalisation.md)
-[Deprecated](../Deprecated.md)

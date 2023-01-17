@@ -1,7 +1,11 @@
 ---
 storeId: 
+wingetId: 
+githubUser: 
+githubRepo: 
+githubBinary: 
 website: https://batterybarpro.com/basic.php
+priority: 
 ---
 
-[Personalisation](../Personalisation.md),
-[Deprecated](../Deprecated.md)
+[Personalisation](../Personalisation.md)

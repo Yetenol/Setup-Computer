@@ -1,5 +1,9 @@
 ---
 storeId: 
+wingetId: 
+githubUser: 
+githubRepo: 
+githubBinary: 
+website: 
+priority: 1
 ---
-
-[Priority](../Priority.md)

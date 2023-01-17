@@ -42,4 +42,6 @@ LIST
     ))
 FROM
     [[]] and "apps"
+SORT
+    choice(priority,priority,99)
 ```

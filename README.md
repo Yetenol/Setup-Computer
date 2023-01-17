@@ -48,5 +48,6 @@ TABLE
 FROM
     "apps"
 SORT
-    sort(file.outlinks) DESC
+    sort(file.outlinks) DESC,
+    choice(priority,priority,99)
 ```

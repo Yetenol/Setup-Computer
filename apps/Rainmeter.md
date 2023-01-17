@@ -6,4 +6,3 @@ githubRepo: rainmeter
 ---
 
 [Personalisation](../Personalisation.md)
-[Deprecated](../Deprecated.md)

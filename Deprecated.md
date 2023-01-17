@@ -18,7 +18,8 @@ LIST
                     githubUser + "/" + githubRepo + "/releases/latest" + 
                     choice(
                         githubBinary,
-                        "/download/" + githubBinary, ""
+                        "/download/" + githubBinary,
+                        null
                     ) + 
                     ")",
                 choice(
@@ -40,5 +41,7 @@ LIST
         )
     ))
 FROM
-    [[]] and "apps"
+    "apps"
+WHERE
+    priority = null
 ```
