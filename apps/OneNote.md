@@ -2,4 +2,4 @@
 storeId: 9wzdncrfhvjl
 ---
 
-[Office](Office.md)
+[Office](../Office.md)

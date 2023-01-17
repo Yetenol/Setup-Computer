@@ -4,4 +4,4 @@ wingetId: Obsidian.Obsidian
 website: https://obsidian.md/
 ---
 
-[Office](Office.md)
+[Office](../Office.md)

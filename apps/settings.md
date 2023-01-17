@@ -1,6 +1,6 @@
 <h1> Settings </h1>
 
-[⌂](README.md) ›
+[⌂](../README.md) ›
 
 - [System](#system)
   - [Display](#display)

@@ -4,4 +4,4 @@ wingetId: Governikus.AusweisApp2
 website: https://www.ausweisapp.bund.de/download
 ---
 
-[Office](Office.md)
+[Office](../Office.md)

@@ -4,4 +4,4 @@ githubUser: UnigramDev
 githubRepo: Unigram
 ---
 
-[Communications](Communications.md)
+[Communications](../Communications.md)

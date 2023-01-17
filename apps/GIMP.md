@@ -4,4 +4,4 @@ wingetId: GIMP.GIMP
 website: https://www.gimp.org/downloads/
 ---
 
-[Office](Office.md)
+[Office](../Office.md)

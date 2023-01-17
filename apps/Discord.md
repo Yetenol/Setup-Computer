@@ -4,4 +4,4 @@ wingetId: Discord.Discord
 website: https://discord.com/download
 ---
 
-[Communications](Communications.md)
+[Communications](../Communications.md)

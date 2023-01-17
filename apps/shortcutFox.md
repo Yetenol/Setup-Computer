@@ -5,4 +5,4 @@ githubRepo: shortcutFox
 githubBinary: shortcutFox.exe
 ---
 
-[Priority](Priority.md)
+[Priority](../Priority.md)

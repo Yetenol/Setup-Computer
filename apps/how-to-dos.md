@@ -1,4 +1,4 @@
-# [⌂](README.md) › HowToDos
+# [⌂](../README.md) › HowToDos
 
 ## Install Microsoft Store third-party storefront app
 

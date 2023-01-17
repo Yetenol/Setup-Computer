@@ -4,4 +4,4 @@ wingetId: Mozilla.Firefox
 website: https://www.mozilla.org/en-US/firefox/download/thanks/
 ---
 
-[Office](Office.md)
+[Office](../Office.md)

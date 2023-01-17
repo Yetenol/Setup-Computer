@@ -1,6 +1,6 @@
 <h1> Printers </h1>
 
-[⌂](README.md) ›
+[⌂](../README.md) ›
 
 - [Farbkopierer **HP Photosmart HP C4580**](#farbkopierer-hp-photosmart-hp-c4580)
   - [Driver](#driver)
