@@ -5,4 +5,76 @@ website: https://keeweb.info/
 priority: 1
 ---
 
+
+```powershell
+winget install -e KeeWeb.KeeWeb
+```
+or install via [Website](https://keeweb.info/)
+
+# Open cloud database
+
+- Start the application
+- Click `More > OneDrive`
+  - If prompted allow access in WIndows Defender Firewall for all networks
+  - Authenticate using the browser
+- Click `OneDrive` again and select the database
+- Unlock the database
+- Set sorting to Auto (click icon right of the search bar)
+
+# Modify settings
+
+> Open `Settings` via `[Ctrl + ,]`
+>> Open `General`
+>>> Open `#Appearance`
+>>> - [x] Automatically switch between light and theme when possible
+>>> - [x] Colorful custom icons in the list
+>>
+>>> Open `#Function`
+>>> - `On every change` ← Automatically save and sync periodically:
+>>> - `In 10 seconds` ← Clear clipboard after copy:
+>>> - [x] Minimize the app instead of close
+>>> - [x] Minimize on field copy
+>>> - [x] Automatically use group icon for new entries
+>>
+>>> Open `#Auto lock`
+>>> - `In 5 minutes` ← If the app is inactive
+>>> - [ ] When the app is minimized
+>>> - [x] When the computer is locked or put to sleep
+>
+>> Open `Shortcuts`
+>> - `Ctrl + Alt + O` ← copy OTP
+>> - `Ctrl + Alt + K` ← open KeeWeb
+>
+>> Open your database settings
+>> - `KDBX 3` ← File format _# Advanced_
+
+# Browser Integration
+
+- Open `Settings > Browser`
+  - [x] Edge in KeeWeb Connect
+  - Click the newly appeared download icon or install via [Edge Add-ons](https://microsoftedge.microsoft.com/addons/detail/keeweb-connect/nmggpehkjmeaeocmaijenpejbepckinm)
+- Enable extension during InPrivate
+- Open its extension options or open:  
+  `chrome-extension://nmggpehkjmeaeocmaijenpejbepckinm/pages/options.html`
+    - Click `Connect to KeeWeb`
+    - Click `Edit keyboard shortcuts` or open:  
+      or `about:extensions/shortcuts`
+
+> Open `Extensions > Keyboard shortcuts`   
+> - `Ctrl + Shift + V` ← Activate the extension
+> - `Ctrl + Shift + 2` ← Choose another field in KeeWeb
+> - `Ctrl + Shift + 1` ← One-time codes
+
+# Run at startup
+
+```powershell
+$WshShell = New-Object -comObject WScript.Shell
+$Shortcut = $WshShell.CreateShortcut("$env:AppData\Microsoft\Windows\Start Menu\Programs\Startup\KeeWeb.lnk")
+$Shortcut.TargetPath = "powershell.exe"
+$Shortcut.Arguments = "-Command `"start 'C:\Program Files\KeeWeb\KeeWeb.exe' -WindowStyle Hidden`""
+$Shortcut.WindowStyle = 7 # start minimized
+$Shortcut.Save()
+```
+
+
 [Storage](../Storage.md)
