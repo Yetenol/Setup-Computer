@@ -60,9 +60,48 @@ Table of Contents
 TABLE
     without id
     file.link as "Title",
-    choice(storeId,choice(startswith(storeId,"xp"),"&#128279;","[MS](https://microsoft.com/store/apps/" + storeId + ")"),null) as "Store",
-    choice(githubUser,"[" + githubUser + "](https://github.com/" + githubUser + "/" + githubRepo + "/releases/latest" + choice(githubBinary,"/download/" + githubBinary, "") + ")",null) as "Github",
-    join(nonnull(list(choice(storeId,"`winget install -e " + storeId + " --accept-package-agreements`",null),choice(wingetId,"`winget install -e " + wingetId + "`",null)))," <br> ") as "Winget"
+    choice(
+        storeId,
+        choice(
+            startswith(storeId,"xp"),
+            "&#128279;",
+            "[MS](https://microsoft.com/store/apps/" + storeId + ")"
+        ),
+        null
+    ) 
+    as "Store",
+    
+    choice(
+        githubUser,
+        "[Github](https://github.com/" + 
+            githubUser + "/" + githubRepo + "/releases/latest" + 
+            choice(
+                githubBinary,
+                "/download/" + githubBinary, ""
+            ) + 
+            ")",
+        choice(
+            website,
+            "[Website](" + website + ")",
+            null
+        )
+    ) 
+    as "Source",
+    
+    join(nonnull(list(
+        choice(
+            storeId,
+            "`winget install -e " + storeId + " --accept-package-agreements`",
+            null
+        ),
+        choice(
+            wingetId,
+            "`winget install -e " + wingetId + "`",
+            null
+        )
+    ))," <br> ") 
+    as "Winget"
+    
 FROM
     [[Priority]]
 ```
@@ -82,9 +121,48 @@ FROM
 TABLE
     without id
     file.link as "Title",
-    choice(storeId,choice(startswith(storeId,"xp"),"&#128279;","[MS](https://microsoft.com/store/apps/" + storeId + ")"),null) as "Store",
-    choice(githubUser,"[" + githubUser + "](https://github.com/" + githubUser + "/" + githubRepo + "/releases/latest" + choice(githubBinary,"/download/" + githubBinary, "") + ")",null) as "Github",
-    join(nonnull(list(choice(storeId,"`winget install -e " + storeId + " --accept-package-agreements`",null),choice(wingetId,"`winget install -e " + wingetId + "`",null)))," <br> ") as "Winget"
+    choice(
+        storeId,
+        choice(
+            startswith(storeId,"xp"),
+            "&#128279;",
+            "[MS](https://microsoft.com/store/apps/" + storeId + ")"
+        ),
+        null
+    ) 
+    as "Store",
+    
+    choice(
+        githubUser,
+        "[Github](https://github.com/" + 
+            githubUser + "/" + githubRepo + "/releases/latest" + 
+            choice(
+                githubBinary,
+                "/download/" + githubBinary, ""
+            ) + 
+            ")",
+        choice(
+            website,
+            "[Website](" + website + ")",
+            null
+        )
+    ) 
+    as "Source",
+    
+    join(nonnull(list(
+        choice(
+            storeId,
+            "`winget install -e " + storeId + " --accept-package-agreements`",
+            null
+        ),
+        choice(
+            wingetId,
+            "`winget install -e " + wingetId + "`",
+            null
+        )
+    ))," <br> ") 
+    as "Winget"
+    
 FROM
     [[Communications]]
 ```
@@ -101,20 +179,13 @@ FROM
 
 ## [Office](instructions/office.md)
 
-| App ➔ Instructions                                          |                        Store                        |                            Source                             | Install command                                                                                       |
-| ----------------------------------------------------------- | :-------------------------------------------------: | :-----------------------------------------------------------: | ----------------------------------------------------------------------------------------------------- |
+
 [[Microsoft Office]]
-
 [[Obsidian]]
-
 [[OneNote]]
-
 [[Simplenote]]
-
 [[Firefox]]
-
 [[GIMP]]
-
 [[AusweisApp2]]
 
 
