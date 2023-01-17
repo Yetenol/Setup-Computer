@@ -4,4 +4,4 @@ wingetId: JGraph.Draw
 website: https://github.com/jgraph/drawio-desktop
 ---
 
-[[../Education]]
+[Education](../Education.md)
