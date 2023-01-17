@@ -1,16 +1,3 @@
-<h1> Gaming </h1>
-
-[⌂](../README.md) ›
-
-- [Factorio](#factorio)
-- [Minecraft Java Edition](#minecraft-java-edition)
-  - [Modpacks](#modpacks)
-    - [Setup Vanilla Modpack](#setup-vanilla-modpack)
-    - [Custom Modpacks](#custom-modpacks)
-  - [Chunk Editor](#chunk-editor)
-  - [NBT Editor](#nbt-editor)
-- [Minecraft Bedrock](#minecraft-bedrock)
-
 # Factorio
 
 Install via [Website](https://factorio.com/download) (sign-in required)  

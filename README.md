@@ -17,11 +17,11 @@
     - [Deprecated](Deprecated.md)
 - [Setup the browsers](browser/Setup%20the%20browsers.md)  
     Custom Search Engines | `about:flags/#edge-show-feature-recommendations`
-- [settings](settings.md)  
+- [Modify the Windows Settings](Modify%20the%20Windows%20Settings.md)  
     Sync | `about:settings/content/notifications`
-- [printers](printers.md)  
+- [Setup the printers](Setup%20the%20printers.md)  
     Scanning Software | `shell:printersfolder`
-- [gaming](gaming/gaming.md)  
+- [Setup the games](gaming/Setup%20the%20games.md)  
     Cloud Synchronization | `ms-windows-store://pdp/?ProductId=9NBLGGH2JHXJ`
 
 ```dataview

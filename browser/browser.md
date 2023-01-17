@@ -2,7 +2,7 @@
 
 [⌂](../README.md) ›
 
-- **[Settings ›](settings.md)**  
+- **[Settings ›](../Modify%20the%20Windows%20Settings.md)**  
     Sync | `about:settings/searchEngines`
 - **[Extensions ›](extensions.md)**  
     Keyboard shortcuts | `about:extensions`

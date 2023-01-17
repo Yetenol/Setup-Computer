@@ -1,15 +1,7 @@
-<h1> Printers </h1>
-
-[⌂](../README.md) ›
-
-- [Farbkopierer **HP Photosmart HP C4580**](#farbkopierer-hp-photosmart-hp-c4580)
-  - [Driver](#driver)
-  - [Scanning Software](#scanning-software)
-- [Graustufendrucker **HP LaserJet 1010**](#graustufendrucker-hp-laserjet-1010)
-
 # Farbkopierer **HP Photosmart HP C4580**
 
 ## Driver
+
 - Download [Driver & Software Package](https://onedrive.live.com/download?cid=1D2B2E681295AC2B&resid=1D2B2E681295AC2B%21414103&authkey=AAIZpKvx5ieDWDA)
 - Extract container and run `Setup.exe`
 - Click `Install`
@@ -26,6 +18,7 @@
 
 
 ## Scanning Software
+
 - Install [HP Scan and Capture](https://www.microsoft.com/en-us/p/hp-scan-and-capture/9wzdncrfhwl0)
 
 - Right-click and open `Settings`
@@ -42,6 +35,7 @@
     - `D:\Downloads\` ← Click `Change default folder` _# For Documents_
 
 # Graustufendrucker **HP LaserJet 1010**
+
 - Run [installation script](configs/Setup-HPLaserJet1010.ps1.bat)
 - select `Other devices` and update its driver
 - or download [driver files](https://onedrive.live.com/download?cid=1D2B2E681295AC2B&resid=1D2B2E681295AC2B%21414102&authkey=AFaLfpDJ8CpIpps)
