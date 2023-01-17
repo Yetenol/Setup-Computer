@@ -7,23 +7,25 @@ LIST
                 choice(
                     startswith(storeId,"xp"),
                     "&#128279;",
-                    "[Microsoft Store](https://microsoft.com/store/apps/" + storeId + ")"
+                    elink("https://microsoft.com/store/apps/" + storeId, "Microsoft Store")
                 ),
                 null
             ), 
             choice(
                 githubUser,
-                "[Github](https://github.com/" + 
-                    githubUser + "/" + githubRepo + "/releases/latest" + 
+                elink(
+                    "https://github.com/" + githubUser + "/" + 
+                    githubRepo + "/releases/latest" + 
                     choice(
                         githubBinary,
                         "/download/" + githubBinary,
-                        null
-                    ) + 
-                    ")",
+                        ""
+                    ),
+                    "Github"
+                ),
                 choice(
                     website,
-                    "[Website](" + website + ")",
+                    elink(website, "Website"),
                     null
                 )
             )
@@ -44,5 +46,5 @@ FROM
 SORT
     choice(priority,priority,99)
 WHERE
-    priority = 1
+    contains(file.outlinks,this.file.inlinks[0])
 ```
