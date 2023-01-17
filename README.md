@@ -58,26 +58,24 @@ Table of Contents
 [[Lenovo Vantage]]
 ---
 storeId: 9wzdncrfj4mv
-source: 
-winget: `winget install -e 9WZDNCRFJ4MV --accept-package-agreements`
 ---
 [[KeeWeb]]
 ---
 storeId: 
+wingetId: KeeWeb.KeeWeb
 website: https://keeweb.info/
-winget: `winget install -e KeeWeb.KeeWeb`
 ---
 [[Git]]
 ---
 storeId: 
+wingetId: Git.Git
 website: https://git-scm.com/download/win
-winget: `winget install -e Git.Git`
 ---
 [[Visual Studio Code]]
 ---
 storeId: &#128279;
+wingetId: Microsoft.VisualStudioCode --scope machine
 website: https://code.visualstudio.com/#alt-downloads
-winget: `winget install -e Microsoft.VisualStudioCode --scope machine`
 ---
 [[shortcutFox]]
 ---
@@ -85,13 +83,10 @@ storeId:
 githubUser: Yetenol
 githubRepo: shortcutFox
 githubBinary: shortcutFox.exe
-winget: 
 ---
 [[File Explorer]]
 ---
 storeId: 
-source: 
-winget: 
 ---
 
 
@@ -103,50 +98,47 @@ winget:
 ---
 storeId: 9NM8S4PVF0N2
 website: https://www.emclient.com/dist/latest/setup.msi
-winget: `winget install -e 9NM8S4PVF0N2 --accept-package-agreements`
 ---
 [[WhatsApp]]
 ---
 storeId: 9nksqgp7f2nh
+wingetId: WhatsApp.WhatsApp
 website: https://web.whatsapp.com/desktop/windows/release/x64/WhatsAppSetup.exe
-winget: `winget install -e 9NKSQGP7F2NH --accept-package-agreements` <br> `winget install -e WhatsApp.WhatsApp`
 ---
 [[Signal]]
 ---
 storeId: 
+wingetId: OpenWhisperSystems.Signal
 website: https://signal.org/en/download/
-winget: `winget install -e OpenWhisperSystems.Signal --accept-package-agreements`
 ---
 [[Discord]]
 ---
-storeId: &#128279;
+storeId: xpdc2rh70k22mn
+wingetId: Discord.Discord
 website: https://discord.com/download
-winget: `winget install -e Discord.Discord` <br> `winget install -e XPDC2RH70K22MN --accept-package-agreements`
 ---
 [[Threema]]
 ---
 storeId: 
+wingetId: Threema.Threema
 website: https://releases.threema.ch/web-electron/v1/release/Threema-Latest.exe
-winget: `winget install -e Threema.Threema`
 ---
 [[Teams]]
 ---
 storeId: 
+wingetId: Microsoft.Teams
 website: https://www.microsoft.com/en-us/microsoft-teams/download-app#desktopAppDownloadregion
-winget: `winget install -e Microsoft.Teams`
 ---
 [[Zoom]]
 ---
-storeId: &#128279;
+storeId: xp99j3kp4xz4vv
 website: https://zoom.us/download
-winget: `winget install -e XP99J3KP4XZ4VV --accept-package-agreements`
 ---
 [[Unigram]]
 ---
-storeId: 9N97ZCKPD60Q
+storeId: 9n97zckpd60q
 githubUser: UnigramDev
 githubRepo: Unigram
-winget: `winget install -e 9N97ZCKPD60Q --accept-package-agreements`
 ---
 
 
@@ -158,43 +150,38 @@ winget: `winget install -e 9N97ZCKPD60Q --accept-package-agreements`
 ---
 storeId: MS
 website: https://account.microsoft.com/services/office/install
-winget: 
 ---
 [[Obsidian]]
 ---
 storeId: 
-source: [Website](https://obsidian.md/)
-winget: `winget install -e Obsidian.Obsidian`
+wingetId: Obsidian.Obsidian
+website: https://obsidian.md/
 ---
 [[OneNote]]
 ---
 storeId: 9wzdncrfhvjl
-source: 
-winget: `winget install -e 9WZDNCRFHVJL --accept-package-agreements`
 ---
 [[Simplenote]]
 ---
 storeId: 9nxqq40ldw3x
-source: 
-winget: `winget install -e 9NXQQ40LDW3X --accept-package-agreements`
 ---
 [[Firefox]]
 ---
-storeId: 9NZVDKPMR9RD
+storeId: 9nzvdkpmr9rd
+wingetId: Mozilla.Firefox
 website: https://www.mozilla.org/en-US/firefox/download/thanks/
-winget: `winget install -e 9NZVDKPMR9RD --accept-package-agreements` <br> `winget install -e Mozilla.Firefox`
 ---
 [[GIMP]]
 ---
 storeId: 
+wingetId: GIMP.GIMP
 website: https://www.gimp.org/downloads/
-winget: `winget install -e GIMP.GIMP`
 ---
 [[AusweisApp2]]
 ---
 storeId: 
+wingetId: Governikus.AusweisApp2
 website: https://www.ausweisapp.bund.de/download
-winget: `winget install -e Governikus.AusweisApp2`
 ---
 
 
@@ -206,31 +193,28 @@ winget: `winget install -e Governikus.AusweisApp2`
 ---
 storeId: 
 website: https://mirror.ctan.org/systems/texlive/tlnet/install-tl-windows.exe
-winget: 
 ---
 [[GeoGebra]]
 ---
 storeId: 
+wingetId: GeoGebra.Classic.5
 website: https://download.geogebra.org/package/win
-winget: `winget install -e GeoGebra.Classic.5`
 ---
 [[LTSpice]]
 ---
 storeId: 
 website: https://ltspice.analog.com/software/LTspice64.exe
-winget: 
 ---
 [[MATLAB]]
 ---
 storeId: 
 website: https://www.mathworks.com/academia/tah-portal/tu-berlin-31461245.html
-winget: 
 ---
 [[draw.io]]
 ---
-storeId: 9MVVSZK43QQW
+storeId: 9mvvszk43qqw
+wingetId: JGraph.Draw
 website: https://github.com/jgraph/drawio-desktop
-winget: `winget install -e 9MVVSZK43QQW --accept-package-agreements` <br> `winget install -e JGraph.Draw`
 ---
 
 
@@ -242,20 +226,19 @@ winget: `winget install -e 9MVVSZK43QQW --accept-package-agreements` <br> `winge
 [[OneDrive]]
 ---
 storeId: 
-source: 
-winget: `winget install -e Microsoft.OneDrive`
+wingetId: Microsoft.OneDrive
 ---
 [[Boxcryptor]]
 ---
 storeId: 
+wingetId: SecombaGmbH.Boxcryptor
 website: https://www.boxcryptor.com/en/download/
-winget: `winget install -e SecombaGmbH.Boxcryptor`
 ---
 [[TreeSize]]
 ---
 storeId: 9nblggh40881
+wingetId: JAMSoftware.TreeSizeFree
 website: https://www.jam-software.com/treesize_free
-winget: `winget install -e 9NBLGGH40881 --accept-package-agreements` <br> `winget install -e JAMSoftware.TreeSizeFree`
 ---
 
 
@@ -266,26 +249,20 @@ winget: `winget install -e 9NBLGGH40881 --accept-package-agreements` <br> `winge
 [[VLC]]
 ---
 storeId: 
+wingetId: VideoLAN.VLC
 website: https://www.videolan.org/vlc/
-winget: `winget install -e VideoLAN.VLC`
 ---
 [[Netflix]]
 ---
 storeId: 9wzdncrfj3tj
-source: 
-winget: `winget install -e 9WZDNCRFJ3TJ --accept-package-agreements`
 ---
 [[ReddPlanet]]
 ---
 storeId: 9nblggh4s44m
-source: 
-winget: `winget install -e 9NBLGGH4S44M --accept-package-agreements`
 ---
 [[Amazon Prime Video]]
 ---
 storeId: 9p6rc76msmmj
-source: 
-winget: `winget install -e 9P6RC76MSMMJ --accept-package-agreements`
 ---
 
 
@@ -295,30 +272,28 @@ winget: `winget install -e 9P6RC76MSMMJ --accept-package-agreements`
 | -------------------------------------------------------------------------- | :-------------------------------------------------: | :-------------------------------------------------------------------------------: | ---------------------------------------------------------------------------------------------------------------------- |
 [[Auto Dark Mode]]
 ---
-storeId: &#128279;
+storeId: xp8jk4hzbvf435
+wingetId: Armin2208.WindowsAutoNightMode
 githubUser: AutoDarkMode
 githubRepo: Windows-Auto-Night-Mode
-winget: `winget install -e Armin2208.WindowsAutoNightMode` <br> `winget install -e XP8JK4HZBVF435 --accept-package-agreements`
 ---
 [[SharpKeys]]
 ---
 storeId: 
+wingetId: RandyRants.SharpKeys
 githubUser: randyrants
 githubRepo: sharpkeys
-winget: `winget install -e RandyRants.SharpKeys`
 ---
 [[PowerToys]]
 ---
-storeId: 
+storeId: xp89dcgq3k6vld
+wingetId: Microsoft.PowerToys
 githubUser: microsoft
 githubRepo: PowerToys
-winget: `winget install -e Microsoft.PowerToys` <br> `winget install -e XP89DCGQ3K6VLD --accept-package-agreements`
 ---
 [[Lenovo Pen Settings]]
 ---
-storeId: 9MVLWT5DMSKR
-source: 
-winget: `winget install -e 9MVLWT5DMSKR --accept-package-agreements`
+storeId: 9mvlwt5dmskr
 ---
 
 ## [Development](instructions/development.md)
@@ -328,27 +303,26 @@ winget: `winget install -e 9MVLWT5DMSKR --accept-package-agreements`
 [[Terminal]]
 ---
 storeId: 9n0dx20hk701
-source: 
-winget: `winget install -e 9N0DX20HK701 --accept-package-agreements` <br> `winget install -e Microsoft.WindowsTerminal`
+wingetId: Microsoft.WindowsTerminal
 ---
 [[IntelliJ IDEA Edu]]
 ---
 storeId: 
+wingetId: JetBrains.IntelliJIDEA.Edu
 website: https://www.jetbrains.com/education/download/#section=idea
-winget: `winget install -e JetBrains.IntelliJIDEA.Edu`
 ---
 | 7-Zip                                                              |                                                     |                   [Web](https://www.7-zip.org/)                   | `winget install -e 7zip.7zip`                                                                                   |
 [[AutoHotkey]]
 ---
 storeId: 
+wingetId: Lexikos.AutoHotkey
 website: https://www.autohotkey.com/download/ahk-install.exe
-winget: `winget install -e Lexikos.AutoHotkey`
 ---
 [[Windscribe]]
 ---
 storeId: 
+wingetId: WindscribeLimited.Windscribe
 website: https://windscribe.com/install/desktop/windows
-winget: `winget install -e WindscribeLimited.Windscribe`
 ---
 
 
@@ -359,20 +333,16 @@ winget: `winget install -e WindscribeLimited.Windscribe`
 [[Windows Subsystem for Linux]]
 ---
 storeId: 9nblggh4msv6
-source: 
-winget: `wsl --install Ubuntu`
+winget: wsl --install Ubuntu
 ---
 [[Windows Subsystem for Android]]
 ---
 storeId: 9p3395vx91nr
-source: [Adguard](https://allthings.how/how-to-download-windows-subsystem-for-android-without-microsoft-store-msixbundle/)
-winget: `winget install -e 9P3395VX91NR --accept-package-agreements`
+website: https://allthings.how/how-to-download-windows-subsystem-for-android-without-microsoft-store-msixbundle/
 ---
 [[WSATools]]
 ---
 storeId: 9n4p75dxl6fg
-source: 
-winget: `winget install -e 9N4P75DXL6FG --accept-package-agreements`
 ---
 [[OpenInWSA]]
 ---
@@ -380,7 +350,6 @@ storeId:
 githubUser: efraimbart
 githubRepo: OpenInWSA
 githubBinary: OpenInWSA.exe
-winget: 
 ---
 
 
@@ -391,77 +360,69 @@ winget:
 [[Mail and Calendar]]
 ---
 storeId: 9wzdncrfhvqm
-source: 
-winget: `winget install -e 9WZDNCRFHVQM --accept-package-agreements`
 ---
 [[Gitkraken]]
 ---
 storeId: 
+wingetId: Axosoft.GitKraken
 website: https://www.gitkraken.com/download/windows64
-winget: `winget install -e Axosoft.GitKraken`
 ---
 [[KeePass]]
 ---
 storeId: 
+wingetId: DominikReichl.KeePass
 website: https://keepass.info/download.html
-winget: `winget install -e DominikReichl.KeePass`
 ---
 [[Adobe Photoshop Express]]
 ---
 storeId: 9wzdncrfj27n
-source: 
-winget: `winget install -e 9WZDNCRFJ27N --accept-package-agreements`
 ---
 [[Adobe Acrobat Reader]]
 ---
 storeId: 
+wingetId: Adobe.Acrobat.Reader.64-bit
 website: https://get.adobe.com/reader/
-winget: `winget install -e Adobe.Acrobat.Reader.64-bit` <br> `winget install -e XPDP273C0XHQH2 --accept-package-agreements`
+storeId: xpdp273c0xhqh2
 ---
 [[Citavi]]
 ---
 storeId: 
 website: https://www.citavi.com/en/download
-winget: 
 ---
 [[Recuva]]
 ---
 storeId: 
 website: https://www.ccleaner.com/recuva/download
-winget: 
 ---
 [[QuickLook]]
 ---
 storeId: 9nv4bs3l1h4s
-source: 
-winget: `winget install -e 9NV4BS3L1H4S --accept-package-agreements` <br> `winget install -e QL-Win.QuickLook`
+wingetId: QL-Win.QuickLook
 ---
 [[Rainmeter]]
 ---
 storeId: 
+wingetId: Rainmeter.Rainmeter
 githubUser: rainmeter
 githubRepo: rainmeter
-winget: `winget install -e Rainmeter.Rainmeter`
 ---
 [[EarTrumpet]]
 ---
 storeId: 9nblggh516xp
-source: 
-winget: `winget install -e File-New-Project.EarTrumpet`
+wingetId: File-New-Project.EarTrumpet
 ---
 [[BatteryBar Pro]]
 ---
 storeId: 
 website: https://batterybarpro.com/basic.php
-winget: 
 ---
 [[EdgeDeflector]]
 ---
 storeId: 
+wingetId: da2x.edgedeflector
 githubUser: da2x
 githubRepo: EdgeDeflector
 githubBinary: EdgeDeflector_install.exe
-winget: `winget install -e da2x.edgedeflector`
 ---
 [[LapLock]]
 ---
@@ -469,30 +430,27 @@ storeId:
 githubUser: dechamps
 githubRepo: laplock
 githubBinary: laplock.exe
-winget: 
 ---
 [[Capture2Text]]
 ---
 storeId: 
 website: https://sourceforge.net/projects/capture2text/files/Capture2Text/
-winget: 
 ---
 [[ShareX]]
 ---
 storeId: 
+wingetId: ShareX.ShareX
 githubUser: ShareX
 githubRepo: ShareX
-winget: `winget install -e ShareX.ShareX`
 ---
 [[Resource Hacker]]
 ---
 storeId: 
 website: http://www.angusj.com/resourceh*acker/#download
-winget: 
 ---
 [[Samsung Dex]]
 ---
 storeId: 
+wingetId: Samsung.DeX
 website: https://www.samsung.com/global/download/SamsungDeXWin
-winget: `winget install -e Samsung.DeX`
 ---
