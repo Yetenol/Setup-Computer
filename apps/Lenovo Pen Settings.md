@@ -2,5 +2,14 @@
 storeId: 9mvlwt5dmskr
 ---
 
-#obsidian/categorize
+
+```powershell
+winget install -e 9MVLWT5DMSKR --accept-package-agreements
+```
+
+or install via [Microsoft Store](https://microsoft.com/store/apps/9MVLWT5DMSKR)
+
+- Open application
+- [x] Show battery status in the taskbar
+
 [Personalisation](../Personalisation.md)
