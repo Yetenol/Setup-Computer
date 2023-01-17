@@ -4,3 +4,5 @@ wingetId: Armin2208.WindowsAutoNightMode
 githubUser: AutoDarkMode
 githubRepo: Windows-Auto-Night-Mode
 ---
+
+[Personalisation](../Personalisation.md)

@@ -4,3 +4,5 @@ wingetId: Microsoft.PowerToys
 githubUser: microsoft
 githubRepo: PowerToys
 ---
+
+[Personalisation](../Personalisation.md)

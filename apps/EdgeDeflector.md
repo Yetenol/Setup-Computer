@@ -5,3 +5,6 @@ githubUser: da2x
 githubRepo: EdgeDeflector
 githubBinary: EdgeDeflector_install.exe
 ---
+
+[Personalisation](../Personalisation.md)
+[Deprecated](../Deprecated.md)

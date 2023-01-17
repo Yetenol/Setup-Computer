@@ -4,4 +4,5 @@ wingetId: Microsoft.VisualStudioCode --scope machine
 website: https://code.visualstudio.com/#alt-downloads
 ---
 
+[Development](../Development.md),
 [Priority](../Priority.md)

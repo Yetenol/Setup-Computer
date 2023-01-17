@@ -65,9 +65,9 @@ Table of Contents
 
 ```dataview
 TABLE
-    join(file.outlinks) as "Categories"
+    join(sort(file.outlinks)) as "Categories"
 FROM
     "apps"
 SORT
-    file.outlinks DESC
+    sort(file.outlinks) DESC
 ```
