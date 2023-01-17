@@ -51,9 +51,6 @@ Table of Contents
         or run `ms-windows-store://pdp/?ProductId=9NBLGGH4NNS1`
 6. [Uninstall bloatware](instructions/bloatware.md)
 
-
-
-
 ## [Priority](instructions/priority.md)
 
 ```dataview
@@ -105,16 +102,6 @@ TABLE
 FROM
     [[Priority]]
 ```
-
-[[Lenovo Vantage]]
-[[KeeWeb]]
-[[Git]]
-[[Visual Studio Code]]
-[[shortcutFox]]
-[[File Explorer]]
-
-
-
 ## [Communication](instructions/communication.md)
 
 ```dataview
@@ -166,19 +153,95 @@ TABLE
 FROM
     [[Communications]]
 ```
-
-[[eM Client]]
-[[WhatsApp]]
-[[Signal]]
-[[Discord]]
-[[Threema]]
-[[Teams]]
-[[Zoom]]
-[[Unigram]]
-
+```dataview
+LIST
+    nonnull(list(
+        join(nonnull(list(
+            choice(
+                storeId,
+                choice(
+                    startswith(storeId,"xp"),
+                    "&#128279;",
+                    "[Microsoft Store](https://microsoft.com/store/apps/" + storeId + ")"
+                ),
+                null
+            ), 
+            choice(
+                githubUser,
+                "[Github](https://github.com/" + 
+                    githubUser + "/" + githubRepo + "/releases/latest" + 
+                    choice(
+                        githubBinary,
+                        "/download/" + githubBinary, ""
+                    ) + 
+                    ")",
+                choice(
+                    website,
+                    "[Website](" + website + ")",
+                    null
+                )
+            )
+        ))),
+        choice(
+            storeId,
+            "`winget install -e " + storeId + " --accept-package-agreements`",
+            null
+        ),
+        choice(
+            wingetId,
+            "`winget install -e " + wingetId + "`",
+            null
+        )
+    ))
+FROM
+    [[Communications]]
+```
 
 ## [Office](instructions/office.md)
 
+```dataview
+LIST
+    nonnull(list(
+        join(nonnull(list(
+            choice(
+                storeId,
+                choice(
+                    startswith(storeId,"xp"),
+                    "&#128279;",
+                    "[Microsoft Store](https://microsoft.com/store/apps/" + storeId + ")"
+                ),
+                null
+            ), 
+            choice(
+                githubUser,
+                "[Github](https://github.com/" + 
+                    githubUser + "/" + githubRepo + "/releases/latest" + 
+                    choice(
+                        githubBinary,
+                        "/download/" + githubBinary, ""
+                    ) + 
+                    ")",
+                choice(
+                    website,
+                    "[Website](" + website + ")",
+                    null
+                )
+            )
+        ))),
+        choice(
+            storeId,
+            "`winget install -e " + storeId + " --accept-package-agreements`",
+            null
+        ),
+        choice(
+            wingetId,
+            "`winget install -e " + wingetId + "`",
+            null
+        )
+    ))
+FROM
+    [[Office]]
+```
 
 [[Microsoft Office]]
 [[Obsidian]]
