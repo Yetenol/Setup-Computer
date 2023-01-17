@@ -8,4 +8,16 @@ website: https://discord.com/download
 priority: 10
 ---
 
+
+```powershell
+winget install -e Discord.Discord
+```
+
+or install via [Website](https://discord.com/download) 
+or via Microsoft Store:  
+`winget install -e XPDC2RH70K22MN --accept-package-agreements`
+
+- [Don't run at startup](how-to-dos.md#edit-startup-apps)
+
+
 [Communications](../Communications.md)
