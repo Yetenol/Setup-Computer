@@ -20,7 +20,7 @@ or via winget:
 
 # EteSync DAV Bridge
 
-- setup **DAV Bridge** using [script](../script/Setup-EteSyncDav.ps1)
+- setup **DAV Bridge** using [script](../scripts/Setup-EteSyncDav.ps1)
   ```powershell
   $url = 'https://raw.githubusercontent.com/Yetenol/Setup-Computer/main/script/Setup-EteSyncDav.ps1'
   Invoke-Command -ScriptBlock ([ScriptBlock]::Create((Invoke-WebRequest -Uri $url)))

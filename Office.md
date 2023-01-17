@@ -1,4 +1,6 @@
 
+![List Office apps](scripts/List%20Office%20apps.md)
+
 ```dataview
 LIST
     nonnull(list(

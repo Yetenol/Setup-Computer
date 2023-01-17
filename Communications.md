@@ -1,4 +1,8 @@
 
+![[scripts/List Communications apps]]
+
+![List apps with this category](script/List%20apps%20with%20this%20category.md)
+
 ```dataview
 LIST
     nonnull(list(
@@ -41,7 +45,9 @@ LIST
         )
     ))
 FROM
-    [[]] and "apps"
+    "apps"
+WHERE
+    contains(file.outlinks,this.file.link)
 SORT
     choice(priority,priority,99)
 ```

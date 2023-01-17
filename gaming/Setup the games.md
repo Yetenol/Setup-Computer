@@ -4,7 +4,7 @@ Install via [Website](https://factorio.com/download) (sign-in required)
 or install via Steam: `steam://store/427520`  
 or via [backup install media](https://onedrive.live.com/download?cid=1D2B2E681295AC2B&resid=1D2B2E681295AC2B%21419737&authkey=AG1w_3MTEaosDeQ)
 
-- setup **cloud synchronization** using elevated [script](../script/Sync-Factorio.ps1)
+- setup **cloud synchronization** using elevated [script](../scripts/Sync-Factorio.ps1)
   ```powershell
   $url = 'https://raw.githubusercontent.com/Yetenol/Setup-Computer/main/script/Sync-Factorio.ps1'
   $command = "Invoke-Command -ScriptBlock ([ScriptBlock]::Create((Invoke-WebRequest -Uri $url)))"
@@ -39,7 +39,7 @@ or install via [Website](https://download.curseforge.com/)
   - Launch Minecraft from _Windows Search_
   - Sign in to Microsoft
   - Play latest release
-- setup **cloud synchronization** using elevated [script](../script/Sync-MinecraftJava.ps1)
+- setup **cloud synchronization** using elevated [script](../scripts/Sync-MinecraftJava.ps1)
   ```powershell
   $url = 'https://raw.githubusercontent.com/Yetenol/Setup-Computer/main/script/Sync-MinecraftJava.ps1'
   $command = "Invoke-Command -ScriptBlock ([ScriptBlock]::Create((Invoke-WebRequest -Uri $url)))"
@@ -60,7 +60,7 @@ or install via [Website](https://download.curseforge.com/)
 - install **[Mouse Tweaks](https://www.curseforge.com/minecraft/mc-mods/mouse-tweaks)**
   via [CurseForge](https://www.curseforge.com/minecraft/mc-mods/mouse-tweaks/download?client=y)
   to improve inventory stack splitting
-- add **profile to vanilla launcher** using elevated [script](../script/Link-MinecraftFabric.ps1)
+- add **profile to vanilla launcher** using elevated [script](../scripts/Link-MinecraftFabric.ps1)
   ```powershell
   $url = 'https://raw.githubusercontent.com/Yetenol/Setup-Computer/main/script/Link-MinecraftFabric.ps1'
   $command = "Invoke-Command -ScriptBlock ([ScriptBlock]::Create((Invoke-WebRequest -Uri $url)))"
@@ -98,7 +98,7 @@ or install via [Github](https://github.com/jaquadro/NBTExplorer/releases/latest)
 start ms-windows-store://pdp/?ProductId=9NBLGGH2JHXJ # Minecraft for Windows
 ```
 - **DON'T LAUNCH MINECRAFT YET**
-- setup **cloud synchronization** using elevated [script](../script/Sync-MinecraftBedrock.ps1)
+- setup **cloud synchronization** using elevated [script](../scripts/Sync-MinecraftBedrock.ps1)
   ```powershell
   $url = 'https://raw.githubusercontent.com/Yetenol/Setup-Computer/main/script/Sync-MinecraftBedrock.ps1'
   $command = "Invoke-Command -ScriptBlock ([ScriptBlock]::Create((Invoke-WebRequest -Uri $url)))"
