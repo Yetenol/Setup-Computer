@@ -9,6 +9,7 @@ $syncPaths = [String[]] @(
 )
 
 # Test paths
+New-Item -ItemType Directory -Path $localPath -Force
 Get-Item -Path $cloudPath, $localPath -ErrorAction Stop | Out-Null
 
 # List relative item paths
