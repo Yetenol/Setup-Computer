@@ -25,17 +25,21 @@ Rerun the installer  `64-bit Git for Windows Setup` from the [Web](https://git-s
     - `main` =: branch name
 - Continue installation
 
+# Setup profile
+
+- setup **cloud synchronization** using elevated [script](../scripts/Sync-Git.ps1)
+    ```powershell
+    $url = 'https://raw.githubusercontent.com/Yetenol/Setup-Computer/main/scripts/Sync-Git.ps1'
+    $command = "Invoke-Command -ScriptBlock ([ScriptBlock]::Create((Invoke-WebRequest -Uri $url)))"
+    Start-Process wt -Verb RunAs -ArgumentList "PowerShell.exe -NoExit -Command $command"
+    ```
+
+
+
 ## Setup communication
 1. Open Git Bash
     ```powershell
     & "$env:ProgramFiles\Git\bin\sh.exe" --login
-    ```
-2. **Setup** a git profile
-    ```bash
-    read -p "Give your profile an email address: " gitEmail
-    git config --global user.email "$gitEmail"
-    read -p "Give your profile an user name: " gitName
-    git config --global user.name "$gitName"
     ```
 2. **Generate** a new SSH key
     [🛈](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent)  
