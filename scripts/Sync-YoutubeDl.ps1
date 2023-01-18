@@ -7,10 +7,13 @@ $localPath = "$env:AppData\youtube-dl"
 $syncPaths = [String[]] @(
     '.\config.txt';
 )
+$env:Videos = (New-Object -ComObject Shell.Application).NameSpace('shell:My Videos').Self.Path
+$outputPath = "$env:Videos\Youtube"
+$outputLink = "C:\youtube-dl output"
 
 # Test paths
 New-Item -ItemType Directory -Path $localPath -Force
-Get-Item -Path $cloudPath, $localPath -ErrorAction Stop | Out-Null
+Get-Item -Path $cloudPath, $localPath, $outputPath -ErrorAction Stop | Out-Null
 
 # List relative item paths
 Set-Location $cloudPath -ErrorAction Stop
@@ -36,3 +39,5 @@ foreach ($item in $syncPaths) {
     $target = Get-Item -Path "$cloudPath\$item"
     New-Item -ItemType SymbolicLink -Name $item -Target $target -Force
 }
+
+New-Item -ItemType SymbolicLink -Path $outputLink -Target $outputPath -Force
