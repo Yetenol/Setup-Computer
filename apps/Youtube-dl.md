@@ -14,3 +14,5 @@ priority: 6
     $command = "Invoke-Command -ScriptBlock ([ScriptBlock]::Create((Invoke-WebRequest -Uri $url)))"
     Start-Process wt -Verb RunAs -ArgumentList "PowerShell.exe -NoExit -Command $command"
     ```
+
+[Entertainment](../Entertainment.md)
