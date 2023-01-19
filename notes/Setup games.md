@@ -46,7 +46,7 @@ or install via [Website](https://download.curseforge.com/)
   - Play latest release
 - setup **cloud synchronization** using elevated [script](../scripts/Sync-MinecraftJava.ps1)
   ```powershell
-  $url = 'https://raw.githubusercontent.com/Yetenol/Setup-Computer/main/script/Sync-MinecraftJava.ps1'
+  $url = 'https://raw.githubusercontent.com/Yetenol/Setup-Computer/main/scripts/Sync-MinecraftJava.ps1'
   $command = "Invoke-Command -ScriptBlock ([ScriptBlock]::Create((Invoke-WebRequest -Uri $url)))"
   Start-Process wt -Verb RunAs -ArgumentList "PowerShell.exe -NoExit -Command $command"
   ```
@@ -67,7 +67,7 @@ or install via [Website](https://download.curseforge.com/)
   to improve inventory stack splitting
 - add **profile to vanilla launcher** using elevated [script](../scripts/Link-MinecraftFabric.ps1)
   ```powershell
-  $url = 'https://raw.githubusercontent.com/Yetenol/Setup-Computer/main/script/Link-MinecraftFabric.ps1'
+  $url = 'https://raw.githubusercontent.com/Yetenol/Setup-Computer/main/scripts/Link-MinecraftFabric.ps1'
   $command = "Invoke-Command -ScriptBlock ([ScriptBlock]::Create((Invoke-WebRequest -Uri $url)))"
   Start-Process wt -Verb RunAs -ArgumentList "PowerShell.exe -NoExit -Command $command"
   ```
@@ -105,7 +105,7 @@ start ms-windows-store://pdp/?ProductId=9NBLGGH2JHXJ # Minecraft for Windows
 - **DON'T LAUNCH MINECRAFT YET**
 - setup **cloud synchronization** using elevated [script](../scripts/Sync-MinecraftBedrock.ps1)
   ```powershell
-  $url = 'https://raw.githubusercontent.com/Yetenol/Setup-Computer/main/script/Sync-MinecraftBedrock.ps1'
+  $url = 'https://raw.githubusercontent.com/Yetenol/Setup-Computer/main/scripts/Sync-MinecraftBedrock.ps1'
   $command = "Invoke-Command -ScriptBlock ([ScriptBlock]::Create((Invoke-WebRequest -Uri $url)))"
   Start-Process wt -Verb RunAs -ArgumentList "PowerShell.exe -NoExit -Command $command"
   ```

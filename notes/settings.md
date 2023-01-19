@@ -1,6 +1,6 @@
 <h1> Settings </h1>
 
-[⌂](../README.md) › [Browser](../notes/Setup%20browsers.md) ›
+[⌂](../README.md) › [Browser](../apps/Microsoft%20Edge.md) ›
 
 - [Sync](#sync)
 - [Personal info](#personal-info)
@@ -41,7 +41,7 @@ about:settings/searchEngines
 ```
 
 - `Google` ← Search engine used in the address bar
-- Add [custom search engines](../notes/Setup%20browsers.md#custom-search-engines)
+- Add [custom search engines](../apps/Microsoft%20Edge.md#custom-search-engines)
 
 ## Appearance
 ```
@@ -64,7 +64,7 @@ about:settings/appearance
 - [ ] Web capture button `[Ctrl+Shift+S]`
 - [ ] Share button
 - [ ] Feedback button
-- [Hide all extensions from toolbar](extensions.md#hide-from-toolbar)
+- [Hide all extensions from toolbar](Setup%20browser%20extensions.md#hide-from-toolbar)
 
 
 ## When Edge starts

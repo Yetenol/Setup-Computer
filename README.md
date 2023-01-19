@@ -15,7 +15,6 @@
     - [Development](Development.md)
     - [Subsystems](Subsystems.md)
     - [Deprecated](Deprecated.md)
-- [Setup browsers](notes/Setup%20browsers.md)
 - [Modify Windows Settings](notes/Modify%20Windows%20Settings.md)
 - [Setup printers](notes/Setup%20printers.md)
 - [Setup games](notes/Setup%20games.md)

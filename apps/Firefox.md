@@ -18,6 +18,6 @@ or via [Website](https://www.mozilla.org/en-US/firefox/download/thanks/)
 or via winget:  
 `winget install -e Mozilla.Firefox`
 
-
+- if used as default browser, see [Microsoft Edge](Microsoft%20Edge.md) for instructions
 
 [Office](../notes/Office.md)
