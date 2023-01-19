@@ -7,7 +7,7 @@ $localPath = "$env:AppData\youtube-dl"
 $syncPaths = [String[]] @(
     '.\config.txt';
 )
-$env:Videos = (New-Object -ComObject Shell.Application).NameSpace('shell:My Videos').Self.Path
+$env:Videos = (New-Object -ComObject Shell.Application).NameSpace('shell:My Video').Self.Path
 $outputPath = "$env:Videos\Youtube"
 $outputLink = "C:\youtube-dl output"
 
