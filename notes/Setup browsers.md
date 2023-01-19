@@ -3,15 +3,6 @@ example: Custom Search Engines
 command: 'about:flags/#edge-show-feature-recommendations'
 ---
 
-- **[Settings ›](Modify%20Windows%20Settings.md)**  
-    Sync | `about:settings/searchEngines`
-- **[Extensions ›](extensions.md)**  
-    Keyboard shortcuts | `about:extensions`
-- [Install browser](#install-browser)
-- [Custom Search Engines](#custom-search-engines)
-- [Experimental Features](#experimental-features)
-- [Progressive Web Apps](#progressive-web-apps)
-
 ## Install browser
 
 | Browser |                        Store                        |                            Source                             | Install command                                                                                       |
@@ -22,6 +13,7 @@ command: 'about:flags/#edge-show-feature-recommendations'
 | Brave   |                                                     |                 [Web](https://brave.com/de/)                  | `winget install -e BraveSoftware.BraveBrowser`                                                        |
 
 ## Custom Search Engines
+
 ```
 about:settings/searchEngines
 ```
@@ -36,7 +28,6 @@ about:settings/searchEngines
 | LaTeX Documentation       | texdoc.org              | `http://texdoc.org/serve/%s/0`                                                                   |
 | LaTeX Documentation       | ctan.org                | `https://ctan.org/pkg/%s`                                                                        |
 
-
 ## Experimental Features
 
 | Status   | Flag                                             | Description                       |
@@ -44,7 +35,6 @@ about:settings/searchEngines
 | Disabled | `about:flags/#edge-experimental-scrolling`       | Overscroll bounce                 |
 | Disabled | `about:flags/#overscroll-history-navigation`     | Two-finger overscroll navigations |
 | Disabled | `about:flags/#edge-show-feature-recommendations` | Recommends Bing as search engine  |
-
 
 ## Progressive Web Apps
 

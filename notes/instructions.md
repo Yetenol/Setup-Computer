@@ -1,21 +1,26 @@
-<h1> Setup instructions </h1>
+---
+example: Disable "People also search for"
+command: 
+---
 
-[⌂](../README.md) › [Browser](Setup%20the%20browsers.md) › [Extensions](extensions.md) › 
+# uBlock Origin
 
-## uBlock Origin
 - Import [filter list](../configs/uBlock-filters.txt)  
    `uBlock Origin > Open the dashboard > My filters > Import and append`
 
-## SponsorBlock for YouTube
+# SponsorBlock for YouTube
+
 - Open extension options
 - `Manual Skip` ← Intermission/Intro Animation
 
-## Dark Reader
+# Dark Reader
+
 - Click extension
 - Import site list and settings from [config file](../configs/Dark-Reader.json)  
    `Dark Reader > Settings > Manage settings > Import Settings`
 
-## Enhancer for YouTube
+# Enhancer for YouTube
+
 - Open extension options
 - Open `Toolbar > Buttons`
   - [ ] *Disable all buttons*
@@ -32,3 +37,13 @@
      - `720p` Second choice
      - `480p` Third choice
      - `360p` Fourth choice
+
+
+---
+#obsidian/mergeIntoAppInstructions
+
+Sources:
+
+Related:
+
+Tags:
