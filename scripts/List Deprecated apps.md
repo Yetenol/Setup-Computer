@@ -46,5 +46,5 @@ FROM
 SORT
     choice(priority,priority,99)
 WHERE
-    contains(file.outlinks,this.file.inlinks[0])
+    priority = null
 ```
