@@ -30,4 +30,4 @@ Open `System Tray > OneDrive > More > Settings`
 
 
 
-[Storage](../Storage.md)
+[Storage](../notes/Storage.md)

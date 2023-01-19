@@ -8,4 +8,4 @@ website: https://www.citavi.com/en/download
 priority: 
 ---
 
-[Education](../Education.md)
+[Education](../notes/Education.md)

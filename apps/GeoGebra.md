@@ -8,4 +8,4 @@ website: https://download.geogebra.org/package/win
 priority: 10
 ---
 
-[[Education](../Education.md)]
+[[Education](../notes/Education.md)]

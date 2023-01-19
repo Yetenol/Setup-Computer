@@ -26,7 +26,7 @@ or install via [Website](https://www.boxcryptor.com/en/download/)
 - **Hide** Boxcryptor **drive** from Windows Explorer's **navigation pane**  
   Enabling recycling bin, mounts Boxcryptor as a fixed drive which makes it a _removable_ drive, 
   thus by default Windows shows it in the top level of the navigation pane. To disable:
-  - [Hide removable drives from navigation pane](priority.md#cleanup-navigation-pane)
+  - [Hide removable drives from navigation pane](../notes/Priority.md#cleanup-navigation-pane)
 
 ## Remove desktop drive shortcut
 - run elevated:
@@ -70,4 +70,4 @@ or install via [Website](https://www.boxcryptor.com/en/download/)
 > - Restart explorer
 
 
-[Storage](../Storage.md)
+[Storage](../notes/Storage.md)

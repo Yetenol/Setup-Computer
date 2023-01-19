@@ -11,7 +11,7 @@ priority:
 
 Install via [Website](https://sourceforge.net/projects/capture2text/files/Capture2Text/)
 
-- run at [startup](how-to-dos.md#edit-startup-apps)
+- run at [startup](../notes/how-to-dos.md#edit-startup-apps)
 
 > Open `System Tray > Capture2Text > Settings > Hotkeys`
 > - `Alt + Print Screen` Start OCR Capture
@@ -20,4 +20,4 @@ Install via [Website](https://sourceforge.net/projects/capture2text/files/Captur
 
 
 
-[Personalisation](../Personalisation.md)
+[Personalisation](../notes/Personalisation.md)

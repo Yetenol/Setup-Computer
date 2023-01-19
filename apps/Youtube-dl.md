@@ -15,4 +15,4 @@ priority: 6
     Start-Process wt -Verb RunAs -ArgumentList "PowerShell.exe -NoExit -Command $command"
     ```
 
-[Entertainment](../Entertainment.md)
+[Entertainment](../notes/Entertainment.md)

@@ -101,4 +101,4 @@ winget install microsoft.openjdk.17
 - select detected SDK
 
 
-[Development](../Development.md)
+[Development](../notes/Development.md)

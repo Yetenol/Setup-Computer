@@ -5,4 +5,4 @@ githubRepo: laplock
 githubBinary: laplock.exe
 ---
 
-[Personalisation](../Personalisation.md)
+[Personalisation](../notes/Personalisation.md)

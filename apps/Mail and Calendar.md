@@ -53,4 +53,4 @@ or install via [Microsoft Store](https://microsoft.com/store/apps/9wzdncrfhvqm)
 
 
 
-[Communications](../Communications.md)
+[Communications](../notes/Communications.md)

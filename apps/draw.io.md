@@ -32,4 +32,4 @@ Open `Format > Diagram`
 - [x] Mathematical Typesetting _# Options_
 - `A4` =: Paper Size
 
-[Education](../Education.md)
+[Education](../notes/Education.md)

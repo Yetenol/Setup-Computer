@@ -24,4 +24,4 @@ or install via [Website](https://account.microsoft.com/services/office/install)
 
 
 
-[Office](../Office.md)
+[Office](../notes/Office.md)

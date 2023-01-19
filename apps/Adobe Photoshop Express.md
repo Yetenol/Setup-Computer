@@ -8,4 +8,4 @@ website:
 priority:
 ---
 
-[Office](../Office.md)
+[Office](../notes/Office.md)

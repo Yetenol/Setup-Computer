@@ -86,4 +86,4 @@ or via winget:
 - Click `Save & Close`
 
 
-[Communications](../Communications.md)
+[Communications](../notes/Communications.md)

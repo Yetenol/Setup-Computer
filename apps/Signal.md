@@ -21,4 +21,4 @@ or install via [Website](https://signal.org/en/download/)
 
 
 
-[Communications](../Communications.md)
+[Communications](../notes/Communications.md)

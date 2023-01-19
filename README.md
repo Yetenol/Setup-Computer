@@ -3,7 +3,7 @@
 ![last commit](https://img.shields.io/github/last-commit/yetenol/Setup-Computer?color=white)
 
 - [Install Windows 11 with 2 partitions](Install%20Windows%2011%20with%202%20partitions.md)
-- [Uninstall pre-installed apps](instructions/Uninstall%20pre-installed%20apps.md)
+- [Uninstall pre-installed apps](notes/Uninstall%20pre-installed%20apps.md)
 - Install apps
     - [Priority](Priority.md)
     - [Communications](Communications.md)

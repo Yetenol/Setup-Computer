@@ -8,4 +8,4 @@ website:
 priority: 10
 ---
 
-[Entertainment](../Entertainment.md)
+[Entertainment](../notes/Entertainment.md)

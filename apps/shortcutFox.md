@@ -13,4 +13,4 @@ install via [Github](https://github.com/Yetenol/shortcutFox/releases/latest/down
 
 
 
-[Personalisation](../Personalisation.md)
+[Personalisation](../notes/Personalisation.md)

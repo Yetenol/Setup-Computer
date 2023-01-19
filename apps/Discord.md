@@ -17,7 +17,7 @@ or install via [Website](https://discord.com/download)
 or via Microsoft Store:  
 `winget install -e XPDC2RH70K22MN --accept-package-agreements`
 
-- [Don't run at startup](how-to-dos.md#edit-startup-apps)
+- [Don't run at startup](../notes/how-to-dos.md#edit-startup-apps)
 
 
-[Communications](../Communications.md)
+[Communications](../notes/Communications.md)

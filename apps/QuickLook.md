@@ -19,4 +19,4 @@ or install via winget:
 
 
 
-[Personalisation](../Personalisation.md)
+[Personalisation](../notes/Personalisation.md)

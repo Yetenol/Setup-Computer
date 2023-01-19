@@ -4,4 +4,4 @@ wingetId: Samsung.DeX
 website: https://www.samsung.com/global/download/SamsungDeXWin
 ---
 
-[Entertainment](../Entertainment.md)
+[Entertainment](../notes/Entertainment.md)

@@ -8,4 +8,4 @@ website:
 priority: 
 ---
 
-[Personalisation](../Personalisation.md)
+[Personalisation](../notes/Personalisation.md)

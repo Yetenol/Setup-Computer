@@ -15,4 +15,4 @@ or install via [Website](https://web.whatsapp.com/desktop/windows/release/x64/Wh
 or install via winget:  
 `winget install -e WhatsApp.WhatsApp`
 
-[Communications](../Communications.md)
+[Communications](../notes/Communications.md)

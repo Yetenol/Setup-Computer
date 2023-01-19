@@ -20,4 +20,4 @@ priority: 10
 > - `English (English)` =: Language
 
 
-[Personalisation](../Personalisation.md)
+[Personalisation](../notes/Personalisation.md)

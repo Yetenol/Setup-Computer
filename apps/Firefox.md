@@ -20,4 +20,4 @@ or via winget:
 
 
 
-[Office](../Office.md)
+[Office](../notes/Office.md)

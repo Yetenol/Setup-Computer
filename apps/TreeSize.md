@@ -14,4 +14,4 @@ or via [Website](https://www.jam-software.com/treesize_free)
 or via winget:  
 `winget install -e JAMSoftware.TreeSizeFree`
 
-[Storage](../Storage.md)
+[Storage](../notes/Storage.md)

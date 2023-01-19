@@ -36,4 +36,4 @@ or install via Microsoft Store:
 
 
 
-[Personalisation](../Personalisation.md)
+[Personalisation](../notes/Personalisation.md)

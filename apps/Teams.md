@@ -16,4 +16,4 @@ or install via [Website](https://www.microsoft.com/en-us/microsoft-teams/downloa
 > - [ ] Auto-start application
 
 
-[Communications](../Communications.md)
+[Communications](../notes/Communications.md)

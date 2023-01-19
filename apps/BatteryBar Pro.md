@@ -8,4 +8,4 @@ website: https://batterybarpro.com/basic.php
 priority: 
 ---
 
-[Personalisation](../Personalisation.md)
+[Personalisation](../notes/Personalisation.md)

@@ -77,4 +77,4 @@ $Shortcut.Save()
 ```
 
 
-[Storage](../Storage.md)
+[Storage](../notes/Storage.md)

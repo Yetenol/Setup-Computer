@@ -21,4 +21,4 @@ or install via [Github](https://github.com/rainmeter/rainmeter/releases/latest)
 > - [ ] Show notifications area icon
 
 
-[Personalisation](../Personalisation.md)
+[Personalisation](../notes/Personalisation.md)

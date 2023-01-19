@@ -21,4 +21,4 @@ or install via [Website](https://zoom.us/download)
 
 
 
-[Communications](../Communications.md)
+[Communications](../notes/Communications.md)

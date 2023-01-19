@@ -8,4 +8,4 @@ website: https://www.7-zip.org/
 priority: 10
 ---
 
-[Development](../Development.md)
+[Development](../notes/Development.md)

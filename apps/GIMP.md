@@ -17,4 +17,4 @@ or install via [Website](https://www.gimp.org/downloads/)
 
 
 
-[Office](../Office.md)
+[Office](../notes/Office.md)

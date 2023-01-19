@@ -20,4 +20,4 @@ or install via [Microsoft Store](https://microsoft.com/store/apps/9nxqq40ldw3x)
 
 
 
-[Office](../Office.md)
+[Office](../notes/Office.md)

@@ -69,5 +69,5 @@
         - Name shortcuts ~1 ... ~99
 
 ## Local Group Policy
-- [GroupPolicy:](../how-to-dos.md#edit-local-group-policy) `Computer Configuration>Administrative Templates>System>Filesystem`
+- [GroupPolicy:](../notes/how-to-dos.md#edit-local-group-policy) `Computer Configuration>Administrative Templates>System>Filesystem`
     - [x] Enable Win32 long paths 

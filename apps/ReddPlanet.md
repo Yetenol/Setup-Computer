@@ -10,5 +10,5 @@ priority: 10
 > - `EarthPorn` =: Wallpaper subreddit
 
 
-[Personalisation](../Personalisation.md)
-[Entertainment](../Entertainment.md)
+[Personalisation](../notes/Personalisation.md)
+[Entertainment](../notes/Entertainment.md)
