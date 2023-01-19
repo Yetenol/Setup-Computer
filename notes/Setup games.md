@@ -1,3 +1,8 @@
+---
+example: Cloud Synchronization
+command: 'ms-windows-store://pdp/?ProductId=9NBLGGH2JHXJ'
+---
+
 # Factorio
 
 Install via [Website](https://factorio.com/download) (sign-in required)  

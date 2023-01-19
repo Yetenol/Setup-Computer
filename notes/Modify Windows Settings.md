@@ -1,3 +1,8 @@
+---
+example: Sync
+command: 'about:settings/content/notifications'
+---
+
 # System
 
 

@@ -15,14 +15,10 @@
     - [Development](Development.md)
     - [Subsystems](Subsystems.md)
     - [Deprecated](Deprecated.md)
-- [Setup the browsers](browser/Setup%20the%20browsers.md)  
-    Custom Search Engines | `about:flags/#edge-show-feature-recommendations`
-- [Modify the Windows Settings](Modify%20the%20Windows%20Settings.md)  
-    Sync | `about:settings/content/notifications`
-- [Setup the printers](Setup%20the%20printers.md)  
-    Scanning Software | `shell:printersfolder`
-- [Setup the games](gaming/Setup%20the%20games.md)  
-    Cloud Synchronization | `ms-windows-store://pdp/?ProductId=9NBLGGH2JHXJ`
+- [Setup browsers](notes/Setup%20browsers.md)
+- [Modify Windows Settings](notes/Modify%20Windows%20Settings.md)
+- [Setup printers](notes/Setup%20printers.md)
+- [Setup games](notes/Setup%20games.md)
 
 ![List all apps](scripts/List%20all%20apps.md)
 

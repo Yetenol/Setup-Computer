@@ -1,3 +1,8 @@
+---
+example: Scanning Software
+command: 'shell:printersfolder'
+---
+
 # Farbkopierer **HP Photosmart HP C4580**
 
 ## Driver

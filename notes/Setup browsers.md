@@ -1,8 +1,9 @@
-<h1> Browser </h1>
+---
+example: Custom Search Engines
+command: 'about:flags/#edge-show-feature-recommendations'
+---
 
-[⌂](../README.md) ›
-
-- **[Settings ›](../notes/Modify%20the%20Windows%20Settings.md)**  
+- **[Settings ›](Modify%20Windows%20Settings.md)**  
     Sync | `about:settings/searchEngines`
 - **[Extensions ›](extensions.md)**  
     Keyboard shortcuts | `about:extensions`

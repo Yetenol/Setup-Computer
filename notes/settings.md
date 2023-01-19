@@ -1,6 +1,6 @@
 <h1> Settings </h1>
 
-[⌂](../README.md) › [Browser](browser.md) ›
+[⌂](../README.md) › [Browser](../notes/Setup%20browsers.md) ›
 
 - [Sync](#sync)
 - [Personal info](#personal-info)
@@ -41,7 +41,7 @@ about:settings/searchEngines
 ```
 
 - `Google` ← Search engine used in the address bar
-- Add [custom search engines](browser.md#custom-search-engines)
+- Add [custom search engines](../notes/Setup%20browsers.md#custom-search-engines)
 
 ## Appearance
 ```
