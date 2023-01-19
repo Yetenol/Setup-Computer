@@ -3,6 +3,17 @@ example: Scanning Software
 command: 'shell:printersfolder'
 ---
 
+# Graustufendrucker **HP LaserJet 1010**
+
+- download **driver files** using [script](../configs/Setup-HPLaserJet1010.ps1.bat)  
+  and extract to `C:\Driver\HP LaserJet 1010`
+  ```powershell
+  $url = 'https://raw.githubusercontent.com/Yetenol/Setup-Computer/main/configs/Setup-HPLaserJet1010.ps1.bat'
+  Invoke-Command -ScriptBlock ([ScriptBlock]::Create((Invoke-WebRequest -Uri $url)))
+  ```
+- select `Other devices` and update its driver
+- or download [driver container](https://onedrive.live.com/download?cid=1D2B2E681295AC2B&resid=1D2B2E681295AC2B%21414102&authkey=AFaLfpDJ8CpIpps) manually
+
 # Farbkopierer **HP Photosmart HP C4580**
 
 ## Driver
@@ -38,9 +49,3 @@ command: 'shell:printersfolder'
   - Open `Preferences`
     - `D:\Downloads\` ← Click `Change default folder` _# For Photos_
     - `D:\Downloads\` ← Click `Change default folder` _# For Documents_
-
-# Graustufendrucker **HP LaserJet 1010**
-
-- Run [installation script](configs/Setup-HPLaserJet1010.ps1.bat)
-- select `Other devices` and update its driver
-- or download [driver files](https://onedrive.live.com/download?cid=1D2B2E681295AC2B&resid=1D2B2E681295AC2B%21414102&authkey=AFaLfpDJ8CpIpps)
