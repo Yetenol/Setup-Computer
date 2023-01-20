@@ -1,6 +1,9 @@
 ```dataview
 TABLE
-    join(sort(file.outlinks)) as "Categories"
+    join(sort(
+            file.outlinks
+    ))
+    as "Categories"
 FROM
     "apps"
 SORT

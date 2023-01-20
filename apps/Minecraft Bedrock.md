@@ -1,17 +1,15 @@
 ---
-example: Cloud Synchronization
-command: 'ms-windows-store://pdp/?ProductId=9NBLGGH2JHXJ'
+storeId: 9NBLGGH2JHXJ
+wingetId: 
+githubUser: 
+githubRepo: 
+githubBinary: 
+website: 
+priority: 10
 ---
 
+Synopsis::
 
-
-
-
-# Minecraft Bedrock
-
-```
-start ms-windows-store://pdp/?ProductId=9NBLGGH2JHXJ # Minecraft for Windows
-```
 - **DON'T LAUNCH MINECRAFT YET**
 - setup **cloud synchronization** using elevated [script](../scripts/Sync-MinecraftBedrock.ps1)
   ```powershell
@@ -47,3 +45,14 @@ start ms-windows-store://pdp/?ProductId=9NBLGGH2JHXJ # Minecraft for Windows
 >
 >> Open `Audio`
 >> - `0` =: Music
+
+
+---
+
+
+Sources:
+
+Related:
+
+Tags:
+[Gaming](../notes/Gaming.md)

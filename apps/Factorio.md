@@ -17,3 +17,14 @@ or via [backup install media](https://onedrive.live.com/download?cid=1D2B2E68129
   $command = "Invoke-Command -ScriptBlock ([ScriptBlock]::Create((Invoke-WebRequest -Uri $url)))"
   Start-Process wt -Verb RunAs -ArgumentList "PowerShell.exe -NoExit -Command $command"
   ```
+
+
+---
+
+
+Sources:
+
+Related:
+
+Tags:
+[Gaming](../notes/Gaming.md)
