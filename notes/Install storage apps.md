@@ -2,6 +2,7 @@
 categoryName: 
 priority: 6
 ---
+
 ```dynamic-embed
 [[Map of Content]]
 ```

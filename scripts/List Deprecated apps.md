@@ -5,7 +5,7 @@ LIST
             choice(
                 storeId,
                 choice(
-                    startswith(storeId,"xp"),
+                    startswith(upper(storeId), "XP"),
                     "&#128279;",
                     elink("https://microsoft.com/store/apps/" + storeId, "Microsoft Store")
                 ),
