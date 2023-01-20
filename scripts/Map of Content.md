@@ -37,7 +37,7 @@ LIST
         ),
         choice(
             storeId,
-            "`winget install -e " + storeId + " --accept-package-agreements`",
+            "`winget install -e " + upper(storeId) + " --accept-package-agreements`",
             null
         ),
         choice(
@@ -47,7 +47,7 @@ LIST
         )
     ))
 FROM
-    [[]] and ![[Extension]]
+    [[]] and ![[See extension]]
 SORT
     choice(priority,priority,99)
 ```

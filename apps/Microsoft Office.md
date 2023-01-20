@@ -1,5 +1,5 @@
 ---
-storeId: MS
+storeId: 
 website: https://account.microsoft.com/services/office/install
 ---
 

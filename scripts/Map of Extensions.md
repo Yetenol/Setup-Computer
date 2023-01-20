@@ -34,7 +34,7 @@ TABLE WITHOUT ID
     as "Extension",
     Synopsis as "Synopsis"
 FROM
-    "apps" and [[]] and [[Extension]]
+    "apps" and [[]] and [[See extension]]
 SORT
     choice(priority,priority,99)
 ```

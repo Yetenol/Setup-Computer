@@ -32,7 +32,7 @@ LIST
         ))),
         choice(
             storeId,
-            "`winget install -e " + storeId + " --accept-package-agreements`",
+            "`winget install -e " + upper(storeId) + " --accept-package-agreements`",
             null
         ),
         choice(

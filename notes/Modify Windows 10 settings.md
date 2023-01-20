@@ -119,7 +119,6 @@ ms-settings:taskbar
 ```
 > Open `Select which icons appear on the taskbar`
 > - [x] Always show all icons in the notif‌ication area
-> - See [Setup Taskbar](configs.md#setup-taskbar)
 
 > Open `Turn system icons on or off`
 > - [ ] Volume *(if [EarTrumpet](https://www.microsoft.com/en-us/p/eartrumpet/9nblggh516xp) is installed)*

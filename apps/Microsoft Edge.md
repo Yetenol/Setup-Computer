@@ -98,7 +98,6 @@ about:settings/appearance
 - [ ] Web capture button `[Ctrl+Shift+S]`
 - [ ] Share button
 - [ ] Feedback button
-- [Hide all extensions from toolbar](Setup%20browser%20extensions.md#hide-from-toolbar)
 
 ## When Edge starts
 
