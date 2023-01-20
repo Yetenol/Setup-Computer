@@ -3,3 +3,14 @@
     - System partition: at least 100GB 
 3. Format the system partition
 4. Do a clean OS install using the installation media
+
+
+---
+
+
+Sources:
+
+Related:
+[README](../README.md)
+
+Tags:

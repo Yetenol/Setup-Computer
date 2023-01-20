@@ -2,6 +2,10 @@
 
 ![last commit](https://img.shields.io/github/last-commit/yetenol/Setup-Computer?color=white)
 
+```dynamic-embed
+[[Map of Content]]
+```
+
 - [Install Windows 11 with 2 partitions](Install%20Windows%2011%20with%202%20partitions.md)
 - [Uninstall pre-installed apps](notes/Uninstall%20pre-installed%20apps.md)
 - Install apps

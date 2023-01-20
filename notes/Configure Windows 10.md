@@ -1,22 +1,15 @@
-<h1 > Configurations </h1>
+# Check drivers
 
-[⌂](../README.md) › Windows 10 › 
-
-- [Check drivers](#check-drivers)
-- [Setup Taskbar](#setup-taskbar)
-- [Setup Explorer](#setup-explorer)
-- [Local Group Policy](#local-group-policy)
-
-## Check drivers
 - Open `Task Manager`
 - Are all graphics card installed properly?
 
-## Setup Taskbar
+# Setup Taskbar
+
 - Unpin all apps
 - Edit `System Tray`
     - Hide `Meet now` icon
     - Hide `Bluetooth` icon
-    - Edit settings: [Always show all icons in the notif‌ication area](settings.10.md#personalization--taskbar)
+    - Edit settings: [Always show all icons in the notif‌ication area](Modify%20Windows%2010%20settings.md#personalization--taskbar)
 
 > Right-click taskbar
 > - `Hidden` =: Search
@@ -41,7 +34,8 @@
 > 1. File Explorer
 > 1. KeePass
 
-## Setup Explorer
+# Setup Explorer
+
 - Reset `Quick Access`
     ```powershell
     powershell -Command "Remove-Item -Path \"$env:AppData\microsoft\windows\Recent\AutomaticDestinations\f01b4d95cf55d32a.automaticDestinations-ms\""
@@ -60,7 +54,8 @@
 >     - [x] Use check boxes to select item
 >     - [x] Always show availability status
 
-    ## Setup Start
+# Setup Start
+
     - Install [TileIconifier](https://github.com/Jonno12345/TileIconifier/releases/latest)
     - Import [scripts](configs/TileIconify-scripts.zip) into `C:\ProgramData`
     - Create custom shortcuts according to PowerPoint Layout
@@ -68,6 +63,7 @@
         - `Windows Store`, `URI`, `Steam`
         - Name shortcuts ~1 ... ~99
 
-## Local Group Policy
+# Local Group Policy
+
 - [GroupPolicy:](../notes/how-to-dos.md#edit-local-group-policy) `Computer Configuration>Administrative Templates>System>Filesystem`
     - [x] Enable Win32 long paths 

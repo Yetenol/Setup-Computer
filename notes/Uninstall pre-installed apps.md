@@ -49,3 +49,14 @@ winget uninstall -e AppUp.ThunderboltControlCenter_8j3eq9eme6ctt           # Thu
 ```powershell
 winget uninstall -e Microsoft.Todos_8wekyb3d8bbwe                          # Microsoft To Do
 ```
+
+
+---
+
+
+Sources:
+
+Related:
+[README](../README.md)
+
+Tags:

@@ -49,3 +49,15 @@ command: 'shell:printersfolder'
   - Open `Preferences`
     - `D:\Downloads\` ← Click `Change default folder` _# For Photos_
     - `D:\Downloads\` ← Click `Change default folder` _# For Documents_
+
+
+
+---
+
+
+Sources:
+
+Related:
+[README](../README.md)
+
+Tags:

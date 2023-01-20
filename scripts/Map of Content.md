@@ -47,7 +47,7 @@ LIST
         )
     ))
 FROM
-    "apps" and [[]] and ![[Extension]]
+    [[]] and ![[Extension]]
 SORT
     choice(priority,priority,99)
 ```

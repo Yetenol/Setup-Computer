@@ -275,3 +275,14 @@ ms-settings:developers
 ```
 
 - `Windows Terminal` ← Terminal
+
+
+---
+
+
+Sources:
+
+Related:
+[README](../README.md)
+
+Tags:
