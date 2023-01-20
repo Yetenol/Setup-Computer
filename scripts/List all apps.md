@@ -1,8 +1,11 @@
 ```dataview
 TABLE
-    join(sort(
-            file.outlinks
-    ))
+    join(sort(nonnull(
+        filter(
+            file.outlinks,
+            (x) => contains(x.file.inlinks, [[README]])            
+        )
+    )))
     as "Categories"
 FROM
     "apps"
