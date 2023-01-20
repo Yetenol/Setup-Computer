@@ -5,7 +5,7 @@
 - [Install Windows 11 with 2 partitions](Install%20Windows%2011%20with%202%20partitions.md)
 - [Uninstall pre-installed apps](notes/Uninstall%20pre-installed%20apps.md)
 - Install apps
-    - [Priority](Priority.md)
+    - [Prioritized](notes/Prioritized.md)
     - [Communications](Communications.md)
     - [Office](Office.md)
     - [Education](Education.md)
