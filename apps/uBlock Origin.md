@@ -20,3 +20,15 @@ priority: 10
     ```
     https://raw.githubusercontent.com/Yetenol/Setup-Computer/main/configs/uBlockOrigin People also search for.txt
     ```
+
+
+---
+
+
+Sources:
+
+Related:
+[Microsoft Edge](Microsoft%20Edge.md)
+
+Tags:
+[Extension](../notes/Extension.md)

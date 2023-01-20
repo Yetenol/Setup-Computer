@@ -33,7 +33,13 @@ about:settings/searchEngines
 
 # Setup extensions
 
-- [uBlock Origin](uBlock%20Origin.md)
+```dynamic-embed
+[[Map of Extensions]]
+```
+
+
+<ul class="dataview list-view-ul"><li><span><a aria-label-position="top" aria-label="apps/uBlock Origin.md" data-href="apps/uBlock Origin.md" href="apps/uBlock Origin.md" class="internal-link" target="_blank" rel="noopener">uBlock Origin</a></span>: <ul class="dataview dataview-ul dataview-result-list-ul"><li class="dataview-result-list-li"><span><a aria-label-position="top" aria-label="https://microsoftedge.microsoft.com/addons/detail/odfafepnkmbhccpbejgmiehpchacaeak" rel="noopener" class="external-link" href="https://microsoftedge.microsoft.com/addons/detail/odfafepnkmbhccpbejgmiehpchacaeak" target="_blank">Website</a></span></li></ul></li></ul>
+
 - Hide extensions from toolbar
     - Click on `Extensions button` in the toolbar
     - Disable `Show in toolbar` (eye icon) for all extensions
@@ -50,4 +56,12 @@ about:extensions/shortcuts
 - `Ctrl + Shift + V` ← Submit the form automatically _# KeeWeb Connect_
 
 
+---
+
+
+Sources:
+
+Related:
+
+Tags:
 [Office](../notes/Office.md)

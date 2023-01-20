@@ -78,6 +78,15 @@ CurseForge is a modding platform for Minecraft, among others. Both vanilla and m
 
 ## External editors
 
+```dynamic-embed
+[[Map of Content]]
+```
+
+```dynamic-embed
+[[Map of Extensions]]
+```
+
+
 ![List Minecraft related apps](../scripts/List%20Minecraft%20related%20apps.md)
 
 <ul class="dataview list-view-ul"><li><span><a aria-label-position="top" aria-label="apps/NBT Editor.md" data-href="apps/NBT Editor.md" href="apps/NBT Editor.md" class="internal-link" target="_blank" rel="noopener">NBT Editor</a></span>: <ul class="dataview dataview-ul dataview-result-list-ul"><li class="dataview-result-list-li"><span>Modify <code>level.dat</code>'s NBT data for colorful text, seeds extraction, inventory modifications</span></li><li class="dataview-result-list-li"><span><a aria-label-position="top" aria-label="https://github.com/jaquadro/NBTExplorer/releases/latest" rel="noopener" class="external-link" href="https://github.com/jaquadro/NBTExplorer/releases/latest" target="_blank">Github</a></span></li><li class="dataview-result-list-li"><span><code>winget install -e Jaquadro.NBTExplorer</code></span></li></ul></li><li><span><a aria-label-position="top" aria-label="apps/Chunk Editor.md" data-href="apps/Chunk Editor.md" href="apps/Chunk Editor.md" class="internal-link" target="_blank" rel="noopener">Chunk Editor</a></span>: <ul class="dataview dataview-ul dataview-result-list-ul"><li class="dataview-result-list-li"><span>Export or delete selected chunks and regions from a world save</span></li><li class="dataview-result-list-li"><span><a aria-label-position="top" aria-label="https://github.com/Querz/mcaselector/releases/latest/download/MCA_Selector_Setup.exe" rel="noopener" class="external-link" href="https://github.com/Querz/mcaselector/releases/latest/download/MCA_Selector_Setup.exe" target="_blank">Github</a></span></li></ul></li></ul>
