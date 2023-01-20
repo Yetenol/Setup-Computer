@@ -1,5 +1,5 @@
 ---
-storeId: 9nblggh40881
+storeId: XP9M26RSCLNT88
 wingetId: JAMSoftware.TreeSizeFree
 website: https://www.jam-software.com/treesize_free
 ---
