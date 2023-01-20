@@ -1,3 +1,7 @@
+---
+priority: -1
+---
+
 To remove the unwanted pre-installed apps,  
 run the following PowerShell commands **elevated**.
 

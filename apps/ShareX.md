@@ -11,7 +11,7 @@ winget install -e ShareX.ShareX
 ```
 or install via [Github](https://github.com/ShareX/ShareX/releases/latest)
 
-- run at [startup](../notes/how-to-dos.md#edit-startup-apps)
+- run at [startup](../notes/How%20to%20Dos.md#edit-startup-apps)
 
 - Disable PrintScreen shortcut elsewhere
     > Open `System Tray > Onedrive > Settings > Backup` tab

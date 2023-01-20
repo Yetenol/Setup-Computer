@@ -65,5 +65,5 @@
 
 # Local Group Policy
 
-- [GroupPolicy:](../notes/how-to-dos.md#edit-local-group-policy) `Computer Configuration>Administrative Templates>System>Filesystem`
+- [GroupPolicy:](How%20to%20Dos.md#edit-local-group-policy) `Computer Configuration>Administrative Templates>System>Filesystem`
     - [x] Enable Win32 long paths 

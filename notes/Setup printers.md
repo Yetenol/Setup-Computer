@@ -1,6 +1,7 @@
 ---
 example: Scanning Software
 command: 'shell:printersfolder'
+priority: 12
 ---
 
 # Graustufendrucker **HP LaserJet 1010**

@@ -1,6 +1,7 @@
 ---
 example: Sync
 command: 'about:settings/content/notifications'
+priority: 5
 ---
 
 # System
