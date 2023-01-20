@@ -1,5 +1,5 @@
 
 ```dynamic-embed
-[[Map of Content]]
+[[Map of Extensions]]
 ```
 

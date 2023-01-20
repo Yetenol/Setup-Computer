@@ -1,51 +1,38 @@
 ```dataview
-LIST
-    nonnull(list(
+TABLE WITHOUT ID
+    "[" +
+    choice(
+        thumbnail,
+        "<img src=\"" + thumbnail + "\" width=\"80\">",
+        null
+    ) + "](" +
+    choice(
+        modrinthId,
+        "https://modrinth.com/mod/" + modrinthId,
         choice(
-            any(list(storeId,website,githubUser)),
-            join(nonnull(list(
+            curseForgeId,
+            "https://www.curseforge.com/minecraft/mc-mods/" + curseForgeId,
+            choice(
+                edgeId,
+                "https://microsoftedge.microsoft.com/addons/detail/" + edgeId,
                 choice(
-                    any(storeId),
-                    choice(
-                        startswith(storeId,"xp"),
-                        "&#128279;",
-                        elink("https://microsoft.com/store/apps/" + storeId, "Microsoft Store")
-                    ),
-                    null
-                ),
-                choice(
-                    githubUser,
-                    elink(
-                        "https://github.com/" + githubUser + "/" + 
-                        githubRepo + "/releases/latest" + 
-                        choice(
-                            githubBinary,
-                            "/download/" + githubBinary,
-                            ""
-                        ),
-                        "Github"
-                    ),
-                    null
-                ),
-                choice(
-                    website,
-                    elink(website, "Website"),
-                    null
+                    chromeId,
+                    "https://chrome.google.com/webstore/detail/" + chromeId,
+                    ""   
                 )
-            ))),
-            null
-        ),
-        choice(
-            storeId,
-            "`winget install -e " + storeId + " --accept-package-agreements`",
-            null
-        ),
-        choice(
-            wingetId,
-            "`winget install -e " + wingetId + "`",
-            null
+            )
         )
-    ))
+    ) + ")"
+    as "Website",
+    file.link + " <br> " +
+    choice(
+        curseForgeId,
+        "[![](https://img.shields.io/badge/CurseForge-install-blue)](" + 
+        "https://www.curseforge.com/minecraft/mc-mods/" + curseForgeId + "/download?client=y" + ")",
+        ""
+    )
+    as "Extension",
+    Synopsis as "Synopsis"
 FROM
     "apps" and [[]] and [[Extension]]
 SORT
