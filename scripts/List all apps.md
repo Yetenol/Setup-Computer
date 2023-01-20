@@ -6,10 +6,15 @@ TABLE WITHOUT ID
         "*" + file.link + "*"
     )
     as "App",
-    join(filter(
-        sort(file.outlinks),
-        (x) => contains(x.file.inlinks, [[README]])
-    )) as "Category"
+    join(sort(
+        map(
+            filter(
+                file.outlinks,
+                (x) => x.categoryName != null
+            ),
+            (x) => link(x.file.link,  x.categoryName)
+    ))) 
+    as "Category"
 FROM
     "apps"
 ```

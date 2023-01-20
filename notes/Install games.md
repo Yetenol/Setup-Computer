@@ -1,6 +1,8 @@
 ---
+categoryName: Gaming
 priority: 9
 ---
+
 ```dynamic-embed
 [[Map of Content]]
 ```

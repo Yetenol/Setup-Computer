@@ -17,4 +17,4 @@ or install via [Microsoft Store](https://microsoft.com/store/apps/9wzdncrfhvjl)
 
 
 
-[Office](../notes/Office.md)
+[Install office apps](../notes/Install%20office%20apps.md)

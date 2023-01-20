@@ -31,4 +31,4 @@ or install via [Website](https://www.gitkraken.com/download/windows64)
 
 
 
-[Development](../notes/Development.md)
+[Install development apps](../notes/Install%20development%20apps.md)

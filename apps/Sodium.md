@@ -23,4 +23,4 @@ Related:
 [Minecraft Java](Minecraft%20Java.md)
 
 Tags:
-[Extension](../notes/Extension.md)
+[See extension](../notes/See%20extension.md)

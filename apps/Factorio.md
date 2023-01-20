@@ -27,4 +27,4 @@ Sources:
 Related:
 
 Tags:
-[Gaming](../notes/Gaming.md)
+[Install games](../notes/Install%20games.md)

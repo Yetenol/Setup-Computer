@@ -12,4 +12,4 @@ winget install -e Threema.Threema
 or install via [Website](https://releases.threema.ch/web-electron/v1/release/Threema-Latest.exe)
 
 
-[Communications](../notes/Communications.md)
+[Install messengers](../notes/Install%20messengers.md)

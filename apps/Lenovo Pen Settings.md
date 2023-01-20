@@ -12,4 +12,4 @@ or install via [Microsoft Store](https://microsoft.com/store/apps/9MVLWT5DMSKR)
 - Open application
 - [x] Show battery status in the taskbar
 
-[Personalisation](../notes/Personalisation.md)
+[Install personalisation apps](../notes/Install%20personalisation%20apps.md)

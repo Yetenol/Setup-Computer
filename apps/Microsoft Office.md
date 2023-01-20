@@ -24,4 +24,4 @@ or install via [Website](https://account.microsoft.com/services/office/install)
 
 
 
-[Office](../notes/Office.md)
+[Install office apps](../notes/Install%20office%20apps.md)

@@ -1,4 +1,5 @@
 ---
+categoryName: Personalisation
 priority: 5
 ---
 

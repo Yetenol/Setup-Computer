@@ -94,4 +94,4 @@ Sources:
 Related:
 
 Tags:
-[Gaming](Gaming)
+[Install games](../notes/Install%20games.md)

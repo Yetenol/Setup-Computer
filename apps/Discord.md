@@ -20,4 +20,4 @@ or via Microsoft Store:
 - [Don't run at startup](../notes/How%20to%20Dos.md#edit-startup-apps)
 
 
-[Communications](../notes/Communications.md)
+[Install messengers](../notes/Install%20messengers.md)

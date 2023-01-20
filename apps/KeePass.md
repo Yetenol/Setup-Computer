@@ -47,4 +47,4 @@ or install via [Website](https://keepass.info/download.html)
 
 
 
-[Storage](../notes/Storage.md)
+[Install storage apps](../notes/Install%20storage%20apps.md)

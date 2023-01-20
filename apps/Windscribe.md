@@ -4,4 +4,4 @@ wingetId: WindscribeLimited.Windscribe
 website: https://windscribe.com/install/desktop/windows
 ---
 
-[Entertainment](../notes/Entertainment.md)
+[Install entertainment apps](../notes/Install%20entertainment%20apps.md)

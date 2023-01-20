@@ -34,4 +34,4 @@ Related:
 [Microsoft Edge](Microsoft%20Edge.md)
 
 Tags:
-[Extension](../notes/Extension.md)
+[See extension](../notes/See%20extension.md)

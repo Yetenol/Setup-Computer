@@ -88,4 +88,4 @@ Rerun the installer  `64-bit Git for Windows Setup` from the [Web](https://git-s
     ```
 
 
-[Development](../notes/Development.md)
+[Install development apps](../notes/Install%20development%20apps.md)

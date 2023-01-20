@@ -24,4 +24,4 @@ or install via [Website](https://www.autohotkey.com/download/ahk-install.exe)
   ```
 
 
-[Development](../notes/Development.md)
+[Install development apps](../notes/Install%20development%20apps.md)

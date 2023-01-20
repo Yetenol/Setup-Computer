@@ -20,4 +20,4 @@ Install via [Website](https://sourceforge.net/projects/capture2text/files/Captur
 
 
 
-[Personalisation](../notes/Personalisation.md)
+[Install personalisation apps](../notes/Install%20personalisation%20apps.md)

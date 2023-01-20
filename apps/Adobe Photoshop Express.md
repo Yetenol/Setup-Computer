@@ -8,4 +8,4 @@ website:
 priority:
 ---
 
-[Office](../notes/Office.md)
+[Install office apps](../notes/Install%20office%20apps.md)

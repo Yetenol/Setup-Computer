@@ -20,4 +20,4 @@ or install via [Github](https://github.com/randyrants/sharpkeys/releases/latest)
     ```
 
 
-[Personalisation](../notes/Personalisation.md)
+[Install personalisation apps](../notes/Install%20personalisation%20apps.md)

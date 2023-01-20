@@ -20,4 +20,4 @@ or via winget:
 
 - if used as default browser, see [Microsoft Edge](Microsoft%20Edge.md) for instructions
 
-[Office](../notes/Office.md)
+[Install office apps](../notes/Install%20office%20apps.md)

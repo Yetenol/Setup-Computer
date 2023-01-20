@@ -8,4 +8,4 @@ website: https://www.citavi.com/en/download
 priority: 
 ---
 
-[Education](../notes/Education.md)
+[Install educational apps](../notes/Install%20educational%20apps.md)

@@ -42,4 +42,4 @@ or install via [Github](https://github.com/ShareX/ShareX/releases/latest)
 >- [x] Use custom screenshot folder
 >- `%MyPictures%\Screenshots` =: Screenshot folder
 
-[Personalisation](../notes/Personalisation.md)
+[Install personalisation apps](../notes/Install%20personalisation%20apps.md)

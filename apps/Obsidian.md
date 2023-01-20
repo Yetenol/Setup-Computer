@@ -41,4 +41,4 @@ or [Github](https://github.com/obsidianmd/obsidian-releases/releases/latest)
   - `Ctrl + Alt + Shift + P` ← Obsidian Git: Push
 
 
-[Office](../notes/Office.md)
+[Install office apps](../notes/Install%20office%20apps.md)
