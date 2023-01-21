@@ -45,6 +45,7 @@ or install via [Website](https://keeweb.info/)
 - Open `Generate` with the flash icon in the bottom-right corner
     - Open the dropdown menu and click `...`
     - Click `New preset` and the bottom
+    - [x] Selected by default
     - `QWERTY/QWERTZ with 3 verify characters` ← Name
     - `20` ← Default length
     - `!$%.` ← Additional symbols to include
