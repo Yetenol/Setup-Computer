@@ -5,7 +5,6 @@ website: https://keeweb.info/
 priority: 1
 ---
 
-
 ```powershell
 winget install -e KeeWeb.KeeWeb
 ```
@@ -23,30 +22,33 @@ or install via [Website](https://keeweb.info/)
 
 # Modify settings
 
-> Open `Settings` via `[Ctrl + ,]`
->> Open `General`
->>> Open `#Appearance`
->>> - [x] Automatically switch between light and theme when possible
->>> - [x] Colorful custom icons in the list
->>
->>> Open `#Function`
->>> - `On every change` ← Automatically save and sync periodically:
->>> - `In 10 seconds` ← Clear clipboard after copy:
->>> - [x] Minimize the app instead of close
->>> - [x] Minimize on field copy
->>> - [x] Automatically use group icon for new entries
->>
->>> Open `#Auto lock`
->>> - `In 5 minutes` ← If the app is inactive
->>> - [ ] When the app is minimized
->>> - [x] When the computer is locked or put to sleep
->
->> Open `Shortcuts`
->> - `Ctrl + Alt + O` ← copy OTP
->> - `Ctrl + Alt + K` ← open KeeWeb
->
->> Open your database settings
->> - `KDBX 3` ← File format _# Advanced_
+- Open `Settings` via `[Ctrl + ,]`
+- Open `General`
+    - Open `#Appearance`
+    - Automatically switch between light and theme when possible
+    - Colorful custom icons in the list
+- Open `#Function`
+    - `On every change` ← Automatically save and sync periodically:
+    - `In 10 seconds` ← Clear clipboard after copy:
+    - Minimize the app instead of close
+    - Minimize on field copy
+    - Automatically use group icon for new entries
+- Open `#Auto lock`
+    - `In 5 minutes` ← If the app is inactive
+    - When the app is minimized
+    - When the computer is locked or put to sleep
+ - Open `Shortcuts`
+     - `Ctrl + Alt + O` ← copy OTP
+     - `Ctrl + Alt + K` ← open KeeWeb
+ - Open your database settings
+     - `KDBX 3` ← File format _# Advanced_
+- Open `Generate` with the flash icon in the bottom-right corner
+    - Open the dropdown menu and click `...`
+    - Click `New preset` and the bottom
+    - `QWERTY/QWERTZ with 3 verify characters` ← Name
+    - `20` ← Default length
+    - `!$%.` ← Additional symbols to include
+    - `XXXXXXXXXXXXXXXX.aaa` ← Pattern
 
 # Browser Integration
 
@@ -59,11 +61,10 @@ or install via [Website](https://keeweb.info/)
     - Click `Connect to KeeWeb`
     - Click `Edit keyboard shortcuts` or open:  
       or `about:extensions/shortcuts`
-
-> Open `Extensions > Keyboard shortcuts`   
-> - `Ctrl + Shift + V` ← Activate the extension
-> - `Ctrl + Shift + 2` ← Choose another field in KeeWeb
-> - `Ctrl + Shift + 1` ← One-time codes
+- Open `Extensions > Keyboard shortcuts`   
+    - `Ctrl + Shift + V` ← Activate the extension
+    - `Ctrl + Shift + 2` ← Choose another field in KeeWeb
+    - `Ctrl + Shift + 1` ← One-time codes
 
 # Run at startup
 
