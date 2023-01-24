@@ -2,6 +2,10 @@
 
 ![last commit](https://img.shields.io/github/last-commit/yetenol/Setup-Computer?color=white)
 
+This repository is archived and is now hosted on [Anton's Digital Garden](https://antonpusch.de/)
+
+---
+
 ```dynamic-embed
 [[Map of Content]]
 ```
